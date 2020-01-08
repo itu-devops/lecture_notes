@@ -2,7 +2,7 @@
 Materials for the elective "DevOps, Software Evolution and Software Maintenance" at IT University of Copenhagen, spring 2020
 
 
-
+![](images/banner.png)
 
 
 
