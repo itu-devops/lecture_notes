@@ -12,4 +12,4 @@ Materials for the elective "DevOps, Software Evolution and Software Maintenance"
 
 #### Attributions
 
-"Organization icon made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com)"
+Organization icon made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com)
