@@ -9,7 +9,8 @@ This page contains information concerning the schedule, material, exam, and lear
 
 ## Schedule
 
-Sessions (lectures combined with exercises) are on Thursdays from 12:00 to 16:00 in rooms 2A14-16. **OBS**: we expect you to be present during the entire time, not only the first two hours. 
+Sessions (lectures combined with exercises) are on Thursdays from 12:00 to 16:00 in rooms 2A14-16. 
+**OBS**: we expect you to be present during the entire time, not only the first two hours. 
 
 During the first session, we will figure out how to handle your lunch break.
 
@@ -88,8 +89,8 @@ In case non of the above options of installing Ubuntu are an option for you, you
 
 ## Team
 
-**Teachers**: Helge, Mircea, Paolo
-**TAs**: Christoffer, Zander
+  - **Teachers**: Helge, Mircea, Paolo
+  - **TAs**: Christoffer, Zander
 
 ## Groups
 
