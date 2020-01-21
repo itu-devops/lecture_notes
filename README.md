@@ -74,8 +74,8 @@ The following links are exemplary guides, you might find others that are even mo
 
 ##### Installing Ubuntu on USB Key instead of Harddisk
 
-  - https://linuxhint.com/run-ubuntu-18-04-from-usb-stick/
   - http://ubuntuhandbook.org/index.php/2014/11/install-real-ubuntu-os-usb-drive/
+  - (https://linuxhint.com/run-ubuntu-18-04-from-usb-stick/)
 
 
 ##### Installing Ubuntu as Virtual Machine 
