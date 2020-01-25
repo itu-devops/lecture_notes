@@ -3,7 +3,9 @@
 
 ![](images/banner.png)
 
-# DevOps, Software Evolution and Software Maintenance Content
+# DevOps, Software Evolution and Software Maintenance 
+
+## Content
 
 This page contains information concerning the schedule, material, exam, and learning outcomes for the elective "DevOps, Software Evolution and Software Maintenance Content" at IT University of Copenhagen, spring 2020 ([see LearnIT](https://learnit.itu.dk/course/view.php?id=3019324)).
 
@@ -18,7 +20,7 @@ During the first session, we will figure out how to handle your lunch break.
 
 | Date      | Time          | Place   | Topic |
 |---------- | ------------- | ------- | -------------------------- |
-| 30/1/2020 | 12:00 - 16:00 | 2A14-16 | Using Linux/Unix based operating systems via the command line |
+| 30/1/2020 | 12:00 - 16:00 | 2A14-16 | Project start, forming groups, SSH, SCP, and Bash |
 | 6/2/2020  | 12:00 - 16:00 | 2A14-16 | Version control systems (Git), various branching strategies, and collaborative development workflows |
 | 13/2/2020 | 12:00 - 16:00 | 2A14-16 | Virtualization via containers and virtual machines |
 | 20/2/2020 | 12:00 - 16:00 | 2A14-16 | DevOps, Continuous integration (CI), continuous delivery (CD), and continuous deployment|
@@ -69,14 +71,22 @@ The following links are exemplary guides, you might find others that are even mo
 
 ##### Installing Ubuntu on Harddisk (MacOS Dual Boot)
 
-  - For newer Macs: https://apple.stackexchange.com/a/375863
-  - For older Macs: https://www.maketecheasier.com/install-dual-boot-ubuntu-mac/
+  - For older Macs (without Touchbar): https://www.maketecheasier.com/install-dual-boot-ubuntu-mac/
+  - For newer Macs (with Touchbar): 
+    - First check if the Wifi card of your model is supported: https://github.com/Dunedan/mbp-2016-linux#wi-fi
+    - If yes: https://apple.stackexchange.com/a/375863
+    - If not, either: 
+      - Install in a [Virtual Machine](#installing-ubuntu-as-virtual-machine), or
+      - Install on another old computer that you can use for this course.
+
 
 ##### Installing Ubuntu on USB Key instead of Harddisk
 
-  - https://linuxhint.com/run-ubuntu-18-04-from-usb-stick/
   - http://ubuntuhandbook.org/index.php/2014/11/install-real-ubuntu-os-usb-drive/
-
+  
+<!--
+  - (For just https://linuxhint.com/run-ubuntu-18-04-from-usb-stick/)
+-->
 
 ##### Installing Ubuntu as Virtual Machine 
 
