@@ -98,6 +98,7 @@ VMware Fusion is a great hypervisor for the macOS operating system, and is offer
   - Download the VMware Fusion 11.x client and get your license from [InstallIT](https://itudk.onthehub.com/WebStore/OfferingDetails.aspx?o=c58f2cd0-42ce-e811-810b-000d3af41938). You will have to use your ITU credentials to log in.
   - Follow the installation instructions as mentioned in [this article](https://www.askdavetaylor.com/install-ubuntu-linux-vmware-fusion-mac/).
     - NOTE: It is important that you grant the VMware Fusion application the access that it needs when prompted during the installation.
+  - Enabling virtualization in the Settings menu as described in [this article](http://techgenix.com/vmware-fusion-5-enable-vt-xept-inside-a-virtual-machine-288/).
 
 Troubleshooting:
   - If you get this following this error message (`cannot open /dev/vmmon`) when booting on your newly created Ubuntu image, then follow these steps:
