@@ -96,7 +96,7 @@ In case non of the above options of installing Ubuntu are an option for you, you
 VMware Fusion is a great hypervisor for the macOS operating system, and is offered as a free service for all ITU students.
 
   - Download the VMware Fusion 11.x client and get your license from [InstallIT](https://itudk.onthehub.com/WebStore/OfferingDetails.aspx?o=c58f2cd0-42ce-e811-810b-000d3af41938). You will have to use your ITU credentials to log in.
-  - Follow the installation instructions as mentioned in [this article](https://www.askdavetaylor.com/install-ubuntu-linux-vmware-fusion-mac/).
+  - Follow the installation instructions as mentioned in [this article](https://www.askdavetaylor.com/install-ubuntu-linux-vmware-fusion-mac/). Restart your machine after completion.
     - NOTE: It is important that you grant the VMware Fusion application the access that it needs when prompted during the installation.
   - Enabling virtualization in the Settings menu as described in [this article](http://techgenix.com/vmware-fusion-5-enable-vt-xept-inside-a-virtual-machine-288/).
 
