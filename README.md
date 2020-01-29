@@ -11,7 +11,7 @@ This page contains information concerning the schedule, material, exam, and lear
 
 ## Schedule
 
-Sessions (lectures combined with exercises) are on Thursdays from 12:00 to 16:00 in rooms 2A14-16. 
+Sessions (lectures combined with exercises) are on Thursdays from 12:00 to 16:00 in rooms 2A12-14. 
 **OBS**: we expect you to be present during the entire time, not only the first two hours. 
 
 During the first session, we will figure out how to handle your lunch break.
@@ -20,20 +20,20 @@ During the first session, we will figure out how to handle your lunch break.
 
 | Date      | Time          | Place   | Topic |
 |---------- | ------------- | ------- | -------------------------- |
-| 30/1/2020 | 12:00 - 16:00 | 2A14-16 | Project start, forming groups, SSH, SCP, and Bash |
-| 6/2/2020  | 12:00 - 16:00 | 2A14-16 | Version control systems (Git), various branching strategies, and collaborative development workflows |
-| 13/2/2020 | 12:00 - 16:00 | 2A14-16 | Virtualization via containers and virtual machines |
-| 20/2/2020 | 12:00 - 16:00 | 2A14-16 | DevOps, Continuous integration (CI), continuous delivery (CD), and continuous deployment|
-| 27/2/2020 | 12:00 - 16:00 | 2A14-16 | Workshop                   |
-| 5/3/2020  | 12:00 - 16:00 | 2A14-16 | Techniques for division of subsystems across multiple platforms |
-| 12/3/2020 | 12:00 - 16:00 | 2A14-16 | Monitoring |
-| 19/3/2020 | 12:00 - 16:00 | 2A14-16 | Service-level agreements, logging and log analysis |
-| 26/3/2020 | 12:00 - 16:00 | 2A14-16 | Security of web-facing applications |
-| 2/4/2020  | 12:00 - 16:00 | 2A14-16 | Workshop |
-| 9/4/2020  | 12:00 - 16:00 | 2A14-16 | Easter Holidays            |
-| 16/4/2020 | 12:00 - 16:00 | 2A14-16 | Deployment strategies, scalability, load balancing |
-| 23/4/2020 | 12:00 - 16:00 | 2A14-16 | Technical Debt & Maintainability |
-| 30/4/2020 | 12:00 - 16:00 | 2A14-16 | Documentation of Systems and projects & Wrap-up |
+| 30/1/2020 | 12:00 - 16:00 | 2A12-14 | Project start, forming groups, SSH, SCP, and Bash |
+| 6/2/2020  | 12:00 - 16:00 | 2A12-14 | Version control systems (Git), various branching strategies, and collaborative development workflows |
+| 13/2/2020 | 12:00 - 16:00 | 2A12-14 | Virtualization via containers and virtual machines |
+| 20/2/2020 | 12:00 - 16:00 | 2A12-14 | DevOps, Continuous integration (CI), continuous delivery (CD), and continuous deployment|
+| 27/2/2020 | 12:00 - 16:00 | 2A12-14 | Workshop                   |
+| 5/3/2020  | 12:00 - 16:00 | 2A12-14 | Techniques for division of subsystems across multiple platforms |
+| 12/3/2020 | 12:00 - 16:00 | 2A12-14 | Monitoring |
+| 19/3/2020 | 12:00 - 16:00 | 2A12-14 | Service-level agreements, logging and log analysis |
+| 26/3/2020 | 12:00 - 16:00 | 2A12-14 | Security of web-facing applications |
+| 2/4/2020  | 12:00 - 16:00 | 2A12-14 | Workshop |
+| 9/4/2020  | 12:00 - 16:00 | 2A12-14 | Easter Holidays            |
+| 16/4/2020 | 12:00 - 16:00 | 2A12-14 | Deployment strategies, scalability, load balancing |
+| 23/4/2020 | 12:00 - 16:00 | 2A12-14 | Technical Debt & Maintainability |
+| 30/4/2020 | 12:00 - 16:00 | 2A12-14 | Documentation of Systems and projects & Wrap-up |
 
 <!--
 Using Linux/Unix based operating systems via the command line (Bash)
