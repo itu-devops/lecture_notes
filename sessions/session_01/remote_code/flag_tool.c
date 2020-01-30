@@ -13,11 +13,6 @@ char *docStr = "ITU-Minitwit Tweet Flagging Tool\n\n"
                "-i            Dump all tweets and authors to STDOUT.\n";
 
 static int callback(void *data, int argc, char **argv, char **azColName) {
-  //   int i;
-  // fprintf(stderr, "%s: ", (const char*)data);
-  //    for(i = 0; i<argc; i++) {
-  //       printf("%s = %s\n", azColName[i], argv[i] ? argv[i] : "NULL");
-  //    }
   printf("%s,%s,%s,%s\n", argv[0] ? argv[0] : "NULL",
          argv[1] ? argv[1] : "NULL", argv[2] ? argv[2] : "NULL",
          argv[4] ? argv[4] : "NULL");
@@ -46,8 +41,6 @@ int main(int argc, char *argv[]) {
     if (rc != SQLITE_OK) {
       fprintf(stderr, "SQL error: %s\n", zErrMsg);
       sqlite3_free(zErrMsg);
-      // } else {
-      //   fprintf(stdout, "Operation done successfully\n");
     }
   }
   if (argc >= 2 && strcmp(argv[1], "-i") != 0 && strcmp(argv[1], "-h") != 0) {
@@ -59,8 +52,6 @@ int main(int argc, char *argv[]) {
       if (rc != SQLITE_OK) {
         fprintf(stderr, "SQL error: %s\n", zErrMsg);
         sqlite3_free(zErrMsg);
-        // } else {
-        //   fprintf(stdout, "Operation done successfully\n");
       } else {
         printf("Flagged entry: %s\n", argv[i]);
       }
