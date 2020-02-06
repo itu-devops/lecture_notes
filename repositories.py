@@ -22,7 +22,7 @@ GROUP_REPOS = [
     [
         "group e",
         "LazyOps - Semi manual CI/CD",
-        ["https://github.com/itu-devops/2020-spring"],
+        ["https://github.com/banksdev/minitwit"],
     ],
     [
         "group f",
