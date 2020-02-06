@@ -11,29 +11,29 @@ This page contains information concerning the schedule, material, exam, and lear
 
 ## Schedule
 
-Sessions (lectures combined with exercises) are on Thursdays from 12:00 to 16:00 in rooms 2A14-16. 
+Sessions (lectures combined with exercises) are on Thursdays from 12:15 to 16:00 in rooms 2A12-14. 
 **OBS**: we expect you to be present during the entire time, not only the first two hours. 
 
 During the first session, we will figure out how to handle your lunch break.
 
 **Note**: While times are locked, the topics are subject to change.
 
-| Date      | Time          | Place   | Topic |
-|---------- | ------------- | ------- | -------------------------- |
-| 30/1/2020 | 12:00 - 16:00 | 2A14-16 | Project start, forming groups, SSH, SCP, and Bash |
-| 6/2/2020  | 12:00 - 16:00 | 2A14-16 | Version control systems (Git), various branching strategies, and collaborative development workflows |
-| 13/2/2020 | 12:00 - 16:00 | 2A14-16 | Virtualization via containers and virtual machines |
-| 20/2/2020 | 12:00 - 16:00 | 2A14-16 | DevOps, Continuous integration (CI), continuous delivery (CD), and continuous deployment|
-| 27/2/2020 | 12:00 - 16:00 | 2A14-16 | Workshop                   |
-| 5/3/2020  | 12:00 - 16:00 | 2A14-16 | Techniques for division of subsystems across multiple platforms |
-| 12/3/2020 | 12:00 - 16:00 | 2A14-16 | Monitoring |
-| 19/3/2020 | 12:00 - 16:00 | 2A14-16 | Service-level agreements, logging and log analysis |
-| 26/3/2020 | 12:00 - 16:00 | 2A14-16 | Security of web-facing applications |
-| 2/4/2020  | 12:00 - 16:00 | 2A14-16 | Workshop |
-| 9/4/2020  | 12:00 - 16:00 | 2A14-16 | Easter Holidays            |
-| 16/4/2020 | 12:00 - 16:00 | 2A14-16 | Deployment strategies, scalability, load balancing |
-| 23/4/2020 | 12:00 - 16:00 | 2A14-16 | Technical Debt & Maintainability |
-| 30/4/2020 | 12:00 - 16:00 | 2A14-16 | Documentation of Systems and projects & Wrap-up |
+| Date      | Time          | Lecturer | Topic                                                                                                | Project Work                                                                                  |
+|---------- | ------------- | -------- | ---------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| 30/1/2020 | 12:15 - 16:00 | Helge    | Project start, forming groups, SSH, SCP, and Bash                                                    | Refactor _ITU-MiniTwit_ to work on modern system                                              | 
+| 6/2/2020  | 12:15 - 16:00 | Helge    | Version control systems (Git), various branching strategies, and collaborative development workflows | Refactor _ITU-MiniTwit_ in another programming language and tech. stack                       |
+| 13/2/2020 | 12:15 - 16:00 | Helge    | Virtualization via containers and virtual machines                                                   | Introduction of DB abstraction layer and deployment of your _ITU-MiniTwit_ to a remote server |
+| 20/2/2020 | 12:15 - 16:00 | Helge    | DevOps, Continuous integration (CI), continuous delivery (CD), and continuous Deployment             | **Simulator starts**, Setup CI & CD for reproducible builds, tests, delivery, and deployment  |
+| 27/2/2020 | 12:15 - 16:00 | Helge    | Workshop                                                                                             | Cleaning and polishing of your _ITU-MiniTwit_                                                 | 
+| 5/3/2020  | 12:15 - 16:00 | Helge    | Techniques for division of subsystems across multiple platforms                                      | Refactoring for clean subsystem interfaces                                                    | 
+| 12/3/2020 | 12:15 - 16:00 | Helge    | Monitoring                                                                                           | Add monitoring to your _ITU-MiniTwit_                                                         | 
+| 19/3/2020 | 12:15 - 16:00 | Mircea   | Service-level agreements, logging and log analysis                                                   | Add logging to your _ITU-MiniTwit_ and create a set of SLAs for it                            | 
+| 26/3/2020 | 12:15 - 16:00 | Mircea   | Security of web-facing applications                                                                  | Perform security review of another group's system & Post-mortem on you own system             | 
+| 2/4/2020  | 12:15 - 16:00 | Paolo    | Workshop                                                                                             | Fix reported problems                                                                         |
+| 9/4/2020  | 12:15 - 16:00 | --       | Easter Holidays                                                                                      | Operations and maintenance Still reacting on issue reports and fixing of errors :)            |
+| 16/4/2020 | 12:15 - 16:00 | Mircea   | Deployment strategies, scalability, load balancing                                                   | Isolate components into services/containers/VMs                                               |
+| 23/4/2020 | 12:15 - 16:00 | Helge    | Technical Debt & Maintainability                                                                     | Enhancing CI/CD setup with static code analysis                                               |
+| 30/4/2020 | 12:15 - 16:00 | Paolo    | Documentation of Systems and projects & Wrap-up                                                      | **Simulator stops**. Write report.                                                            |
 
 <!--
 Using Linux/Unix based operating systems via the command line (Bash)
@@ -54,6 +54,8 @@ Using Linux/Unix based operating systems via the command line (Bash)
   * Refactoring and evolution of legacy systems
 -->
 
+  * Exam submission: 12/5/2020
+  * Exam dates: 8/6/2020 to 11/6/2020
 
 ## Requirements
 
