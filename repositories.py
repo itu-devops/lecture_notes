@@ -12,7 +12,7 @@ GROUP_REPOS = [
     [
         "group c",
         "U buntu?",
-        ["https://github.com/<C>/<B>", "https://github.com/<C>/<C>", "etc."],
+        ["https://github.com/kindaninja/minitwit"],
     ],
     [
         "group d",
