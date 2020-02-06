@@ -30,28 +30,33 @@ GROUP_REPOS = [
         ["https://github.com/<F>/<B>", "https://github.com/<F>/<C>", "etc."],
     ],
     [
-        "group e",
+        "group g",
         "LearnIT > GitHub",
         ["https://github.com/<G>/<B>", "https://github.com/<G>/<C>", "etc."],
     ],
     [
-        "group g",
+        "group h",
         "Fuld smadder",
         ["https://github.com/<H>/<B>", "https://github.com/<H>/<C>", "etc."],
     ],
     [
-        "group h",
+        "group i",
         "TB",
         ["https://github.com/<I>/<B>", "https://github.com/<I>/<C>", "etc."],
     ],
     [
-        "group i",
+        "group j",
         "DevUp (and sometime down)",
         ["https://github.com/<J>/<B>", "https://github.com/<J>/<C>", "etc."],
     ],
     [
-        "group j",
+        "group k",
         "DevOps drengene",
         ["https://github.com/<K>/<B>", "https://github.com/<K>/<C>", "etc."],
+    ],
+    [
+        "group l",
+        "Blanao",
+        ["https://github.com/<L>/<B>", "https://github.com/<L>/<C>", "etc."],
     ],
 ]
