@@ -52,7 +52,7 @@ GROUP_REPOS = [
     [
         "group k",
         "DevOps drengene",
-        ["https://github.com/<K>/<B>", "https://github.com/<K>/<C>", "etc."],
+        ["https://github.com/DagBAndersen/DevOps-Project"],
     ],
     [
         "group l",
