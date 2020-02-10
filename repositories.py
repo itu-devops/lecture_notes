@@ -7,7 +7,7 @@ GROUP_REPOS = [
     [
         "group b",
         "2k20 MSc",
-        ["https://github.com/Trivivium/devops-2k20", "https://github.com/<B>/<C>", "etc."],
+        ["https://github.com/Trivivium/devops-2k20"],
     ],
     [
         "group c",
@@ -37,7 +37,7 @@ GROUP_REPOS = [
     [
         "group h",
         "Fuld smadder",
-        ["https://github.com/matt035343/devops", "https://github.com/<H>/<C>", "etc."],
+        ["https://github.com/matt035343/devops"],
     ],
     [
         "group i",
