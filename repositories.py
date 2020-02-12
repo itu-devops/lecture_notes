@@ -2,47 +2,47 @@ GROUP_REPOS = [
     [
         "group a",
         "<master>",
-        ["https://github.com/<A>/<B>", "https://github.com/<A>/<C>", "etc."],
+        ["https://github.com/janschill/uni-devops"],
     ],
     [
         "group b",
         "2k20 MSc",
-        ["https://github.com/<B>/<B>", "https://github.com/<B>/<C>", "etc."],
+        ["https://github.com/Trivivium/devops-2k20"],
     ],
     [
         "group c",
         "U buntu?",
-        ["https://github.com/<C>/<B>", "https://github.com/<C>/<C>", "etc."],
+        ["https://github.com/kindaninja/minitwit"],
     ],
     [
         "group d",
         "DevOops",
-        ["https://github.com/<D>/<B>", "https://github.com/<D>/<C>", "etc."],
+        ["https://github.com/jlndk/devoops" ],
     ],
     [
         "group e",
         "LazyOps - Semi manual CI/CD",
-        ["https://github.com/<E>/<B>", "https://github.com/<E>/<C>", "etc."],
+        ["https://github.com/banksdev/minitwit"],
     ],
     [
         "group f",
         "Backstreet NoobBois",
-        ["https://github.com/<F>/<B>", "https://github.com/<F>/<C>", "etc."],
+        ["https://github.itu.dk/mosh/DevOps"],
     ],
     [
         "group g",
         "LearnIT > GitHub",
-        ["https://github.com/<G>/<B>", "https://github.com/<G>/<C>", "etc."],
+        ["https://github.itu.dk/mahn/OneDevOps"],
     ],
     [
         "group h",
         "Fuld smadder",
-        ["https://github.com/<H>/<B>", "https://github.com/<H>/<C>", "etc."],
+        ["https://github.com/matt035343/devops"],
     ],
     [
         "group i",
         "TB",
-        ["https://github.com/<I>/<B>", "https://github.com/<I>/<C>", "etc."],
+        ["https://github.itu.dk/PHIJ/DevOps"],
     ],
     [
         "group j",
@@ -52,11 +52,11 @@ GROUP_REPOS = [
     [
         "group k",
         "DevOps drengene",
-        ["https://github.com/<K>/<B>", "https://github.com/<K>/<C>", "etc."],
+        ["https://github.com/DevOps-Drengene/DevOps-Project"],
     ],
     [
         "group l",
         "Blanao",
-        ["https://github.com/<L>/<B>", "https://github.com/<L>/<C>", "etc."],
+        ["https://github.com/alexander34ro/DevOps"],
     ],
 ]
