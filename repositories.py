@@ -27,7 +27,7 @@ GROUP_REPOS = [
     [
         "group f",
         "Backstreet NoobBois",
-        ["https://github.itu.dk/mosh/DevOps"],
+        ["https://github.itu.dk/mosh/DevOps","https://github.itu.dk/mosh/minitwitgo"],
     ],
     [
         "group g",
