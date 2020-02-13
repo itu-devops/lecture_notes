@@ -23,7 +23,7 @@ During the first session, we will figure out how to handle your lunch break.
 | 30/1/2020 | 12:15 - 16:00 | Helge    | Project start, forming groups, SSH, SCP, and Bash                                                    | Refactor _ITU-MiniTwit_ to work on modern system                                              | 
 | 6/2/2020  | 12:15 - 16:00 | Helge    | Version control systems (Git), various branching strategies, and collaborative development workflows | Refactor _ITU-MiniTwit_ in another programming language and tech. stack                       |
 | 13/2/2020 | 12:15 - 16:00 | Helge    | Virtualization via containers and virtual machines                                                   | Introduction of DB abstraction layer and deployment of your _ITU-MiniTwit_ to a remote server |
-| 20/2/2020 | 12:15 - 16:00 | Helge    | DevOps, Continuous integration (CI), continuous delivery (CD), and continuous Deployment             | **Simulator starts**, Setup CI & CD for reproducible builds, tests, delivery, and deployment  |
+| 20/2/2020 | 12:15 - 16:00 | Sofus (Praqma) <br> Helge  | _Guest Lecture_ & DevOps, Continuous integration (CI), continuous delivery (CD), and continuous Deployment             | **Simulator starts**, Setup CI & CD for reproducible builds, tests, delivery, and deployment  |
 | 27/2/2020 | 12:15 - 16:00 | Helge    | Workshop                                                                                             | Cleaning and polishing of your _ITU-MiniTwit_                                                 | 
 | 5/3/2020  | 12:15 - 16:00 | Helge    | Techniques for division of subsystems across multiple platforms                                      | Refactoring for clean subsystem interfaces                                                    | 
 | 12/3/2020 | 12:15 - 16:00 | Helge    | Monitoring                                                                                           | Add monitoring to your _ITU-MiniTwit_                                                         | 
@@ -56,6 +56,11 @@ Using Linux/Unix based operating systems via the command line (Bash)
 
   * Exam submission: 12/5/2020
   * Exam dates: 8/6/2020 to 11/6/2020
+
+## Recordings
+
+Recorded lectures (screen and voice) should be accessible on [VidGrid](https://app.vidgrid.com/content/5jkde7oZF3BV).
+
 
 ## Requirements
 
@@ -107,6 +112,7 @@ In case non of the above options of installing Ubuntu are an option for you, you
 ## Groups
 
 To be formed during the first session.
+
 
 ---------------------------
 
