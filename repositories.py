@@ -59,4 +59,9 @@ GROUP_REPOS = [
         "Blanao",
         ["https://github.com/alexander34ro/DevOps"],
     ],
+    [
+        "group m",
+        "noname",
+        ["https://github.com/mortenskoett/itu-devops-group-noname"],
+    ]
 ]
