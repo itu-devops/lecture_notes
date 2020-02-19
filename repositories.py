@@ -73,8 +73,8 @@ GROUP_REPOS = [
         "group k",
         "DevOps drengene",
         ["https://github.com/DevOps-Drengene/DevOps-Project"],
-        "http://<minitwit_application_url>",
-        "http://<sim_api_url>",
+        "http://157.245.27.27:3000/public",
+        "http://157.245.27.27:5001/msgs",
     ],
     [
         "group l",
