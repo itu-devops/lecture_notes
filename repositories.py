@@ -37,9 +37,9 @@ GROUP_REPOS = [
     [
         "group f",
         "Backstreet NoobBois",
-        ["https://github.itu.dk/mosh/DevOps"],
-        "http://<minitwit_application_url>",
-        "http://<sim_api_url>",
+        ["https://github.itu.dk/mosh/minitwitgo"],
+        "http://64.225.77.38:5000/",
+        "http://64.225.77.38:5001/",
     ],
     [
         "group g",
