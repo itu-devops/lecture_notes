@@ -131,10 +131,12 @@ def main(host):
                     timeout=0.3,
                 )
 
-                # error handling (204 success, 400 failure)
-
-                # 400 bad request
-                if response.status_code != 204:
+                # error handling (204 success, 400 user exists)
+                # 400 user exists already but not an error to log
+                if not (
+                    (response.status_code == 204)
+                    or (response.status_code == 400)
+                ):
                     ts_str = datetime.strftime(
                         datetime.utcnow(), "%Y-%m-%d %H:%M:%S"
                     )
