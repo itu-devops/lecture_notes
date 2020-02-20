@@ -32,7 +32,7 @@ GROUP_REPOS = [
     [
         "group g",
         "LearnIT > GitHub",
-        ["https://github.itu.dk/mahn/OneDevOps"],
+        ["https://github.itu.dk/mahn/OneDevOps", "http://104.248.246.24"],
     ],
     [
         "group h",
