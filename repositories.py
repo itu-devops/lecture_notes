@@ -59,8 +59,8 @@ GROUP_REPOS = [
         "group i",
         "TB",
         ["https://github.itu.dk/PHIJ/DevOps"],
-        "http://<minitwit_application_url>",
-        "http://<sim_api_url>",
+        "http://157.245.35.115",
+        "http://157.245.35.115:5001",
     ],
     [
         "group j",
