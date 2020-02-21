@@ -36,7 +36,7 @@ GROUP_REPOS = [
          "https://github.com/LazyOpsDev/Minitwit.Frontend",
          "https://github.com/LazyOpsDev/Minitwit.Storage"],
         "http://46.101.242.210/",
-        "http://<sim_api_url>",
+        "http://138.68.78.21/",
     ],
     [
         "group f",
