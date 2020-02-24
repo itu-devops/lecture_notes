@@ -38,8 +38,8 @@ GROUP_REPOS = [
         "group f",
         "Backstreet NoobBois",
         ["https://github.itu.dk/mosh/minitwitgo", "https://github.com/MoToSh99/MiniTwit"],
-        "http://46.101.166.100/:5000/",
-        "http://46.101.166.100/:5001/",
+        "http://46.101.166.100:5000/",
+        "http://46.101.166.100:5001/",
     ],
     [
         "group g",
