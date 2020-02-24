@@ -30,9 +30,13 @@ GROUP_REPOS = [
     [
         "group e",
         "LazyOps - Semi manual CI/CD",
-        ["https://github.com/banksdev/minitwit"],
-        "http://<minitwit_application_url>",
-        "http://<sim_api_url>",
+        ["https://github.com/banksdev/minitwit", 
+         "https://github.com/LazyOpsDev/Minitwit", 
+         "https://github.com/LazyOpsDev/Minitwit.Backend",
+         "https://github.com/LazyOpsDev/Minitwit.Frontend",
+         "https://github.com/LazyOpsDev/Minitwit.Storage"],
+        "http://46.101.242.210/",
+        "http://138.68.78.21/",
     ],
     [
         "group f",
