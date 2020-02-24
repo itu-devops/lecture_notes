@@ -17,8 +17,8 @@ GROUP_REPOS = [
         "group c",
         "U buntu?",
         ["https://github.com/kindaninja/minitwit"],
-        "http://<minitwit_application_url>",
-        "http://<sim_api_url>",
+        "http://minitwit.dk/",
+        "http://minitwit.dk/api",
     ],
     [
         "group d",
