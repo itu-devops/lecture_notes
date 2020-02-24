@@ -56,7 +56,7 @@ GROUP_REPOS = [
         "group h",
         "Fuld smadder",
         ["https://github.com/matt035343/devops"],
-        "http://<minitwit_application_url>",
+        "http://fuldsmadder.works/public",
         "http://<sim_api_url>",
     ],
     [
