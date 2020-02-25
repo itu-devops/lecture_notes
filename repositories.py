@@ -30,8 +30,8 @@ GROUP_REPOS = [
     [
         "group e",
         "LazyOps - Semi manual CI/CD",
-        ["https://github.com/banksdev/minitwit",
-         "https://github.com/LazyOpsDev/Minitwit",
+        ["https://github.com/banksdev/minitwit", 
+         "https://github.com/LazyOpsDev/Minitwit", 
          "https://github.com/LazyOpsDev/Minitwit.Backend",
          "https://github.com/LazyOpsDev/Minitwit.Frontend",
          "https://github.com/LazyOpsDev/Minitwit.Storage"],
