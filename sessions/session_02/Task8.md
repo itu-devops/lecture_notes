@@ -10,7 +10,7 @@ $ cd ~/Desktop/itu-minitwit-start
 $ cat control.sh
 
 # Edit line 1 of file control.sh to contain interpreter link
-$ echo -e "#!/usr/bin/env bash\n\n$(cat control.sh)" > control.sh
+$ echo -e '#!/usr/bin/env bash\n\n$(cat control.sh)' > control.sh
 
 $ cat control.sh
 
@@ -30,7 +30,7 @@ $ cd ~/Desktop/my-minitwit-refactoring
 
 $ cat control.sh
 
-$ echo -e "#!/bin/bash\n\n$(cat control.sh)" > control.sh
+$ echo -e '#!/bin/bash\n\n$(cat control.sh)' > control.sh
 
 $ cat control.sh
 

@@ -7,9 +7,8 @@ User `<YourUsername>` on laptop **A**:
 $ cd ~/Desktop/itu-minitwit-start
 
 $ git remote add origin https://github.com/<YourUsername>/itu-minitwit-start.git
-$ git push -u origin master
 
-# Check that there is only one remote branch. Push the others too
+# Check that there is only one remote branch.
 $ git push -u origin master
 
 $ git remote -v
