@@ -48,9 +48,9 @@ GROUP_REPOS = [
     [
         "group g",
         "LearnIT > GitHub",
-        ["https://github.itu.dk/mahn/OneDevOps"],
-        "http://<minitwit_application_url>",
-        "http://<sim_api_url>",
+        ["https://github.com/DevOpsITU/minitwit"],
+        "http://104.248.246.24/",
+        "http://104.248.246.24/api/v1/",
     ],
     [
         "group h",
