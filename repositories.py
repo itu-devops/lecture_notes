@@ -84,7 +84,7 @@ GROUP_REPOS = [
         "group l",
         "Blanao",
         ["https://github.com/alexander34ro/DevOps"],
-        "http://<minitwit_application_url>",
-        "http://<sim_api_url>",
+        "https://minitwit-client.herokuapp.com/",
+        "https://minitwit-simulator-api.herokuapp.com/msgs",
     ],
 ]
