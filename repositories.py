@@ -11,7 +11,7 @@ GROUP_REPOS = [
         "2k20 MSc",
         ["https://github.com/Trivivium/devops-2k20"],
         "http://46.101.119.181:11501/",
-        "http://46.101.119.181:11501/",
+        "http://46.101.119.181:11501/api",
     ],
     [
         "group c",
