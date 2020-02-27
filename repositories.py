@@ -3,8 +3,8 @@ GROUP_REPOS = [
         "group a",
         "<master>",
         ["https://github.com/janschill/uni-devops"],
-        "http://<minitwit_application_url>",
-        "http://<sim_api_url>",
+        "http://janschill.de/",
+        "http://janschill.de:1337/",
     ],
     [
         "group b",
