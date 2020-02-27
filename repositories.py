@@ -70,8 +70,8 @@ GROUP_REPOS = [
         "group j",
         "noname",
         ["https://github.com/mortenskoett/itu-devops-group-noname"],
-        "http://<minitwit_application_url>",
-        "http://<sim_api_url>",
+        "http://46.101.215.40:5000",
+        "http://46.101.215.40:5001",
     ],
     [
         "group k",
