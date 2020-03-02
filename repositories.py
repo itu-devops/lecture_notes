@@ -10,8 +10,8 @@ GROUP_REPOS = [
         "group b",
         "2k20 MSc",
         ["https://github.com/Trivivium/devops-2k20"],
-        "http://<minitwit_application_url>",
-        "http://<sim_api_url>",
+        "http://46.101.119.181:11501/",
+        "http://46.101.119.181:11501/api",
     ],
     [
         "group c",
@@ -36,7 +36,7 @@ GROUP_REPOS = [
          "https://github.com/LazyOpsDev/Minitwit.Frontend",
          "https://github.com/LazyOpsDev/Minitwit.Storage"],
         "http://46.101.242.210/",
-        "http://138.68.78.21/",
+        "http://207.154.252.199/",
     ],
     [
         "group f",
@@ -56,8 +56,8 @@ GROUP_REPOS = [
         "group h",
         "Fuld smadder",
         ["https://github.com/matt035343/devops"],
-        "http://fuldsmadder.works/public",
-        "http://<sim_api_url>",
+        "http://fuldsmadder.works/",
+        "http://fuldsmadder.works/simulator/",
     ],
     [
         "group i",
