@@ -25,8 +25,8 @@ During the first session, we will figure out how to handle your lunch break.
 | 13/2/2020 | 12:15 - 16:00 | Helge    | Virtualization via containers and virtual machines                                                   | Introduction of DB abstraction layer and deployment of your _ITU-MiniTwit_ to a remote server |
 | 20/2/2020 | 12:15 - 16:00 | Sofus (Praqma) <br> Helge  | _Guest Lecture_ & Continuous Integration (CI), Continuous Delivery (CD), and Continuous Deployment             | Setup CI & CD for reproducible builds, tests, delivery, and deployment (**Simulator starts**) |
 | 27/2/2020 | 12:15 - 16:00 | Helge    | What is DevOps and Workshop                                                                          | Cleaning and polishing of your _ITU-MiniTwit_                                                 | 
-| 5/3/2020  | 12:15 - 16:00 | Helge    | Techniques for division of subsystems across multiple platforms                                      | Refactoring for clean subsystem interfaces                                                    | 
-| 12/3/2020 | 12:15 - 16:00 | Helge    | Monitoring                                                                                           | Add monitoring to your _ITU-MiniTwit_                                                         | 
+| 5/3/2020  | 12:15 - 16:00 | Helge    | Monitoring                                                                                           | Add monitoring to your _ITU-MiniTwit_                                                         | 
+| 12/3/2020 | 12:15 - 16:00 | Helge    | Techniques for division of subsystems across multiple platforms                                      | Refactoring for clean subsystem interfaces                                                    | 
 | 19/3/2020 | 12:15 - 16:00 | Mircea   | Service-level agreements, logging and log analysis                                                   | Add logging to your _ITU-MiniTwit_ and create a set of SLAs for it                            | 
 | 26/3/2020 | 12:15 - 16:00 | Mircea   | Security of web-facing applications                                                                  | Perform security review of another group's system & Post-mortem on you own system             | 
 | 2/4/2020  | 12:15 - 16:00 | Paolo    | Workshop                                                                                             | Fix reported problems                                                                         |
@@ -56,6 +56,12 @@ Using Linux/Unix based operating systems via the command line (Bash)
 
   * Exam submission: 12/5/2020
   * Exam dates: 8/6/2020 to 11/6/2020
+
+
+## Simulator Status Dashboard
+
+  * [Status and simulator API errors per group](http://142.93.104.18/status.html)
+
 
 ## Activity Dashboard
 
