@@ -18,22 +18,22 @@ During the first session, we will figure out how to handle your lunch break.
 
 **Note**: While times are locked, the topics are subject to change.
 
-| Date      | Time          | Lecturer | Topic                                                                                                | Project Work                                                                                  |
-|---------- | ------------- | -------- | ---------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| 30/1/2020 | 12:15 - 16:00 | Helge    | Project start, forming groups, SSH, SCP, and Bash                                                    | Refactor _ITU-MiniTwit_ to work on modern system                                              | 
-| 6/2/2020  | 12:15 - 16:00 | Helge    | Version control systems (Git), various branching strategies, and collaborative development workflows | Refactor _ITU-MiniTwit_ in another programming language and tech. stack                       |
-| 13/2/2020 | 12:15 - 16:00 | Helge    | Virtualization via containers and virtual machines                                                   | Introduction of DB abstraction layer and deployment of your _ITU-MiniTwit_ to a remote server |
-| 20/2/2020 | 12:15 - 16:00 | Sofus (Praqma) <br> Helge  | _Guest Lecture_ & Continuous Integration (CI), Continuous Delivery (CD), and Continuous Deployment             | Setup CI & CD for reproducible builds, tests, delivery, and deployment (**Simulator starts**) |
-| 27/2/2020 | 12:15 - 16:00 | Helge    | What is DevOps and Workshop                                                                          | Cleaning and polishing of your _ITU-MiniTwit_                                                 | 
-| 5/3/2020  | 12:15 - 16:00 | Helge    | Monitoring                                                                                           | Add monitoring to your _ITU-MiniTwit_                                                         | 
-| 12/3/2020 | 12:15 - 16:00 | Helge    | Techniques for division of subsystems across multiple platforms                                      | Refactoring for clean subsystem interfaces                                                    | 
-| 19/3/2020 | 12:15 - 16:00 | Mircea   | Service-level agreements, logging and log analysis                                                   | Add logging to your _ITU-MiniTwit_ and create a set of SLAs for it                            | 
-| 26/3/2020 | 12:15 - 16:00 | Mircea   | Security of web-facing applications                                                                  | Perform security review of another group's system & Post-mortem on you own system             | 
-| 2/4/2020  | 12:15 - 16:00 | Paolo    | Workshop                                                                                             | Fix reported problems                                                                         |
-| 9/4/2020  | 12:15 - 16:00 | --       | Easter Holidays                                                                                      | Operations and maintenance Still reacting on issue reports and fixing of errors :)            |
-| 16/4/2020 | 12:15 - 16:00 | Mircea   | Deployment strategies, scalability, load balancing                                                   | Isolate components into services/containers/VMs                                               |
-| 23/4/2020 | 12:15 - 16:00 | Helge    | Technical Debt & Maintainability                                                                     | Enhancing CI/CD setup with static code analysis                                               |
-| 30/4/2020 | 12:15 - 16:00 | Paolo    | Documentation of Systems and projects & Wrap-up                                                      | **Simulator stops**. Write report.                                                            |
+|#| Date      | Time          | Lecturer | Topic                                                                                                | Project Work                                                                                  |
+|-|---------- | ------------- | -------- | ---------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| 1| 30/1/2020 | 12:15 - 16:00 | Helge    | Project start, forming groups, SSH, SCP, and Bash                                                    | Refactor _ITU-MiniTwit_ to work on modern system                                              | 
+| 2| 6/2/2020  | 12:15 - 16:00 | Helge    | Version control systems (Git), various branching strategies, and collaborative development workflows | Refactor _ITU-MiniTwit_ in another programming language and tech. stack                       |
+| 3| 13/2/2020 | 12:15 - 16:00 | Helge    | Virtualization via containers and virtual machines                                                   | Introduction of DB abstraction layer and deployment of your _ITU-MiniTwit_ to a remote server |
+| 4| 20/2/2020 | 12:15 - 16:00 | Sofus (Praqma) <br> Helge  | _Guest Lecture_ & Continuous Integration (CI), Continuous Delivery (CD), and Continuous Deployment             | Setup CI & CD for reproducible builds, tests, delivery, and deployment (**Simulator starts**) |
+| 5| 27/2/2020 | 12:15 - 16:00 | Helge    | What is DevOps and Workshop                                                                          | Cleaning and polishing of your _ITU-MiniTwit_                                                 | 
+| 6| 5/3/2020  | 12:15 - 16:00 | Helge    | Monitoring                                                                                           | Add monitoring to your _ITU-MiniTwit_                                                         | 
+| 7| 12/3/2020 | 12:15 - 16:00 | Helge    | Techniques for division of subsystems across multiple platforms                                      | Refactoring for clean subsystem interfaces                                                    | 
+| 8| 19/3/2020 | 12:15 - 16:00 | Mircea   | Service-level agreements, logging and log analysis                                                   | Add logging to your _ITU-MiniTwit_ and create a set of SLAs for it                            | 
+| 9| 26/3/2020 | 12:15 - 16:00 | Mircea   | Security of web-facing applications                                                                  | Perform security review of another group's system & Post-mortem on you own system             | 
+|10| 2/4/2020  | 12:15 - 16:00 | Paolo    | Workshop                                                                                             | Fix reported problems                                                                         |
+|11| 9/4/2020  | 12:15 - 16:00 | --       | Easter Holidays                                                                                      | Operations and maintenance Still reacting on issue reports and fixing of errors :)            |
+|12| 16/4/2020 | 12:15 - 16:00 | Mircea   | Deployment strategies, scalability, load balancing                                                   | Isolate components into services/containers/VMs                                               |
+|13| 23/4/2020 | 12:15 - 16:00 | Helge    | Technical Debt & Maintainability                                                                     | Enhancing CI/CD setup with static code analysis                                               |
+|14| 30/4/2020 | 12:15 - 16:00 | Paolo    | Documentation of Systems and projects & Wrap-up                                                      | **Simulator stops**. Write report.                                                            |
 
 <!--
 Using Linux/Unix based operating systems via the command line (Bash)
@@ -132,3 +132,4 @@ To be formed during the first session.
 #### Attributions
 
 Organization icon made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com)
+
