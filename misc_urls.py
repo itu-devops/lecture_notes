@@ -63,7 +63,7 @@ GROUP_URLS = [
         "group k",
         "DevOps drengene",
         # Monitoring URL:
-        "http://<path_to_your_monitoring_dashboard>",
+        "http://157.245.27.128:3001",
     ],
     [
         "group l",
