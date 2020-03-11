@@ -3,7 +3,7 @@ GROUP_URLS = [
         "group a",
         "<master>",
         # Monitoring URL:
-        "http://<path_to_your_monitoring_dashboard>",
+        "http://janschill.de:3000",
     ],
     [
         "group b",
