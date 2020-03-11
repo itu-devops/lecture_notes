@@ -39,7 +39,7 @@ GROUP_URLS = [
         "group g",
         "LearnIT > GitHub",
         # Monitoring URL:
-        "http://<path_to_your_monitoring_dashboard>",
+        "http://104.248.246.24:9111",
     ],
     [
         "group h",
