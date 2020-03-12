@@ -3,7 +3,7 @@ GROUP_URLS = [
         "group a",
         "<master>",
         # Monitoring URL:
-        "http://<path_to_your_monitoring_dashboard>",
+        "http://janschill.de:3000",
     ],
     [
         "group b",
@@ -39,19 +39,19 @@ GROUP_URLS = [
         "group g",
         "LearnIT > GitHub",
         # Monitoring URL:
-        "http://<path_to_your_monitoring_dashboard>",
+        "http://104.248.246.24:9111",
     ],
     [
         "group h",
         "Fuld smadder",
         # Monitoring URL:
-        "http://<path_to_your_monitoring_dashboard>",
+        "http://104.248.88.157:3000/",
     ],
     [
         "group i",
         "TB",
         # Monitoring URL:
-        "http://<path_to_your_monitoring_dashboard>",
+        "http://http://157.245.35.115:4000/login",
     ],
     [
         "group j",
@@ -63,12 +63,12 @@ GROUP_URLS = [
         "group k",
         "DevOps drengene",
         # Monitoring URL:
-        "http://<path_to_your_monitoring_dashboard>",
+        "http://157.245.27.128:3001",
     ],
     [
         "group l",
         "Blanao",
         # Monitoring URL:
-        "http://<path_to_your_monitoring_dashboard>",
+        "https://dashboard.heroku.com/apps/minitwit-simulator-api/metrics/web?ending=0-hours-ago&starting=2-hours-ago",
     ],
 ]

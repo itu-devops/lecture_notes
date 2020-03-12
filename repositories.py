@@ -30,8 +30,8 @@ GROUP_REPOS = [
     [
         "group e",
         "LazyOps - Semi manual CI/CD",
-        ["https://github.com/banksdev/minitwit", 
-         "https://github.com/LazyOpsDev/Minitwit", 
+        ["https://github.com/banksdev/minitwit",
+         "https://github.com/LazyOpsDev/Minitwit",
          "https://github.com/LazyOpsDev/Minitwit.Backend",
          "https://github.com/LazyOpsDev/Minitwit.Frontend",
          "https://github.com/LazyOpsDev/Minitwit.Storage"],
@@ -48,7 +48,7 @@ GROUP_REPOS = [
     [
         "group g",
         "LearnIT > GitHub",
-        ["https://github.com/DevOpsITU/minitwit"],
+        ["https://github.itu.dk/mahn/OneDevOps"],
         "http://104.248.246.24/",
         "http://104.248.246.24/api/v1/",
     ],
