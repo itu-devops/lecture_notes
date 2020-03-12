@@ -69,6 +69,6 @@ GROUP_URLS = [
         "group l",
         "Blanao",
         # Monitoring URL:
-        "http://<path_to_your_monitoring_dashboard>",
+        "https://dashboard.heroku.com/apps/minitwit-simulator-api/metrics/web?ending=0-hours-ago&starting=2-hours-ago",
     ],
 ]
