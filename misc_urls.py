@@ -57,7 +57,7 @@ GROUP_URLS = [
         "group j",
         "noname",
         # Monitoring URL:
-        "http://<path_to_your_monitoring_dashboard>",
+        "https://snapshot.raintank.io/dashboard/snapshot/SuanhDv8o3I83x1ECteNF6Yi723inTLk",
     ],
     [
         "group k",
