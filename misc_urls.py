@@ -45,7 +45,7 @@ GROUP_URLS = [
         "group h",
         "Fuld smadder",
         # Monitoring URL:
-        "http://<path_to_your_monitoring_dashboard>",
+        "http://104.248.88.157:3000/",
     ],
     [
         "group i",
