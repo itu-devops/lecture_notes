@@ -27,7 +27,7 @@ GROUP_URLS = [
         "group e",
         "LazyOps - Semi manual CI/CD",
         # Monitoring URL:
-        "http://<path_to_your_monitoring_dashboard>",
+        "http://207.154.252.199:3000/",
     ],
     [
         "group f",
