@@ -9,7 +9,7 @@ GROUP_URLS = [
         "group b",
         "2k20 MSc",
         # Monitoring URL:
-        "http://46.101.119.181:3000",
+        "http://134.209.245.96:3000",
     ],
     [
         "group c",
