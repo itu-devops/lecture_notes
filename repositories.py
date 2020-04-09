@@ -24,8 +24,8 @@ GROUP_REPOS = [
         "group d",
         "DevOops",
         ["https://github.com/jlndk/devoops"],
-        "http://minitwit.tk",
-        "http://minitwit.tk/api",
+        "https://minitwit.tk",
+        "https://minitwit.tk/api",
     ],
     [
         "group e",
