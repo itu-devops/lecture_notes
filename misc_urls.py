@@ -57,7 +57,7 @@ GROUP_URLS = [
         "group j",
         "noname",
         # Monitoring URL:
-        "http://<path_to_your_monitoring_dashboard>",
+        "http://46.101.215.40:3000/",
     ],
     [
         "group k",
