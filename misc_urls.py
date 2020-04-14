@@ -33,7 +33,7 @@ GROUP_URLS = [
         "group f",
         "Backstreet NoobBois",
         # Monitoring URL:
-        "http://<path_to_your_monitoring_dashboard>",
+        "http://134.122.83.72:3000/",
     ],
     [
         "group g",
