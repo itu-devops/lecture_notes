@@ -9,7 +9,7 @@ GROUP_URLS = [
         "group b",
         "2k20 MSc",
         # Monitoring URL:
-        "http://<path_to_your_monitoring_dashboard>",
+        "http://134.209.245.96:3000",
     ],
     [
         "group c",
