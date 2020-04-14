@@ -15,7 +15,7 @@ GROUP_URLS = [
         "group c",
         "U buntu?",
         # Monitoring URL:
-        "http://<path_to_your_monitoring_dashboard>",
+        "http://minitwit.dk/monitor",
     ],
     [
         "group d",
