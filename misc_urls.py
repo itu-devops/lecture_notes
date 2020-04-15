@@ -21,7 +21,7 @@ GROUP_URLS = [
         # Monitoring URL:
         "http://minitwit.dk/monitor",
         # Security report URL:
-        "http://<path>/<to>/<your>/<report>",
+        "https://github.com/kindaninja/minitwit/blob/master/groupc_security_report.pdf",
     ],
     [
         "group d",
