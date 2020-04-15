@@ -77,7 +77,7 @@ GROUP_URLS = [
         # Monitoring URL:
         "http://46.101.215.40:3000/",
         # Security report URL:
-        "http://<path>/<to>/<your>/<report>",
+        "https://github.com/mortenskoett/itu-devops-group-noname/blob/master/Session_09_Security_Report.pdf",
     ],
     [
         "group k",
