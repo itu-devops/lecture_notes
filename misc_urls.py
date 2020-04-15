@@ -61,7 +61,7 @@ GROUP_URLS = [
         # Monitoring URL:
         "http://104.248.88.157:3000/",
         # Security report URL:
-        "http://<path>/<to>/<your>/<report>",
+        "https://github.com/matt035343/devops/blob/master/Security%20assesment.pdf",
     ],
     [
         "group i",
