@@ -29,7 +29,7 @@ GROUP_URLS = [
         # Monitoring URL:
         "https://grafana.minitwit.tk",
         # Security report URL:
-        "http://<path>/<to>/<your>/<report>",
+        "https://github.com/LazyOpsDev/Minitwit/issues/22",
     ],
     [
         "group e",
