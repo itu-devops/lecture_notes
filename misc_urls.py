@@ -69,7 +69,7 @@ GROUP_URLS = [
         # Monitoring URL:
         "http://http://157.245.35.115:4000/login",
         # Security report URL:
-        "http://<path>/<to>/<your>/<report>",
+        "https://github.com/minitwit-tdb/DevOps/blob/master/DevOps___Security.pdf",
     ],
     [
         "group j",
