@@ -83,9 +83,9 @@ GROUP_URLS = [
         "group k",
         "DevOps drengene",
         # Monitoring URL:
-        "http://157.245.27.128:3001",
+        "http://157.245.27.128:3001/d/5EFwX__Zz/itu-minitwit-dashboard",
         # Security report URL:
-        "http://<path>/<to>/<your>/<report>",
+        "https://github.com/DevOps-Drengene/DevOps-Project/blob/master/docs/group_k_session_09_security_report.pdf",
     ],
     [
         "group l",
