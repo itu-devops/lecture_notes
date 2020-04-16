@@ -53,7 +53,7 @@ GROUP_URLS = [
         # Monitoring URL:
         "http://104.248.246.24:9111",
         # Security report URL:
-        "http://<path>/<to>/<your>/<report>",
+        "https://docs.google.com/document/d/1pQ1f2RLSuvZKC2lkmhxl9CqbP6XrU-ABk5j7JjRHclE/edit#",
     ],
     [
         "group h",
