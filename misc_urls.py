@@ -93,6 +93,6 @@ GROUP_URLS = [
         # Monitoring URL:
         "https://dashboard.heroku.com/apps/minitwit-simulator-api/metrics/web?ending=0-hours-ago&starting=2-hours-ago",
         # Security report URL:
-        "http://<path>/<to>/<your>/<report>",
+        "https://github.com/janschill/uni-devops/issues/165",
     ],
 ]
