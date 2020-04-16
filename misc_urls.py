@@ -37,7 +37,7 @@ GROUP_URLS = [
         # Monitoring URL:
         "http://207.154.252.199:3000/",
         # Security report URL:
-        "http://<path>/<to>/<your>/<report>",
+        "https://github.com/LazyOpsDev/Minitwit/blob/develop/SLA_vulnerability%20report.pdf",
     ],
     [
         "group f",
