@@ -13,7 +13,7 @@ GROUP_URLS = [
         # Monitoring URL:
         "http://134.209.245.96:3000",
         # Security report URL:
-        "http://<path>/<to>/<your>/<report>",
+        "https://github.com/Trivivium/devops-2k20/blob/master/postmortem.pdf",
     ],
     [
         "group c",
