@@ -45,7 +45,7 @@ GROUP_URLS = [
         # Monitoring URL:
         "http://134.122.83.72:3000/",
         # Security report URL:
-        "http://<path>/<to>/<your>/<report>",
+        "https://docdro.id/Y5APMom",
     ],
     [
         "group g",
