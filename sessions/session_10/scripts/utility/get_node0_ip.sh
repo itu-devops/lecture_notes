@@ -1,0 +1,1 @@
+docker-machine ip node-0
