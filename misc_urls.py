@@ -5,7 +5,7 @@ GROUP_URLS = [
         # Monitoring URL:
         "http://janschill.de:3000",
         # Security report URL:
-        "http://<path>/<to>/<your>/<report>",
+        "https://hackmd.io/@Fr3d-/Hk7jd6Zd8",
     ],
     [
         "group b",
