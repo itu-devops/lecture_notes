@@ -30,10 +30,10 @@ During the first session, we will figure out how to handle your lunch break.
 | 8| 19/3/2020 | 12:15 - 16:00 | Mircea   | Service-level agreements, logging and log analysis                                                   | Add logging to your _ITU-MiniTwit_ and create a set of SLAs for it                            | 
 | 9| 26/3/2020 | 12:15 - 16:00 | Mircea   | Security of web-facing applications                                                                  | Perform security review of another group's system & Post-mortem on you own system             | 
 |10| 2/4/2020  | 12:15 - 16:00 | Paolo    | Workshop                                                                                             | Fix reported problems                                                                         |
-|11| 9/4/2020  | 12:15 - 16:00 | --       | Easter Holidays                                                                                      | Operations and maintenance Still reacting on issue reports and fixing of errors :)            |
-|12| 16/4/2020 | 12:15 - 16:00 | Mircea   | Deployment strategies, scalability, load balancing                                                   | Isolate components into services/containers/VMs                                               |
-|13| 23/4/2020 | 12:15 - 16:00 | Helge    | Technical Debt & Maintainability                                                                     | Enhancing CI/CD setup with static code analysis                                               |
-|14| 30/4/2020 | 12:15 - 16:00 | Paolo    | Documentation of Systems and projects & Wrap-up                                                      | **Simulator stops**. Write report.                                                            |
+|--| 9/4/2020  | 12:15 - 16:00 | --       | Easter Holidays                                                                                      | Operations and maintenance Still reacting on issue reports and fixing of errors :)            |
+|11| 16/4/2020 | 12:15 - 16:00 | Mircea   | Deployment strategies, scalability, load balancing                                                   | Isolate components into services/containers/VMs                                               |
+|12| 23/4/2020 | 12:15 - 16:00 | Helge    | Software Quality, Maintainability & Technical Debt                                                   | Enhancing CI/CD setup with static code analysis                                               |
+|13| 30/4/2020 | 12:15 - 16:00 | Paolo    | Documentation of Systems and projects & Wrap-up                                                      | **Simulator stops**. Write report.                                                            |
 
 <!--
 Using Linux/Unix based operating systems via the command line (Bash)
