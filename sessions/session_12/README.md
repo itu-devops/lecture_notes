@@ -9,7 +9,7 @@ For each of the following three tasks collect your notes in one of your reposito
 
 Read the following:
 
-  * Chapter 24.1 and 24.4 from Sommerville _"Software Engineering"_ (9th Ed.) on software quality `Sommerville_SE9_SWQ.pdf` and `Sommerville_SE9_SWQ2.pdf` on LearnIT
+  * Chapter 24.1 and 24.4 from Sommerville _"Software Engineering"_ (9th Ed.) on software quality [`Sommerville_SE9_SWQ.pdf`](https://learnit.itu.dk/mod/resource/view.php?id=118627) and [`Sommerville_SE9_SWQ2.pdf`](https://learnit.itu.dk/mod/resource/view.php?id=118628) on LearnIT
   * [Kitchenham et al. 1996 _Software Quality: The Elusive Target_](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.91.9555&rep=rep1&type=pdf)
 
 Subsequently, perform each of the following tasks:
