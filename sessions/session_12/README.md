@@ -14,19 +14,19 @@ Read the following:
 
 Subsequently, perform each of the following tasks:
 
-  * Identify and list qualities of your MiniTwit systems from the four perspectives (except of the transcendental) from the Kitchenham paper.
+  * Identify and list qualities of your MiniTwit system from the four perspectives (except of the transcendental) from the Kitchenham paper.
   * Did you focus on any perspective or any qualities, perhaps even without being aware of it? If yes, list these.
   * Rank the identified qualities per perspective by decreasing importance to you and provide an argument for why you choose certain as the most important.
-  * Think about and discuss with your group fellows, how you can measure the  qualities that you ranked the most important. That is, try to define a set metrics that would allow to measure these (multiple metrics per quality can be possible).
+  * Think about and discuss with your group fellows, how you can measure the  qualities that you ranked the most important. That is, try to define a set of metrics that would allow to measure these (multiple metrics per quality can be possible).
 
 
 ## How maintainable are your systems? 
 
   * How can you identify and measure _maintainability_ of your MiniTwit systems??
   * Is your MiniTwit system _maintainable_?
-    - If yes, describe and argue for why they are?
-    - If not, describe and argue for why they are not?
-  * Collect a set of characteristics that make your system maintainable _maintainable_. Try to think of more than just the source code.
+    - If yes, describe and argue for why it is?
+    - If not, describe and argue for why it is not?
+  * Collect a set of characteristics that make your system _maintainable_. Try to include more than just the source code.
 
 
 ## Do you have Technical Debt in your systems?
