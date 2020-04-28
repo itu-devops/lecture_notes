@@ -30,18 +30,24 @@ GROUP_REPOS = [
     [
         "group e",
         "LazyOps - Semi manual CI/CD",
-        ["https://github.com/banksdev/minitwit",
-         "https://github.com/LazyOpsDev/Minitwit",
-         "https://github.com/LazyOpsDev/Minitwit.Backend",
-         "https://github.com/LazyOpsDev/Minitwit.Frontend",
-         "https://github.com/LazyOpsDev/Minitwit.Storage"],
+        [
+            "https://github.com/banksdev/minitwit",
+            "https://github.com/LazyOpsDev/Minitwit",
+            "https://github.com/LazyOpsDev/Minitwit.Backend",
+            "https://github.com/LazyOpsDev/Minitwit.Frontend",
+            # The following does not seem to exist anymore?
+            # "https://github.com/LazyOpsDev/Minitwit.Storage"
+        ],
         "http://46.101.242.210/",
         "http://207.154.252.199/",
     ],
     [
         "group f",
         "Backstreet NoobBois",
-        ["https://github.itu.dk/mosh/minitwitgo", "https://github.com/MoToSh99/MiniTwit"],
+        [
+            "https://github.itu.dk/mosh/minitwitgo",
+            "https://github.com/MoToSh99/MiniTwit",
+        ],
         "http://46.101.166.100:5000/",
         "http://46.101.166.100:5001/",
     ],
@@ -62,7 +68,10 @@ GROUP_REPOS = [
     [
         "group i",
         "TB",
-        ["https://github.itu.dk/minitwit-tdb/DevOps", "https://github.com/minitwit-tdb/DevOps"],
+        [
+            "https://github.itu.dk/minitwit-tdb/DevOps",
+            "https://github.com/minitwit-tdb/DevOps",
+        ],
         "http://157.245.35.115",
         "http://157.245.35.115:5001",
     ],
