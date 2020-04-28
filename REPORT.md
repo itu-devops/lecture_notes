@@ -18,7 +18,9 @@ In case you dislike markdown as final report format you may want to convert to o
 
 ### How to hand-in?
 
-Send a pull request to the final release of your _ITU-MiniTwit_, which includes your complete report too, to the file `final_report_urls.py` in https://github.com/itu-devops/2020-spring.
+Send a pull request to the final release of your _ITU-MiniTwit_, which includes your complete report too, to the file [`final_report_urls.py`](https://github.com/itu-devops/2020-spring/blob/master/final_report_urls.py) in https://github.com/itu-devops/2020-spring.
+
+**Additionally**, submit the ZIP file of the release, which contains your report via [LearnIT](https://learnit.itu.dk/mod/exam/view.php?id=110630).
 
 ---------
 
@@ -33,7 +35,7 @@ A description and illustration of the:
   - All dependencies of your _ITU-MiniTwit_ systems on all levels of abstraction and development stages.
     - That is, list and briefly describe all technologies and tools you applied and depend on.
   - Important interactions of subsystems
-
+  - Finally, describe the current state of your systems, for example using results of static analysis and quality assessment systems.
 
 Double check that for all the weekly tasks (those in the end of the lecture notes) you include the corresponding information.
 
@@ -76,10 +78,6 @@ of your _ITU-MiniTwit_ systems. Link back to respective commit messages, issues,
 
 
 Also reflect and describe what was the "DevOps" style of your work. For example, what did you do differently to previous development projects and how did it work?
-
-
-
-Finally, describe the current state of your systems, for example using results of static analysis and quality assessment systems.
 
 
 ---------
