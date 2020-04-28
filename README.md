@@ -54,7 +54,7 @@ Using Linux/Unix based operating systems via the command line (Bash)
   * Refactoring and evolution of legacy systems
 -->
 
-  * Exam submission: 12/5/2020
+  * Exam submission: Latest **12/5/2020 14:00** 
   * Exam dates: 8/6/2020 to 11/6/2020
 
 
