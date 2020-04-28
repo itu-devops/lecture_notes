@@ -69,8 +69,10 @@ GROUP_REPOS = [
         "group i",
         "TB",
         [
-            "https://github.itu.dk/minitwit-tdb/DevOps",
-            "https://github.com/minitwit-tdb/DevOps",
+            # I removed the following as I have the feeling that it was
+            # migrated into the repository below, right?
+            # "https://github.itu.dk/minitwit-tdb/DevOps",
+            "https://github.com/minitwit-tdb/DevOps"
         ],
         "http://157.245.35.115",
         "http://157.245.35.115:5001",
