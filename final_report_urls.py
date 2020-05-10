@@ -51,7 +51,7 @@ REPORT_URLS = [
         "group i",
         "TB",
         # Report Release URL:
-        "http://path/to/your/report.zip",
+        "https://github.com/minitwit-tdb/DevOps/releases/tag/1.0.0",
     ],
     [
         "group j",
