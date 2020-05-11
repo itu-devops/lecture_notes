@@ -3,7 +3,7 @@ REPORT_URLS = [
         "group a",
         "<master>",
         # Report Release URL:
-        "http://path/to/your/report.zip",
+        "https://github.com/janschill/uni-devops/archive/v13.0.zip",
     ],
     [
         "group b",
