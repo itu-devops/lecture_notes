@@ -9,7 +9,7 @@ REPORT_URLS = [
         "group b",
         "2k20 MSc",
         # Report Release URL:
-        "http://path/to/your/report.zip",
+        "https://github.com/Trivivium/devops-2k20/archive/v6.30.0.zip",
     ],
     [
         "group c",
