@@ -33,7 +33,7 @@ REPORT_URLS = [
         "group f",
         "Backstreet NoobBois",
         # Report Release URL:
-        "http://path/to/your/report.zip",
+        "https://github.com/MoToSh99/MiniTwit/archive/v10.zip",
     ],
     [
         "group g",
