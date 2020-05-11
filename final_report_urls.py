@@ -21,7 +21,7 @@ REPORT_URLS = [
         "group d",
         "DevOops",
         # Report Release URL:
-        "http://path/to/your/report.zip",
+        "https://github.com/jlndk/devoops/releases/latest/download/report.zip",
     ],
     [
         "group e",
