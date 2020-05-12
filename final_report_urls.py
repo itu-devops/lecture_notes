@@ -15,7 +15,7 @@ REPORT_URLS = [
         "group c",
         "U buntu?",
         # Report Release URL:
-        "http://path/to/your/report.zip",
+        "https://github.com/kindaninja/minitwit/archive/1.0.zip",
     ],
     [
         "group d",
