@@ -39,7 +39,7 @@ REPORT_URLS = [
         "group g",
         "LearnIT > GitHub",
         # Report Release URL:
-        "http://path/to/your/report.zip",
+        "https://github.itu.dk/mahn/OneDevOps/releases/tag/Final",
     ],
     [
         "group h",
