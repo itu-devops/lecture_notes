@@ -69,6 +69,6 @@ REPORT_URLS = [
         "group l",
         "Blanao",
         # Report Release URL:
-        "http://path/to/your/report.zip",
+        "https://github.com/alexander34ro/DevOps/archive/S1.zip",
     ],
 ]
