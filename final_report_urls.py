@@ -57,7 +57,7 @@ REPORT_URLS = [
         "group j",
         "noname",
         # Report Release URL:
-        "http://path/to/your/report.zip",
+        "https://github.com/mortenskoett/itu-devops-group-noname/archive/v7.0.0.zip",
     ],
     [
         "group k",
