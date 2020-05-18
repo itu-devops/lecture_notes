@@ -27,7 +27,7 @@ REPORT_URLS = [
         "group e",
         "LazyOps - Semi manual CI/CD",
         # Report Release URL:
-        "http://path/to/your/report.zip",
+        "https://github.com/LazyOpsDev/Minitwit/releases/download/1.0.1/minitwit.zip",
     ],
     [
         "group f",
