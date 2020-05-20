@@ -58,6 +58,23 @@ Using Linux/Unix based operating systems via the command line (Bash)
   * Exam dates: 8/6/2020 to 11/6/2020
 
 
+## Exam Schedule
+
+| Day      | Time Slot     | Group   | Group Name            | Degree | # Group Members | Duration  |
+|----------|---------------|---------|-----------------------|--------|-----------------|-----------|
+|  9. June |  9:00 - 10:15 | Group D | `DevOops`             | (BSc)  | 5               | 1h 15 min |
+|          | 10:25 - 11:40 | Group F | `Backstreet NoobBois` | (BSc)  | 5               | 1h 15 min |
+|          | 11:50 - 12:50 | Group G | `LearnIT > GitHub`    | (BSc)  | 4               | 1h        |
+|          | 13:30 - 14:30 | Group I | `TB`                  | (BSc)  | 4               | 1h        |
+|          | 14:40 - 15:55 | Group K | `DevOps drengene`     | (BSc)  | 5               | 1h 15 min |
+|          | 16:05 - 17:05 | Group A | `<master>`            | (MSc)  | 4               | 1h        |
+| 10. June |  9:00 - 10:15 | Group B | `2k20 MSc`            | (MSc)  | 5               | 1h 15 min |
+|          | 10:25 - 11:25 | Group C | `U buntu?`            | (MSc)  | 4               | 1h        |
+|          | 11:35 - 12:50 | Group E | `LazyOps`             | (MSc)  | 5               | 1h 15 min |
+|          | 13:30 - 14:45 | Group H | `Fuld smadder`        | (MSc)  | 5               | 1h 15 min |
+|          | 14:55 - 16:10 | Group J | `noname`              | (MSc)  | 5               | 1h 15 min |
+|          | 16:15 - 17:15 | Group L | `Blanao`              | (MSc)  | 4               | 1h        |
+
 ## Simulator Status Dashboard
 
   * [Status and simulator API errors per group](http://142.93.104.18/status.html)
