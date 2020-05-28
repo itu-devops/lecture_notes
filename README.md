@@ -75,6 +75,9 @@ Using Linux/Unix based operating systems via the command line (Bash)
 |          | 14:55 - 16:10 | Group J | `noname`              | (MSc)  | 5               | 1h 15 min |
 |          | 16:15 - 17:15 | Group L | `Blanao`              | (MSc)  | 4               | 1h        |
 
+More details about the exam structure can be found here: [exam_details.md](exam_details.md)
+
+
 ## Simulator Status Dashboard
 
   * [Status and simulator API errors per group](http://142.93.104.18/status.html)
