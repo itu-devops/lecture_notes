@@ -74,7 +74,7 @@ GROUP_REPOS = [
             # "https://github.itu.dk/minitwit-tdb/DevOps",
             "https://github.com/minitwit-tdb/DevOps"
         ],
-        "http://157.245.35.115",
+        "http://161.35.40.233",
         "http://157.245.35.115:5001",
     ],
     [
