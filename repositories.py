@@ -88,7 +88,7 @@ GROUP_REPOS = [
         "group k",
         "DevOps drengene",
         ["https://github.com/DevOps-Drengene/DevOps-Project"],
-        "http://157.245.27.128:3000",
+        "http://157.245.25.142:3000",
         "http://157.245.27.128:5001",
     ],
     [
