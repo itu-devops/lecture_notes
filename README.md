@@ -132,8 +132,23 @@ The following links are exemplary guides, you might find others that are even mo
 
 In case non of the above options of installing Ubuntu are an option for you, you might want to install Ubuntu in a Virtual Machine (VM). Be aware however, that not all contents of the lecture (virtualization part in session 3) can be 
 
-  - https://techsprobe.com/install-ubuntu/
-  - https://medium.com/@mannycodes/installing-ubuntu-18-04-on-mac-os-with-virtualbox-ac3b39678602
+###### VMware Fusion (for macOS)
+VMware Fusion is a great hypervisor for the macOS operating system, and is offered as a free service for all ITU students.
+
+  - Download the VMware Fusion 11.x client and get your license from [InstallIT](https://itudk.onthehub.com/WebStore/OfferingDetails.aspx?o=c58f2cd0-42ce-e811-810b-000d3af41938). You will have to use your ITU credentials to log in.
+  - Follow the installation instructions as mentioned in [this article](https://www.askdavetaylor.com/install-ubuntu-linux-vmware-fusion-mac/). Restart your machine after completion.
+    - NOTE: It is important that you grant the VMware Fusion application the access that it needs when prompted during the installation.
+  - Enabling virtualization in the Settings menu as described in [this article](http://techgenix.com/vmware-fusion-5-enable-vt-xept-inside-a-virtual-machine-288/).
+
+Troubleshooting:
+  - If you get this following this error message (`cannot open /dev/vmmon`) when booting on your newly created Ubuntu image, then follow these steps:
+    - Close the VMware Fusion application.
+    - Go To *System Preferences* -> *Security & Privacy* -> Check if you're allowed to run apps from identified developers and there is no mentioning of a block application.
+
+
+###### VirtualBox (for both macOS and Windows)
+  - Windows: https://techsprobe.com/install-ubuntu/
+  - MacOS: https://medium.com/@mannycodes/installing-ubuntu-18-04-on-mac-os-with-virtualbox-ac3b39678602
 
 
 

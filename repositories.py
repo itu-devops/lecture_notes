@@ -55,8 +55,8 @@ GROUP_REPOS = [
         "group g",
         "LearnIT > GitHub",
         ["https://github.itu.dk/mahn/OneDevOps"],
-        "http://104.248.246.24/",
-        "http://104.248.246.24/api/v1/",
+        "http://64.225.106.93:3001/",
+        "http://64.225.106.93:3005/",
     ],
     [
         "group h",
@@ -88,7 +88,7 @@ GROUP_REPOS = [
         "group k",
         "DevOps drengene",
         ["https://github.com/DevOps-Drengene/DevOps-Project"],
-        "http://157.245.27.128:3000",
+        "http://157.245.25.142:3000",
         "http://157.245.27.128:5001",
     ],
     [

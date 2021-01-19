@@ -3,9 +3,6 @@ import zlib
 
 
 fname = os.path.join(
-    os.environ["HOME"],
-    "Desktop",
-    "flask-minitwit-mongodb",
     ".git",
     "objects",
     "1e",
