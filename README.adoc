@@ -196,7 +196,7 @@ All examples in class target link:https://linuxmint.com/download.php[Download Li
 Since all sessions contain hands-on exercises, we recommend that you have such a Linux version installed on a computer.
 (In case you decide to run another operating system, we cannot provide too much support for these during class.) The recommended setup is to have Linux Mint/Ubuntu installed natively on your machine.
 
-Find installation instructions link:sessions/session_00/README.adoc.
+Find installation instructions link::sessions/session_00/README.adoc.
 
 
 === Team
