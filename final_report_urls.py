@@ -1,74 +1,74 @@
 REPORT_URLS = [
     [
         "group a",
-        "<master>",
+        "<Name>",
         # Report Release URL:
-        "https://github.com/janschill/uni-devops/archive/v13.0.zip",
+        "https://github.com/<TBA>/<TBA>.zip",
     ],
     [
         "group b",
-        "2k20 MSc",
+        "<Name>",
         # Report Release URL:
-        "https://github.com/Trivivium/devops-2k20/archive/v6.30.0.zip",
+        "https://github.com/<TBA>/<TBA>.zip",
     ],
     [
         "group c",
-        "U buntu?",
+        "<Name>",
         # Report Release URL:
-        "https://github.com/kindaninja/minitwit/archive/1.0.zip",
+        "https://github.com/<TBA>/<TBA>.zip",
     ],
     [
         "group d",
-        "DevOops",
+        "<Name>",
         # Report Release URL:
-        "https://github.com/jlndk/devoops/releases/latest/download/report.zip",
+        "https://github.com/<TBA>/<TBA>.zip",
     ],
     [
         "group e",
-        "LazyOps - Semi manual CI/CD",
+        "<Name>",
         # Report Release URL:
-        "https://github.com/LazyOpsDev/Minitwit/releases/download/1.0.1/minitwit.zip",
+        "https://github.com/<TBA>/<TBA>.zip",
     ],
     [
         "group f",
-        "Backstreet NoobBois",
+        "<Name>",
         # Report Release URL:
-        "https://github.com/MoToSh99/MiniTwit/archive/v10.zip",
+        "https://github.com/<TBA>/<TBA>.zip",
     ],
     [
         "group g",
-        "LearnIT > GitHub",
+        "<Name>",
         # Report Release URL:
-        "https://github.itu.dk/mahn/OneDevOps/releases/tag/Final",
+        "https://github.com/<TBA>/<TBA>.zip",
     ],
     [
         "group h",
-        "Fuld smadder",
+        "<Name>",
         # Report Release URL:
-        "https://github.com/matt035343/devops/archive/v3.9.0.zip",
+        "https://github.com/<TBA>/<TBA>.zip",
     ],
     [
         "group i",
-        "TB",
+        "<Name>",
         # Report Release URL:
-        "https://github.com/minitwit-tdb/DevOps/releases/tag/1.0.0",
+        "https://github.com/<TBA>/<TBA>.zip",
     ],
     [
         "group j",
-        "noname",
+        "<Name>",
         # Report Release URL:
-        "https://github.com/mortenskoett/itu-devops-group-noname/archive/v7.0.0.zip",
+        "https://github.com/<TBA>/<TBA>.zip",
     ],
     [
         "group k",
-        "DevOps drengene",
+        "<Name>",
         # Report Release URL:
-        "https://github.com/DevOps-Drengene/DevOps-Project/archive/v1.0.0.zip",
+        "https://github.com/<TBA>/<TBA>.zip",
     ],
     [
         "group l",
-        "Blanao",
+        "<Name>",
         # Report Release URL:
-        "https://github.com/alexander34ro/DevOps/archive/S1.zip",
+        "https://github.com/<TBA>/<TBA>.zip",
     ],
 ]

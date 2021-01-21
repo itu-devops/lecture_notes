@@ -1,0 +1,222 @@
+https://creativecommons.org/licenses/by-nc-sa/4.0/[image:https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg[License:
+CC BY-NC-SA 4.0]]
+
+image:images/banner.png[image]
+
+== DevOps, Software Evolution and Software Maintenance
+
+
+=== Content
+
+
+This page contains information concerning the schedule, material, exam,
+and learning outcomes for the elective "DevOps, Software Evolution and
+Software Maintenance Content" at IT University of Copenhagen, spring
+2021 (link:https://learnit.itu.dk/local/coursebase/view.php?ciid=640[see LearnIT]).
+
+
+=== Schedule
+
+Sessions (lectures combined with exercises) are on Mondays from 8:00
+to 12:00 on Zoom. In case we can meet physically again, we will meet in Aud 0 (0A27) for the lecture and in rooms 2A12-14, 3A12-14 afterwards. We will let you know, for now all lectures are scheduled to take place online.
+
+*OBS*: We expect you to be present during the entire time, not only the first two hours.
+
+.Course schedule *Note*: While times are locked, the topics are subject to change.
+[width="100%",cols="4%,4%,5%,3%,3%,4%,38%,39%",options="header",]
+|=======================================================================
+|# |Date |Time |Lecturer |Zoom |Preparation |Topic |Project Work
+// w5
+|1
+|1/2
+|8:00 - 12:00
+|Helge
+|link:[TBA]
+|
+|Project start, forming groups, SSH, SCP, and Bash
+|Refactor _ITU-MiniTwit_ to work on modern system
+// w6
+|2
+|8/2
+|8:00 - 12:00
+|Helge
+|link:[TBA]
+|
+|Version control systems (Git), branching strategies, and collaborative development workflows
+|Refactor _ITU-MiniTwit_ in another programming language and tech. stack
+// w7
+|3
+|15/2
+|8:00 - 12:00
+|Helge
+|link:[TBA]
+|
+|Virtualization via containers and virtual machines
+|Introduction of DB abstraction layer and deployment of your _ITU-MiniTwit_ to a remote server
+// w8
+|4
+|22/2
+|8:00 - 12:00
+|Sofus (Praqma) Helge
+|link:[TBA]
+|
+|_Guest Lecture_ & Continuous Integration (CI), Continuous Delivery (CD), and Continuous Deployment
+|Setup CI & CD for reproducible builds, tests, delivery, and deployment (*Simulator starts*)
+// w9
+|5
+|1/3
+|8:00 - 12:00
+|Helge
+|link:[TBA]
+|
+|What is DevOps and techniques for division of subsystems
+|Cleaning and polishing of your _ITU-MiniTwit_ and refactoring for clean subsystem interfaces
+// Simulator starts for sure
+
+// w10
+|6
+|8/3
+|8:00 - 12:00
+|Helge
+|link:[TBA]
+|
+|Monitoring
+|Add monitoring to your _ITU-MiniTwit_
+// w11
+|7
+|15/3
+|8:00 - 12:00
+|Helge
+|link:[TBA]
+|
+|Software Quality, Maintainability & Technical Debt
+|Enhancing CI/CD setup with static code analysis
+// w12
+|8
+|22/3
+|8:00 - 12:00
+|Mircea
+|link:[TBA]
+|
+|Service-level agreements, logging and log analysis
+|Add logging to your _ITU-MiniTwit_ and create a set of SLAs for it
+// w13
+|9
+|29/3
+|8:00 - 12:00
+|Mircea
+|link:[TBA]
+|
+|Deployment strategies, scalability, load balancing
+|Isolate components into services/containers/VMs
+// w14
+|–
+|5/4
+|-
+|–
+|-
+|-
+|Easter Break
+| Operations & maintenance still reacting on issue reports and fixing of errors :)
+// w15
+|10
+|12/4
+|8:00 - 12:00
+|Mircea
+|link:[TBA]
+|
+|Workshop
+|Continue isolation of components into services/containers/VMs and Fix reported problems
+// w16
+|11
+|19/4
+|8:00 - 12:00
+|Mircea
+|link:[TBA]
+|
+|Security of web-facing applications
+|Perform security review of another group’s system & Post-mortem on you own system
+// w17
+|12
+|26/4
+|8:00 - 12:00
+|Mircea
+|link:[TBA]
+|
+|Infrastructure as Code
+|Encode your infrastructure setup
+// w18
+|13
+|3/5
+|8:00 - 12:00
+|Mircea
+|link:[TBA]
+|
+|Documentation of Systems and projects & Wrap-up
+|*Simulator stops*. Write report.
+// w19
+|14
+|10/5
+|8:00 - 12:00
+|
+|
+|
+|
+|Write report.
+|=======================================================================
+
+* Exam submission: Latest *12/5/2021 14:00*
+* Exam dates: 8/6/2021 to 11/6/2021
+
+
+=== Dashboards
+
+==== Simulator Status Dashboard
+
+* link:http://<TBA>/status.html[TBA: Status and simulator API errors per
+group]
+
+==== Activity Dashboard
+
+* link:http://<TBA>/commit_activity_daily.svg[TBA: Daily commit activity
+per group]
+* link:http://<TBA>/commit_activity_weekly.svg[TBA: Weekly commit
+activity per group]
+* link:http://<TBA>/release_activity_weekly.svg[TBA: Weekly release
+activity per group]
+
+=== Recordings
+
+Recorded lectures (screen and voice) should be accessible on
+link:https://app.vidgrid.com/content/YsEew5BpMdKm[VidGrid].
+
+=== Recommendation
+
+All examples in class target link:https://linuxmint.com/download.php[Download Linux Mint 20.1 Ulyssa], which is in essence a link:http://releases.ubuntu.com/20.04/[Ubuntu 20.04.1 LTS (Focal Fossa)].
+Since all sessions contain hands-on exercises, we recommend that you have such a Linux version installed on a computer.
+(In case you decide to run another operating system, we cannot provide too much support for these during class.) The recommended setup is to have Linux Mint/Ubuntu installed natively on your machine.
+
+Find installation instructions link:sessions/session_00/README.adoc.
+
+
+=== Team
+
+* *Teachers*: Helge, Mircea
+* *TAs*: Alexander, Michał, and Sebastian
+
+
+=== Communication
+
+Outside teaching sessions you can communicate with each other, the TAs and the teachers via the link:<TBA>[Teams channel].
+
+
+=== Groups
+
+To be formed during the first session.
+
+'''''
+
+===== Attributions
+
+
+Organization icon made by https://www.flaticon.com/authors/freepik[Freepik] from https://www.flaticon.com[www.flaticon.com]

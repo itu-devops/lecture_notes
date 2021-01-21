@@ -9,16 +9,17 @@ Be aware as described in the [Exam Description on LearnIT](https://learnit.itu.d
 
 ## Formal Requirements
 
-We do not have any requirements about the length of the report. Try to be brief but be sure to include all necessary information listed below.
+Your final report should be max 5pages in PDF format. So, try to be brief but be sure to include all necessary information listed below.
 
-Your main project repository shall contain a directory called `report` containing either a single large or a set of linked markdown files forming the report. All images should be collected in a directory called `images`, a sub-directory of `report`.
+Your main project repository shall contain a directory called `report` containing either a single large or a set of linked ASCIIDOC files forming the report. All images should be collected in a directory called `images`, a sub-directory of `report`.
 
-In case you dislike markdown as final report format you may want to convert to other formats, such as PDF, with [Pandoc](https://pandoc.org/). In case you use Pandoc make sure to include the build step for your report into your CI chain.
+Via [Asciidoctor](https://asciidoctor.org/docs/asciidoctor-pdf/) or [Pandoc](https://pandoc.org/), the report has to be build as a single PDF file and in HTML format (in directory `report/build`)
+Make sure to include the build step for your report into your CI chain.
 
 
 ### How to hand-in?
 
-Send a pull request to the final release of your _ITU-MiniTwit_, which includes your complete report too, to the file [`final_report_urls.py`](https://github.com/itu-devops/2020-spring/blob/master/final_report_urls.py) in https://github.com/itu-devops/2020-spring.
+Send a pull request to the final release of your _ITU-MiniTwit_, which includes your complete report too, to the file [`final_report_urls.py`](https://github.com/itu-devops/lecture_notes/blob/master/final_report_urls.py) in https://github.com/itu-devops/lecture_notes.
 
 **Additionally**, submit the ZIP file of the release, which contains your report via [LearnIT](https://learnit.itu.dk/mod/exam/view.php?id=110630).
 

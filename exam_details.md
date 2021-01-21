@@ -70,7 +70,7 @@ All of your team members will be in the exam room at once and we will make sure 
 
 ## Exam flow
 
-  * You will join the Zoom room at: [https://itucph.zoom.us/j/62406002470](https://itucph.zoom.us/j/62406002470)
+  * You will join the Zoom room at: [https://itucph.zoom.us/j/<TBA>](https://itucph.zoom.us/j/<TBA>)
     - The password for it will be sent to you by email prior to the exam
     - The password will be also accessible on [LearnIT](https://learnit.itu.dk/mod/page/view.php?id=119729)
   * You and your group members will wait in the waiting room.

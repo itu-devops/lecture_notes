@@ -1,98 +1,98 @@
 GROUP_URLS = [
     [
         "group a",
-        "<master>",
+        "<Name>",
         # Monitoring URL:
-        "http://janschill.de:3000",
+        "http(s)://<TBA>/",
         # Security report URL:
-        "https://hackmd.io/@Fr3d-/Hk7jd6Zd8",
+        "http(s)://<TBA>/",
     ],
     [
         "group b",
-        "2k20 MSc",
+        "<Name>",
         # Monitoring URL:
-        "http://134.209.245.96:3000",
+        "http(s)://<TBA>/",
         # Security report URL:
-        "https://github.com/Trivivium/devops-2k20/blob/master/postmortem.pdf",
+        "http(s)://<TBA>/",
     ],
     [
         "group c",
-        "U buntu?",
+        "<Name>",
         # Monitoring URL:
-        "http://minitwit.dk/monitor",
+        "http(s)://<TBA>/",
         # Security report URL:
-        "https://github.com/kindaninja/minitwit/blob/master/groupc_security_report.pdf",
+        "http(s)://<TBA>/",
     ],
     [
         "group d",
-        "DevOops",
+        "<Name>",
         # Monitoring URL:
-        "https://grafana.minitwit.tk",
+        "http(s)://<TBA>/",
         # Security report URL:
-        "https://github.com/LazyOpsDev/Minitwit/issues/22",
+        "http(s)://<TBA>/",
     ],
     [
         "group e",
-        "LazyOps - Semi manual CI/CD",
+        "<Name>",
         # Monitoring URL:
-        "http://207.154.252.199:3000/",
+        "http(s)://<TBA>/",
         # Security report URL:
-        "https://github.com/LazyOpsDev/Minitwit/blob/develop/SLA_vulnerability%20report.pdf",
+        "http(s)://<TBA>/",
     ],
     [
         "group f",
-        "Backstreet NoobBois",
+        "<Name>",
         # Monitoring URL:
-        "http://134.122.83.72:3000/",
+        "http(s)://<TBA>/",
         # Security report URL:
-        "https://docdro.id/Y5APMom",
+        "http(s)://<TBA>/",
     ],
     [
         "group g",
-        "LearnIT > GitHub",
+        "<Name>",
         # Monitoring URL:
-        "http://104.248.246.24:9111",
+        "http(s)://<TBA>/",
         # Security report URL:
-        "https://docs.google.com/document/d/1pQ1f2RLSuvZKC2lkmhxl9CqbP6XrU-ABk5j7JjRHclE/edit#",
+        "http(s)://<TBA>/",
     ],
     [
         "group h",
-        "Fuld smadder",
+        "<Name>",
         # Monitoring URL:
-        "http://104.248.88.157:3000/",
+        "http(s)://<TBA>/",
         # Security report URL:
-        "https://github.com/matt035343/devops/blob/master/Security%20assesment.pdf",
+        "http(s)://<TBA>/",
     ],
     [
         "group i",
-        "TB",
+        "<Name>",
         # Monitoring URL:
-        "http://http://157.245.35.115:4000/login",
+        "http(s)://<TBA>/",
         # Security report URL:
-        "https://github.com/minitwit-tdb/DevOps/blob/master/DevOps___Security.pdf",
+        "http(s)://<TBA>/",
     ],
     [
         "group j",
-        "noname",
+        "<Name>",
         # Monitoring URL:
-        "http://46.101.215.40:3000/",
+        "http(s)://<TBA>/",
         # Security report URL:
-        "https://github.com/mortenskoett/itu-devops-group-noname/blob/master/Session_09_Security_Report.pdf",
+        "http(s)://<TBA>/",
     ],
     [
         "group k",
-        "DevOps drengene",
+        "<Name>",
         # Monitoring URL:
-        "http://157.245.27.128:3001/d/5EFwX__Zz/itu-minitwit-dashboard",
+        "http(s)://<TBA>/",
         # Security report URL:
-        "https://github.com/DevOps-Drengene/DevOps-Project/blob/master/docs/group_k_session_09_security_report.pdf",
+        "http(s)://<TBA>/",
     ],
     [
         "group l",
-        "Blanao",
+        "<Name>",
         # Monitoring URL:
-        "https://dashboard.heroku.com/apps/minitwit-simulator-api/metrics/web?ending=0-hours-ago&starting=2-hours-ago",
+        "http(s)://<TBA>",
         # Security report URL:
-        "https://github.com/janschill/uni-devops/issues/165",
+        "http(s)://<TBA>/",
     ],
 ]
