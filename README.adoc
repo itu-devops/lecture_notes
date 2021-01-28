@@ -31,8 +31,8 @@ to 12:00 on Zoom. In case we can meet physically again, we will meet in Aud 0 (0
 |1/2
 |8:00 - 12:00
 |Helge
-|link:[TBA]
-|
+|link:https://itucph.zoom.us/j/68426961372[Zoom room]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_01/README_PREP.md[Prep. material]
 |Project start, forming groups, SSH, SCP, and Bash
 |Refactor _ITU-MiniTwit_ to work on modern system
 // w6
@@ -40,7 +40,7 @@ to 12:00 on Zoom. In case we can meet physically again, we will meet in Aud 0 (0
 |8/2
 |8:00 - 12:00
 |Helge
-|link:[TBA]
+|link:https://itucph.zoom.us/j/68426961372[Zoom room]
 |
 |Version control systems (Git), branching strategies, and collaborative development workflows
 |Refactor _ITU-MiniTwit_ in another programming language and tech. stack
@@ -49,7 +49,7 @@ to 12:00 on Zoom. In case we can meet physically again, we will meet in Aud 0 (0
 |15/2
 |8:00 - 12:00
 |Helge
-|link:[TBA]
+|link:https://itucph.zoom.us/j/68426961372[Zoom room]
 |
 |Virtualization via containers and virtual machines
 |Introduction of DB abstraction layer and deployment of your _ITU-MiniTwit_ to a remote server
@@ -58,7 +58,7 @@ to 12:00 on Zoom. In case we can meet physically again, we will meet in Aud 0 (0
 |22/2
 |8:00 - 12:00
 |Sofus (Praqma) Helge
-|link:[TBA]
+|link:https://itucph.zoom.us/j/68426961372[Zoom room]
 |
 |_Guest Lecture_ & Continuous Integration (CI), Continuous Delivery (CD), and Continuous Deployment
 |Setup CI & CD for reproducible builds, tests, delivery, and deployment (*Simulator starts*)
@@ -67,7 +67,7 @@ to 12:00 on Zoom. In case we can meet physically again, we will meet in Aud 0 (0
 |1/3
 |8:00 - 12:00
 |Helge
-|link:[TBA]
+|link:https://itucph.zoom.us/j/68426961372[Zoom room]
 |
 |What is DevOps and techniques for division of subsystems
 |Cleaning and polishing of your _ITU-MiniTwit_ and refactoring for clean subsystem interfaces
@@ -78,7 +78,7 @@ to 12:00 on Zoom. In case we can meet physically again, we will meet in Aud 0 (0
 |8/3
 |8:00 - 12:00
 |Helge
-|link:[TBA]
+|link:https://itucph.zoom.us/j/68426961372[Zoom room]
 |
 |Monitoring
 |Add monitoring to your _ITU-MiniTwit_
@@ -87,7 +87,7 @@ to 12:00 on Zoom. In case we can meet physically again, we will meet in Aud 0 (0
 |15/3
 |8:00 - 12:00
 |Helge
-|link:[TBA]
+|link:https://itucph.zoom.us/j/68426961372[Zoom room]
 |
 |Software Quality, Maintainability & Technical Debt
 |Enhancing CI/CD setup with static code analysis
@@ -96,7 +96,7 @@ to 12:00 on Zoom. In case we can meet physically again, we will meet in Aud 0 (0
 |22/3
 |8:00 - 12:00
 |Mircea
-|link:[TBA]
+|link:https://itucph.zoom.us/j/68426961372[Zoom room]
 |
 |Service-level agreements, logging and log analysis
 |Add logging to your _ITU-MiniTwit_ and create a set of SLAs for it
@@ -105,7 +105,7 @@ to 12:00 on Zoom. In case we can meet physically again, we will meet in Aud 0 (0
 |29/3
 |8:00 - 12:00
 |Mircea
-|link:[TBA]
+|link:https://itucph.zoom.us/j/68426961372[Zoom room]
 |
 |Deployment strategies, scalability, load balancing
 |Isolate components into services/containers/VMs
@@ -123,7 +123,7 @@ to 12:00 on Zoom. In case we can meet physically again, we will meet in Aud 0 (0
 |12/4
 |8:00 - 12:00
 |Mircea
-|link:[TBA]
+|link:https://itucph.zoom.us/j/68426961372[Zoom room]
 |
 |Workshop
 |Continue isolation of components into services/containers/VMs and Fix reported problems
@@ -132,7 +132,7 @@ to 12:00 on Zoom. In case we can meet physically again, we will meet in Aud 0 (0
 |19/4
 |8:00 - 12:00
 |Mircea
-|link:[TBA]
+|link:https://itucph.zoom.us/j/68426961372[Zoom room]
 |
 |Security of web-facing applications
 |Perform security review of another group’s system & Post-mortem on you own system
@@ -141,7 +141,7 @@ to 12:00 on Zoom. In case we can meet physically again, we will meet in Aud 0 (0
 |26/4
 |8:00 - 12:00
 |Mircea
-|link:[TBA]
+|link:https://itucph.zoom.us/j/68426961372[Zoom room]
 |
 |Infrastructure as Code
 |Encode your infrastructure setup
@@ -150,7 +150,7 @@ to 12:00 on Zoom. In case we can meet physically again, we will meet in Aud 0 (0
 |3/5
 |8:00 - 12:00
 |Mircea
-|link:[TBA]
+|link:https://itucph.zoom.us/j/68426961372[Zoom room]
 |
 |Documentation of Systems and projects & Wrap-up
 |*Simulator stops*. Write report.
@@ -167,6 +167,22 @@ to 12:00 on Zoom. In case we can meet physically again, we will meet in Aud 0 (0
 
 * Exam submission: Latest *12/5/2021 14:00*
 * Exam dates: 8/6/2021 to 11/6/2021
+
+=== TA Supervision
+
+The TAs will be present in the Zoom meeting during the exercise session from 10:00 to 12:00.
+
+During that time, two breakout rooms will be present for supervision with the groups.
+
+Supervision will be conducted in 20 minute time slots.
+
+Up to two supervision sessions can be conducted simultaneously – one in each breakout room.
+
+A group can sign up for a time slot in the link:https://teams.microsoft.com/l/file/3A6E37D7-808F-4012-8941-E9F69366C349?tenantId=bea229b6-7a08-4086-b44c-71f57f716bdb&fileType=xlsx&objectUrl=https%3A%2F%2Fituniversity.sharepoint.com%2Fsites%2FDevOpsSoftwareEvolutionandSoftwareMaintenanceS2021%2FShared%20Documents%2FGeneral%2FSupervisionSignup.xlsx&baseUrl=https%3A%2F%2Fituniversity.sharepoint.com%2Fsites%2FDevOpsSoftwareEvolutionandSoftwareMaintenanceS2021&serviceName=teams&threadId=19:2e0525061c7c44c3b4e57d61edba106b@thread.tacv2&groupId=9505ab1e-489e-4444-a47f-0f8883316005[Excel sheet in our Teams channel].
+
+Groups are encouraged to give a brief heads-up of what their issue is in the signup sheet. This will allow the TAs to assign the person who is most suitable for that issue to the group. Furthermore, if many teams sign up for the same issue, then this can be addressed to the whole class instead.
+
+The signup table for the next week will be marked in yellow in the sheet. On Mondays, the signup table for the present day will be marked in green.
 
 
 === Dashboards
@@ -207,14 +223,14 @@ Find installation instructions link:https://github.com/itu-devops/lecture_notes/
 
 === Communication
 
-Outside teaching sessions you can communicate with each other, the TAs and the teachers via the link:<TBA>[Teams channel].
+Outside teaching sessions you can communicate with each other, the TAs and the teachers via the link:https://teams.microsoft.com/l/channel/19%3a2e0525061c7c44c3b4e57d61edba106b%40thread.tacv2/General?groupId=9505ab1e-489e-4444-a47f-0f8883316005&tenantId=bea229b6-7a08-4086-b44c-71f57f716bdb[Teams channel].
 
 
 === Groups
 
 To be formed during the first session.
 
-'''''
+
 
 ===== Attributions
 
