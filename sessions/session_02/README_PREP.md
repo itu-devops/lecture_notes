@@ -20,8 +20,8 @@ $ git config --global core.editor nano
   * Please read the following four subchapters of chapter [3. Git Branching on Git branches](https://git-scm.com/book/en/v2/)
     - [Branches in a Nutshell](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
     - [Basic Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
-    - [Remote Branches](https://git-scm.com/book/en/v2/Git-Branching-Branch-Management
-  https://git-scm.com/book/en/v2/Git-Branching-Remote-Branches)
+    - [Remote Branches](https://git-scm.com/book/en/v2/Git-Branching-Branch-Management)
+    - [Remote Branches](https://git-scm.com/book/en/v2/Git-Branching-Remote-Branches)
   * To allow for a better understanding of why Git works the way it does read on [Git objects](https://git-scm.com/book/en/v2/Git-Internals-Git-Objects)
 
 
