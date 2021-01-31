@@ -33,15 +33,15 @@ to 12:00 on Zoom. In case we can meet physically again, we will meet in Aud 0 (0
 |Helge
 |link:https://itucph.zoom.us/j/68426961372[Zoom room]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_01/README_PREP.md[Prep. material]
-|Project start, forming groups, SSH, SCP, and Bash
-|Refactor _ITU-MiniTwit_ to work on modern system
+|link:https://github.com/HelgeCPH/devops_evo_main_intern_mirror/blob/master/sessions/session_01/Session%201.ipynb[Project start, forming groups, SSH, SCP, and Bash]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_01/README_TASK.md[Refactor _ITU-MiniTwit_ to work on modern system]
 // w6
 |2
 |8/2
 |8:00 - 12:00
 |Helge
 |link:https://itucph.zoom.us/j/68426961372[Zoom room]
-|
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_02/README_PREP.md[Prep. material]
 |Version control systems (Git), branching strategies, and collaborative development workflows
 |Refactor _ITU-MiniTwit_ in another programming language and tech. stack
 // w7
@@ -57,10 +57,10 @@ to 12:00 on Zoom. In case we can meet physically again, we will meet in Aud 0 (0
 |4
 |22/2
 |8:00 - 12:00
-|Sofus (Praqma) Helge
+|Helge
 |link:https://itucph.zoom.us/j/68426961372[Zoom room]
 |
-|_Guest Lecture_ & Continuous Integration (CI), Continuous Delivery (CD), and Continuous Deployment
+|Continuous Integration (CI), Continuous Delivery (CD), and Continuous Deployment
 |Setup CI & CD for reproducible builds, tests, delivery, and deployment (*Simulator starts*)
 // w9
 |5
