@@ -64,8 +64,8 @@ GROUP_REPOS = [
     ],
     [
         "group j",
-        "<Name>",
-        ["https://github.com/<TBA>"],
+        "Python Kindergarten",
+        ["https://github.com/jokk-itu/PythonKindergarten"],
         "http(s)://<TBA>/<FrontEndURL>",
         "http(s)://<TBA>/<APIURL>",
     ],
