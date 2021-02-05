@@ -36,8 +36,8 @@ GROUP_REPOS = [
     ],
     [
         "group f",
-        "<Name>",
-        ["https://github.com/<TBA>"],
+        "Group Fibonacci",
+        ["https://github.com/lauralunddahl/DevOps-GroupF"],
         "http(s)://<TBA>/<FrontEndURL>",
         "http(s)://<TBA>/<APIURL>",
     ],
