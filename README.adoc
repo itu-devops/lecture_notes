@@ -228,8 +228,29 @@ Outside teaching sessions you can communicate with each other, the TAs and the t
 
 === Groups
 
-To be formed during the first session.
+==== BSc
+  * Group a <Name> `nieb`, `mmho`, `emkn`, `haiv`, `marq`
+  * Group c <Name> `hoja`, `edbe`, `andst`, `reis`, `geko`
+  * Group e _group e_ `abea`, `gujo`, `luka`, `sena`, `beba`
+  * Group i _??_ `sank`, `thda`, `hefr`, `jemm`
+  * Group j _Python Kindergarten_ `jokk`, `vino`, `asie`, `iras`, `bjja`
+  * Group k _TheMagicStrings_ `kaky`, `emja`, `jglr`,`krbh`,`thhk`
+  * Group m _Cool Beans_ `ella`, `eikl`, `joaa`, `daaa`, `emdi`
 
+==== MSc
+
+
+  * Group b _b_ `sikr`, `jefh`, `join`, `nime`, `frem`
+  * Group f _Group Fibonacci_ `lous`, `laulu`, `nanm`, `magl`, `vigp`
+  * Group g _Group G_ `sewa`, `rdmo`, `alfr`, `jgoh`, `vlcr`
+  * Group h _Neutral_ `arov`, `rade`, `frvo`, `abax`, `jsjo`
+  * Group l _AJKPT_ `asse`, `jhhi`, `kols`, `pebu`, `thta`
+
+
+==== Ungrouped yet
+
+*BSc*: `guri`, `marti`
+*MSc*: `aene`, `ddel`, `magjo`, `jobo`, `krif`
 
 
 ===== Attributions
