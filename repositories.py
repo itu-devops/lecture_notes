@@ -71,8 +71,8 @@ GROUP_REPOS = [
     ],
     [
         "group k",
-        "<Name>",
-        ["https://github.com/<TBA>"],
+        "TheMagicStrings",
+        ["https://github.com/themagicstrings/twooter"],
         "http(s)://<TBA>/<FrontEndURL>",
         "http(s)://<TBA>/<APIURL>",
     ],
