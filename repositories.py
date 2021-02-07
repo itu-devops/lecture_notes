@@ -77,9 +77,9 @@ GROUP_REPOS = [
         "http(s)://<TBA>/<APIURL>",
     ],
     [
-        "group l",
-        "<Name>",
-        ["https://github.com/<TBA>"],
+        "group l"
+        "AJKPT"
+        ["https://github.com/heyjoakim/devops-21"],
         "http(s)://<TBA>/<FrontEndURL>",
         "http(s)://<TBA>/<APIURL>",
     ],
