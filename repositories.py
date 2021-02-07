@@ -79,7 +79,6 @@ GROUP_REPOS = [
     [
         "group l"
         "AJKPT"
-        ["asse@itu.dk", "jhhi@itu.dk", "kols@itu.dk", "pebu@itu.dk", "thta@itu.dk"] 
         ["https://github.com/heyjoakim/devops-21"],
         "http(s)://<TBA>/<FrontEndURL>",
         "http(s)://<TBA>/<APIURL>",
