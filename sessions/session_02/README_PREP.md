@@ -16,7 +16,7 @@ In case you are not into using VI as editor, you might want to choose `nano`
 $ git config --global core.editor nano
 ```
 
-  * If you are rusty with basic Git concepts, like adding files to version control, viewing your commit history, undoing changes, etc., you might want to check chapter [2. Git Basics](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell) from the Pro Git book.
+  * If you are rusty with basic Git concepts, like adding files to version control, viewing your commit history, undoing changes, etc., you might want to check chapter [2. Git Basics](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository) from the Pro Git book.
   * Please read the following four subchapters of chapter [3. Git Branching on Git branches](https://git-scm.com/book/en/v2/)
     - [Branches in a Nutshell](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
     - [Basic Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
