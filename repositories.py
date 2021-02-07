@@ -50,8 +50,8 @@ GROUP_REPOS = [
     ],
     [
         "group h",
-        "<Name>",
-        ["https://github.com/<TBA>"],
+        "Neutrals",
+        ["https://github.com/albertbethlowsky/DevOpsGroupH"],
         "http(s)://<TBA>/<FrontEndURL>",
         "http(s)://<TBA>/<APIURL>",
     ],
