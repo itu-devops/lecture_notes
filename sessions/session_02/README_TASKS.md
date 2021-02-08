@@ -36,7 +36,7 @@ If I were in your position, I would consider one of the following:
   - [Crystal](https://crystal-lang.org) with [Kemal](https://kemalcr.com)
   - [Elixir](https://elixir-lang.org) with [Phoenix](https://www.phoenixframework.org)
   - [Nim](https://nim-lang.org) with [Jester](https://github.com/dom96/jester)
-  - [Ruby](https://www.ruby-lang.org) with [Sinatra](sinatrarb.com)
+  - [Ruby](https://www.ruby-lang.org) with [Sinatra](http://sinatrarb.com/)
 
 In case you choose Python as your implementation language you have to build a solution that does not rely on the Flask framework.
 
