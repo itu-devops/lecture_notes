@@ -42,7 +42,7 @@ to 12:00 on Zoom. In case we can meet physically again, we will meet in Aud 0 (0
 |Helge
 |link:https://itucph.zoom.us/j/68426961372[Zoom room]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_02/README_PREP.md[Prep. material]
-|Version control systems (Git), branching strategies, and collaborative development workflows
+|link:https://github.com/HelgeCPH/devops_evo_main_intern_mirror/blob/master/sessions/session_02/Session%202.ipynb[Version control systems (Git), branching strategies, and collaborative development workflows]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_02/README_TASKS.md[Refactor _ITU-MiniTwit_ in another programming language and tech. stack]
 // w7
 |3
