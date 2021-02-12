@@ -20,13 +20,13 @@ GROUP_REPOS = [
         "http(s)://<TBA>/<FrontEndURL>",
         "http(s)://<TBA>/<APIURL>",
     ],
-    [
-        "group d",
-        "<Name>",
-        ["https://github.com/<TBA>"],
-        "http(s)://<TBA>/<FrontEndURL>",
-        "http(s)://<TBA>/<APIURL>",
-    ],
+    # [
+    #     "group d",
+    #     "<Name>",
+    #     ["https://github.com/<TBA>"],
+    #     "http(s)://<TBA>/<FrontEndURL>",
+    #     "http(s)://<TBA>/<APIURL>",
+    # ],
     [
         "group e",
         "group e",
@@ -44,7 +44,7 @@ GROUP_REPOS = [
     [
         "group g",
         "Group G",
-        ["https://github.com/JonasWG/ITU-DevOps/tree/main/itu-minitwit"],
+        ["https://github.com/JonasWG/ITU-DevOps"],
         "http(s)://<TBA>/<FrontEndURL>",
         "http(s)://<TBA>/<APIURL>",
     ],
