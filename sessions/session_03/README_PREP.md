@@ -33,6 +33,7 @@ sudo apt install docker-compose
 
 ### Vagrant & VirtualBox
 
+In case you are running MacOS or Windows you might find helpful [installation instructions for your host operating system in the linked guide](https://www.itu.dk/people/ropf/blog/vagrant_install.html). Note, Vagrant cannot be run in a VirtualboxVM. This means that you should install vagrant and related plugins in your host OS (Windows/MacOS) if you are running linux in a virtual box already. This is because vagrant creates VMs, and creating VMs from a VM can cause problems.
 
 Install Virtualbox:
 
@@ -57,8 +58,6 @@ vagrant plugin install vagrant-digitalocean
 <!--
 sudo apt-get install --reinstall virtualbox-dkms
 -->
-
-In case you are running MacOS or Windows you might find helpful [installation instructions for your host operating system in the linked guide](https://www.itu.dk/people/ropf/blog/vagrant_install.html). Note, Vagrant cannot be run in a VirtualboxVM.
 
 
 
