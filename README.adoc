@@ -33,7 +33,7 @@ to 12:00 on Zoom. In case we can meet physically again, we will meet in Aud 0 (0
 |Helge
 |link:https://itucph.zoom.us/j/68426961372[Zoom room]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_01/README_PREP.md[Prep. material]
-|link:https://github.com/HelgeCPH/devops_evo_main_intern_mirror/blob/master/sessions/session_01/Session%201.ipynb[Project start, forming groups, SSH, SCP, and Bash]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_01/Session%201.ipynb[Project start, forming groups, SSH, SCP, and Bash]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_01/README_TASKS.md[Refactor _ITU-MiniTwit_ to work on modern system]
 // w6
 |2
@@ -42,7 +42,7 @@ to 12:00 on Zoom. In case we can meet physically again, we will meet in Aud 0 (0
 |Helge
 |link:https://itucph.zoom.us/j/68426961372[Zoom room]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_02/README_PREP.md[Prep. material]
-|Version control systems (Git), branching strategies, and collaborative development workflows
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_02/Session%202.ipynb[Version control systems (Git), branching strategies, and collaborative development workflows]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_02/README_TASKS.md[Refactor _ITU-MiniTwit_ in another programming language and tech. stack]
 // w7
 |3
@@ -51,15 +51,15 @@ to 12:00 on Zoom. In case we can meet physically again, we will meet in Aud 0 (0
 |Helge
 |link:https://itucph.zoom.us/j/68426961372[Zoom room]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_03/README_PREP.md[Prep. material]
-|Virtualization via containers and virtual machines
-|Introduction of DB abstraction layer and deployment of your _ITU-MiniTwit_ to a remote server
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_02/Session%203.ipynb[Virtualization via containers and virtual machines]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_03/README_TASKS.md[Continue refactoring, introduction of DB abstraction layer, and deployment of your _ITU-MiniTwit_ to a remote server.]
 // w8
 |4
 |22/2
 |8:00 - 12:00
 |Helge
 |link:https://itucph.zoom.us/j/68426961372[Zoom room]
-|
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/README_PREP.md[Prep. material]
 |Continuous Integration (CI), Continuous Delivery (CD), and Continuous Deployment
 |Setup CI & CD for reproducible builds, tests, delivery, and deployment (*Simulator starts*)
 // w9
@@ -69,7 +69,7 @@ to 12:00 on Zoom. In case we can meet physically again, we will meet in Aud 0 (0
 |Sofus (Eficode) & Helge
 |link:https://itucph.zoom.us/j/68426961372[Zoom room]
 |
-|What is DevOps and techniques for division of subsystems
+|Guest lecture, what is DevOps, and techniques for division of subsystems
 |Cleaning and polishing of your _ITU-MiniTwit_ and refactoring for clean subsystem interfaces
 // Simulator starts for sure
 
@@ -95,10 +95,10 @@ to 12:00 on Zoom. In case we can meet physically again, we will meet in Aud 0 (0
 |8
 |22/3
 |8:00 - 12:00
-|Mircea
+|Alexander (Bird&Bird), Mircea
 |link:https://itucph.zoom.us/j/68426961372[Zoom room]
 |
-|Service-level agreements, logging and log analysis
+|Guest lecture (@11:00 on Software Licensing), Service-level agreements, logging, and log analysis
 |Add logging to your _ITU-MiniTwit_ and create a set of SLAs for it
 // w13
 |9
@@ -194,11 +194,11 @@ group]
 
 ==== Activity Dashboard
 
-* link:http://<TBA>/commit_activity_daily.svg[TBA: Daily commit activity
+* link:http://157.230.24.69/commit_activity_daily.svg[Daily commit activity
 per group]
-* link:http://<TBA>/commit_activity_weekly.svg[TBA: Weekly commit
+* link:http://157.230.24.69/commit_activity_weekly.svg[Weekly commit
 activity per group]
-* link:http://<TBA>/release_activity_weekly.svg[TBA: Weekly release
+* link:http://157.230.24.69/release_activity_weekly.svg[Weekly release
 activity per group]
 
 === Recordings
