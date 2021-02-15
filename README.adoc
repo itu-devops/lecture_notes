@@ -236,7 +236,7 @@ Outside teaching sessions you can communicate with each other, the TAs and the t
   * Group i _??_ `sank`, `thda`, `hefr`, `jemm`
   * Group j _Python Kindergarten_ `jokk`, `vino`, `asie`, `iras`, `bjja`
   * Group k _TheMagicStrings_ `kaky`, `emja`, `jglr`,`krbh`,`thhk`
-  * Group m _Cool Beans_ `ella`, `eikl`, `joaa`, `daaa`, `emdi`
+  * Group d _Cool Beans_ `ella`, `eikl`, `joaa`, `daaa`, `emdi`
 
 ==== MSc
 
