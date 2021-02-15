@@ -195,11 +195,11 @@ group]
 
 ==== Activity Dashboard
 
-* link:http://157.230.24.69/commit_activity_daily.svg[Daily commit activity
+* link:http://46.101.243.88/commit_activity_daily.svg[Daily commit activity
 per group]
-* link:http://157.230.24.69/commit_activity_weekly.svg[Weekly commit
+* link:http://46.101.243.88/commit_activity_weekly.svg[Weekly commit
 activity per group]
-* link:http://157.230.24.69/release_activity_weekly.svg[Weekly release
+* link:http://46.101.243.88/release_activity_weekly.svg[Weekly release
 activity per group]
 
 === Recordings
