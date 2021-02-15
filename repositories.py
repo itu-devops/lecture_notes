@@ -77,6 +77,13 @@ GROUP_REPOS = [
         "http(s)://<TBA>/<APIURL>",
     ],
     [
+        "group m",
+        "Cool Beans",
+        ["https://github.com/notaduck/DevOps_ITU"],
+        "http(s)://<TBA>/<FrontEndURL>",
+        "http(s)://<TBA>/<APIURL>",
+    ],
+    [
         "group l",
         "AJKPT",
         ["https://github.com/heyjoakim/devops-21"],
