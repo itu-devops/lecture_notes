@@ -83,4 +83,11 @@ GROUP_REPOS = [
         "http(s)://<TBA>/<FrontEndURL>",
         "http(s)://<TBA>/<APIURL>",
     ],
+    [
+        "group m",
+        "Serverless Teaching Assistant",
+        ["https://github.com/banksdev/minitwit-serverless"],
+        "https(s)://<TBA>/<FrontEndURL>",
+        "https://europe-west1-minitwit-serverless.cloudfunctions.net"
+    ]
 ]
