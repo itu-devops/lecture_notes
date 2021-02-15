@@ -18,58 +18,59 @@ Software Maintenance Content" at IT University of Copenhagen, spring
 === Schedule
 
 Sessions (lectures combined with exercises) are on Mondays from 8:00
-to 12:00 on Zoom. In case we can meet physically again, we will meet in Aud 0 (0A27) for the lecture and in rooms 2A12-14, 3A12-14 afterwards. We will let you know, for now all lectures are scheduled to take place online.
+to 12:00 on link:https://itucph.zoom.us/j/68426961372[Zoom]
+// In case we can meet physically again, we will meet in Aud 0 (0A27) for the lecture and in rooms 2A12-14, 3A12-14 afterwards. We will let you know, for now all lectures are scheduled to take place online.
 
 *OBS*: We expect you to be present during the entire time, not only the first two hours.
 
 .Course schedule *Note*: While times are locked, the topics are subject to change.
-[width="100%",cols="4%,4%,5%,3%,3%,4%,38%,39%",options="header",]
+[width="100%",cols="4%,4%,4%,3%,4%,30%,17%,30%",options="header",]
 |=======================================================================
-|# |Date |Time |Lecturer |Zoom |Preparation |Topic |Project Work
+|# |Date |Time |Lecturer |Preparation |Topic |Exercises |Project Work
 // w5
 |1
 |1/2
 |8:00 - 12:00
 |Helge
-|link:https://itucph.zoom.us/j/68426961372[Zoom room]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_01/README_PREP.md[Prep. material]
-|link:https://github.com/HelgeCPH/devops_evo_main_intern_mirror/blob/master/sessions/session_01/Session%201.ipynb[Project start, forming groups, SSH, SCP, and Bash]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_01/Session%201.ipynb[Project start, forming groups, SSH, SCP, and Bash]
+|
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_01/README_TASKS.md[Refactor _ITU-MiniTwit_ to work on modern system]
 // w6
 |2
 |8/2
 |8:00 - 12:00
 |Helge
-|link:https://itucph.zoom.us/j/68426961372[Zoom room]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_02/README_PREP.md[Prep. material]
-|link:https://github.com/HelgeCPH/devops_evo_main_intern_mirror/blob/master/sessions/session_02/Session%202.ipynb[Version control systems (Git), branching strategies, and collaborative development workflows]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_02/Session%202.ipynb[Version control systems (Git), branching strategies, and collaborative development workflows]
+|
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_02/README_TASKS.md[Refactor _ITU-MiniTwit_ in another programming language and tech. stack]
 // w7
 |3
 |15/2
 |8:00 - 12:00
 |Helge
-|link:https://itucph.zoom.us/j/68426961372[Zoom room]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_03/README_PREP.md[Prep. material]
-|Virtualization via containers and virtual machines
-|Introduction of DB abstraction layer and deployment of your _ITU-MiniTwit_ to a remote server
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_03/Session%203.ipynb[Virtualization via containers and virtual machines]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_03/README_EXERCISE.md[Using Vagrant and Docker]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_03/README_TASKS.md[Continue refactoring, introduction of DB abstraction layer, and deployment of your _ITU-MiniTwit_ to a remote server.]
 // w8
 |4
 |22/2
 |8:00 - 12:00
 |Helge
-|link:https://itucph.zoom.us/j/68426961372[Zoom room]
-|
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/README_PREP.md[Prep. material]
 |Continuous Integration (CI), Continuous Delivery (CD), and Continuous Deployment
+|
 |Setup CI & CD for reproducible builds, tests, delivery, and deployment (*Simulator starts*)
 // w9
 |5
 |1/3
 |8:00 - 12:00
 |Sofus (Eficode) & Helge
-|link:https://itucph.zoom.us/j/68426961372[Zoom room]
 |
-|What is DevOps and techniques for division of subsystems
+|Guest lecture, what is DevOps, and techniques for division of subsystems
+|
 |Cleaning and polishing of your _ITU-MiniTwit_ and refactoring for clean subsystem interfaces
 // Simulator starts for sure
 
@@ -78,81 +79,81 @@ to 12:00 on Zoom. In case we can meet physically again, we will meet in Aud 0 (0
 |8/3
 |8:00 - 12:00
 |Helge
-|link:https://itucph.zoom.us/j/68426961372[Zoom room]
 |
 |Monitoring
+|
 |Add monitoring to your _ITU-MiniTwit_
 // w11
 |7
 |15/3
 |8:00 - 12:00
 |Helge
-|link:https://itucph.zoom.us/j/68426961372[Zoom room]
 |
 |Software Quality, Maintainability & Technical Debt
+|
 |Enhancing CI/CD setup with static code analysis
 // w12
 |8
 |22/3
 |8:00 - 12:00
-|Mircea
-|link:https://itucph.zoom.us/j/68426961372[Zoom room]
+|Alexander (Bird&Bird), Mircea
 |
-|Service-level agreements, logging and log analysis
+|Guest lecture (@11:00 on Software Licensing), Service-level agreements, logging, and log analysis
+|
 |Add logging to your _ITU-MiniTwit_ and create a set of SLAs for it
 // w13
 |9
 |29/3
 |8:00 - 12:00
 |Mircea
-|link:https://itucph.zoom.us/j/68426961372[Zoom room]
 |
 |Deployment strategies, scalability, load balancing
+|
 |Isolate components into services/containers/VMs
 // w14
 |–
 |5/4
 |-
-|–
 |-
 |-
 |Easter Break
+|-
 | Operations & maintenance still reacting on issue reports and fixing of errors :)
 // w15
 |10
 |12/4
 |8:00 - 12:00
 |Mircea
-|link:https://itucph.zoom.us/j/68426961372[Zoom room]
 |
 |Workshop
+|
 |Continue isolation of components into services/containers/VMs and Fix reported problems
 // w16
 |11
 |19/4
 |8:00 - 12:00
 |Mircea
-|link:https://itucph.zoom.us/j/68426961372[Zoom room]
 |
 |Security of web-facing applications
+|
 |Perform security review of another group’s system & Post-mortem on you own system
 // w17
 |12
 |26/4
 |8:00 - 12:00
 |Mircea
-|link:https://itucph.zoom.us/j/68426961372[Zoom room]
 |
 |Infrastructure as Code
+|
 |Encode your infrastructure setup
 // w18
 |13
 |3/5
 |8:00 - 12:00
 |Mircea
-|link:https://itucph.zoom.us/j/68426961372[Zoom room]
 |
 |Documentation of Systems and projects & Wrap-up
+|
 |*Simulator stops*. Write report.
 // w19
 |14
@@ -194,11 +195,11 @@ group]
 
 ==== Activity Dashboard
 
-* link:http://<TBA>/commit_activity_daily.svg[TBA: Daily commit activity
+* link:http://157.230.24.69/commit_activity_daily.svg[Daily commit activity
 per group]
-* link:http://<TBA>/commit_activity_weekly.svg[TBA: Weekly commit
+* link:http://157.230.24.69/commit_activity_weekly.svg[Weekly commit
 activity per group]
-* link:http://<TBA>/release_activity_weekly.svg[TBA: Weekly release
+* link:http://157.230.24.69/release_activity_weekly.svg[Weekly release
 activity per group]
 
 === Recordings
