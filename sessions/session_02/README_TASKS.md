@@ -36,7 +36,7 @@ If I were in your position, I would consider one of the following:
   - [Crystal](https://crystal-lang.org) with [Kemal](https://kemalcr.com)
   - [Elixir](https://elixir-lang.org) with [Phoenix](https://www.phoenixframework.org)
   - [Nim](https://nim-lang.org) with [Jester](https://github.com/dom96/jester)
-  - [Ruby](https://www.ruby-lang.org) with [Sinatra](sinatrarb.com)
+  - [Ruby](https://www.ruby-lang.org) with [Sinatra](http://sinatrarb.com/)
 
 In case you choose Python as your implementation language you have to build a solution that does not rely on the Flask framework.
 
@@ -44,7 +44,7 @@ In case you choose Python as your implementation language you have to build a so
 **OBS MSc students**: Remember to log and provide good arguments for the choice of programming language and framework. Likely, a feature mapping/comparison or a mini-benchmark is a good choice.
 
 
-Prepare a new release with a first version of your rewritten version of your _ITU-MiniTwit_ latest by **Sunday Feb 7th, at 22:00**)
+Prepare a new release with a first version of your rewritten version of your _ITU-MiniTwit_ latest by **Sunday Feb 14th, at 22:00**)
 
 Use your programming-fu and not your Google-fu! First, you will learn the most by doing so and second, we will setup and continuously run a copy-and-paste detection (CPD) tool that compares your systems to those of the other groups and last year's groups ;).
 
