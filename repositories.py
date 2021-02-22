@@ -45,8 +45,8 @@ GROUP_REPOS = [
         "group g",
         "Group G",
         ["https://github.com/JonasWG/ITU-DevOps"],
-        "http(s)://<TBA>/<FrontEndURL>",
-        "http(s)://<TBA>/<APIURL>",
+        "http://188.166.193.132:8080",
+        "http://188.166.193.132:8081",
     ],
     [
         "group h",
