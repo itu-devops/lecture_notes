@@ -60,15 +60,15 @@ to 12:00 on link:https://itucph.zoom.us/j/68426961372[Zoom]
 |8:00 - 12:00
 |Helge
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/README_PREP.md[Prep. material]
-|Continuous Integration (CI), Continuous Delivery (CD), and Continuous Deployment
-|
-|Setup CI & CD for reproducible builds, tests, delivery, and deployment (*Simulator starts*)
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/Session%204.ipynb[Continuous Integration (CI), Continuous Delivery (CD), and Continuous Deployment]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/README_EXERCISE.md[Using Travis CI]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/README_TASKS.md[Setup CI & CD for reproducible builds, tests, delivery, and deployment (*Simulator starts*)]
 // w9
 |5
 |1/3
 |8:00 - 12:00
-|Sofus (Eficode) & Helge
-|
+|Sofus (Eficode Praqma) & Helge
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_05/README_PREP.md[Prep. material]
 |Guest lecture, what is DevOps, and techniques for division of subsystems
 |
 |Cleaning and polishing of your _ITU-MiniTwit_ and refactoring for clean subsystem interfaces
@@ -245,13 +245,13 @@ Outside teaching sessions you can communicate with each other, the TAs and the t
   * Group f _Group Fibonacci_ `lous`, `laulu`, `nanm`, `magl`, `vigp`
   * Group g _Group G_ `sewa`, `rdmo`, `alfr`, `jgoh`, `vlcr`
   * Group h _Neutral_ `arov`, `rade`, `frvo`, `abax`, `jsjo`
-  * Group l _AJKPT_ `asse`, `jhhi`, `kols`, `pebu`, `thta`
+  * Group l _AJKPT_ `asse`, `jhhi`, `kols`, `pebu`, `thta`, `magjo`
 
 
 ==== Ungrouped yet
 
 *BSc*: `guri`, `marti`
-*MSc*: `aene`, `ddel`, `magjo`, `jobo`, `krif`
+*MSc*: `aene`, `ddel`, `jobo`, `krif`
 
 
 
