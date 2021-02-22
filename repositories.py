@@ -80,8 +80,8 @@ GROUP_REPOS = [
         "group m",
         "Cool Beans",
         ["https://github.com/notaduck/DevOps_ITU"],
-        "http(s)://<TBA>/<FrontEndURL>",
-        "http(s)://<TBA>/<APIURL>",
+        "http://minitwititu.xyz",
+        "http://api.minitwititu.xyz",
     ],
     [
         "group l",
