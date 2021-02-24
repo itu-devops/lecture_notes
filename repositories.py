@@ -38,8 +38,8 @@ GROUP_REPOS = [
         "group f",
         "Group Fibonacci",
         ["https://github.com/lauralunddahl/DevOps-GroupF"],
-        "http(s)://<TBA>/<FrontEndURL>",
-        "http(s)://<TBA>/<APIURL>",
+        "http://164.90.254.78:8080",
+        "http://164.90.254.78:8080",
     ],
     [
         "group g",
