@@ -31,8 +31,8 @@ GROUP_REPOS = [
         "group e",
         "group e",
         ["https://github.com/LVOL98/E-vil-Corp/"],
-        "http(s)://<TBA>/<FrontEndURL>",
-        "http(s)://<TBA>/<APIURL>",
+        "http://144.126.244.161:5000",
+        "http://144.126.244.161:5010",
     ],
     [
         "group f",
