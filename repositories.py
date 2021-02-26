@@ -20,13 +20,13 @@ GROUP_REPOS = [
         "http(s)://<TBA>/<FrontEndURL>",
         "http(s)://<TBA>/<APIURL>",
     ],
-    # [
-    #     "group d",
-    #     "<Name>",
-    #     ["https://github.com/<TBA>"],
-    #     "http(s)://<TBA>/<FrontEndURL>",
-    #     "http(s)://<TBA>/<APIURL>",
-    # ],
+     [
+         "group d",
+         "Cool Beans",
+         ["https://github.com/notaduck/DevOps_ITU"],
+         "http://minitwititu.xyz",
+         "http://api.minitwititu.xyz",
+     ],
     [
         "group e",
         "group e",
@@ -75,13 +75,6 @@ GROUP_REPOS = [
         ["https://github.com/themagicstrings/twooter"],
         "http(s)://<TBA>/<FrontEndURL>",
         "http(s)://<TBA>/<APIURL>",
-    ],
-    [
-        "group m",
-        "Cool Beans",
-        ["https://github.com/notaduck/DevOps_ITU"],
-        "http://minitwititu.xyz",
-        "http://api.minitwititu.xyz",
     ],
     [
         "group l",
