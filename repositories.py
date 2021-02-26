@@ -73,8 +73,8 @@ GROUP_REPOS = [
         "group k",
         "TheMagicStrings",
         ["https://github.com/themagicstrings/twooter"],
-        "http(s)://<TBA>/<FrontEndURL>",
-        "http(s)://<TBA>/<APIURL>",
+        "http://twooter.hojelse.com",
+        "http://twooter.hojelse.com",
     ],
     [
         "group l",
