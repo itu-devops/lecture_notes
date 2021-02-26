@@ -10,8 +10,8 @@ GROUP_REPOS = [
         "group b",
         "b",
         ["https://github.com/JesperFalkenberg/devops2021"],
-        "http(s)://<TBA>/<FrontEndURL>",
-        "http(s)://<TBA>/<APIURL>",
+        "http://144.126.244.138:4567/",
+        "http://144.126.244.138:4567/",
     ],
     [
         "group c",
