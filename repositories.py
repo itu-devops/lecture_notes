@@ -17,8 +17,8 @@ GROUP_REPOS = [
         "group c",
         "C",
         ["https://github.com/AndersStendevad/DevOpsData"],
-        "http://134.209.231.63:8000/",
-        "http://134.209.231.63:8080/",
+        "http://157.230.77.141:8000/",
+        "http://157.230.77.141:8080/",
     ],
     [
         "group d",
