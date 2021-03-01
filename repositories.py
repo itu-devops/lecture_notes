@@ -66,8 +66,8 @@ GROUP_REPOS = [
         "group j",
         "Python Kindergarten",
         ["https://github.com/jokk-itu/PythonKindergarten"],
-        "https://pythonkindergarten.tech:5001",
-        "https://pythonkindergarten.tech:5001",
+        "https://pythonkindergarten.tech",
+        "https://pythonkindergarten.tech",
     ],
     [
         "group k",
