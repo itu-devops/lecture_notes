@@ -3,8 +3,8 @@ GROUP_REPOS = [
         "group a",
         "<Name>",
         ["https://github.com/Niels-Frederik/MiniTwit"],
-        "http(s)://<TBA>/<FrontEndURL>",
-        "http(s)://<TBA>/<APIURL>",
+        "http://161.35.214.217:3000",
+        "http://161.35.214.217:5001",
     ],
     [
         "group b",
@@ -17,8 +17,8 @@ GROUP_REPOS = [
         "group c",
         "C",
         ["https://github.com/AndersStendevad/DevOpsData"],
-        "http://134.209.231.63:8000/",
-        "http://134.209.231.63:8080/",
+        "http://157.230.77.141:8000/",
+        "http://157.230.77.141:8080/",
     ],
     [
         "group d",
