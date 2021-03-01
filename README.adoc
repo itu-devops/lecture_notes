@@ -67,11 +67,13 @@ to 12:00 on link:https://itucph.zoom.us/j/68426961372[Zoom]
 |5
 |1/3
 |8:00 - 12:00
-|Sofus (Eficode Praqma) & Helge
+|Sofus (Eficode) & Helge
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_05/README_PREP.md[Prep. material]
-|Guest lecture, what is DevOps, and techniques for division of subsystems
+|Guest lecture & What is DevOps
+// , and techniques for division of subsystems
 |
-|Cleaning and polishing of your _ITU-MiniTwit_ and refactoring for clean subsystem interfaces
+|Cleaning and polishing of your _ITU-MiniTwit_ and entering maintenance
+// refactoring for clean subsystem interfaces
 // Simulator starts for sure
 
 // w10
@@ -190,7 +192,7 @@ The signup table for the next week will be marked in yellow in the sheet. On Mon
 
 ==== Simulator Status Dashboard
 
-* link:http://<TBA>/status.html[TBA: Status and simulator API errors per
+* link:http://138.68.93.2/status.html[Status and simulator API errors per
 group]
 
 ==== Activity Dashboard
