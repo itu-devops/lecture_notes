@@ -59,7 +59,7 @@ GROUP_REPOS = [
         "group i",
         "Mike",
         ["https://github.com/SanderBuK/DevOpsMinitwit"],
-        "http(s)://<TBA>/<FrontEndURL>",
+        "http://174.138.104.119:8001/",
         "http://174.138.104.119:5001",
     ],
     [
