@@ -247,7 +247,7 @@ Outside teaching sessions you can communicate with each other, the TAs and the t
   * Group f _Group Fibonacci_ `lous`, `laulu`, `nanm`, `magl`, `vigp`
   * Group g _Group G_ `sewa`, `rdmo`, `alfr`, `jgoh`, `vlcr`
   * Group h _Neutral_ `arov`, `rade`, `frvo`, `abax`, `jsjo`
-  * Group l _AJKPT_ `asse`, `jhhi`, `kols`, `pebu`, `thta`, `magjo`
+  * Group l _AJKPT_ `asse`, `jhhi`, `kols`, `pebu`, `thta`
 
 
 ==== Ungrouped yet
