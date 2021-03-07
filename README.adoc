@@ -82,15 +82,15 @@ to 12:00 on link:https://itucph.zoom.us/j/68426961372[Zoom]
 |8:00 - 12:00
 |Helge
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_06/README_PREP.md[Prep. material]
-|Monitoring
-|
-|Add monitoring to your _ITU-MiniTwit_
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_06/Session%206.ipynb[Monitoring]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_06/README_EXERCISE.md[Using Prometheus and Grafana]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_06/README_TASKS.md[Add monitoring to your _ITU-MiniTwit_]
 // w11
 |7
 |15/3
 |8:00 - 12:00
 |Helge
-|
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_07/README_PREP.md[Prep. material]
 |Software Quality, Maintainability & Technical Debt
 |
 |Enhancing CI/CD setup with static code analysis
