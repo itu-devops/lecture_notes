@@ -33,6 +33,44 @@ For example, you will be able to see status and potential errors as the simulato
 Continue to release (now likely automatically) at least once per week versions of your system with corresponding fixes.
 
 
+## Software Maintenance II
+
+In case you have not done so yet, check the user interface of another group's _ITU-MiniTwit_ application for functionality. That is, connect via a browser to another group's application and check if the system is working similar to the original _ITU-MiniTwit_, i.e.,
+
+  * Do you see a public timeline?
+  * Does the public timeline show messages that the application received from the simulator?
+  * Can you create a new user?
+  * Can you login as a new user?
+  * Can you write a message?
+  * After publishing a message, does it appear on you private timeline?
+  * Can you follow another user?
+
+In case you find non-functional/erroneous behavior please report it via issues to the respective Github repositories (find them in [`repositories.py`](https://github.com/itu-devops/lecture_notes/blob/master/repositories.py)).
+
+**Do not** send requests to the simulator API of the other group. It is really only meant for the simulator (behave nicely towards the other group!). In case you want to make sure that non of the other groups sends requests to the simulator API of your group, you might want to only accept connections from the simulator server, which has the IP `138.68.93.2`.
+
+Please find which group's user interface you are checking in the list below. Find your own group on the left-hand side and the name of the group your are checking behind the arrow. You will find the URL of the _ITU-MiniTwit_ application from the respective group in file [`repositories.py`](https://github.com/itu-devops/lecture_notes/blob/master/repositories.py) (first of the two given URLs).
+
+
+### Who checks whom?
+
+#### BSc
+
+  * Group a <Name> -> Group c <Name>
+  * Group c <Name> -> Group e _group e_
+  * Group e _group e_ -> Group i _??_
+  * Group i _??_ -> Group j _Python Kindergarten_
+  * Group j _Python Kindergarten_ -> Group k _TheMagicStrings_
+  * Group k _TheMagicStrings_ -> Group d _Cool Beans_
+  * Group d _Cool Beans_ -> Group a <Name>
+
+#### MSc
+
+  * Group b _b_ -> Group f _Group Fibonacci_
+  * Group f _Group Fibonacci_ -> Group g _Group G_
+  * Group g _Group G_ -> Group h _Neutral_
+  * Group h _Neutral_ -> Group l _AJKPT_
+  * Group l _AJKPT_ -> Group b _b_
 
 
 
