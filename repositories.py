@@ -30,7 +30,7 @@ GROUP_REPOS = [
     [
         "group e",
         "Group E",
-        ["https://github.com/LVOL98/E-vil-Corp/", "https://github.com/gustavjohansen98/E-vil-Corp/"],
+        ["https://github.com/gustavjohansen98/E-vil-Corp/"],
         "http://159.89.213.38:5000",
         "http://159.89.213.38:5010",
     ],
