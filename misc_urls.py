@@ -33,9 +33,9 @@ GROUP_URLS = [
     ],
     [
         "group e",
-        "<Name>",
+        "E-vil Corp",
         # Monitoring URL:
-        "http(s)://<TBA>/",
+        "159.89.213.38:3000/",
         # Security report URL:
         "http(s)://<TBA>/",
     ],
