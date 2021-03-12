@@ -52,8 +52,8 @@ GROUP_REPOS = [
         "group h",
         "Neutrals",
         ["https://github.com/albertbethlowsky/DevOpsGroupH"],
-        "https://minitwit-neutrals.azurewebsites.net",
-        "https://minitwit-neutrals.azurewebsites.net",
+        "https://neutrals-minitwit.azurewebsites.net",
+        "https://neutrals-minitwit.azurewebsites.net",
     ],
     [
         "group i",
