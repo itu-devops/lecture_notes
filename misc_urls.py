@@ -73,9 +73,9 @@ GROUP_URLS = [
     ],
     [
         "group j",
-        "<Name>",
+        "PythonKindergarten",
         # Monitoring URL:
-        "http(s)://<TBA>/",
+        "http://pythonkindergarten.tech:3000",
         # Security report URL:
         "http(s)://<TBA>/",
     ],
