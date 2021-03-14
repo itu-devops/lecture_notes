@@ -89,9 +89,11 @@ GROUP_URLS = [
     ],
     [
         "group l",
-        "<Name>",
+        "AJKPT",
+        # Dashboard name:
+        "Prometheus 2.0 Stats",
         # Monitoring URL:
-        "http(s)://<TBA>",
+        "http://164.90.165.111:3000/",
         # Security report URL:
         "http(s)://<TBA>/",
     ],
