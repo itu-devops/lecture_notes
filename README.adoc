@@ -91,7 +91,7 @@ to 12:00 on link:https://itucph.zoom.us/j/68426961372[Zoom]
 |8:00 - 12:00
 |Helge
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_07/README_PREP.md[Prep. material]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_06/Session%2007.ipynb[Software Quality, Maintainability & Technical Debt]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_07/Session%2007.ipynb[Software Quality, Maintainability & Technical Debt]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_07/README_EXERCISE.md[Add and understand SonarQube Quality Model]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_07/README_TASKS.md[Enhancing CI/CD setup with static code analysis]
 // w12
