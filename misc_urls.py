@@ -11,7 +11,7 @@ GROUP_URLS = [
         "group b",
         "<Name>",
         # Monitoring URL:
-        "http(s)://<TBA>/",
+        "http://144.126.244.138:3000",
         # Security report URL:
         "http(s)://<TBA>/",
     ],
@@ -33,9 +33,9 @@ GROUP_URLS = [
     ],
     [
         "group e",
-        "<Name>",
+        "E-vil Corp",
         # Monitoring URL:
-        "http(s)://<TBA>/",
+        "159.89.213.38:3000/",
         # Security report URL:
         "http(s)://<TBA>/",
     ],
@@ -73,9 +73,9 @@ GROUP_URLS = [
     ],
     [
         "group j",
-        "<Name>",
+        "PythonKindergarten",
         # Monitoring URL:
-        "http(s)://<TBA>/",
+        "http://pythonkindergarten.tech:3000",
         # Security report URL:
         "http(s)://<TBA>/",
     ],
@@ -89,9 +89,11 @@ GROUP_URLS = [
     ],
     [
         "group l",
-        "<Name>",
+        "AJKPT",
+        # Dashboard name:
+        "Prometheus 2.0 Stats",
         # Monitoring URL:
-        "http(s)://<TBA>",
+        "http://164.90.165.111:3000/",
         # Security report URL:
         "http(s)://<TBA>/",
     ],

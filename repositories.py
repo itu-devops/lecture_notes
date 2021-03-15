@@ -30,8 +30,8 @@ GROUP_REPOS = [
     [
         "group e",
         "Group E",
-        ["https://github.com/LVOL98/E-vil-Corp/"],
-        "http://144.126.244.161:5000",
+        ["https://github.com/LVOL98/E-vil-Corp/", "https://github.com/gustavjohansen98/E-vil-Corp/"],
+        "http://159.89.213.38:5000",
         "http://159.89.213.38:5010",
     ],
     [
@@ -39,7 +39,7 @@ GROUP_REPOS = [
         "Group Fibonacci",
         ["https://github.com/lauralunddahl/DevOps-GroupF"],
         "http://164.90.254.78:8080",
-        "http://164.90.254.78:8080",
+        "http://164.90.254.78:9090",
     ],
     [
         "group g",
@@ -52,8 +52,8 @@ GROUP_REPOS = [
         "group h",
         "Neutrals",
         ["https://github.com/albertbethlowsky/DevOpsGroupH"],
-        "https://minitwit-neutrals.azurewebsites.net",
-        "https://minitwit-neutrals.azurewebsites.net",
+        "https://neutrals-minitwit.azurewebsites.net",
+        "https://neutrals-minitwit.azurewebsites.net",
     ],
     [
         "group i",
