@@ -25,9 +25,9 @@ GROUP_URLS = [
     ],
     [
         "group d",
-        "<Name>",
+        "Cool Beans",
         # Monitoring URL:
-        "http(s)://<TBA>/",
+        "http://minitwititu.xyz:3000/",
         # Security report URL:
         "http(s)://<TBA>/",
     ],
