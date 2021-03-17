@@ -9,7 +9,7 @@ How do you find out this info?
 
 Please provide your answers in the [Endpoint Performance Quiz](https://docs.google.com/forms/d/1HpGn7KnHeq2-Ivebk8ghQ942gi7wh2-0iXJouPzIvNY/edit)
 
-Note: s Helge mentioned in class, the project is not about competiting who has a faster implementation. However, in the real world you'd want to know this info because it's very likely that you would want to find optimization candidates among your slowest endpoints.
+Note: As Helge mentioned in class, the project is not about competiting who has a faster implementation. However, in the real world you usually want to know performance information because it's very likely that you will look for optimization candidates among your slowest endpoints.
 
 
 
@@ -23,7 +23,7 @@ Read the following two service license agreements (SLAs):
 - https://azure.microsoft.com/en-us/support/legal/sla/machine-learning-service/v1_0/)
 
 What can you learn from them if you were to write an SLA for your own API? 
-Is there any metric that they use that would be relevant also for your API's SLA? 
+Is there any metric in the two SLAs above that would be relevant for your own API SLA? 
 
 
 ## Stand Up Meetings
