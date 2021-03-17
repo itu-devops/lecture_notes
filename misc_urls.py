@@ -3,7 +3,7 @@ GROUP_URLS = [
         "group a",
         "<Name>",
         # Monitoring URL:
-        "http(s)://<TBA>/",
+        "http://161.35.214.217:3001",
         # Security report URL:
         "http(s)://<TBA>/",
     ],
