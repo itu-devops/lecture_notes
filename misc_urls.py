@@ -41,9 +41,9 @@ GROUP_URLS = [
     ],
     [
         "group f",
-        "<Name>",
+        "fibonacci",
         # Monitoring URL:
-        "http(s)://<TBA>/",
+        "http://164.90.254.78:3000/",
         # Security report URL:
         "http(s)://<TBA>/",
     ],
