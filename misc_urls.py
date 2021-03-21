@@ -17,9 +17,9 @@ GROUP_URLS = [
     ],
     [
         "group c",
-        "<Name>",
+        "Trust the process",
         # Monitoring URL:
-        "http(s)://<TBA>/",
+        "http://157.230.77.141:3000/",
         # Security report URL:
         "http(s)://<TBA>/",
     ],
