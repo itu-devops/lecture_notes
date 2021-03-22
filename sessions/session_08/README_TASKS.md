@@ -17,11 +17,6 @@ In any case, please make the logging infrastructure available also for us. Add t
   - password: -lEtMEIn-
 
 
-Staff TODO:
-
-- discuss this
-- add corresponding sections in the `misc_urls.py`.
-
 
 ## 2) Test that Your Logging Works
 
@@ -40,12 +35,6 @@ Add it to your repo under /docs
 
 Imagine that another team might want to build their Web frontend on top of your own API. They would need some guarantees. What guarantees can you offer? Write an SLA for your API. Add it as `SLA.md` to your repo and add it to also to the `misc_urls.py` in the corresponding section "SLA URL". 
 Next week every team will get the chance to read three SLAs and rank the one they think is the most well thought out. Make sure that it's the best you can offer, and that it's clear. At the same time, try to aim for something that's realistic; don't overpromise.
-
-Staff TODO
-
-- dicuss this
-- add corresponding sections in the `misc_urls.py`.
-
 
 
 
