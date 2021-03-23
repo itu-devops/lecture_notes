@@ -15,8 +15,8 @@ GROUP_REPOS = [
     ],
     [
         "group c",
-        "C",
-        ["https://github.com/AndersStendevad/DevOpsData"],
+        "Trust the process",
+        ["https://github.com/AndersStendevad/DevOpsData", "https://github.com/Whitesheep18/DevOpsData_deployment"],
         "http://157.230.77.141:8000",
         "http://157.230.77.141:8080",
     ],
