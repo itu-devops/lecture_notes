@@ -81,9 +81,9 @@ GROUP_URLS = [
     ],
     [
         "group k",
-        "<Name>",
+        "TheMagicStrings",
         # Monitoring URL:
-        "http(s)://<TBA>/",
+        "http://174.138.104.209:3000",
         # Security report URL:
         "http(s)://<TBA>/",
     ],
