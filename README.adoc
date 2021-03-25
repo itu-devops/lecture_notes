@@ -108,8 +108,8 @@ to 12:00 on link:https://itucph.zoom.us/j/68426961372[Zoom]
 |29/3
 |8:00 - 12:00
 |Mircea
-|
-|Deployment strategies, scalability, load balancing
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_09/README_PREP.md[Prep. material]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_09/Session09-Scaling.ipynb[Deployment strategies, scalability, load balancing.]
 |
 |Isolate components into services/containers/VMs
 // w14
