@@ -78,6 +78,8 @@ GROUP_URLS = [
         "http://pythonkindergarten.tech:3000",
         # Security report URL:
         "http(s)://<TBA>/",
+        # Logging URL:
+        "http://161.35.215.154:5601/app/kibana#/dashboard/1a6b92b0-8ee3-11eb-aafa-1d684dda3ce2",
     ],
     [
         "group k",
