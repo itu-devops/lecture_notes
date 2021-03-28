@@ -59,7 +59,7 @@ GROUP_URLS = [
         "group h",
         "<Name>",
         # Monitoring URL:
-        "http(s)://<TBA>/",
+        "https://minitwit-neutrals.azurewebsites.net/",
         # Security report URL:
         "http(s)://<TBA>/",
     ],
