@@ -68,6 +68,8 @@ GROUP_URLS = [
         "Mike",
         # Monitoring URL:
         "http://174.138.104.119:3000/",
+        # SLA URL:
+        "https://github.com/SanderBuK/DevOpsMinitwit/blob/main/SLA.md",
         # Security report URL:
         "http(s)://<TBA>/",
     ],
