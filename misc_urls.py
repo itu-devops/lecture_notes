@@ -46,6 +46,8 @@ GROUP_URLS = [
         "http://164.90.254.78:3000/",
         # Security report URL:
         "http(s)://<TBA>/",
+        # SLA URL:
+        "https://github.com/lauralunddahl/DevOps-GroupF/blob/dev/SLA.md"
     ],
     [
         "group g",
