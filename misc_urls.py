@@ -3,7 +3,7 @@ GROUP_URLS = [
         "group a",
         "<Name>",
         # Monitoring URL:
-        "http(s)://<TBA>/",
+        "http://161.35.214.217:3001",
         # Security report URL:
         "http(s)://<TBA>/",
     ],
@@ -11,41 +11,43 @@ GROUP_URLS = [
         "group b",
         "<Name>",
         # Monitoring URL:
-        "http(s)://<TBA>/",
+        "http://144.126.244.138:3000",
         # Security report URL:
         "http(s)://<TBA>/",
     ],
     [
         "group c",
-        "<Name>",
+        "Trust the process",
         # Monitoring URL:
-        "http(s)://<TBA>/",
+        "http://157.230.77.141:3000/",
         # Security report URL:
         "http(s)://<TBA>/",
     ],
     [
         "group d",
-        "<Name>",
+        "Cool Beans",
         # Monitoring URL:
-        "http(s)://<TBA>/",
+        "http://minitwititu.xyz:3000/",
         # Security report URL:
         "http(s)://<TBA>/",
     ],
     [
         "group e",
-        "<Name>",
+        "E-vil Corp",
         # Monitoring URL:
-        "http(s)://<TBA>/",
+        "159.89.213.38:3000/",
         # Security report URL:
         "http(s)://<TBA>/",
     ],
     [
         "group f",
-        "<Name>",
+        "fibonacci",
         # Monitoring URL:
-        "http(s)://<TBA>/",
+        "http://164.90.254.78:3000/",
         # Security report URL:
         "http(s)://<TBA>/",
+        # SLA URL:
+        "https://github.com/lauralunddahl/DevOps-GroupF/blob/dev/SLA.md"
     ],
     [
         "group g",
@@ -59,39 +61,47 @@ GROUP_URLS = [
         "group h",
         "<Name>",
         # Monitoring URL:
-        "http(s)://<TBA>/",
+        "https://minitwit-neutrals.azurewebsites.net/",
         # Security report URL:
         "http(s)://<TBA>/",
     ],
     [
         "group i",
-        "<Name>",
+        "Mike",
         # Monitoring URL:
-        "http(s)://<TBA>/",
+        "http://174.138.104.119:3000/",
+        # SLA URL:
+        "https://github.com/SanderBuK/DevOpsMinitwit/blob/main/SLA.md",
         # Security report URL:
         "http(s)://<TBA>/",
     ],
     [
         "group j",
-        "<Name>",
+        "PythonKindergarten",
         # Monitoring URL:
-        "http(s)://<TBA>/",
+        "http://pythonkindergarten.tech:3000",
         # Security report URL:
         "http(s)://<TBA>/",
+        # Logging URL:
+        "http://161.35.215.154:5601/app/kibana#/dashboard/1a6b92b0-8ee3-11eb-aafa-1d684dda3ce2",
+        # SLA URL:
+        "https://github.com/jokk-itu/PythonKindergarten/blob/master/SLA.md",
     ],
     [
         "group k",
-        "<Name>",
+        "TheMagicStrings",
         # Monitoring URL:
-        "http(s)://<TBA>/",
+        "http://174.138.104.209:3000",
         # Security report URL:
         "http(s)://<TBA>/",
     ],
     [
         "group l",
-        "<Name>",
+        "AJKPT",
+        # Dashboard name:
+        "Prometheus 2.0 Stats",
         # Monitoring URL:
-        "http(s)://<TBA>",
+        "http://164.90.165.111:3000/",
         # Security report URL:
         "http(s)://<TBA>/",
     ],
