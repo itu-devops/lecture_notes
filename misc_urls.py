@@ -7,8 +7,11 @@ GROUP_URLS = [
         # Security report URL:
         "http(s)://<TBA>/",
         # Logging URL:
+        "http(s)://<TBA>/",
         # SLA Report:
+        "http(s)://<TBA>/",
         # SLA Review:
+        "http(s)://<TBA>/",
     ],
     [
         "group b",
@@ -18,8 +21,11 @@ GROUP_URLS = [
         # Security report URL:
         "http(s)://<TBA>/",
         # Logging URL:
+        "http(s)://<TBA>/",
         # SLA Report:
+        "http(s)://<TBA>/",
         # SLA Review:
+        "http(s)://<TBA>/",
     ],
     [
         "group c",
@@ -29,8 +35,11 @@ GROUP_URLS = [
         # Security report URL:
         "http(s)://<TBA>/",
         # Logging URL:
+        "http(s)://<TBA>/",
         # SLA Report:
+        "http(s)://<TBA>/",
         # SLA Review:
+        "http(s)://<TBA>/",
     ],
     [
         "group d",
@@ -40,8 +49,11 @@ GROUP_URLS = [
         # Security report URL:
         "http(s)://<TBA>/",
         # Logging URL:
+        "http(s)://<TBA>/",
         # SLA Report:
+        "http(s)://<TBA>/",
         # SLA Review:
+        "http(s)://<TBA>/",
     ],
     [
         "group e",
@@ -51,8 +63,11 @@ GROUP_URLS = [
         # Security report URL:
         "http(s)://<TBA>/",
         # Logging URL:
+        "http(s)://<TBA>/",
         # SLA Report:
+        "http(s)://<TBA>/",
         # SLA Review:
+        "http(s)://<TBA>/",
     ],
     [
         "group f",
@@ -62,9 +77,11 @@ GROUP_URLS = [
         # Security report URL:
         "http(s)://<TBA>/",
         # Logging URL:
+        "http(s)://<TBA>/",
         # SLA URL:
         "https://github.com/lauralunddahl/DevOps-GroupF/blob/dev/SLA.md"
         # SLA Review:
+        "http(s)://<TBA>/",
     ],
     [
         "group g",
@@ -74,8 +91,11 @@ GROUP_URLS = [
         # Security report URL:
         "http(s)://<TBA>/",
         # Logging URL:
+        "http(s)://<TBA>/",
         # SLA Report:
+        "http(s)://<TBA>/",
         # SLA Review:
+        "http(s)://<TBA>/",
     ],
     [
         "group h",
@@ -85,8 +105,11 @@ GROUP_URLS = [
         # Security report URL:
         "http(s)://<TBA>/",
         # Logging URL:
+        "http(s)://<TBA>/",
         # SLA Report:
+        "http(s)://<TBA>/",
         # SLA Review:
+        "http(s)://<TBA>/",
     ],
     [
         "group i",
@@ -96,9 +119,11 @@ GROUP_URLS = [
         # Security report URL:
         "http(s)://<TBA>/",
         # Logging URL:
+        "http(s)://<TBA>/",
         # SLA URL:
         "https://github.com/SanderBuK/DevOpsMinitwit/blob/main/SLA.md",
         # SLA Review:
+        "http(s)://<TBA>/",
     ],
     [
         "group j",
@@ -112,6 +137,7 @@ GROUP_URLS = [
         # SLA URL:
         "https://github.com/jokk-itu/PythonKindergarten/blob/master/SLA.md",
         # SLA Review:
+        "http(s)://<TBA>/",
     ],
     [
         "group k",
@@ -121,8 +147,11 @@ GROUP_URLS = [
         # Security report URL:
         "http(s)://<TBA>/",
         # Logging URL:
+        "http(s)://<TBA>/",
         # SLA Report:
+        "http(s)://<TBA>/",
         # SLA Review:
+        "http(s)://<TBA>/",
     ],
     [
         "group l",
@@ -132,7 +161,10 @@ GROUP_URLS = [
         # Security report URL:
         "http(s)://<TBA>/",
         # Logging URL:
+        "http(s)://<TBA>/",
         # SLA Report:
+        "http(s)://<TBA>/",
         # SLA Review:
+        "http(s)://<TBA>/",
     ],
 ]
