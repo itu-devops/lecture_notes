@@ -23,7 +23,7 @@ GROUP_URLS = [
         # Logging URL:
         "http(s)://<TBA>/",
         # SLA Report:
-        "http(s)://<TBA>/",
+        "https://github.com/DevOps2021-gb/devops2021/blob/main/SLA.md",
         # SLA Review:
         "http(s)://<TBA>/",
     ],
