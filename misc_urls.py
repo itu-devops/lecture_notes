@@ -119,7 +119,7 @@ GROUP_URLS = [
         # Security report URL:
         "http(s)://<TBA>/",
         # Logging URL:
-        "http(s)://<TBA>/",
+        "http://174.138.104.119:5601/",
         # SLA URL:
         "https://github.com/SanderBuK/DevOpsMinitwit/blob/main/SLA.md",
         # SLA Review:
