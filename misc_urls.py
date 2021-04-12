@@ -87,13 +87,13 @@ GROUP_URLS = [
         "group g",
         "<Name>",
         # Monitoring URL:
-        "http(s)://<TBA>/",
+        "188.166.193.132:3000/",
         # Security report URL:
         "http(s)://<TBA>/",
         # Logging URL:
         "http(s)://<TBA>/",
         # SLA Report:
-        "http(s)://<TBA>/",
+        "https://github.com/ITU-DevOps-Team/ITU-DevOps/blob/development/SLA.md",
         # SLA Review:
         "http(s)://<TBA>/",
     ],
