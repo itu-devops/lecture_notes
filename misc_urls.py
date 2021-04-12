@@ -63,9 +63,9 @@ GROUP_URLS = [
         # Security report URL:
         "http(s)://<TBA>/",
         # Logging URL:
-        "http(s)://<TBA>/",
+        "http://159.89.213.38:5601/app/home",
         # SLA Report:
-        "http(s)://<TBA>/",
+        "https://github.com/gustavjohansen98/E-vil-Corp/blob/main/SLA.md",
         # SLA Review:
         "http(s)://<TBA>/",
     ],
