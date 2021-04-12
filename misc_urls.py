@@ -21,9 +21,9 @@ GROUP_URLS = [
         # Security report URL:
         "http(s)://<TBA>/",
         # Logging URL:
-        "http(s)://<TBA>/",
+        "http://144.126.244.138:5601",
         # SLA Report:
-        "http(s)://<TBA>/",
+        "https://github.com/DevOps2021-gb/devops2021/blob/main/SLA.md",
         # SLA Review:
         "http(s)://<TBA>/",
     ],
