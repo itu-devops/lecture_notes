@@ -80,8 +80,8 @@ GROUP_REPOS = [
         "group l",
         "AJKPT",
         ["https://github.com/heyjoakim/devops-21"],
-        "https://minitwut.azurewebsites.net",
-        "https://minitwut.azurewebsites.net/api",
+        "http://206.189.14.172:8000",
+        "http://206.189.14.172:8000/api",
     ],
     [
         "group m",
