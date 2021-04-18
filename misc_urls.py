@@ -149,7 +149,7 @@ GROUP_URLS = [
         # Logging URL:
         "http://twooter.hojelse.com/logs",
         # SLA Report:
-        "http(s)://<TBA>/",
+        "https://github.com/themagicstrings/twooter/blob/main/SLA.md",
         # SLA Review:
         "http(s)://<TBA>/",
     ],
