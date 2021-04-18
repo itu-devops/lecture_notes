@@ -159,9 +159,9 @@ GROUP_URLS = [
         # Monitoring URL:
         "http://164.90.165.111:3000/", # Dashboard name=Prometheus 2.0 Stats
         # Security report URL:
-        "http(s)://<TBA>/",
+        "https://sonarcloud.io/dashboard?id=heyjoakim_devops-21&pullRequest=158",
         # Logging URL:
-        "http(s)://<TBA>/",
+        "https://app.datadoghq.com/logs/livetail",
         # SLA Report:
         "http(s)://<TBA>/",
         # SLA Review:
