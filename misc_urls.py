@@ -49,9 +49,9 @@ GROUP_URLS = [
         # Security report URL:
         "http(s)://<TBA>/",
         # Logging URL:
-        "http(s)://<TBA>/",
+        "http//:kibana.minitwititu.xyz",
         # SLA Report:
-        "http(s)://<TBA>/",
+        "https://github.com/notaduck/devops_itu/blob/main/SLA.md",
         # SLA Review:
         "http(s)://<TBA>/",
     ],
