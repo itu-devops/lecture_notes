@@ -147,7 +147,7 @@ GROUP_URLS = [
         # Security report URL:
         "http(s)://<TBA>/",
         # Logging URL:
-        "http(s)://<TBA>/",
+        "http://twooter.hojelse.com/logs",
         # SLA Report:
         "http(s)://<TBA>/",
         # SLA Review:
