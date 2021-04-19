@@ -136,9 +136,9 @@ to 12:00 on link:https://itucph.zoom.us/j/68426961372[Zoom]
 |8:00 - 12:00
 |Mircea
 |
-|Security of web-facing applications
-|
-|Perform security review of another group’s system & Post-mortem on you own system
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_11/Security.ipynb[Security of web-facing applications]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_11/README_EXERCISE.md[A Basic Pen-Test with Metasploit]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_11/README_TASKS.md[Security Assessment & Pen Testing]
 // w17
 |12
 |26/4

@@ -37,6 +37,6 @@ The following general steps will guide you through a security assessment. Consid
 
 
 
-## 3) [optional] White Hat Attack The Next Team
+## 3) White Hat Attack The Next Team
 
-If you have time, try to help your fellow colleagues by pen-testing also their system. Remember that the goal is to help not to hinder. 
+Try to help your fellow colleagues by pen-testing their system (group a-> group b, b->c, etc.). Remember that the goal is to help not to hinder.  Send them a report of what you find.
