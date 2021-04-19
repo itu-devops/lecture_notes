@@ -3,6 +3,8 @@ IP Address: `http://188.166.120.53/`
 
 Let's have a look at it!
 
+Run on Kali Linux.
+
 ---
 
 Let's install nmap - a port scanning tool:

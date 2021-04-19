@@ -30,9 +30,8 @@ The following general steps will guide you through a security assessment. Consid
 
 ## 2) Pen Test Your System
 
-- Try to find a vulnerability in your project
-- Run a tool or take one of the OWASP Top 10
-- Fix the vulnerability
+- Try to find a vulnerability in your project by using wmap, [zaproxy](https://www.zaproxy.org/getting-started/), or any of the tools in the [list of OWASP vulnerability scanning tools](https://owasp.org/www-community/Vulnerability_Scanning_Tools))
+- Fix the vulnerabilities that you find
 - Can you find the traces of the pen test in the logs?
 
 
