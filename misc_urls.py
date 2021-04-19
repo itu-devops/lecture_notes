@@ -105,9 +105,9 @@ GROUP_URLS = [
         # Security report URL:
         "http(s)://<TBA>/",
         # Logging URL:
-        "http(s)://<TBA>/",
+        "https://neutralsseq.azurewebsites.net/",
         # SLA Report:
-        "http(s)://<TBA>/",
+        "https://github.com/albertbethlowsky/DevOpsGroupH/blob/main/SLA.md",
         # SLA Review:
         "http(s)://<TBA>/",
     ],
