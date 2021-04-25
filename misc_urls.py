@@ -47,7 +47,7 @@ GROUP_URLS = [
         # Monitoring URL:
         "http://minitwititu.xyz:3000/",
         # Security report URL:
-        "http(s)://<TBA>/",
+        "https://github.com/notaduck/devops_itu/blob/main/Devops.pdf",
         # Logging URL:
         "http//:kibana.minitwititu.xyz",
         # SLA Report:
