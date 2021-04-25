@@ -61,7 +61,7 @@ GROUP_URLS = [
         # Monitoring URL:
         "159.89.213.38:3000/",
         # Security report URL:
-        "http(s)://<TBA>/",
+        "https://github.com/gustavjohansen98/E-vil-Corp/blob/main/docs/Group_E_Security_Report.pdf",
         # Logging URL:
         "http://159.89.213.38:5601/app/home",
         # SLA Report:
