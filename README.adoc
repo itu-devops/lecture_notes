@@ -145,7 +145,7 @@ to 12:00 on link:https://itucph.zoom.us/j/68426961372[Zoom]
 |8:00 - 12:00
 |Mircea
 |
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_12/Iac.pdf[Infrastructure as Code]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_12/IaC.pdf[Infrastructure as Code]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_12/README_EXERCISE.md[MiniTwit Infrastructure as Code]
 |Encode your infrastructure setup
 // w18
