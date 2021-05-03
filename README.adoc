@@ -152,9 +152,9 @@ to 12:00 on link:https://itucph.zoom.us/j/68426961372[Zoom]
 |13
 |3/5
 |8:00 - 12:00
-|Mircea
+|Mircea & Helge
 |
-|Documentation of Systems and projects & Wrap-up
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_13/Architectural_Viewpoints.pdf[Documentation of Systems and Projects]
 |
 |*Simulator stops*. Write report.
 // w19
