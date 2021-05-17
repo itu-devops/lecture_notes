@@ -7,9 +7,9 @@ REPORT_URLS = [
     ],
     [
         "group b",
-        "<Name>",
+        "b",
         # Report Release URL:
-        "https://github.com/<TBA>/<TBA>.zip",
+        "https://github.com/DevOps2021-gb/devops2021/archive/refs/tags/2.0.zip",
     ],
     [
         "group c",
