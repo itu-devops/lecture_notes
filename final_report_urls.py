@@ -55,9 +55,9 @@ REPORT_URLS = [
     ],
     [
         "group j",
-        "<Name>",
+        "PythonKindergarten",
         # Report Release URL:
-        "https://github.com/<TBA>/<TBA>.zip",
+        "https://github.com/jokk-itu/PythonKindergarten/releases/download/v26.0.0/report.zip",
     ],
     [
         "group k",
