@@ -23,7 +23,7 @@ GROUP_REPOS = [
     [
         "group d",
         "Cool Beans",
-        ["https://github.com/notaduck/DevOps_ITU"],
+        ["https://github.com/notaduck/DevOps_ITU", "https://github.com/notaduck/devops_itu_logging"],
         "http://minitwititu.xyz",
         "http://api.minitwititu.xyz",
     ],

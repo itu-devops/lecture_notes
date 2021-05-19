@@ -19,9 +19,9 @@ REPORT_URLS = [
     ],
     [
         "group d",
-        "<Name>",
+        "Cool beans",
         # Report Release URL:
-        "https://github.com/<TBA>/<TBA>.zip",
+        "https://github.com/notaduck/devops_itu/blob/main/report/out/main.pdf",
     ],
     [
         "group e",
