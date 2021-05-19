@@ -25,9 +25,9 @@ REPORT_URLS = [
     ],
     [
         "group e",
-        "<Name>",
+        "E-vil Corp",
         # Report Release URL:
-        "https://github.com/<TBA>/<TBA>.zip",
+        "https://github.com/gustavjohansen98/E-vil-Corp/archive/refs/tags/V.2.0.zip",
     ],
     [
         "group f",
