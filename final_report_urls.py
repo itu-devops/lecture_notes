@@ -49,9 +49,9 @@ REPORT_URLS = [
     ],
     [
         "group i",
-        "<Name>",
+        "Mike",
         # Report Release URL:
-        "https://github.com/<TBA>/<TBA>.zip",
+        "https://github.com/SanderBuK/DevOpsMinitwit/archive/refs/tags/v1.0.zip",
     ],
     [
         "group j",
