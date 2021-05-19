@@ -103,7 +103,7 @@ GROUP_URLS = [
         # Monitoring URL:
         "https://minitwit-neutrals.azurewebsites.net/",
         # Security report URL:
-        "http(s)://<TBA>/",
+        "https://github.com/albertbethlowsky/DevOpsGroupH/blob/main/SecurityAssesment.md",
         # Logging URL:
         "http(s)://<TBA>/",
         # SLA Report:
