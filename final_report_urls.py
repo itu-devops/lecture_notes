@@ -61,9 +61,9 @@ REPORT_URLS = [
     ],
     [
         "group k",
-        "<Name>",
+        "The Magic Strings",
         # Report Release URL:
-        "https://github.com/<TBA>/<TBA>.zip",
+        "https://github.com/themagicstrings/twooter/archive/refs/tags/v1.0.0.zip",
     ],
     [
         "group l",
