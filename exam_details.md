@@ -30,7 +30,7 @@ There will not be any predefined set of questions. Instead the questions will be
 
   - "In your report you describe that you deploy manually to production once per month. Please explain to which degree and why that is a good decision in a DevOps project."
   - "You describe that you decided to implement your project in QBasic on DOS 5 as operating system. Please provide a rationale for that decision. Can you explain the impact of that decision on maintainability of your system?"
-  - "You describe that your group was organized around a single _'wizard'_ that implemented everything and the other team members took care of organizational issues around implementation. Why did you choose such an organization? How could you organize work so that you would make further maintenance and refactoring tasks are doable once the _'wizard'_ gets sick? What would a DevOps advocate say about your team organization?"
+  - "You describe that your group was organized around a single _'wizard'_ that implemented everything and the other team members took care of organizational issues around implementation. Why did you choose such an organization? How could you organize work so that further maintenance and refactoring tasks are doable once the _'wizard'_ gets sick? What would a DevOps advocate say about your team organization?"
   - "You explain that you deploy your software in Docker containers. What is the reason for that?
 
 All of your team members will be in the exam room at once and we will make sure to distribute questions equally. Likely, we will jump from person to person per question.
@@ -70,9 +70,9 @@ All of your team members will be in the exam room at once and we will make sure 
 
 ## Exam flow
 
-  * You will join the Zoom room at: [https://itucph.zoom.us/j/<TBA>](https://itucph.zoom.us/j/<TBA>)
-    - The password for it will be sent to you by email prior to the exam
-    - The password will be also accessible on [LearnIT](https://learnit.itu.dk/mod/page/view.php?id=119729)
+  * You will join the Zoom room at: [https://itucph.zoom.us/j/537338](https://itucph.zoom.us/j/537338)
+    - The password for it will be shared prior to the exam via the [General channel on Teams](https://teams.microsoft.com/l/channel/19%3a2e0525061c7c44c3b4e57d61edba106b%40thread.tacv2/General?groupId=9505ab1e-489e-4444-a47f-0f8883316005&tenantId=bea229b6-7a08-4086-b44c-71f57f716bdb)
+    <!-- - The password will be also accessible on [LearnIT](https://learnit.itu.dk/mod/page/view.php?id=119729) -->
   * You and your group members will wait in the waiting room.
    - from where we will transfer you in the exam room. After the exam we will transfer you into the exit room, where we will tell you your grades and provide feedback to your exam.
 

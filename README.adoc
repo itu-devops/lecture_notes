@@ -256,10 +256,6 @@ Outside teaching sessions you can communicate with each other, the TAs and the t
 *MSc*: `aene`, `ddel`, `jobo`, `krif`
 
 
-
-
-
-
 // "group d"
 // "<Name>"
 // [", ...]
@@ -267,6 +263,117 @@ Outside teaching sessions you can communicate with each other, the TAs and the t
 // "group n"
 // "<Name>"
 // ["<ITU_login>", "<ITU_login>", ...]
+
+
+
+
+== Exam Schedule
+
+.Course schedule *Note*: While times are locked, the topics are subject to change.
+[width="100%",cols="4%,4%,4%,3%,4%,30%,17%",options="header",]
+|=======================================================================
+|Day |Time Slot |Group |Group Name |Degree |#Group Members |Duration
+
+|8. Jun
+|9:30-10:45
+|a
+|<Name>
+|BSc
+|5
+|1h 15 min
+//
+|
+|11:00-12:15
+|c
+|Trust the process
+|BSc
+|5
+|1h 15 min
+//
+|
+|12:45-14:00
+|e
+|group e
+|BSc
+|5
+|1h 15 min
+//
+|
+|14:15-15:30
+|h
+|Neutral
+|MSc
+|5
+|1h 15 min
+//
+|
+|15:45-17:00
+|k
+|TheMagicStrings
+|BSc
+|5
+|1h 15 min
+//
+|9. Jun
+|9:30-10:45
+|j
+|Python Kindergarten
+|BSc
+|5
+|1h 15 min
+//
+|
+|11:00-12:15
+|b
+|b
+|MSc
+|5
+|1h 15 min
+//
+|
+|12:45-14:00
+|g
+|Group g
+|MSc
+|5
+|1h 15 min
+//
+|
+|14:15-15:30
+|l
+|AJKPT
+|MSc
+|5
+|1h 15 min
+//
+|11. Jun
+|9:30-10:30
+|i
+|Mike
+|BSc
+|4
+|1h
+//
+|
+|10:45-12:00
+|d
+|Cool Beans
+|BSc
+|5
+|1h 15 min
+//
+|
+|12:30-13:45
+|f
+|Group Fibonacci
+|MSc
+|5
+|1h 15 min
+|=======================================================================
+
+
+More details about the exam structure can be found here: link:https://github.com/itu-devops/lecture_notes/blob/master/exam_details.md[exam_details.md]
+
 
 
 
