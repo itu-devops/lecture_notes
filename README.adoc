@@ -338,14 +338,6 @@ Outside teaching sessions you can communicate with each other, the TAs and the t
 |5
 |1h 15 min
 //
-|
-|14:15-15:30
-|l
-|AJKPT
-|MSc
-|5
-|1h 15 min
-//
 |11. Jun
 |9:30-10:30
 |i
@@ -366,6 +358,14 @@ Outside teaching sessions you can communicate with each other, the TAs and the t
 |12:30-13:45
 |f
 |Group Fibonacci
+|MSc
+|5
+|1h 15 min
+//
+|
+|14:00-15:15
+|l
+|AJKPT
 |MSc
 |5
 |1h 15 min
