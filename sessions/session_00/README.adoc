@@ -7,6 +7,20 @@ The following links are exemplary guides, you might find others that are more su
 * Download the OS from https://pop.system76.com/
 * Follow the official installation instructions: https://support.system76.com/articles/install-pop
 
+In case you install Pop!_OS or any similar Linux on you Laptop and you want to connect to ITU's WiFi and Eduroam network, do the following:
+
+* Navigate to: itu.dk/wireless
+* click "Choose another installer to download"
+* click on the "Linux" button
+* On the pop-up saying: "Please use your ITU email address as username." click "Continue"
+* Download the file `eduroam-linux-IUoC-All_users.py`
+* Transfer that file to your Linux computer
+* Open a terminal and run `python3 eduroam-linux-IUoC-All_users.py`
+* Use your full email address as userid when prompted
+
+The process above installs the necessary certificates on you computer.
+
+
 === Installing Linux on Harddisk (Windows Dual Boot)
 
 In case you want to install a Linux next to an existing Windows, the following links might provide helpful information
