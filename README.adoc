@@ -9,17 +9,13 @@ image:images/banner.png[image]
 === Content
 
 
-This page contains information concerning the schedule, material, exam,
-and learning outcomes for the elective "DevOps, Software Evolution and
-Software Maintenance Content" at IT University of Copenhagen, spring
-2021 (link:https://learnit.itu.dk/local/coursebase/view.php?ciid=640[see LearnIT]).
+This page contains information on the schedule, material, exam, etc. for the elective "DevOps, Software Evolution and Software Maintenance Content" at IT University of Copenhagen, spring 2022 (link:https://learnit.itu.dk/local/coursebase/view.php?ciid=907[BSc course description on LearnIT] and link:https://learnit.itu.dk/local/coursebase/view.php?ciid=909[MSc course description on LearnIT]).
 
 
 === Schedule
 
-Sessions (lectures combined with exercises) are on Mondays from 8:00
-to 12:00 on link:https://itucph.zoom.us/j/68426961372[Zoom]
-// In case we can meet physically again, we will meet in Aud 0 (0A27) for the lecture and in rooms 2A12-14, 3A12-14 afterwards. We will let you know, for now all lectures are scheduled to take place online.
+Sessions (lectures combined with exercises) are on Tuesdays from 10:00
+to 14:00 first in Auditorium 2 (0A35) and then in rooms 4A56/4A58.
 
 *OBS*: We expect you to be present during the entire time, not only the first two hours.
 
@@ -30,7 +26,7 @@ to 12:00 on link:https://itucph.zoom.us/j/68426961372[Zoom]
 // w5
 |1
 |1/2
-|8:00 - 12:00
+|10:00 - 14:00
 |Helge
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_01/README_PREP.md[Prep. material]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_01/Session%201.ipynb[Project start, forming groups, SSH, SCP, and Bash]
@@ -39,7 +35,7 @@ to 12:00 on link:https://itucph.zoom.us/j/68426961372[Zoom]
 // w6
 |2
 |8/2
-|8:00 - 12:00
+|10:00 - 14:00
 |Helge
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_02/README_PREP.md[Prep. material]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_02/Session%202.ipynb[Version control systems (Git), branching strategies, and collaborative development workflows]
@@ -48,7 +44,7 @@ to 12:00 on link:https://itucph.zoom.us/j/68426961372[Zoom]
 // w7
 |3
 |15/2
-|8:00 - 12:00
+|10:00 - 14:00
 |Helge
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_03/README_PREP.md[Prep. material]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_03/Session%203.ipynb[Virtualization via containers and virtual machines]
@@ -57,7 +53,7 @@ to 12:00 on link:https://itucph.zoom.us/j/68426961372[Zoom]
 // w8
 |4
 |22/2
-|8:00 - 12:00
+|10:00 - 14:00
 |Helge
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/README_PREP.md[Prep. material]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/Session%204.ipynb[Continuous Integration (CI), Continuous Delivery (CD), and Continuous Deployment]
@@ -66,8 +62,8 @@ to 12:00 on link:https://itucph.zoom.us/j/68426961372[Zoom]
 // w9
 |5
 |1/3
-|8:00 - 12:00
-|Sofus (Eficode) & Helge
+|10:00 - 14:00
+|Helge
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_05/README_PREP.md[Prep. material]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_05/Session%205.ipynb[Guest lecture & What is DevOps]
 // , and techniques for division of subsystems
@@ -79,7 +75,7 @@ to 12:00 on link:https://itucph.zoom.us/j/68426961372[Zoom]
 // w10
 |6
 |8/3
-|8:00 - 12:00
+|10:00 - 14:00
 |Helge
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_06/README_PREP.md[Prep. material]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_06/Session%206.ipynb[Monitoring]
@@ -88,7 +84,7 @@ to 12:00 on link:https://itucph.zoom.us/j/68426961372[Zoom]
 // w11
 |7
 |15/3
-|8:00 - 12:00
+|10:00 - 14:00
 |Helge
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_07/README_PREP.md[Prep. material]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_06/Session%2007.ipynb[Software Quality, Maintainability & Technical Debt]
@@ -97,43 +93,43 @@ to 12:00 on link:https://itucph.zoom.us/j/68426961372[Zoom]
 // w12
 |8
 |22/3
-|8:00 - 12:00
-|Alexander (Bird&Bird), Mircea
+|10:00 - 14:00
+|Mircea
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_08/README_PREP.md[Prep. material]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_08/Session08-Logging.ipynb[Logging, and Log Analysis. Service-level agreements. @11:00 Guest lecture on Software Licensing)]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_08/Session08-Logging.ipynb[Logging, and Log Analysis. Service-level agreements. Guest lecture on Software Licensing)]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_08/README_EXERCISE.md[A Basic EFK Stack]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_08/README_TASKS.md[Add logging to your _ITU-MiniTwit_ and create a set of SLAs for it]
 // w13
 |9
 |29/3
-|8:00 - 12:00
+|10:00 - 14:00
 |Mircea
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_09/README_PREP.md[Prep. material]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_09/Session09-Scaling.ipynb[Deployment strategies, scalability, load balancing.]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_09/README_EXERCISE.md[A Basic Swarm]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_09/README_TASKS.md[Isolate components into services/containers/VMs]
 // w14
-|–
+|10
 |5/4
+|10:00 - 14:00
+|Mircea
+|
+|Workshop
+|
+|Continue isolation of components into services/containers/VMs and Fix reported problems
+// w15
+|–
+|12/4
 |-
 |-
 |-
 |Easter Break
 |-
 | Operations & maintenance still reacting on issue reports and fixing of errors :)
-// w15
-|10
-|12/4
-|8:00 - 12:00
-|Mircea
-|
-|Workshop
-|
-|Continue isolation of components into services/containers/VMs and Fix reported problems
 // w16
 |11
 |19/4
-|8:00 - 12:00
+|10:00 - 14:00
 |Mircea
 |
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_11/Security.ipynb[Security of web-facing applications]
@@ -142,7 +138,7 @@ to 12:00 on link:https://itucph.zoom.us/j/68426961372[Zoom]
 // w17
 |12
 |26/4
-|8:00 - 12:00
+|10:00 - 14:00
 |Mircea
 |
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_12/IaC.pdf[Infrastructure as Code]
@@ -151,7 +147,7 @@ to 12:00 on link:https://itucph.zoom.us/j/68426961372[Zoom]
 // w18
 |13
 |3/5
-|8:00 - 12:00
+|10:00 - 14:00
 |Mircea & Helge
 |
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_13/Architectural_Viewpoints.pdf[Documentation of Systems and Projects]
@@ -160,7 +156,7 @@ to 12:00 on link:https://itucph.zoom.us/j/68426961372[Zoom]
 // w19
 |14
 |10/5
-|8:00 - 12:00
+|10:00 - 14:00
 |
 |
 |
@@ -169,25 +165,15 @@ to 12:00 on link:https://itucph.zoom.us/j/68426961372[Zoom]
 |=======================================================================
 
 * Exam submission: Latest *19/5/2021 14:00*
-* Exam dates: 8/6/2021 to 11/6/2021
+* Exam dates: 21/6/2021 to 24/6/2021
 
 === TA Supervision
 
-The TAs will be present in the Zoom meeting during the exercise session from 10:00 to 12:00.
+Currently, we do not have any TAs for this course.
+Mircea and Helge will provide some supervision during the exercise sessoins.
+In case you know of some "older" students that are experienced in the courses topic and that might be interested in TAing, please let us know.
 
-During that time, two breakout rooms will be present for supervision with the groups.
-
-Supervision will be conducted in 20 minute time slots.
-
-Up to two supervision sessions can be conducted simultaneously – one in each breakout room.
-
-A group can sign up for a time slot in the link:https://teams.microsoft.com/l/file/3A6E37D7-808F-4012-8941-E9F69366C349?tenantId=bea229b6-7a08-4086-b44c-71f57f716bdb&fileType=xlsx&objectUrl=https%3A%2F%2Fituniversity.sharepoint.com%2Fsites%2FDevOpsSoftwareEvolutionandSoftwareMaintenanceS2021%2FShared%20Documents%2FGeneral%2FSupervisionSignup.xlsx&baseUrl=https%3A%2F%2Fituniversity.sharepoint.com%2Fsites%2FDevOpsSoftwareEvolutionandSoftwareMaintenanceS2021&serviceName=teams&threadId=19:2e0525061c7c44c3b4e57d61edba106b@thread.tacv2&groupId=9505ab1e-489e-4444-a47f-0f8883316005[Excel sheet in our Teams channel].
-
-Groups are encouraged to give a brief heads-up of what their issue is in the signup sheet. This will allow the TAs to assign the person who is most suitable for that issue to the group. Furthermore, if many teams sign up for the same issue, then this can be addressed to the whole class instead.
-
-The signup table for the next week will be marked in yellow in the sheet. On Mondays, the signup table for the present day will be marked in green.
-
-
+////
 === Dashboards
 
 ==== Simulator Status Dashboard
@@ -204,175 +190,70 @@ activity per group]
 * link:http://46.101.243.88/release_activity_weekly.svg[Weekly release
 activity per group]
 
+////
 === Recordings
 
-Recorded lectures (screen and voice) should be accessible on
-link:https://app.vidgrid.com/content/YsEew5BpMdKm[VidGrid].
+This is not a distance course.
+This term, we will not record the lectures.
+You will have access to all written lecture material through this repository though.
+
 
 === Recommendation
 
-All examples in class target link:https://linuxmint.com/download.php[Download Linux Mint 20.1 Ulyssa], which is in essence a link:http://releases.ubuntu.com/20.04/[Ubuntu 20.04.1 LTS (Focal Fossa)].
+All examples in class target link:https://pop.system76.com/[Pop!_OS 21.04].
+Essentially, this is a link:http://releases.ubuntu.com/21.04/[Ubuntu 21.04 LTS (Hirsute Hippo)] Linux distribution.
+There are many more such Ubuntu derivates, choose one of your liking: link:https://linuxmint.com/[Linux Mint], link:https://elementary.io/[Elementary OS], link:https://neon.kde.org/[KDE Neon], etc.
+
 Since all sessions contain hands-on exercises, we recommend that you have such a Linux version installed on a computer.
-(In case you decide to run another operating system, we cannot provide too much support for these during class.) The recommended setup is to have Linux Mint/Ubuntu installed natively on your machine.
+(In case you decide to run another operating system, we cannot provide too much support for these during class.) The recommended setup is to have such a Linux installed natively on your machine.
 
 Find installation instructions link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_00/README.adoc[session_00/README.adoc].
 
+Note, we do not have any experiences with the new M1-based Macs.
+Neither do we have access to one of these.
+Consequently, likely many of the technologies that we demonstrate will have issues on these computers and we won't be able to support you much.
 
 === Team
 
 * *Teachers*: Helge, Mircea
-* *TAs*: Alexander, Michał, and Sebastian
-
 
 === Communication
 
-Outside teaching sessions you can communicate with each other, the TAs and the teachers via the link:https://teams.microsoft.com/l/channel/19%3a2e0525061c7c44c3b4e57d61edba106b%40thread.tacv2/General?groupId=9505ab1e-489e-4444-a47f-0f8883316005&tenantId=bea229b6-7a08-4086-b44c-71f57f716bdb[Teams channel].
+Outside teaching sessions you can communicate with each other, and with the teachers via the link:https://teams.microsoft.com/l/channel/19%3at2eMODhCLxCUfaecj1m3xtnOsq787tnYXq02rV8qwws1%40thread.tacv2/General?groupId=2c09f960-9e5a-4ca9-a10b-5297d2b6a724&tenantId=bea229b6-7a08-4086-b44c-71f57f716bdb[the course's Teams channel].
 
 
 === Groups
 
-==== BSc
-  * Group a <Name> `nieb`, `mmho`, `emkn`, `haiv`, `marq`
-  * Group c <Name> `hoja`, `edbe`, `andst`, `reis`, `geko`
-  * Group e _group e_ `abea`, `gujo`, `luka`, `sena`, `beba`
-  * Group i _Mike_ `sank`, `thda`, `hefr`, `jemm`
-  * Group j _Python Kindergarten_ `jokk`, `vino`, `asie`, `iras`, `bjja`
-  * Group k _TheMagicStrings_ `kaky`, `emja`, `jglr`,`krbh`,`thhk`
-  * Group d _Cool Beans_ `ella`, `eikl`, `joaa`, `daaa`, `emdi`
-
-==== MSc
+TBD
+// ==== BSc
 
 
-  * Group b _b_ `sikr`, `jefh`, `join`, `nime`, `frem`
-  * Group f _Group Fibonacci_ `lous`, `laulu`, `nanm`, `magl`, `vigp`
-  * Group g _Group G_ `sewa`, `rdmo`, `alfr`, `jgoh`, `vlcr`
-  * Group h _Neutral_ `arov`, `rade`, `frvo`, `abax`, `jsjo`
-  * Group l _AJKPT_ `asse`, `jhhi`, `kols`, `pebu`, `thta`
+// ==== MSc
 
 
-==== Ungrouped yet
 
-*BSc*: `guri`, `marti`
-*MSc*: `aene`, `ddel`, `jobo`, `krif`
-
-
-// "group d"
-// "<Name>"
-// [", ...]
-
-// "group n"
-// "<Name>"
-// ["<ITU_login>", "<ITU_login>", ...]
-
-
+// ==== Ungrouped yet
 
 
 == Exam Schedule
 
+////
 .Course schedule *Note*: While times are locked, the topics are subject to change.
 [width="100%",cols="4%,4%,4%,3%,4%,30%,17%",options="header",]
 |=======================================================================
 |Day |Time Slot |Group |Group Name |Degree |#Group Members |Duration
 
-|8. Jun
-|9:30-10:45
-|a
-|<Name>
-|BSc
-|5
-|1h 15 min
-//
 |
-|11:00-12:15
-|c
-|Trust the process
-|BSc
-|5
-|1h 15 min
-//
 |
-|12:45-14:00
-|e
-|group e
-|BSc
-|5
-|1h 15 min
-//
 |
-|14:15-15:30
-|h
-|Neutral
-|MSc
-|5
-|1h 15 min
-//
 |
-|15:45-17:00
-|k
-|TheMagicStrings
-|BSc
-|5
-|1h 15 min
-//
-|9. Jun
-|9:30-10:45
-|j
-|Python Kindergarten
-|BSc
-|5
-|1h 15 min
-//
 |
-|11:00-12:15
-|b
-|b
-|MSc
-|5
-|1h 15 min
-//
 |
-|12:45-14:00
-|g
-|Group g
-|MSc
-|5
-|1h 15 min
-//
-|11. Jun
-|9:30-10:30
-|i
-|Mike
-|BSc
-|4
-|1h
-//
 |
-|10:45-12:00
-|d
-|Cool Beans
-|BSc
-|5
-|1h 15 min
-//
-|
-|12:30-13:45
-|f
-|Group Fibonacci
-|MSc
-|5
-|1h 15 min
-//
-|
-|14:00-15:15
-|l
-|AJKPT
-|MSc
-|5
-|1h 15 min
 |=======================================================================
 
-
 More details about the exam structure can be found here: link:https://github.com/itu-devops/lecture_notes/blob/master/exam_details.md[exam_details.md]
+////
 
 
 

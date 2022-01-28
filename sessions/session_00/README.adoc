@@ -1,14 +1,21 @@
 Remember to backup your data before starting the installation process and in particular resizing your partitions! Also double check values before repartitioning!
 
-The following links are exemplary guides, you might find others that are
-even more suitable to your personal setup.
+The following links are exemplary guides, you might find others that are more suitable to your personal setup.
 
-Installing Linux Mint on Harddisk (Windows Dual Boot)
+=== Installing Linux (Pop!_OS)
 
+* Download the OS from https://pop.system76.com/
+* Follow the official installation instructions: https://support.system76.com/articles/install-pop
+
+=== Installing Linux on Harddisk (Windows Dual Boot)
+
+In case you want to install a Linux next to an existing Windows, the following links might provide helpful information
+
+* https://blnlabs.com/dual-boot-pop-os-and-windows-10/
 * https://www.tecmint.com/install-ubuntu-alongside-with-windows/
 * https://vitux.com/how-to-install-ubuntu-18-04-along-with-windows-10/
 
-==== Installing Linux Mint on Harddisk (MacOS Dual Boot)
+==== Installing Linux on Harddisk (MacOS Dual Boot)
 
 * For older Macs (without Touchbar):
 https://www.maketecheasier.com/install-dual-boot-ubuntu-mac/
@@ -19,19 +26,19 @@ https://github.com/Dunedan/mbp-2016-linux#wi-fi
 ** If not, either:
 *** Install in a Virtual Machine (see below), or
 *** Install on another old computer that you can use for this course.
+* For Macs with M1 processor:
+** That will not work yet.
 
-==== Installing Linux Mint on USB Key instead of Harddisk
+==== Installing Linux on USB Key instead of Harddisk
 
 * http://ubuntuhandbook.org/index.php/2014/11/install-real-ubuntu-os-usb-drive/
 
-==== Installing Linux Mint as Virtual Machine
+==== Installing Linux as Virtual Machine
 
-In case non of the above options of installing Linux Mint are an option for you, you might want to install Linux Mint in a Virtual Machine (VM). Be aware however, that not all contents of the lecture (virtualization part in session 3) may work in a VM
+In case non of the above options of installing Linux are an option for you, you might want to install Linux in a Virtual Machine (VM). Be aware however, that not all contents of the lecture (virtualization part in session 3) may work in a VM
 
 ===== VirtualBox (for both macOS and Windows)
-  * Windows: https://techsprobe.com/install-ubuntu/
-  * MacOS: https://medium.com/@mannycodes/installing-ubuntu-18-04-on-mac-os-with-virtualbox-ac3b39678602
-
+  * https://support.system76.com/articles/install-in-vm/
 
 ===== VMware Fusion (for macOS)
 
@@ -43,7 +50,7 @@ VMware Fusion is a great hypervisor for the macOS operating system, and is offer
   * Enabling virtualization in the Settings menu as described in link:http://techgenix.com/vmware-fusion-5-enable-vt-xept-inside-a-virtual-machine-288/[this article].
 
 Troubleshooting:
-  * If you get this following this error message (`cannot open /dev/vmmon`) when booting on your newly created Linux Mint image, then follow these steps:
+  * If you get this following this error message (`cannot open /dev/vmmon`) when booting on your newly created Linux image, then follow these steps:
   ** Close the VMware Fusion application.
   ** Go To *System Preferences* -> *Security & Privacy* -> Check if you're allowed to run apps from identified developers and there is no mentioning of a block application.
 
