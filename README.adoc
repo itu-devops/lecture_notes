@@ -200,8 +200,8 @@ You will have access to all written lecture material through this repository tho
 
 === Recommendation
 
-All examples in class target link:https://pop.system76.com/[Pop!_OS 21.04].
-Essentially, this is a link:http://releases.ubuntu.com/21.04/[Ubuntu 21.04 LTS (Hirsute Hippo)] Linux distribution.
+All examples in class target link:https://pop.system76.com/[Pop!_OS 21.10].
+Essentially, this is a link:http://releases.ubuntu.com/21.10/[Ubuntu 21.10 (Impish Indri)] Linux distribution.
 There are many more such Ubuntu derivates, choose one of your liking: link:https://linuxmint.com/[Linux Mint], link:https://elementary.io/[Elementary OS], link:https://neon.kde.org/[KDE Neon], etc.
 
 Since all sessions contain hands-on exercises, we recommend that you have such a Linux version installed on a computer.
