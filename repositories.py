@@ -1,8 +1,8 @@
 GROUP_REPOS = [
     [
-        "group a",
-        "<name>",
-        ["https://github.com/<gh_id>/<proj_id>"],
+        "group l",
+        "iBois",
+        ["https://github.com/aske-w/itu-minitwit"],
         "<minitwit_url>",
         "<minitwit_api_url>",
     ],
