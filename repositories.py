@@ -14,7 +14,7 @@ GROUP_REPOS = [
         "<minitwit_api_url>",
     ],
     [
-        "Group C",
+        "Group M",
         "DeadlyDevOps",
         ["https://github.com/DeadlyDevops/minitwit"],
         "<minitwit_url>",
