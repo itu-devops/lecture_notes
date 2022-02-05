@@ -13,4 +13,11 @@ GROUP_REPOS = [
         "<minitwit_url>",
         "<minitwit_api_url>",
     ],
+    [
+        "group E",
+        "ASPirin",
+        ["https://github.com/ChadIImus/Devoops/"],
+        "<minitwit_url>",
+        "<minitwit_api_url>",
+    ],
 ]
