@@ -7,9 +7,9 @@ GROUP_REPOS = [
         "<minitwit_api_url>",
     ],
     [
-        "group a",
-        "<name>",
-        ["https://github.com/<gh_id>/<proj_id>"],
+        "group p",
+        "TBD",
+        ["https://github.com/Akongstad/DevOps-group-p"],
         "<minitwit_url>",
         "<minitwit_api_url>",
     ],
