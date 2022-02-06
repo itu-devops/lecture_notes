@@ -1,15 +1,8 @@
 GROUP_REPOS = [
     [
-        "group a",
-        "<name>",
-        ["https://github.com/<gh_id>/<proj_id>"],
-        "<minitwit_url>",
-        "<minitwit_api_url>",
-    ],
-    [
-        "group a",
-        "<name>",
-        ["https://github.com/<gh_id>/<proj_id>"],
+        "group h",
+        "devHops",
+        ["https://github.com/Herover/itu-devops-h"],
         "<minitwit_url>",
         "<minitwit_api_url>",
     ],
