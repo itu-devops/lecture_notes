@@ -7,6 +7,13 @@ GROUP_REPOS = [
         "<minitwit_api_url>",
     ],
     [
+        "group g",
+        "Call Of Duty BlackOps",
+        ["https://github.com/Faurby/BlackOps"],
+        "<minitwit_url>",
+        "<minitwit_api_url>",
+    ],
+    [
         "Group M",
         "DeadlyDevOps",
         ["https://github.com/DeadlyDevops/minitwit"],
