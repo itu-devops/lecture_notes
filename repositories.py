@@ -125,4 +125,11 @@ GROUP_REPOS = [
         "<minitwit_url>",
         "<minitwit_api_url>",
     ],
+    [
+        "group j",
+        "Root",
+        ["https://github.com/AlexBMJ/minitwit"],
+        "<minitwit_url>",
+        "<minitwit_api_url>",
+    ], 
 ]
