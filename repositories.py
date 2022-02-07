@@ -118,4 +118,11 @@ GROUP_REPOS = [
         "<minitwit_url>",
         "<minitwit_api_url>",
     ],
+    [
+        "group b",
+        "Group Bee",
+        ["https://github.com/DEV-OPS-Group-b/minitwit"],
+        "<minitwit_url>",
+        "<minitwit_api_url>",
+    ],
 ]
