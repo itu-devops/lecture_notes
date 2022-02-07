@@ -111,4 +111,11 @@ GROUP_REPOS = [
         "<minitwit_url>",
         "<minitwit_api_url>",
     ],
+    [
+        "group n",
+        "DevØps",
+        ["https://github.com/emilravn/devops/tree/master/minitwit"],
+        "<minitwit_url>",
+        "<minitwit_api_url>",
+    ],
 ]
