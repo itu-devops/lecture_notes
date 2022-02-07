@@ -38,8 +38,8 @@ to 14:00 first in Auditorium 2 (0A35) and then in rooms 4A14/4A16.
 |10:00 - 14:00
 |Helge
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_02/README_PREP.md[Prep. material]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_02/Session%202.ipynb[Version control systems (Git), branching strategies, and collaborative development workflows]
-|
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_02/Session%202.ipynb[Packaging applications, Containerization with Docker]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_02/README_EXERCISE.md[Using Docker]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_02/README_TASKS.md[Refactor _ITU-MiniTwit_ in another programming language and tech. stack]
 // w7
 |3
@@ -47,8 +47,8 @@ to 14:00 first in Auditorium 2 (0A35) and then in rooms 4A14/4A16.
 |10:00 - 14:00
 |Helge
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_03/README_PREP.md[Prep. material]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_03/Session%203.ipynb[Virtualization via containers and virtual machines]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_03/README_EXERCISE.md[Using Vagrant and Docker]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_03/Session%203.ipynb[Provision of local and remote virtual machines]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_03/README_EXERCISE.md[Using Vagrant, VirtualBox, and DigitalOcean]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_03/README_TASKS.md[Continue refactoring, introduction of DB abstraction layer, and deployment of your _ITU-MiniTwit_ to a remote server.]
 // w8
 |4
