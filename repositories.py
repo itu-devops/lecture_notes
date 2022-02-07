@@ -20,4 +20,11 @@ GROUP_REPOS = [
         "<minitwit_url>",
         "<minitwit_api_url>",
     ],
+    [
+        "group b",
+        "DevOpps",
+        ["https://github.com/antonPalmFolkmann/DevOps2022"],
+        "<minitwit_url>",
+        "<mintwit_api_url>",
+    ]
 ]
