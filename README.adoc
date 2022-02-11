@@ -242,13 +242,13 @@ Outside teaching sessions you can communicate with each other, and with the teac
   * Group d _DevelOps_ `boer`, `tesp`, `asno`, `calm`, `jtth`
   * Group e _ASPirin_ `npal`, `osha`, `jubr`, `oeje`, `jsow`
   * Group i _A-team_ `agbe`, `crie`, `dant`, `jone`, `harp`
-  * Group k _DevUps_ `enbe`, `muki`, `hoch`, `dawo`, `leku`
+  * Group k _DevUps_ `enbe`, `muki`, `hoch`, `dawo`, `krif`
   * Group m _DeadlyDevops_ `jrus`, `szyg`, `alih`, `lfor`, `npan`
   * Group n _DevØps_ `erav`, `hbel`, `apal`, `gimu`, `toap`
 
 ==== Ungrouped yet
 
-  * `antbr`, `ddel`, `fbah`, `hahr`, `hrto`, `krif`, `slaj`, `vson`
+  * `antbr`, `ddel`, `fbah`, `hahr`, `hrto`, `leku`, `slaj`, `vson`
 
 
 
