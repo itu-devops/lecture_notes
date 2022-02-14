@@ -173,24 +173,24 @@ Currently, we do not have any TAs for this course.
 Mircea and Helge will provide some supervision during the exercise sessoins.
 In case you know of some "older" students that are experienced in the courses topic and that might be interested in TAing, please let us know.
 
-////
 === Dashboards
+////
 
 ==== Simulator Status Dashboard
 
 * link:http://138.68.93.2/status.html[Status and simulator API errors per
 group]
+////
 
 ==== Activity Dashboard
 
-* link:http://46.101.243.88/commit_activity_daily.svg[Daily commit activity
+* link:http://159.89.26.109/commit_activity_daily.svg[Daily commit activity
 per group]
-* link:http://46.101.243.88/commit_activity_weekly.svg[Weekly commit
+* link:http://159.89.26.109/commit_activity_weekly.svg[Weekly commit
 activity per group]
-* link:http://46.101.243.88/release_activity_weekly.svg[Weekly release
+* link:http://159.89.26.109/release_activity_weekly.svg[Weekly release
 activity per group]
 
-////
 === Recordings
 
 This is not a distance course.
