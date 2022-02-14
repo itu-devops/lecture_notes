@@ -54,9 +54,9 @@ to 14:00 first in Auditorium 2 (0A35) and then in rooms 4A14/4A16.
 |4
 |22/2
 |10:00 - 14:00
-|Helge
+|Alexander (Bird&Bird), Helge
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/README_PREP.md[Prep. material]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/Session%204.ipynb[Continuous Integration (CI), Continuous Delivery (CD), and Continuous Deployment]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/Session%204.ipynb[Continuous Integration (CI), Continuous Delivery (CD), and Continuous Deployment, **@11:00 Guest lecture** on Software Licensing]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/README_EXERCISE.md[Using Travis CI]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/README_TASKS.md[Setup CI & CD for reproducible builds, tests, delivery, and deployment (*Simulator starts*)]
 // w9
