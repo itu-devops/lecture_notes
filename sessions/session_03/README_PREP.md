@@ -189,5 +189,5 @@ Bringing machine 'webserver' up with 'virtualbox' provider...
 ...
 ```
 
-If everything starts error-free, you will find the running _ITU-MiniTwit_ at http://192.168.20.3:5000. With `vagrant ssh webserver` you can access the machine with the frontend code.
+If everything starts error-free, you will find the running _ITU-MiniTwit_ at http://192.168.56.3:5000. With `vagrant ssh webserver` you can access the machine with the frontend code.
 
