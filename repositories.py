@@ -1,6 +1,7 @@
 GROUP_REPOS = [
     [
         "group a",
+        "Gruppe_A",
         ["https://github.com/nissemand243/Gruppe_A"],
         "<minitwit_url>",
         "<minitwit_api_url>",
@@ -107,6 +108,13 @@ GROUP_REPOS = [
         "group d",
         "DevelOps",
         ["https://github.com/DevelOpsITU/minitwit"],
+        "<minitwit_url>",
+        "<minitwit_api_url>",
+    ],
+    [
+        "group r",
+        "Rhododevdron",
+        ["https://github.com/Devops-2022-Group-R/itu-minitwit"],
         "<minitwit_url>",
         "<minitwit_api_url>",
     ],
