@@ -73,8 +73,8 @@ GROUP_REPOS = [
         "group k",
         "DevUps",
         ["https://github.com/HolgerGottChristensen/itu-devops"],
-        "<minitwit_url>",
-        "<minitwit_api_url>",
+        "http://3.64.179.133:4000/public",
+        "http://3.64.179.133:4000/api",
     ],
     [
         "group l",
