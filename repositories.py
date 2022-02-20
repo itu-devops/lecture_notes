@@ -45,8 +45,8 @@ GROUP_REPOS = [
         "group g",
         "Call Of Duty BlackOps",
         ["https://github.com/Faurby/BlackOps"],
-        "<minitwit_url>",
-        "<minitwit_api_url>",
+        "http://157.230.107.58:5142/",
+        "http://157.230.107.58:5142/sim",
     ],
     [
         "group h",
