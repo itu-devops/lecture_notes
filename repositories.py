@@ -115,7 +115,7 @@ GROUP_REPOS = [
         "group r",
         "Rhododevdron",
         ["https://github.com/Devops-2022-Group-R/itu-minitwit"],
-        "rhododevdron.swuwu.dk",
-        "api.rhododevdron.swuwu.dk",
+        "http://rhododevdron.swuwu.dk",
+        "http://api.rhododevdron.swuwu.dk",
     ],
 ]
