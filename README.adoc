@@ -54,21 +54,21 @@ to 14:00 first in Auditorium 2 (0A35) and then in rooms 4A14/4A16.
 |4
 |22/2
 |10:00 - 14:00
-|Helge
+|Alexander (Bird&Bird), Helge
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/README_PREP.md[Prep. material]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/Session%204.ipynb[Continuous Integration (CI), Continuous Delivery (CD), and Continuous Deployment]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/README_EXERCISE.md[Using Travis CI]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/README_TASKS.md[Setup CI & CD for reproducible builds, tests, delivery, and deployment (*Simulator starts*)]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/Session%204.ipynb[Continuous Integration (CI), Continuous Delivery (CD), and Continuous Deployment, **@11:00 Guest lecture** on Software Licensing]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/README_EXERCISE.md[Using Travis CI (*Simulator test*)]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/README_TASKS.md[Setup CI & CD for reproducible builds, tests, delivery, and deployment]
 // w9
 |5
 |1/3
 |10:00 - 14:00
 |Helge
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_05/README_PREP.md[Prep. material]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_05/Session%205.ipynb[Guest lecture & What is DevOps]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_05/Session%205.ipynb[What is DevOps]
 // , and techniques for division of subsystems
 |
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_05/README_TASKS.md[Cleaning and polishing of your _ITU-MiniTwit_ and entering maintenance]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_05/README_TASKS.md[Cleaning and polishing of your _ITU-MiniTwit_ and entering maintenance (*Simulator starts*)]
 // refactoring for clean subsystem interfaces
 // Simulator starts for sure
 
@@ -173,24 +173,24 @@ Currently, we do not have any TAs for this course.
 Mircea and Helge will provide some supervision during the exercise sessoins.
 In case you know of some "older" students that are experienced in the courses topic and that might be interested in TAing, please let us know.
 
-////
 === Dashboards
+////
 
 ==== Simulator Status Dashboard
 
 * link:http://138.68.93.2/status.html[Status and simulator API errors per
 group]
+////
 
 ==== Activity Dashboard
 
-* link:http://46.101.243.88/commit_activity_daily.svg[Daily commit activity
+* link:http://159.89.26.109/commit_activity_daily.svg[Daily commit activity
 per group]
-* link:http://46.101.243.88/commit_activity_weekly.svg[Weekly commit
+* link:http://159.89.26.109/commit_activity_weekly.svg[Weekly commit
 activity per group]
-* link:http://46.101.243.88/release_activity_weekly.svg[Weekly release
+* link:http://159.89.26.109/release_activity_weekly.svg[Weekly release
 activity per group]
 
-////
 === Recordings
 
 This is not a distance course.
@@ -242,15 +242,13 @@ Outside teaching sessions you can communicate with each other, and with the teac
   * Group d _DevelOps_ `boer`, `tesp`, `asno`, `calm`, `jtth`
   * Group e _ASPirin_ `npal`, `osha`, `jubr`, `oeje`, `jsow`
   * Group i _A-team_ `agbe`, `crie`, `dant`, `jone`, `harp`
-  * Group k _DevUps_ `enbe`, `muki`, `hoch`, `dawo`, `leku`
+  * Group k _DevUps_ `enbe`, `muki`, `hoch`, `dawo`, `krif`
   * Group m _DeadlyDevops_ `jrus`, `szyg`, `alih`, `lfor`, `npan`
   * Group n _DevØps_ `erav`, `hbel`, `apal`, `gimu`, `toap`
 
 ==== Ungrouped yet
 
   * `antbr`, `ddel`, `fbah`, `hahr`, `hrto`, `krif`, `slaj`, `vson`, `losm`
-
-
 
 
 
