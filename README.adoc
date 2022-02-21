@@ -234,7 +234,7 @@ Outside teaching sessions you can communicate with each other, and with the teac
   * Group j _Root_ `milb`, `deyi`, `deni`, `antni`, `alja`
   * Group l _iBois_ `jacmo`, `askw`, `cger`, `ladr`, `tovs`, `alwe`
   * Group o _TBD_ `kong`, `clyt`, `eyey`, `csbe`
-  * Group r _Rhododevdron_ `adbo`, `albn`, `aljb`, `losm`, `thwr`
+  * Group r _Rhododevdron_ `adbo`, `albn`, `aljb`, `thwr`
 
 ==== MSc
 
@@ -248,9 +248,7 @@ Outside teaching sessions you can communicate with each other, and with the teac
 
 ==== Ungrouped yet
 
-  * `antbr`, `ddel`, `fbah`, `hahr`, `hrto`, `leku`, `slaj`, `vson`
-
-
+  * `antbr`, `ddel`, `fbah`, `hahr`, `hrto`, `krif`, `slaj`, `vson`, `losm`
 
 
 
