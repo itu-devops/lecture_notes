@@ -30,7 +30,7 @@ GROUP_REPOS = [
     [
         "group e",
         "ASPirin",
-        ["https://github.com/ChadIImus/Devoops/"],
+        ["https://github.com/ChadIImus/Devoops"],
         "<minitwit_url>",
         "<minitwit_api_url>",
     ],
@@ -93,7 +93,7 @@ GROUP_REPOS = [
     [
         "group n",
         "DevØps",
-        ["https://github.com/emilravn/devops/"],
+        ["https://github.com/emilravn/devops"],
         "<minitwit_url>",
         "<minitwit_api_url>",
     ],
