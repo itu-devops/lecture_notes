@@ -31,8 +31,8 @@ GROUP_REPOS = [
         "group e",
         "ASPirin",
         ["https://github.com/ChadIImus/Devoops"],
-        "http://164.90.243.193:5077",
-        "http://164.90.243.193:5077/Simulator",
+        "http://shittytwitter.tk/",
+        "http://shittytwitter.tk/Simulator",
     ],
     [
         "group f",
