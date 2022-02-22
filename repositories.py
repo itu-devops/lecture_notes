@@ -16,7 +16,7 @@ GROUP_REPOS = [
     [
         "group q",
         "<SplashOps>",
-        ["https://github.com/DannyDelic/ddel-devops-2022"],
+        ["https://github.com/DannyDelic/minitwit"],
         "<minitwit_url>",
         "<minitwit_api_url>",
     ]
