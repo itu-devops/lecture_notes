@@ -1,0 +1,12 @@
+version: '3'
+services:
+  webserver:
+    image: <your_id>/webserver
+    ports:
+      - "8080:8080"
+
+  clidownload:
+    image: appropriate/curl
+    links:
+      - webserver
+    entrypoint: sh -c  "sleep 5 && curl -s http://webserver:8080"
