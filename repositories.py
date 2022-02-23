@@ -23,9 +23,9 @@ GROUP_REPOS = [
     [
         "group d",
         "DevelOps",
-        ["https://github.com/DevelOpsITU/minitwit"],
-        "<minitwit_url>",
-        "<minitwit_api_url>",
+        ["https://github.com/DevelOpsITU/minitwit", "https://github.com/DevelOpsITU/ServerDeployment"],
+        "http://thomsen-it.dk",
+        "http://thomsen-it.dk/sim",
     ],
     [
         "group e",
