@@ -105,13 +105,6 @@ GROUP_REPOS = [
         "http://144.126.245.237:5229/minitwitsimulation",
     ],
     [
-        "group d",
-        "DevelOps",
-        ["https://github.com/DevelOpsITU/minitwit"],
-        "<minitwit_url>",
-        "<minitwit_api_url>",
-    ],
-    [
         "group r",
         "Rhododevdron",
         ["https://github.com/Devops-2022-Group-R/itu-minitwit", "https://github.com/Devops-2022-Group-R/itu-minitwit-frontend"],
