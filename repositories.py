@@ -94,8 +94,8 @@ GROUP_REPOS = [
         "group n",
         "DevØps",
         ["https://github.com/emilravn/devops"],
-        "<minitwit_url>",
-        "<minitwit_api_url>",
+        "http://go-minitwit.duckdns.org/",
+        "http://go-minitwit.duckdns.org:8080",
     ],
     [
         "group o",
