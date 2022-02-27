@@ -86,7 +86,7 @@ GROUP_REPOS = [
     [
         "group m",
         "DeadlyDevOps",
-        ["https://github.com/DeadlyDevops/minitwit", "https://github.com/DeadlyDevops/minitwit_BE"],
+        ["https://github.com/DeadlyDevops/minitwit", "https://github.com/JesperRusbjerg/minitwit_BE"],
         "<minitwit_url>",
         "http://138.68.69.204:8081/simulator",
     ],
