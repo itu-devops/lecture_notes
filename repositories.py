@@ -9,9 +9,9 @@ GROUP_REPOS = [
     [
         "group b",
         "Group Bee",
-        ["https://github.com/DEV-OPS-Group-b/minitwit"],
-        "<minitwit_url>",
-        "<minitwit_api_url>",
+        ["https://github.com/DEV-OPS-Group-b/minitwit", "https://github.com/DEV-OPS-Group-b/new-mini-twit-web-app", "https://github.com/DEV-OPS-Group-b/mini-twit-backend", "https://github.com/DEV-OPS-Group-b/mini-twit-simulator-api", "https://github.com/DEV-OPS-Group-b/deployment"],
+        "http://minitwitb.germanywestcentral.cloudapp.azure.com:3000",
+        "http://minitwitb.germanywestcentral.cloudapp.azure.com:9000",
     ],
     [
         "group c",
