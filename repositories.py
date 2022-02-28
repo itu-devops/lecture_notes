@@ -101,8 +101,8 @@ GROUP_REPOS = [
         "group o",
         "TBD",
         ["https://github.com/Akongstad/DevOps-group-p"],
-        "http://144.126.245.237:3001",
-        "http://144.126.245.237:5229/minitwitsimulation",
+        "https://minitwit.online",
+        "https://minitwit.online/api",
     ],
     [
         "group r",
