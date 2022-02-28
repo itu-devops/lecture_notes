@@ -93,7 +93,7 @@ GROUP_REPOS = [
     [
         "group n",
         "DevØps",
-        ["https://github.com/emilravn/devops"],
+        ["https://github.com/ITU-DevOps-N/itu-minitwit", "https://github.com/ITU-DevOps-N/go-minitwit"],
         "<minitwit_url>",
         "<minitwit_api_url>",
     ],
