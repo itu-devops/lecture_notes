@@ -105,6 +105,13 @@ GROUP_REPOS = [
         "https://minitwit.online/api",
     ],
     [
+        "group q",
+        "<SplashOps>",
+        ["https://github.com/DannyDelic/minitwit"],
+        "<minitwit_url>",
+        "<minitwit_api_url>",
+    ],
+    [
         "group r",
         "Rhododevdron",
         ["https://github.com/Devops-2022-Group-R/itu-minitwit", "https://github.com/Devops-2022-Group-R/itu-minitwit-frontend"],
