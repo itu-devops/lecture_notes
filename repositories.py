@@ -31,8 +31,8 @@ GROUP_REPOS = [
         "group e",
         "ASPirin",
         ["https://github.com/ChadIImus/Devoops"],
-        "<minitwit_url>",
-        "<minitwit_api_url>",
+        "http://shittytwitter.tk/",
+        "http://shittytwitter.tk/Simulator",
     ],
     [
         "group f",
