@@ -23,16 +23,16 @@ GROUP_REPOS = [
     [
         "group d",
         "DevelOps",
-        ["https://github.com/DevelOpsITU/minitwit"],
-        "<minitwit_url>",
-        "<minitwit_api_url>",
+        ["https://github.com/DevelOpsITU/minitwit", "https://github.com/DevelOpsITU/ServerDeployment"],
+        "http://thomsen-it.dk",
+        "http://thomsen-it.dk/sim",
     ],
     [
         "group e",
         "ASPirin",
         ["https://github.com/ChadIImus/Devoops"],
-        "<minitwit_url>",
-        "<minitwit_api_url>",
+        "http://shittytwitter.tk/",
+        "http://shittytwitter.tk/Simulator",
     ],
     [
         "group f",
@@ -45,8 +45,8 @@ GROUP_REPOS = [
         "group g",
         "Call Of Duty BlackOps",
         ["https://github.com/Faurby/BlackOps"],
-        "<minitwit_url>",
-        "<minitwit_api_url>",
+        "http://157.230.107.58:5142/",
+        "http://157.230.107.58:5142/sim",
     ],
     [
         "group h",
@@ -60,7 +60,7 @@ GROUP_REPOS = [
         "A-team",
         ["https://github.com/Arklaide/devopsITUproject"],
         "<minitwit_url>",
-        "<minitwit_api_url>",
+        "http://68.183.67.47:8000",
     ],
     [
         "group j",
@@ -93,7 +93,7 @@ GROUP_REPOS = [
     [
         "group n",
         "DevØps",
-        ["https://github.com/emilravn/devops"],
+        ["https://github.com/ITU-DevOps-N/itu-minitwit", "https://github.com/ITU-DevOps-N/go-minitwit"],
         "http://go-minitwit.duckdns.org/",
         "http://go-minitwit.duckdns.org:8080",
     ],
@@ -103,13 +103,6 @@ GROUP_REPOS = [
         ["https://github.com/Akongstad/DevOps-group-p"],
         "http://144.126.245.237:3001",
         "http://144.126.245.237:5229/minitwitsimulation",
-    ],
-    [
-        "group d",
-        "DevelOps",
-        ["https://github.com/DevelOpsITU/minitwit"],
-        "<minitwit_url>",
-        "<minitwit_api_url>",
     ],
     [
         "group r",
