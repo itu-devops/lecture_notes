@@ -23,9 +23,9 @@ GROUP_REPOS = [
     [
         "group d",
         "DevelOps",
-        ["https://github.com/DevelOpsITU/minitwit"],
-        "<minitwit_url>",
-        "<minitwit_api_url>",
+        ["https://github.com/DevelOpsITU/minitwit", "https://github.com/DevelOpsITU/ServerDeployment"],
+        "http://thomsen-it.dk",
+        "http://thomsen-it.dk/sim",
     ],
     [
         "group e",
@@ -103,13 +103,6 @@ GROUP_REPOS = [
         ["https://github.com/Akongstad/DevOps-group-p"],
         "http://144.126.245.237:3001",
         "http://144.126.245.237:5229/minitwitsimulation",
-    ],
-    [
-        "group d",
-        "DevelOps",
-        ["https://github.com/DevelOpsITU/minitwit"],
-        "<minitwit_url>",
-        "<minitwit_api_url>",
     ],
     [
         "group r",
