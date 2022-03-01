@@ -38,8 +38,8 @@ GROUP_REPOS = [
         "group f",
         "PayRespect",
         ["https://github.com/Chillhound/DevOps2022F"],
-        "<minitwit_url>",
-        "<minitwit_api_url>",
+        "http://157.245.27.14",
+        "http://157.245.27.14:8080",
     ],
     [
         "group g",
