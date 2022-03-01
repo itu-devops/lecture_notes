@@ -3,8 +3,8 @@ GROUP_REPOS = [
         "group a",
         "Gruppe_A",
         ["https://github.com/nissemand243/Gruppe_A"],
-        "<minitwit_url>",
-        "<minitwit_api_url>",
+        "https://minitwit.thesvindler.net",
+        "https://minitwit.thesvindler.net/api",
     ],
     [
         "group b",
