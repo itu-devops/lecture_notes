@@ -3,8 +3,8 @@ GROUP_REPOS = [
         "group a",
         "Gruppe_A",
         ["https://github.com/nissemand243/Gruppe_A"],
-        "<minitwit_url>",
-        "<minitwit_api_url>",
+        "https://minitwit.thesvindler.net",
+        "https://minitwit.thesvindler.net/api",
     ],
     [
         "group b",
@@ -17,8 +17,8 @@ GROUP_REPOS = [
         "group c",
         "DevOpps",
         ["https://github.com/antonPalmFolkmann/DevOps2022"],
-        "<minitwit_url>",
-        "<mintwit_api_url>",
+        "http://138.68.118.234:8080",
+        "http://138.68.118.234:8081",
     ],
     [
         "group d",
@@ -38,8 +38,8 @@ GROUP_REPOS = [
         "group f",
         "PayRespect",
         ["https://github.com/Chillhound/DevOps2022F"],
-        "<minitwit_url>",
-        "<minitwit_api_url>",
+        "http://157.245.27.14",
+        "http://157.245.27.14:8080",
     ],
     [
         "group g",
@@ -52,8 +52,8 @@ GROUP_REPOS = [
         "group h",
         "Continuous disintegration",
         ["https://github.com/Herover/itu-devops-h"],
-        "<minitwit_url>",
-        "<minitwit_api_url>",
+        "http://143.198.249.10/",
+        "http://143.198.249.10/api",
     ],
     [
         "group i",
@@ -86,7 +86,7 @@ GROUP_REPOS = [
     [
         "group m",
         "DeadlyDevOps",
-        ["https://github.com/DeadlyDevops/minitwit", "https://github.com/JesperRusbjerg/minitwit_BE"],
+        ["https://github.com/DeadlyDevops/minitwit", "https://github.com/DeadlyDevops/minitwit_BE", "https://github.com/JesperRusbjerg/minitwit_BE"],
         "<minitwit_url>",
         "http://138.68.69.204:8081/simulator",
     ],
