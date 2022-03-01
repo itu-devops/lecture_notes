@@ -17,8 +17,8 @@ GROUP_REPOS = [
         "group c",
         "DevOpps",
         ["https://github.com/antonPalmFolkmann/DevOps2022"],
-        "<minitwit_url>",
-        "<mintwit_api_url>",
+        "http://138.68.118.234:8080",
+        "http://138.68.118.234:8081",
     ],
     [
         "group d",
