@@ -44,7 +44,7 @@ Add them continuously from now on and during the following week.
 
 From now on we are in software maintenance. That is, fix issues of your version of _ITU-MiniTwit_ as soon as possible. Likely, after the simulator is started you will experience some issues in your systems. Just fix them as soon as you realize them.
 
-For example, you will be able to see status and potential errors as the simulator 'sees' them [here](http://164.92.246.227/status.html).
+For example, you will be able to see status and potential errors as the simulator 'sees' them [here](http://164.92.246.227/error_chart.svg).
 
 Continue to release (now likely automatically) at least once per week versions of your system with corresponding fixes.
 
