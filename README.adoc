@@ -174,13 +174,12 @@ Mircea and Helge will provide some supervision during the exercise sessoins.
 In case you know of some "older" students that are experienced in the courses topic and that might be interested in TAing, please let us know.
 
 === Dashboards
-////
 
 ==== Simulator Status Dashboard
 
-* link:http://138.68.93.2/status.html[Status and simulator API errors per
+* link:http://164.92.246.227/status.html[Status and simulator API errors per
 group]
-////
+
 
 ==== Activity Dashboard
 
