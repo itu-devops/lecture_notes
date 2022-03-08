@@ -73,8 +73,8 @@ GROUP_REPOS = [
         "group k",
         "DevUps",
         ["https://github.com/itu-devops2022/itu-devops"],
-        "http://3.64.179.133:4000",
-        "http://3.64.179.133:4000/api/",
+        "http://157.245.21.206:4000/",
+        "http://157.245.21.206:4000/api/",
     ],
     [
         "group l",
