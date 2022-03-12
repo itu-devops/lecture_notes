@@ -39,6 +39,7 @@ GROUP_REPOS = [
         "PayRespect",
         ["https://github.com/Chillhound/DevOps2022F"],
         "http://157.245.27.14",
+        "http://157.245.27.14:3000,
         "http://157.245.27.14:8080",
     ],
     [
