@@ -73,7 +73,7 @@ GROUP_URLS = [
         "group f",
         "PayRespect",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://157.245.27.14:3000/",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
