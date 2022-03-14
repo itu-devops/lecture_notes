@@ -88,7 +88,7 @@ to 14:00 first in Auditorium 2 (0A35) and then in rooms 4A14/4A16.
 |Helge
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_07/README_PREP.md[Prep. material]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_06/Session%2007.ipynb[Software Quality, Maintainability & Technical Debt]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_07/README_EXERCISE.md[Add and understand SonarQube Quality Model]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_07/README_EXERCISE.md[Understand SonarQube Quality Model and experiment with linters.]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_07/README_TASKS.md[Enhancing CI/CD setup with static code analysis]
 // w12
 |8
@@ -96,7 +96,7 @@ to 14:00 first in Auditorium 2 (0A35) and then in rooms 4A14/4A16.
 |10:00 - 14:00
 |Mircea
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_08/README_PREP.md[Prep. material]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_08/Session08-Logging.ipynb[Logging, and Log Analysis. Service-level agreements. Guest lecture on Software Licensing)]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_08/Session08-Logging.ipynb[Logging, and Log Analysis. Service-level agreements.)]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_08/README_EXERCISE.md[A Basic EFK Stack]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_08/README_TASKS.md[Add logging to your _ITU-MiniTwit_ and create a set of SLAs for it]
 // w13
