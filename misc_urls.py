@@ -157,7 +157,7 @@ GROUP_URLS = [
         "group l",
         "iBois",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://67.207.75.163:3000/d/Cx0w3kE7k/minitwit-dashboard?orgId=1",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
