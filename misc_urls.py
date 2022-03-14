@@ -87,7 +87,7 @@ GROUP_URLS = [
         "group g",
         "Call Of Duty BlackOps",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://157.230.107.58:3000",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
