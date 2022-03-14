@@ -101,7 +101,7 @@ GROUP_URLS = [
         "group h",
         "Continuous disintegration",
         # Monitoring URL:
-        "http://167.71.78.68:3000/d/L2jKKnEnk/public-dashboards?orgId=1",
+        "http://167.71.78.68:3000/?orgId=1",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
