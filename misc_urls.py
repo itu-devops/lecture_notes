@@ -45,7 +45,7 @@ GROUP_URLS = [
         "group d",
         "DevelOps",
         # Monitoring URL:
-        "<monitoring_url>",
+        "https://grafana.thomsen-it.dk/",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
