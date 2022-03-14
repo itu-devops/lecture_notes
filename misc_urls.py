@@ -171,7 +171,7 @@ GROUP_URLS = [
         "group m",
         "DeadlyDevOps",
         # Monitoring URL:
-        "http://138.68.69.204:9090/, http://138.68.69.204:9091/",
+        "http://138.68.69.204:9091/",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
