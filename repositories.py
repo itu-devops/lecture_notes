@@ -59,7 +59,7 @@ GROUP_REPOS = [
         "group i",
         "A-team",
         ["https://github.com/Arklaide/devopsITUproject"],
-        "<minitwit_url>",
+        "http://68.183.67.47:5000",
         "http://68.183.67.47:8000",
     ],
     [
