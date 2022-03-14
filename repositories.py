@@ -103,6 +103,7 @@ GROUP_REPOS = [
         ["https://github.com/Akongstad/DevOps-group-p"],
         "https://minitwit.online",
         "https://minitwit.online/api",
+        "https://minitwit.online/monitor",
     ],
     [
         "group q",
