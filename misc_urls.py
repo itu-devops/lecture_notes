@@ -129,7 +129,7 @@ GROUP_URLS = [
         "group j",
         "Root",
         # Monitoring URL:
-        "<monitoring_url>",
+        "https://stats.minitwit.waygroup.net",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
