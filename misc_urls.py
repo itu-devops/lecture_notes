@@ -115,7 +115,7 @@ GROUP_URLS = [
         "group i",
         "A-team",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://68.183.67.47:3000/dashboard/db/prometheus-stats-main?orgId=1",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
