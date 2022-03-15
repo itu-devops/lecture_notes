@@ -87,7 +87,7 @@ to 14:00 first in Auditorium 2 (0A35) and then in rooms 4A14/4A16.
 |10:00 - 14:00
 |Helge
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_07/README_PREP.md[Prep. material]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_06/Session%2007.ipynb[Software Quality, Maintainability & Technical Debt]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_07/Session%2007.ipynb[Software Quality, Maintainability & Technical Debt]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_07/README_EXERCISE.md[Understand SonarQube Quality Model and experiment with linters.]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_07/README_TASKS.md[Enhancing CI/CD setup with static code analysis]
 // w12
