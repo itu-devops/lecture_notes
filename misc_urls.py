@@ -143,7 +143,7 @@ GROUP_URLS = [
         "group k",
         "DevUps",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://157.245.21.206:3000",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
