@@ -31,7 +31,7 @@ GROUP_URLS = [
         "group c",
         "DevOpps",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://138.68.118.234:3000/",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
