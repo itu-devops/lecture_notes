@@ -8,8 +8,8 @@ GROUP_URLS = [
         "<security_report_url>",
         # Logging URL:
         "<logging_url>",
-        # SLA Report:
-        "<sla_report_url>",
+        # SLA:
+        "<sla_url>",
         # SLA Review:
         "<sla_review_url>",
     ],
@@ -22,8 +22,8 @@ GROUP_URLS = [
         "<security_report_url>",
         # Logging URL:
         "<logging_url>",
-        # SLA Report:
-        "<sla_report_url>",
+        # SLA:
+        "<sla_url>",
         # SLA Review:
         "<sla_review_url>",
     ],
@@ -36,8 +36,8 @@ GROUP_URLS = [
         "<security_report_url>",
         # Logging URL:
         "<logging_url>",
-        # SLA Report:
-        "<sla_report_url>",
+        # SLA:
+        "<sla_url>",
         # SLA Review:
         "<sla_review_url>",
     ],
@@ -50,8 +50,8 @@ GROUP_URLS = [
         "<security_report_url>",
         # Logging URL:
         "<logging_url>",
-        # SLA Report:
-        "<sla_report_url>",
+        # SLA:
+        "<sla_url>",
         # SLA Review:
         "<sla_review_url>",
     ],
@@ -64,8 +64,8 @@ GROUP_URLS = [
         "<security_report_url>",
         # Logging URL:
         "<logging_url>",
-        # SLA Report:
-        "<sla_report_url>",
+        # SLA:
+        "<sla_url>",
         # SLA Review:
         "<sla_review_url>",
     ],
@@ -78,8 +78,8 @@ GROUP_URLS = [
         "<security_report_url>",
         # Logging URL:
         "<logging_url>",
-        # SLA Report:
-        "<sla_report_url>",
+        # SLA:
+        "<sla_url>",
         # SLA Review:
         "<sla_review_url>",
     ],
@@ -92,8 +92,8 @@ GROUP_URLS = [
         "<security_report_url>",
         # Logging URL:
         "<logging_url>",
-        # SLA Report:
-        "<sla_report_url>",
+        # SLA:
+        "<sla_url>",
         # SLA Review:
         "<sla_review_url>",
     ],
@@ -106,8 +106,8 @@ GROUP_URLS = [
         "<security_report_url>",
         # Logging URL:
         "<logging_url>",
-        # SLA Report:
-        "<sla_report_url>",
+        # SLA:
+        "<sla_url>",
         # SLA Review:
         "<sla_review_url>",
     ],
@@ -120,8 +120,8 @@ GROUP_URLS = [
         "<security_report_url>",
         # Logging URL:
         "<logging_url>",
-        # SLA Report:
-        "<sla_report_url>",
+        # SLA:
+        "<sla_url>",
         # SLA Review:
         "<sla_review_url>",
     ],
@@ -134,8 +134,8 @@ GROUP_URLS = [
         "<security_report_url>",
         # Logging URL:
         "<logging_url>",
-        # SLA Report:
-        "<sla_report_url>",
+        # SLA:
+        "<sla_url>",
         # SLA Review:
         "<sla_review_url>",
     ],
@@ -148,8 +148,8 @@ GROUP_URLS = [
         "<security_report_url>",
         # Logging URL:
         "<logging_url>",
-        # SLA Report:
-        "<sla_report_url>",
+        # SLA:
+        "<sla_url>",
         # SLA Review:
         "<sla_review_url>",
     ],
@@ -162,8 +162,8 @@ GROUP_URLS = [
         "<security_report_url>",
         # Logging URL:
         "<logging_url>",
-        # SLA Report:
-        "<sla_report_url>",
+        # SLA:
+        "<sla_url>",
         # SLA Review:
         "<sla_review_url>",
     ],
@@ -176,8 +176,8 @@ GROUP_URLS = [
         "<security_report_url>",
         # Logging URL:
         "<logging_url>",
-        # SLA Report:
-        "<sla_report_url>",
+        # SLA:
+        "<sla_url>",
         # SLA Review:
         "<sla_review_url>",
     ],
@@ -190,8 +190,8 @@ GROUP_URLS = [
         "<security_report_url>",
         # Logging URL:
         "<logging_url>",
-        # SLA Report:
-        "<sla_report_url>",
+        # SLA:
+        "<sla_url>",
         # SLA Review:
         "<sla_review_url>",
     ],
@@ -204,8 +204,8 @@ GROUP_URLS = [
         "<security_report_url>",
         # Logging URL:
         "<logging_url>",
-        # SLA Report:
-        "<sla_report_url>",
+        # SLA:
+        "<sla_url>",
         # SLA Review:
         "<sla_review_url>",
     ],
@@ -218,8 +218,8 @@ GROUP_URLS = [
         "<security_report_url>",
         # Logging URL:
         "<logging_url>",
-        # SLA Report:
-        "<sla_report_url>",
+        # SLA:
+        "<sla_url>",
         # SLA Review:
         "<sla_review_url>",
     ],
@@ -232,8 +232,8 @@ GROUP_URLS = [
         "<security_report_url>",
         # Logging URL:
         "<logging_url>",
-        # SLA Report:
-        "<sla_report_url>",
+        # SLA:
+        "<sla_url>",
         # SLA Review:
         "<sla_review_url>",
     ],
