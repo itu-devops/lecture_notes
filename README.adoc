@@ -223,27 +223,110 @@ Outside teaching sessions you can communicate with each other, and with the teac
 
 === Groups
 
-==== BSc
+.Overview over all groups.
+[width="100%",cols="5%,10%,10%,65%,10%",options="header",]
+|=======================================================================
+| |Index |Name |Members |Technology
 
-  * Group a _Group A_ `aleso`, `jkof`, `lukb`, `mfau`, `sals`
-  * Group c _DevOpps_ `osbr`, `jlhj`, `hjel`, `anpf`, `chkg`
-  * Group f _PayRespect_ `momj`, `rhen`, `seho`, `jacj`, `emio`
-  * Group g _Call Of Duty BlackOps_ `lakl`, `frot`, `adbe`, `cafm`, `anlf`
-  * Group h _Continuous disintegration_ `smdi`, `luvu`, `ahto`, `lann`, `siam`
-  * Group j _Root_ `milb`, `deyi`, `deni`, `antni`, `alja`
-  * Group l _iBois_ `jacmo`, `askw`, `cger`, `ladr`, `tovs`, `alwe`
-  * Group o _TBD_ `kong`, `clyt`, `eyey`, `csbe`
-  * Group r _Rhododevdron_ `adbo`, `albn`, `aljb`, `thwr`
+|BSc
+|Group a
+|_Group A_
+|`aleso`, `jkof`, `lukb`, `mfau`, `sals`
+|Go
 
-==== MSc
+|BSc
+|Group c
+|_DevOpps_
+|`osbr`, `jlhj`, `hjel`, `anpf`, `chkg`
+|Go
 
-  * Group b _Group Bee_ `sarw`, `fadd`, `dibo`, `vise`, `lucn`
-  * Group d _DevelOps_ `boer`, `tesp`, `asno`, `calm`, `jtth`, `ddel`
-  * Group e _ASPirin_ `npal`, `osha`, `jubr`, `oeje`, `jsow`
-  * Group i _A-team_ `agbe`, `crie`, `dant`, `jone`, `harp`
-  * Group k _DevUps_ `enbe`, `muki`, `hoch`, `dawo`, `krif`
-  * Group m _DeadlyDevops_ `jrus`, `szyg`, `alih`, `lfor`, `npan`
-  * Group n _DevØps_ `erav`, `hbel`, `apal`, `gimu`, `toap`
+|BSc
+|Group f
+|_PayRespect_
+|`momj`, `rhen`, `seho`, `jacj`, `emio`
+|C#/.Net, React, TypeScript
+  
+|BSc
+|Group g
+|_Call Of Duty BlackOps_
+|`lakl`, `frot`, `adbe`, `cafm`, `anlf`
+|C#/.Net
+
+|BSc
+|Group h
+|_Continuous disintegration_
+|`smdi`, `luvu`, `ahto`, `lann`, `siam`
+|Java/Spark
+
+|BSc
+|Group j
+|_Root_
+|`milb`, `deyi`, `deni`, `antni`, `alja`
+|TypeScript/Node
+
+|BSc
+|Group l
+|_iBois_
+|`jacmo`, `askw`, `cger`, `ladr`, `tovs`, `alwe`
+|Go (Gorilla)
+
+|BSc
+|Group o
+|_TBD_
+|`kong`, `clyt`, `eyey`, `csbe`
+|C#/.Net & JavaScript (React)
+
+|BSc
+|Group r
+|_Rhododevdron_
+|`adbo`, `albn`, `aljb`, `thwr`
+|Go (Gin)
+
+
+
+|MSc
+|Group b
+|_Group Bee_
+|`sarw`, `fadd`, `dibo`, `vise`, `lucn`
+|Java (Spring)/ JavaScript (React)
+
+|MSc
+|Group d
+|_DevelOps_
+|`boer`, `tesp`, `asno`, `calm`, `jtth`, `ddel`
+|Go
+
+|MSc
+|Group e
+|_ASPirin_
+|`npal`, `osha`, `jubr`, `oeje`, `jsow`
+|C#/.Net
+
+|MSc
+|Group i
+|_A-team_
+|`agbe`, `crie`, `dant`, `jone`, `harp`
+|C#/.Net
+
+|MSc
+|Group k
+|_DevUps_
+|`enbe`, `muki`, `hoch`, `dawo`, `krif`
+|Elixir (Pheonix)
+
+|MSc
+|Group m
+|_DeadlyDevops_
+|`jrus`, `szyg`, `alih`, `lfor`, `npan`
+|C#/.Net & JavaScript (Vue)
+
+|MSc
+|Group n
+|_DevØps_
+|`erav`, `hbel`, `apal`, `gimu`, `toap`
+|Go (Gorilla)
+|=======================================================================
+
 
 ==== Ungrouped yet
 
