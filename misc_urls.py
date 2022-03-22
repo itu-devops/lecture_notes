@@ -31,7 +31,7 @@ GROUP_URLS = [
         "group c",
         "DevOpps",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://138.68.118.234:3000/",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
@@ -115,7 +115,7 @@ GROUP_URLS = [
         "group i",
         "A-team",
         # Monitoring URL:
-        "http://68.183.67.47:3000/dashboard/db/prometheus-stats-main?orgId=1",
+        "http://68.183.67.47:3000/",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
@@ -143,7 +143,7 @@ GROUP_URLS = [
         "group k",
         "DevUps",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://157.245.21.206:3000",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:

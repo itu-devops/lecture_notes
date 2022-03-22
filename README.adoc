@@ -238,7 +238,7 @@ Outside teaching sessions you can communicate with each other, and with the teac
 ==== MSc
 
   * Group b _Group Bee_ `sarw`, `fadd`, `dibo`, `vise`, `lucn`
-  * Group d _DevelOps_ `boer`, `tesp`, `asno`, `calm`, `jtth`
+  * Group d _DevelOps_ `boer`, `tesp`, `asno`, `calm`, `jtth`, `ddel`
   * Group e _ASPirin_ `npal`, `osha`, `jubr`, `oeje`, `jsow`
   * Group i _A-team_ `agbe`, `crie`, `dant`, `jone`, `harp`
   * Group k _DevUps_ `enbe`, `muki`, `hoch`, `dawo`, `krif`
