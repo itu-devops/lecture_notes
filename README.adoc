@@ -224,7 +224,7 @@ Outside teaching sessions you can communicate with each other, and with the teac
 === Groups
 
 .Overview over all groups.
-[width="100%",cols="4%,4%,4%,40%,10%",options="header",]
+[width="100%",cols="5%,10%,10%,65%,10%",options="header",]
 |=======================================================================
 | |Index |Name |Members |Technology
 
@@ -325,6 +325,8 @@ Outside teaching sessions you can communicate with each other, and with the teac
 |_DevØps_
 |`erav`, `hbel`, `apal`, `gimu`, `toap`
 |Go (Gorilla)
+|=======================================================================
+
 
 ==== Ungrouped yet
 
