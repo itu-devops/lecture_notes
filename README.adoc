@@ -56,7 +56,7 @@ to 14:00 first in Auditorium 2 (0A35) and then in rooms 4A14/4A16.
 |10:00 - 14:00
 |Alexander (Bird&Bird), Helge
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/README_PREP.md[Prep. material]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/Session%204.ipynb[Continuous Integration (CI), Continuous Delivery (CD), and Continuous Deployment, **@11:00 Guest lecture** on Software Licensing]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/Session%204.ipynb[Continuous Integration (CI), Continuous Delivery (CD), and Continuous Deployment], link:https://ituniversity.sharepoint.com/:b:/r/sites/2022DevOpsSWEvolutionandSWMaintenance/Class%20Materials/Open%20Source%20Licenses%2022-02-2022.pdf?csf=1&web=1&e=QSra89[**@11:00 Guest lecture** on Software Licensing]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/README_EXERCISE.md[Using Travis CI (*Simulator test*)]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/README_TASKS.md[Setup CI & CD for reproducible builds, tests, delivery, and deployment]
 // w9
