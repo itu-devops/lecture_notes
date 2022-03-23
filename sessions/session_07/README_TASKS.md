@@ -16,7 +16,7 @@ Choose and include at least three static analysis tools as software quality gate
 
 Include them in a way that you either abort build in case quality of your code is too low (you will have to define some threshold here) or that you decide to trust them and let the tools try to automatically fix problems (in case you find a tool that supports that). In the latter case, you want to let the corresponding tool contribute the applied changes back to the corresponding source repository.
 
-Let one of the tools be Snyk. In case you build and deploy Docker containers, configure your CI chain in a way that a _quality gate_ prevents that containers with critical vulnerabilities are deployed to production.
+Let one of the tools be Snyk or a similar tool. In case you build and deploy Docker containers, configure your CI chain in a way that a _quality gate_ prevents that containers with critical vulnerabilities are deployed to production.
 
 
 ## 2) Add Maintainability and Technical Debt estimation tools to your projects
