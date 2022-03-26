@@ -227,7 +227,7 @@ GROUP_URLS = [
         "group r",
         "Rhododevdron",
         # Monitoring URL:
-        "http://monitoring.rhododevron.swuwu.dk",
+        "https://monitoring.rhododevdron.dk",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
