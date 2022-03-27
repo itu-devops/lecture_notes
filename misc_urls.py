@@ -3,7 +3,7 @@ GROUP_URLS = [
         "group a",
         "Gruppe_A",
         # Monitoring URL:
-        "<monitoring_url>",
+        "https://minitwit.thesvindler.net/grafana",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
