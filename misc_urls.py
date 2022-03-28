@@ -3,7 +3,7 @@ GROUP_URLS = [
         "group a",
         "Gruppe_A",
         # Monitoring URL:
-        "<monitoring_url>",
+        "https://minitwit.thesvindler.net/grafana",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
@@ -205,7 +205,7 @@ GROUP_URLS = [
         # Logging URL:
         "<logging_url>",
         # SLA:
-        "<sla_url>",
+        "https://github.com/Akongstad/DevOps-group-p/blob/c3bb0c20186c3020f7b68443a8098d6f1c96345e/SLA.md",
         # SLA Review:
         "<sla_review_url>",
     ],
