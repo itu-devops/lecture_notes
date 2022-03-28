@@ -205,7 +205,7 @@ GROUP_URLS = [
         # Logging URL:
         "<logging_url>",
         # SLA:
-        "https://github.com/Akongstad/DevOps-group-p/blob/main/SLA.md",
+        "https://github.com/Akongstad/DevOps-group-p/blob/c3bb0c20186c3020f7b68443a8098d6f1c96345e/SLA.md",
         # SLA Review:
         "<sla_review_url>",
     ],
