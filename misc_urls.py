@@ -59,7 +59,7 @@ GROUP_URLS = [
         "group e",
         "ASPirin",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://shittymetrics.tk",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
