@@ -54,11 +54,12 @@ What you can do is  ~~https://www.random-website.com/ and try to find a few othe
 
 ### Searching for Vulnerabilities with Skipfish
 
+    # mapping a local folder where the html output is going to be saved
     docker run -v /tmp:/home/mirceasmacbook -t -i kalilinux/kali-last-release /bin/bash
 
     # inside the container now
     apt-get udpate
     apt-get install skipfish -y
     
-    skipfish -o /home/mirceasmacbook 
+    skipfish -o /home/mirceasmacbook elysiumpro.in
     
