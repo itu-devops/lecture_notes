@@ -51,7 +51,7 @@ GROUP_URLS = [
         # Logging URL:
         "<logging_url>",
         # SLA:
-        "<sla_url>",
+        "https://github.com/DevelOpsITU/MiniTwit/blob/main/ServiceLevelAgreement.md",
         # SLA Review:
         "<sla_review_url>",
     ],
@@ -59,7 +59,7 @@ GROUP_URLS = [
         "group e",
         "ASPirin",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://shittymetrics.tk",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
@@ -79,7 +79,7 @@ GROUP_URLS = [
         # Logging URL:
         "<logging_url>",
         # SLA:
-        "<sla_url>",
+        "https://github.com/Chillhound/DevOps2022F/blob/main/SLA.md",
         # SLA Review:
         "<sla_review_url>",
     ],
@@ -107,7 +107,7 @@ GROUP_URLS = [
         # Logging URL:
         "<logging_url>",
         # SLA:
-        "<sla_url>",
+        "https://github.com/Herover/itu-devops-h/blob/dev/SLA.md",
         # SLA Review:
         "<sla_review_url>",
     ],
@@ -199,7 +199,7 @@ GROUP_URLS = [
         "group o",
         "TBD",
         # Monitoring URL:
-        "<monitoring_url>",
+        "https://minitwit.online/monitor/",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:

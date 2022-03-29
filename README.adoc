@@ -167,6 +167,16 @@ to 14:00 first in Auditorium 2 (0A35) and then in rooms 4A14/4A16.
 * Exam submission: Latest *19/5/2021 14:00*
 * Exam dates: 21/6/2021 to 24/6/2021
 
+
+=== Peer-feedback, presentations, and discussions in exercise sessions
+
+  * Go -> 4A14 (direction black board)
+    - Group a (_Group A_), Group c (_DevOpps_), Group l (_iBois_), Group r (_Rhododevdron_), Group d (_DevelOps_), Group n (_DevØps_)
+  * C# -> 4A16 (direction black board)
+    - Group f (_PayRespect_), Group g (_Call Of Duty BlackOps_), Group o (_TBD_), Group e (_ASPirin_), Group i (_A-team_), Group m (_DeadlyDevops_)
+  * Java, TypeScript, Elixir -> 4A14/4A16 (center)
+    - Group h (_Continuous disintegration_), Group j (_Root_), Group b (_Group Bee_), Group k (_DevUps_)
+    
 === TA Supervision
 
 Currently, we do not have any TAs for this course.
@@ -268,7 +278,7 @@ Outside teaching sessions you can communicate with each other, and with the teac
 |Group l
 |_iBois_
 |`jacmo`, `askw`, `cger`, `ladr`, `tovs`, `alwe`
-|Go (Gorilla)
+|Go (Iris)
 
 |BSc
 |Group o
