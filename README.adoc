@@ -268,7 +268,7 @@ Outside teaching sessions you can communicate with each other, and with the teac
 |Group l
 |_iBois_
 |`jacmo`, `askw`, `cger`, `ladr`, `tovs`, `alwe`
-|Go (Gorilla)
+|Go (Iris)
 
 |BSc
 |Group o
