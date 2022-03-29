@@ -79,7 +79,7 @@ GROUP_URLS = [
         # Logging URL:
         "<logging_url>",
         # SLA:
-        "<sla_url>",
+        "https://github.com/Chillhound/DevOps2022F/blob/main/SLA.md",
         # SLA Review:
         "<sla_review_url>",
     ],
