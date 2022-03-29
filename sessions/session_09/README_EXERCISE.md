@@ -45,7 +45,10 @@ Now inside metasploit:
 
 **Note:** This website was vulnerable in 2021. In 2022, wmap however, detects no more vulnerabilities. 
 
-What you can do is go to ~~https://www.random-website.com/ and try to find a few other candidates or~~ run straight on your own system or run on [Metasploitable](https://sourceforge.net/projects/metasploitable/) -- a VM that's designed to be exploitable with metasploit.
+What you can do is  ~~https://www.random-website.com/ and try to find a few other candidates or~~ 
+
+- run straight on your own system, or 
+- run on [Metasploitable](https://sourceforge.net/projects/metasploitable/) -- a VM that's designed to be exploitable with metasploit.
 
 
 
