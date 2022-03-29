@@ -185,7 +185,7 @@ GROUP_URLS = [
         "group n",
         "DevØps",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://go-minitwit.duckdns.org:3000/",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
