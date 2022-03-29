@@ -199,7 +199,7 @@ GROUP_URLS = [
         "group o",
         "TBD",
         # Monitoring URL:
-        "<monitoring_url>",
+        "https://minitwit.online/monitor/",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
