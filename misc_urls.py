@@ -149,7 +149,7 @@ GROUP_URLS = [
         # Logging URL:
         "<logging_url>",
         # SLA:
-        "<sla_url>",
+        "https://github.com/itu-devops2022/itu-devops/blob/master/sla.md",
         # SLA Review:
         "<sla_review_url>",
     ],
