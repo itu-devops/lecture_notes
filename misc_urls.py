@@ -65,7 +65,7 @@ GROUP_URLS = [
         # Logging URL:
         "http://shittylogs.tk:5601",
         # SLA:
-        "<sla_url>",
+        "https://github.com/ChadIImus/Devoops/blob/master/ServiceLevelAgreement.md",
         # SLA Review:
         "<sla_review_url>",
     ],
