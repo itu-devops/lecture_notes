@@ -1,14 +1,6 @@
 -----------
 
-# Your turn now: Scale!!
-
-<img src="https://media.giphy.com/media/13GIgrGdslD9oQ/giphy.gif" width=50%/>
-
-  - [1) Add Scaling to your projects](#1-add-scaling-to-your-projects)
-  - [2) Software Licensing](#2-software-licensing)
-  - [3) Software Maintenance](#3-software-maintenance)
-
-
+# Your turn now: Scale Your Infra!
 
 
 ## 1) Add Scaling to your projects
