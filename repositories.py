@@ -66,8 +66,8 @@ GROUP_REPOS = [
         "group j",
         "Root",
         ["https://github.com/AlexBMJ/minitwit"],
-        "http://minitwit.waygroup.net",
-        "http://minitwit.waygroup.net/api",
+        "https://minitwit.waygroup.net",
+        "https://minitwit.waygroup.net/api",
     ],
     [
         "group k",
