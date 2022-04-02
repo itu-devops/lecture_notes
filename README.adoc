@@ -116,7 +116,7 @@ to 14:00 first in Auditorium 2 (0A35) and then in rooms 4A14/4A16.
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_10/README_PREP.md[Prep. material]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_10/Scaling.ipynb[Deployment strategies, scalability, load balancing.]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_10/README_EXERCISE.md[A Basic Swarm]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_09/README_TASKS.md[Isolate components into services/containers/VMs]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_10/README_TASKS.md[Isolate components into services/containers/VMs]
 // w15
 |–
 |12/4
