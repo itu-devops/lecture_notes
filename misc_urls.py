@@ -77,7 +77,7 @@ GROUP_URLS = [
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
-        "<logging_url>",
+        "http://157.245.27.14:5601/",
         # SLA:
         "https://github.com/Chillhound/DevOps2022F/blob/main/SLA.md",
         # SLA Review:
