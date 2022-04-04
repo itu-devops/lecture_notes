@@ -93,7 +93,7 @@ GROUP_URLS = [
         # Logging URL:
         "<logging_url>",
         # SLA:
-        "<sla_url>",
+        "https://github.com/Faurby/BlackOps/blob/main/SLA%20MiniTwit.md",
         # SLA Review:
         "<sla_review_url>",
     ],
