@@ -37,7 +37,7 @@ GROUP_URLS = [
         # Logging URL:
         "<logging_url>",
         # SLA:
-        "<sla_url>",
+        "https://github.com/antonPalmFolkmann/DevOps2022/blob/main/docs/sla.md",
         # SLA Review:
         "<sla_review_url>",
     ],
