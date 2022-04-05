@@ -147,7 +147,7 @@ GROUP_URLS = [
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
-        "<logging_url>",
+        "http://157.245.21.206:3000",
         # SLA:
         "<sla_url>",
         # SLA Review:
