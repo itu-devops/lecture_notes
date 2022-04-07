@@ -173,7 +173,7 @@ GROUP_URLS = [
         # Monitoring URL:
         "http://138.68.69.204:9091/",
         # Security report URL:
-        "<security_report_url>",
+        "https://docs.google.com/document/d/1-_U0NAp_K1z9b-GrYPjM7LMKG0CnYFGSdaynX_qW-9s/edit#heading=h.bk0e1q56s8h",
         # Logging URL:
         "<logging_url>",
         # SLA:
