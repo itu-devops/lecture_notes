@@ -157,13 +157,13 @@ GROUP_URLS = [
         "group l",
         "iBois",
         # Monitoring URL:
-        "http://67.207.75.163:3000/d/Cx0w3kE7k/minitwit-dashboard?orgId=1",
+        "http://138.68.125.155:3000/d/Cx0w3kE7k/minitwit-dashboard?orgId=1",
         # Security report URL:
-        "<security_report_url>",
+        "https://github.com/aske-w/itu-minitwit/blob/development/security-analysis.md",
         # Logging URL:
-        "<logging_url>",
+        "http://138.68.125.155:5601/",
         # SLA:
-        "<sla_url>",
+        "https://github.com/aske-w/itu-minitwit/blob/development/SLA.md",
         # SLA Review:
         "<sla_review_url>",
     ],
