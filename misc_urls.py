@@ -63,9 +63,9 @@ GROUP_URLS = [
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
-        "<logging_url>",
+        "http://shittylogs.tk:5601",
         # SLA:
-        "<sla_url>",
+        "https://github.com/ChadIImus/Devoops/blob/master/ServiceLevelAgreement.md",
         # SLA Review:
         "<sla_review_url>",
     ],
@@ -131,11 +131,11 @@ GROUP_URLS = [
         # Monitoring URL:
         "https://stats.minitwit.waygroup.net",
         # Security report URL:
-        "<security_report_url>",
+        "https://docs.google.com/document/d/1aT07u2MF2EVzycrHEzfPsu8R37An5bKz6tCCY1nfs6I/edit?usp=sharing",
         # Logging URL:
-        "<logging_url>",
+        "https://logs.minitwit.waygroup.net",
         # SLA:
-        "<sla_url>",
+        "https://github.com/AlexBMJ/minitwit/blob/main/SLA.md",
         # SLA Review:
         "<sla_review_url>",
     ],
@@ -149,7 +149,7 @@ GROUP_URLS = [
         # Logging URL:
         "<logging_url>",
         # SLA:
-        "<sla_url>",
+        "https://github.com/itu-devops2022/itu-devops/blob/master/sla.md",
         # SLA Review:
         "<sla_review_url>",
     ],
@@ -157,13 +157,13 @@ GROUP_URLS = [
         "group l",
         "iBois",
         # Monitoring URL:
-        "http://67.207.75.163:3000/d/Cx0w3kE7k/minitwit-dashboard?orgId=1",
+        "http://138.68.125.155:3000/d/Cx0w3kE7k/minitwit-dashboard?orgId=1",
         # Security report URL:
-        "<security_report_url>",
+        "https://github.com/aske-w/itu-minitwit/blob/development/security-analysis.md",
         # Logging URL:
-        "<logging_url>",
+        "http://138.68.125.155:5601/",
         # SLA:
-        "<sla_url>",
+        "https://github.com/aske-w/itu-minitwit/blob/development/SLA.md",
         # SLA Review:
         "<sla_review_url>",
     ],
