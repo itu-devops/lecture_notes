@@ -131,11 +131,11 @@ GROUP_URLS = [
         # Monitoring URL:
         "https://stats.minitwit.waygroup.net",
         # Security report URL:
-        "<security_report_url>",
+        "https://docs.google.com/document/d/1aT07u2MF2EVzycrHEzfPsu8R37An5bKz6tCCY1nfs6I/edit?usp=sharing",
         # Logging URL:
-        "<logging_url>",
+        "https://logs.minitwit.waygroup.net",
         # SLA:
-        "<sla_url>",
+        "https://github.com/AlexBMJ/minitwit/blob/main/SLA.md",
         # SLA Review:
         "<sla_review_url>",
     ],
