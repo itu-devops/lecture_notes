@@ -147,7 +147,7 @@ GROUP_URLS = [
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
-        "<logging_url>",
+        "http://157.245.21.206:3000",
         # SLA:
         "https://github.com/itu-devops2022/itu-devops/blob/master/sla.md",
         # SLA Review:
