@@ -80,7 +80,7 @@ GROUP_REPOS = [
         "group l",
         "iBois",
         ["https://github.com/aske-w/itu-minitwit"],
-        "http://67.207.75.163:8080/",
+        "http://67.207.75.163/",
         "http://67.207.75.163:8080/api",
     ],
     [

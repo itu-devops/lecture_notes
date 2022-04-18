@@ -1,6 +1,6 @@
 -----------
 
-# Your turn now: Scale Your Infra!
+# Your turn now: Scale and Increase Availability of Your Infra!
 
 
 ## 1) Add Scaling to your projects
