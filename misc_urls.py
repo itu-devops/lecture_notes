@@ -37,7 +37,7 @@ GROUP_URLS = [
         # Logging URL:
         "<logging_url>",
         # SLA:
-        "<sla_url>",
+        "https://github.com/antonPalmFolkmann/DevOps2022/blob/main/docs/sla.md",
         # SLA Review:
         "<sla_review_url>",
     ],
@@ -61,11 +61,11 @@ GROUP_URLS = [
         # Monitoring URL:
         "http://shittymetrics.tk",
         # Security report URL:
-        "<security_report_url>",
+        "https://github.com/ChadIImus/Devoops/blob/dev/DevOps_Security_report.pdf",
         # Logging URL:
-        "<logging_url>",
+        "http://shittylogs.tk:5601",
         # SLA:
-        "<sla_url>",
+        "https://github.com/ChadIImus/Devoops/blob/master/ServiceLevelAgreement.md",
         # SLA Review:
         "<sla_review_url>",
     ],
@@ -77,7 +77,7 @@ GROUP_URLS = [
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
-        "<logging_url>",
+        "http://157.245.27.14:5601/",
         # SLA:
         "https://github.com/Chillhound/DevOps2022F/blob/main/SLA.md",
         # SLA Review:
@@ -93,7 +93,7 @@ GROUP_URLS = [
         # Logging URL:
         "<logging_url>",
         # SLA:
-        "<sla_url>",
+        "https://github.com/Faurby/BlackOps/blob/main/SLA%20MiniTwit.md",
         # SLA Review:
         "<sla_review_url>",
     ],
@@ -131,11 +131,11 @@ GROUP_URLS = [
         # Monitoring URL:
         "https://stats.minitwit.waygroup.net",
         # Security report URL:
-        "<security_report_url>",
+        "https://docs.google.com/document/d/1aT07u2MF2EVzycrHEzfPsu8R37An5bKz6tCCY1nfs6I/edit?usp=sharing",
         # Logging URL:
-        "<logging_url>",
+        "https://logs.minitwit.waygroup.net",
         # SLA:
-        "<sla_url>",
+        "https://github.com/AlexBMJ/minitwit/blob/main/SLA.md",
         # SLA Review:
         "<sla_review_url>",
     ],
@@ -147,9 +147,9 @@ GROUP_URLS = [
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
-        "<logging_url>",
+        "http://157.245.21.206:3000",
         # SLA:
-        "<sla_url>",
+        "https://github.com/itu-devops2022/itu-devops/blob/master/sla.md",
         # SLA Review:
         "<sla_review_url>",
     ],
@@ -157,13 +157,13 @@ GROUP_URLS = [
         "group l",
         "iBois",
         # Monitoring URL:
-        "http://67.207.75.163:3000/d/Cx0w3kE7k/minitwit-dashboard?orgId=1",
+        "http://138.68.125.155:3000/d/Cx0w3kE7k/minitwit-dashboard?orgId=1",
         # Security report URL:
-        "<security_report_url>",
+        "https://github.com/aske-w/itu-minitwit/blob/development/security-analysis.md",
         # Logging URL:
-        "<logging_url>",
+        "http://67.207.75.163:5601/",
         # SLA:
-        "<sla_url>",
+        "https://github.com/aske-w/itu-minitwit/blob/development/SLA.md",
         # SLA Review:
         "<sla_review_url>",
     ],
@@ -173,11 +173,11 @@ GROUP_URLS = [
         # Monitoring URL:
         "http://138.68.69.204:9091/",
         # Security report URL:
-        "<security_report_url>",
+        "https://docs.google.com/document/d/1-_U0NAp_K1z9b-GrYPjM7LMKG0CnYFGSdaynX_qW-9s/edit#heading=h.bk0e1q56s8h",
         # Logging URL:
-        "<logging_url>",
+        "https://p.datadoghq.com/sb/0fa2676e-aba2-11ec-8efa-da7ad0900002-07eb5c7ff915fcb7e4e9a9e0a27977b5",
         # SLA:
-        "<sla_url>",
+        "https://github.com/JesperRusbjerg/minitwit_BE/blob/main/sla.md",
         # SLA Review:
         "<sla_review_url>",
     ],
@@ -185,13 +185,13 @@ GROUP_URLS = [
         "group n",
         "DevØps",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://go-minitwit.duckdns.org:3000",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
         "<logging_url>",
         # SLA:
-        "<sla_url>",
+        "https://github.com/ITU-DevOps-N/go-minitwit/blob/main/SLA.md",
         # SLA Review:
         "<sla_review_url>",
     ],
@@ -203,7 +203,7 @@ GROUP_URLS = [
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
-        "<logging_url>",
+        "https://minitwit.online/kibana/",
         # SLA:
         "https://github.com/Akongstad/DevOps-group-p/blob/c3bb0c20186c3020f7b68443a8098d6f1c96345e/SLA.md",
         # SLA Review:

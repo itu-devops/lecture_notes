@@ -58,7 +58,7 @@ What you can do is  ~~https://www.random-website.com/ and try to find a few othe
     docker run -v /tmp:/home/mirceasmacbook -t -i kalilinux/kali-last-release /bin/bash
 
     # inside the container now
-    apt-get udpate
+    apt-get update
     apt-get install skipfish -y
     
     skipfish -o /home/mirceasmacbook elysiumpro.in
