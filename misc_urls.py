@@ -177,7 +177,7 @@ GROUP_URLS = [
         # Logging URL:
         "https://p.datadoghq.com/sb/0fa2676e-aba2-11ec-8efa-da7ad0900002-07eb5c7ff915fcb7e4e9a9e0a27977b5",
         # SLA:
-        "<sla_url>",
+        "https://github.com/JesperRusbjerg/minitwit_BE/blob/main/sla.md",
         # SLA Review:
         "<sla_review_url>",
     ],
