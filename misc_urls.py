@@ -61,7 +61,7 @@ GROUP_URLS = [
         # Monitoring URL:
         "http://shittymetrics.tk",
         # Security report URL:
-        "<security_report_url>",
+        "https://github.com/ChadIImus/Devoops/blob/dev/DevOps_Security_report.pdf",
         # Logging URL:
         "http://shittylogs.tk:5601",
         # SLA:
