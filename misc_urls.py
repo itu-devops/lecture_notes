@@ -203,7 +203,7 @@ GROUP_URLS = [
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
-        "<logging_url>",
+        "https://minitwit.online/kibana/",
         # SLA:
         "https://github.com/Akongstad/DevOps-group-p/blob/c3bb0c20186c3020f7b68443a8098d6f1c96345e/SLA.md",
         # SLA Review:
