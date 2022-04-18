@@ -161,7 +161,7 @@ GROUP_URLS = [
         # Security report URL:
         "https://github.com/aske-w/itu-minitwit/blob/development/security-analysis.md",
         # Logging URL:
-        "http://138.68.125.155:5601/",
+        "http://67.207.75.163:5601/",
         # SLA:
         "https://github.com/aske-w/itu-minitwit/blob/development/SLA.md",
         # SLA Review:
