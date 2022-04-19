@@ -229,11 +229,11 @@ GROUP_URLS = [
         # Monitoring URL:
         "http://monitoring.rhododevron.swuwu.dk",
         # Security report URL:
-        "<security_report_url>",
+        "https://github.com/Devops-2022-Group-R/itu-minitwit/blob/master/notes/session09_Security.md",
         # Logging URL:
-        "<logging_url>",
+        "https://logs.rhododevdron.dk",
         # SLA:
-        "<sla_url>",
+        "https://github.com/Devops-2022-Group-R/itu-minitwit/blob/master/SLA.md",
         # SLA Review:
         "<sla_review_url>",
     ],
