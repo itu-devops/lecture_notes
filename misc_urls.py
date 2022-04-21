@@ -115,11 +115,11 @@ GROUP_URLS = [
         "group i",
         "A-team",
         # Monitoring URL:
-        "http://68.183.67.47:3000/",
+        "http://164.92.132.67:3000",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
-        "<logging_url>",
+        "http://164.92.132.67:5601",
         # SLA:
         "<sla_url>",
         # SLA Review:
