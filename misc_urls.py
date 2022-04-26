@@ -187,7 +187,7 @@ GROUP_URLS = [
         # Monitoring URL:
         "http://go-minitwit.duckdns.org:3000",
         # Security report URL:
-        "<security_report_url>",
+        "https://github.com/ITU-DevOps-N/go-minitwit/wiki/Security",
         # Logging URL:
         "<logging_url>",
         # SLA:
