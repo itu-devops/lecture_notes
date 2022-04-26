@@ -121,7 +121,7 @@ GROUP_URLS = [
         # Logging URL:
         "<logging_url>",
         # SLA:
-        "<sla_url>",
+        "https://github.com/Arklaide/devopsITUproject/blob/main/MinitweetApi/SLA.md",
         # SLA Review:
         "<sla_review_url>",
     ],
