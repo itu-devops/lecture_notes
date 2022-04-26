@@ -145,7 +145,7 @@ GROUP_URLS = [
         # Monitoring URL:
         "http://157.245.21.206:3000",
         # Security report URL:
-        "<security_report_url>",
+        "https://github.com/itu-devops2022/itu-devops/wiki/Security-assessment",
         # Logging URL:
         "http://157.245.21.206:3000",
         # SLA:
