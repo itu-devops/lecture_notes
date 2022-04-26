@@ -89,7 +89,7 @@ GROUP_URLS = [
         # Monitoring URL:
         "http://157.230.107.58:3000",
         # Security report URL:
-        "<security_report_url>",
+        "https://github.com/Faurby/BlackOps/blob/main/Security_Assessment.md",
         # Logging URL:
         "<logging_url>",
         # SLA:
