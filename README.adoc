@@ -150,15 +150,15 @@ to 14:00 first in Auditorium 2 (0A35) and then in rooms 4A14/4A16.
 |10:00 - 14:00
 |Mircea & Helge
 |
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_13/Architectural_Viewpoints.pdf[Documentation of Systems and Projects]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_13/Architectural_Viewpoints.pdf[Documentation of Systems and Projects] & Guest Lecture on DevOps by link:Zander[https://web.archive.org/web/20200213204219/https://www.praqma.com/about/team/] (link:Eficode[https://www.eficode.com/])
 |
 |*Simulator stops*. Write report.
 // w19
 |14
 |10/5
 |10:00 - 14:00
-|
-|
+|Mircea & Helge
+|Exam prep., Thesis topics, Evaluation, Cookies :)
 |
 |
 |Write report.
