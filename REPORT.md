@@ -24,6 +24,8 @@ Make sure that you link all artifacts that you consider constitutional to your p
 Send a pull request to the final release of your _ITU-MiniTwit_, which includes your complete report in source form and built PDF too, to the file [`final_report_urls.py`](https://github.com/itu-devops/lecture_notes/blob/master/final_report_urls.py) in https://github.com/itu-devops/lecture_notes.
 
 **Additionally**, submit the ZIP file of the release, which contains your report via LearnIT _before_ Wednesday Jun 1st, 14:00.
+
+
 ---------
 
 ## What to include in the report?
