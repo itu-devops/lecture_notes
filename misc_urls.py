@@ -89,7 +89,7 @@ GROUP_URLS = [
         # Monitoring URL:
         "http://157.230.107.58:3000",
         # Security report URL:
-        "<security_report_url>",
+        "https://github.com/Faurby/BlackOps/blob/main/Security_Assessment.md",
         # Logging URL:
         "<logging_url>",
         # SLA:
@@ -115,13 +115,13 @@ GROUP_URLS = [
         "group i",
         "A-team",
         # Monitoring URL:
-        "http://68.183.67.47:3000/",
+        "http://164.92.132.67:3000",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
-        "<logging_url>",
+        "http://164.92.132.67:5601",
         # SLA:
-        "<sla_url>",
+        "https://github.com/Arklaide/devopsITUproject/blob/main/MinitweetApi/SLA.md",
         # SLA Review:
         "<sla_review_url>",
     ],
@@ -145,7 +145,7 @@ GROUP_URLS = [
         # Monitoring URL:
         "http://157.245.21.206:3000",
         # Security report URL:
-        "<security_report_url>",
+        "https://github.com/itu-devops2022/itu-devops/wiki/Security-assessment",
         # Logging URL:
         "http://157.245.21.206:3000",
         # SLA:
@@ -187,7 +187,7 @@ GROUP_URLS = [
         # Monitoring URL:
         "http://go-minitwit.duckdns.org:3000",
         # Security report URL:
-        "<security_report_url>",
+        "https://github.com/ITU-DevOps-N/go-minitwit/wiki/Security",
         # Logging URL:
         "<logging_url>",
         # SLA:

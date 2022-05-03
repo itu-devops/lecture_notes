@@ -59,8 +59,8 @@ GROUP_REPOS = [
         "group i",
         "A-team",
         ["https://github.com/Arklaide/devopsITUproject"],
-        "http://68.183.67.47:5000",
-        "http://68.183.67.47:8000",
+        "http://164.92.132.67:5000",
+        "http://164.92.132.67:8000",
     ],
     [
         "group j",
