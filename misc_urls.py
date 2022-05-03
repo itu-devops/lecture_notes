@@ -7,7 +7,7 @@ GROUP_URLS = [
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
-        "<logging_url>",
+        "https://minitwit.thesvinler.net/kibana",
         # SLA:
         "<sla_url>",
         # SLA Review:
