@@ -189,7 +189,7 @@ GROUP_URLS = [
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
-        "<logging_url>",
+        "http://go-minitwit.duckdns.org:5601",
         # SLA:
         "https://github.com/ITU-DevOps-N/go-minitwit/blob/main/SLA.md",
         # SLA Review:
