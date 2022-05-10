@@ -303,8 +303,8 @@ Outside teaching sessions you can communicate with each other, and with the teac
 |MSc
 |Group d
 |_DevelOps_
-|`boer`, `tesp`, `asno`, `calm`, `jtth`, `ddel`
-|Go
+|`boer`, `tesp`, `asno`, `calm`, `jtth`
+|Go (Gin)
 
 |MSc
 |Group e
