@@ -283,7 +283,7 @@ Outside teaching sessions you can communicate with each other, and with the teac
 |BSc
 |Group o
 |_TBD_
-|`kong`, `clyt`, `eyey`, `csbe`
+|`kong`, `clyt`, `eyey`, `csbe`, `fbah`
 |C#/.Net & JavaScript (React)
 
 |BSc
