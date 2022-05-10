@@ -100,7 +100,7 @@ GROUP_REPOS = [
     [
         "group o",
         "TBD",
-        ["https://github.com/Akongstad/DevOps-group-p"],
+        ["https://github.com/Akongstad/DevOps-group-p", "https://github.com/mikaeleythor/itu-minitwit-ops"],
         "https://minitwit.online",
         "https://minitwit.online/api",
     ],
