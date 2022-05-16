@@ -321,7 +321,7 @@ Outside teaching sessions you can communicate with each other, and with the teac
 |MSc
 |Group k
 |_DevUps_
-|`enbe`, `muki`, `hoch`, `dawo`, `krif`
+|`enbe`, `muki`, `hoch`, `dawo`
 |Elixir (Pheonix)
 
 |MSc
