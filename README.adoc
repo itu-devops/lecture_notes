@@ -346,24 +346,134 @@ Outside teaching sessions you can communicate with each other, and with the teac
 
  
 == Exam Schedule
-
-////
 .Course schedule *Note*: While times are locked, the topics are subject to change.
 [width="100%",cols="4%,4%,4%,3%,4%,30%,17%",options="header",]
 |=======================================================================
 |Day |Time Slot |Group |Group Name |Degree |#Group Members |Duration
 
+|21/6
+|9:30-10:45
+|Group g
+|Call Of Duty BlackOps
+|BSc
+|5
+|1:15
+
 |
+|10:55-11:55
+|Group i
+|A-team
+|MSc
+|4
+|1:00
+
 |
+|12:40-13:55
+|Group n
+|DevØps
+|MSc
+|5
+|1:15
+
 |
+|14:05-15:20
+|Group e
+|ASPirin
+|MSc
+|5
+|1:15
+
 |
+|15:30-16:30
+|Group k
+|DevUps
+|MSc
+|4
+|1:00
+
+|22/6
+|9:30-10:30
+|Group f
+|PayRespect
+|BSc
+|4
+|1:00
+
 |
+|10:40-11:55
+|Group d
+|DevelOps
+|MSc
+|5
+|1:15
+
 |
+|12:30-13:45
+|Group m
+|DeadlyDevops
+|MSc
+|5
+|1:15
+
 |
+|13:55-15:10
+|Group h
+|Continuous disintegration
+|BSc
+|5
+|1:15
+
+|
+|15:20-16:20
+|Group r
+|Rhododevdron
+|BSc
+|4
+|1:00
+
+|
+|16:30-17:45
+|Group c
+|DevOpps
+|BSc
+|5
+|1:15
+
+|23/6
+|9:30-11:00
+|Group a
+|Group A
+|BSc
+|5
+|1:15 + 15
+
+|
+|11:10-12:25
+|Group j
+|Root
+|BSc
+|5
+|1:15
+
+|
+|13:00-14:30
+|Group l
+|iBois
+|BSc
+|6
+|1:30
+
+|
+|14:40-15:55
+|Group o
+|TBD
+|BSc
+|5
+|1:15
+
 |=======================================================================
 
 More details about the exam structure can be found here: link:https://github.com/itu-devops/lecture_notes/blob/master/exam_details.md[exam_details.md]
-////
 
 
 
