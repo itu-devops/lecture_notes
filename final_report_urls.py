@@ -63,7 +63,7 @@ REPORT_URLS = [
         "group k",
         "DevUps",
         # Report Release URL:
-        "https://github.com/<TBA>/<TBA>.zip",
+        "https://github.com/itu-devops2022/itu-devops/archive/refs/tags/v0.16.2.zip",
     ],
     [
         "group l",
