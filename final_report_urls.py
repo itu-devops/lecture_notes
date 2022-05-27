@@ -69,7 +69,7 @@ REPORT_URLS = [
         "group l",
         "iBois",
         # Report Release URL:
-        "https://github.com/<TBA>/<TBA>.zip",
+        "https://github.com/aske-w/itu-minitwit/archive/refs/tags/v.26.final.zip",
     ],
     [
         "group m",
