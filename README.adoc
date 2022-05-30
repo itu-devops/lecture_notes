@@ -471,6 +471,14 @@ Outside teaching sessions you can communicate with each other, and with the teac
 |5
 |1:15
 
+|
+|16:00-17:15
+|Group b
+|Group Bee
+|MSc
+|5
+|1:15
+
 |=======================================================================
 
 More details about the exam structure can be found here: link:https://github.com/itu-devops/lecture_notes/blob/master/exam_details.md[exam_details.md]
