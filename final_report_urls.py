@@ -45,7 +45,7 @@ REPORT_URLS = [
         "group h",
         "Continuous disintegration",
         # Report Release URL:
-        "https://github.com/<TBA>/<TBA>.zip",
+        "https://github.com/Herover/itu-devops-h/archive/refs/tags/1.0.4.zip",
     ],
     [
         "group i",
