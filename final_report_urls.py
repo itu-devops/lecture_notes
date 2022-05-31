@@ -81,7 +81,7 @@ REPORT_URLS = [
         "group n",
         "DevØps",
         # Report Release URL:
-        "https://github.com/<TBA>/<TBA>.zip",
+        "https://github.com/ITU-DevOps-N/go-minitwit/archive/refs/tags/v9.zip",
     ],
     [
         "group o",
