@@ -87,7 +87,7 @@ REPORT_URLS = [
         "group o",
         "TBD",
         # Report Release URL:
-        "https://github.com/<TBA>/<TBA>.zip",
+        "https://github.com/Akongstad/DevOps-group-p/archive/refs/tags/v17.6.zip",
     ],
     [
         "group q",
