@@ -57,7 +57,7 @@ REPORT_URLS = [
         "group j",
         "Root",
         # Report Release URL:
-        "https://github.com/<TBA>/<TBA>.zip",
+        "https://github.com/AlexBMJ/minitwit/archive/refs/tags/v13.0.zip",
     ],
     [
         "group k",
