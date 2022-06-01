@@ -75,7 +75,7 @@ REPORT_URLS = [
         "group m",
         "DeadlyDevOps",
         # Report Release URL:
-        "https://github.com/<TBA>/<TBA>.zip",
+        "https://github.com/JesperRusbjerg/minitwit_BE/releases/tag/v1.0.1",
     ],
     [
         "group n",
