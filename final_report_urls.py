@@ -3,7 +3,7 @@ REPORT_URLS = [
         "group a",
         "Gruppe_A",
         # Report Release URL:
-        "https://github.com/<TBA>/<TBA>.zip",
+        "https://github.com/salsitu/minitwit_thesvindler/archive/refs/tags/v1.0-report.zip",
     ],
     [
         "group b",
