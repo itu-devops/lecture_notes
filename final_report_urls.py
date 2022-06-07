@@ -51,7 +51,7 @@ REPORT_URLS = [
         "group i",
         "A-team",
         # Report Release URL:
-        "https://github.com/<TBA>/<TBA>.zip",
+        "https://github.com/Arklaide/devopsITUproject/archive/refs/tags/202205291814.zip",
     ],
     [
         "group j",
