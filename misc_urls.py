@@ -117,7 +117,7 @@ GROUP_URLS = [
         # Monitoring URL:
         "http://164.92.132.67:3000",
         # Security report URL:
-        "<security_report_url>",
+        "https://github.com/Arklaide/devopsITUproject/blob/main/report/sub-reports/SecurityAssessment.md",
         # Logging URL:
         "http://164.92.132.67:5601",
         # SLA:
