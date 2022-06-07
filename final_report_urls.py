@@ -99,6 +99,6 @@ REPORT_URLS = [
         "group r",
         "Rhododevdron",
         # Report Release URL:
-        "https://github.com/<TBA>/<TBA>.zip",
+        "https://github.com/Devops-2022-Group-R/itu-minitwit/archive/refs/tags/v1.0.0.zip",
     ],
 ]
