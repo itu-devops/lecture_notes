@@ -39,7 +39,7 @@ REPORT_URLS = [
         "group g",
         "Call Of Duty BlackOps",
         # Report Release URL:
-        "https://github.com/<TBA>/<TBA>.zip",
+        "https://github.com/Faurby/BlackOps/archive/refs/tags/final_2.zip",
     ],
     [
         "group h",
