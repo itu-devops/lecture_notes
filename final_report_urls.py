@@ -33,7 +33,7 @@ REPORT_URLS = [
         "group f",
         "PayRespect",
         # Report Release URL:
-        "https://github.com/<TBA>/<TBA>.zip",
+        "https://github.com/Chillhound/DevOps2022F/archive/refs/tags/v.1.0.0.zip",
     ],
     [
         "group g",
