@@ -9,7 +9,7 @@ REPORT_URLS = [
         "group b",
         "Group Bee",
         # Report Release URL:
-        "https://github.com/<TBA>/<TBA>.zip",
+        "https://github.com/DEV-OPS-Group-b/deployment/archive/refs/tags/v.1.0.6.zip",
     ],
     [
         "group c",
