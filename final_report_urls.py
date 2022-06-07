@@ -27,7 +27,7 @@ REPORT_URLS = [
         "group e",
         "ASPirin",
         # Report Release URL:
-        "https://github.com/<TBA>/<TBA>.zip",
+        "https://github.com/ChadIImus/Devoops/archive/refs/tags/v1.7.zip",
     ],
     [
         "group f",
