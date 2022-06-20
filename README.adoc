@@ -346,7 +346,7 @@ Outside teaching sessions you can communicate with each other, and with the teac
 
  
 == Exam Schedule
-.Exam schedule.
+.Exam schedule. The room for the exam is 3A18.
 [width="100%",cols="4%,4%,4%,3%,4%,30%,17%",options="header",]
 |=======================================================================
 |Day |Time Slot |Group |Group Name |Degree |#Group Members |Duration
