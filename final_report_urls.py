@@ -1,104 +1,98 @@
 REPORT_URLS = [
     [
         "group a",
-        "Gruppe_A",
+        "<name>",
         # Report Release URL:
-        "https://github.com/salsitu/minitwit_thesvindler/archive/refs/tags/v1.0-report.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group b",
-        "Group Bee",
+        "<name>",
         # Report Release URL:
-        "https://github.com/DEV-OPS-Group-b/deployment/archive/refs/tags/v.1.0.6.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group c",
-        "DevOpps",
+        "<name>",
         # Report Release URL:
-        "https://github.com/antonPalmFolkmann/DevOps2022/archive/refs/tags/v1.1.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group d",
-        "DevelOps",
+        "<name>",
         # Report Release URL:
-        "https://github.com/DevelOpsITU/MiniTwit/archive/refs/tags/v1.7.0.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group e",
-        "ASPirin",
+        "<name>",
         # Report Release URL:
-        "https://github.com/ChadIImus/Devoops/archive/refs/tags/v1.7.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group f",
-        "PayRespect",
+        "<name>",
         # Report Release URL:
-        "https://github.com/Chillhound/DevOps2022F/archive/refs/tags/v.1.0.0.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group g",
-        "Call Of Duty BlackOps",
+        "<name>",
         # Report Release URL:
-        "https://github.com/Faurby/BlackOps/archive/refs/tags/final_2.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group h",
-        "Continuous disintegration",
+        "<name>",
         # Report Release URL:
-        "https://github.com/Herover/itu-devops-h/archive/refs/tags/1.0.4.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group i",
-        "A-team",
+        "<name>",
         # Report Release URL:
-        "https://github.com/Arklaide/devopsITUproject/archive/refs/tags/202205291814.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group j",
-        "Root",
+        "<name>",
         # Report Release URL:
-        "https://github.com/AlexBMJ/minitwit/archive/refs/tags/v13.0.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group k",
-        "DevUps",
+        "<name>",
         # Report Release URL:
-        "https://github.com/itu-devops2022/itu-devops/archive/refs/tags/v0.16.2.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group l",
-        "iBois",
+        "<name>",
         # Report Release URL:
-        "https://github.com/aske-w/itu-minitwit/archive/refs/tags/v.26.final.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group m",
-        "DeadlyDevOps",
+        "<name>",
         # Report Release URL:
-        "https://github.com/JesperRusbjerg/minitwit_BE/releases/tag/v1.0.1",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group n",
-        "DevØps",
+        "<name>",
         # Report Release URL:
-        "https://github.com/ITU-DevOps-N/go-minitwit/archive/refs/tags/v9.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group o",
-        "TBD",
+        "<name>",
         # Report Release URL:
-        "https://github.com/Akongstad/DevOps-group-p/archive/refs/tags/v17.6.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
-        "group q",
-        "<SplashOps>",
+        "group p",
+        "<name>",
         # Report Release URL:
-        "https://github.com/<TBA>/<TBA>.zip",
-    ],
-    [
-        "group r",
-        "Rhododevdron",
-        # Report Release URL:
-        "https://github.com/Devops-2022-Group-R/itu-minitwit/archive/refs/tags/v1.0.0.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
 ]
