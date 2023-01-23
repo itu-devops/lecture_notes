@@ -223,7 +223,7 @@ Consequently, likely many of the technologies that we demonstrate will have issu
 
 === Communication
 
-Outside teaching sessions you can communicate with each other, and with the teachers via the link:[the course's Teams channel].
+Outside teaching sessions you can communicate with each other, and with the teachers via the link:https://teams.microsoft.com/l/channel/19%3aojKqkX6dw2VRi7brykTj3ftJiMl48lU-DS94dG52CwQ1%40thread.tacv2/General?groupId=baae1b93-1908-47e0-be31-2880b8a50185&tenantId=bea229b6-7a08-4086-b44c-71f57f716bdb[the course's Teams channel].
 
 
 === Groups
