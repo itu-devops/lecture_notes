@@ -29,7 +29,7 @@ to 18:00 first in room 2A12/2A14.
 |14:00 - 18:00
 |Helge
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_01/README_PREP.md[Prep. material]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_01/Session_01.md[Project start, forming groups, SSH, SCP, and Bash]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_01/Slides.md[Project start, forming groups, SSH, SCP, and Bash]
 |
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_01/README_TASKS.md[Refactor _ITU-MiniTwit_ to work on modern system]
 // w6
