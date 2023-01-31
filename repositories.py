@@ -8,8 +8,8 @@ GROUP_REPOS = [
     ],
     [
         "group b",
-        "<name>",
-        ["https://github.com/<gh_id>/<proj_id>", ],
+        "DevUps: Delivering Buggy Software Late since 2023",
+        ["https://github.com/TikoyX/devUps", ],
         "<minitwit_url>",
         "<minitwit_api_url>",
     ],
