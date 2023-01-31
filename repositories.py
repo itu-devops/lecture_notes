@@ -29,8 +29,8 @@ GROUP_REPOS = [
     ],
     [
         "group e",
-        "<name>",
-        ["https://github.com/<gh_id>/<proj_id>", ],
+        "Souffle",
+        ["https://github.com/PatrickMatthiesen/Souffle-MiniTwit", ],
         "<minitwit_url>",
         "<minitwit_api_url>",
     ],
