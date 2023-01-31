@@ -23,7 +23,12 @@ class: center, middle
 
 --
 
-<img src="images/gianmarco.jpg" width="40%">
+<table>
+  <tr>
+    <td><img src="https://avatars.githubusercontent.com/u/464519?v=4" width="100%"></td>
+    <td><img src="images/gianmarco.jpg" width="40%"></td>
+  </tr>
+</table>
 
 ---
 
