@@ -41,7 +41,7 @@ Install Docker as for example like this:
 
 ```bash
 sudo apt-get update
-sudo apt -y docker.io
+sudo apt install -y docker.io
 ```
 
 Check if the Docker engine is up and running:
@@ -70,6 +70,6 @@ The above is adapted from the official documentation: https://docs.docker.com/en
 ### Docker Compose
 
 ```bash
-sudo apt -y docker-compose
+sudo apt install -y docker-compose
 ```
 
