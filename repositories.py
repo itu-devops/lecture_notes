@@ -22,8 +22,8 @@ GROUP_REPOS = [
     ],
     [
         "group d",
-        "<name>",
-        ["https://github.com/<gh_id>/<proj_id>", ],
+        "CI/CDont",
+        ["https://github.com/kjaerb/DevOps-CI-CDont", ],
         "<minitwit_url>",
         "<minitwit_api_url>",
     ],
