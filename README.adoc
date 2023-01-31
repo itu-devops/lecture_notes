@@ -38,37 +38,37 @@ to 18:00 first in room 2A12/2A14.
 |14:00 - 18:00
 |Helge
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_02/README_PREP.md[Prep. material]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_02/Session_02.md[Packaging applications, Containerization with Docker]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_02/README_EXERCISE.md[Using Docker]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_02/README_TASKS.md[Refactor _ITU-MiniTwit_ in another programming language and tech. stack]
+|Packaging applications, Containerization with Docker
+|Using Docker
+|Refactor _ITU-MiniTwit_ in another programming language and tech. stack
 // w7
 |3
 |14/2
 |14:00 - 18:00
 |Helge
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_03/README_PREP.md[Prep. material]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_03/Session_03.md[Provision of local and remote virtual machines]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_03/README_EXERCISE.md[Using Vagrant, VirtualBox, and DigitalOcean]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_03/README_TASKS.md[Continue refactoring, introduction of DB abstraction layer, and deployment of your _ITU-MiniTwit_ to a remote server.]
+|Prep. material
+|Provision of local and remote virtual machines
+|Using Vagrant, VirtualBox, and DigitalOcean
+|Continue refactoring, introduction of DB abstraction layer, and deployment of your _ITU-MiniTwit_ to a remote server.
 // w8
 |4
 |21/2
 |14:00 - 18:00
 |Helge
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/README_PREP.md[Prep. material]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/Session_04.md[Continuous Integration (CI), Continuous Delivery (CD), and Continuous Deployment]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/README_EXERCISE.md[Using Travis CI (*Simulator test*)]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/README_TASKS.md[Setup CI & CD for reproducible builds, tests, delivery, and deployment]
+|Prep. material
+|Continuous Integration (CI), Continuous Delivery (CD), and Continuous Deployment
+|Using Travis CI (*Simulator test*)
+|Setup CI & CD for reproducible builds, tests, delivery, and deployment
 // w9
 |5
 |28/2
 |14:00 - 18:00
 |Helge
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_05/README_PREP.md[Prep. material]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_05/Session_05.md[What is DevOps and configuration management]
+|Prep. material
+|What is DevOps and configuration management
 // , and techniques for division of subsystems
 |
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_05/README_TASKS.md[Cleaning and polishing of your _ITU-MiniTwit_ and entering maintenance (*Simulator starts*)]
+|Cleaning and polishing of your _ITU-MiniTwit_ and entering maintenance (*Simulator starts*)
 // refactoring for clean subsystem interfaces
 // Simulator starts for sure
 
@@ -77,37 +77,37 @@ to 18:00 first in room 2A12/2A14.
 |7/3
 |14:00 - 18:00
 |Helge
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_06/README_PREP.md[Prep. material]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_06/Session_06.md[Monitoring]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_06/README_EXERCISE.md[Using Prometheus and Grafana]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_06/README_TASKS.md[Add monitoring to your _ITU-MiniTwit_]
+|Prep. material
+|Monitoring
+|Using Prometheus and Grafana
+|Add monitoring to your _ITU-MiniTwit_
 // w11
 |7
 |14/3
 |14:00 - 18:00
 |Helge
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_07/README_PREP.md[Prep. material]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_07/Session_07.md[Software Quality, Maintainability & Technical Debt]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_07/README_EXERCISE.md[Understand SonarQube Quality Model and experiment with linters.]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_07/README_TASKS.md[Enhancing CI/CD setup with static code analysis]
+|Prep. material
+|Software Quality, Maintainability & Technical Debt
+|Understand SonarQube Quality Model and experiment with linters.
+|Enhancing CI/CD setup with static code analysis
 // w12
 |8
 |21/3
 |14:00 - 18:00
 |Mircea
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_08/README_PREP.md[Prep. material]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_08/Session_08.md[Logging, and Log Analysis. Service-level agreements.)]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_08/README_EXERCISE.md[A Basic EFK Stack]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_08/README_TASKS.md[Add logging to your _ITU-MiniTwit_ and create a set of SLAs for it]
+|Prep. material
+|Logging, and Log Analysis. Service-level agreements.)
+|A Basic EFK Stack
+|Add logging to your _ITU-MiniTwit_ and create a set of SLAs for it
 // w13
 |9
 |28/3
 |14:00 - 18:00
 |Mircea
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_09/README_PREP.md[Prep. material]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_09/Session_09.md[Security of web-facing applications]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_09/README_EXERCISE.md[A Basic Pen-Test with Metasploit]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_09/README_TASKS.md[Security Assessment & Pen Testing]
+|Prep. material
+|Security of web-facing applications
+|A Basic Pen-Test with Metasploit
+|Security Assessment & Pen Testing
 // w14
 |–
 |4/4
@@ -122,10 +122,10 @@ to 18:00 first in room 2A12/2A14.
 |11/4
 |14:00 - 18:00
 |Mircea
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_10/README_PREP.md[Prep. material]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_10/Session_10.md[Deployment strategies, scalability, load balancing.]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_10/README_EXERCISE.md[A Basic Swarm]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_10/README_TASKS.md[Isolate components into services/containers/VMs]
+|Prep. material
+|Deployment strategies, scalability, load balancing.
+|A Basic Swarm
+|Isolate components into services/containers/VMs
 // w16
 |11
 |18/4
@@ -141,8 +141,8 @@ to 18:00 first in room 2A12/2A14.
 |14:00 - 18:00
 |Mircea
 |
-|Guest Lecture & link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_12/Session_12.md[Infrastructure as Code]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_12/README_EXERCISE.md[MiniTwit Infrastructure as Code]
+|Infrastructure as Code
+|MiniTwit Infrastructure as Code
 |Encode your infrastructure setup
 // w18
 |13
@@ -150,7 +150,7 @@ to 18:00 first in room 2A12/2A14.
 |14:00 - 18:00
 |Mircea & Helge
 |
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_13/Session_13.md[Documentation of Systems and Projects]
+|Documentation of Systems and Projects
 |
 |*Simulator stops*. Write report.
 // w19
