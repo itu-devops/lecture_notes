@@ -100,8 +100,8 @@ GROUP_REPOS = [
     ],
     [
         "group n",
-        "<name>",
-        ["https://github.com/<gh_id>/<proj_id>", ],
+        "dudes",
+        ["https://github.com/Lindharden/DevOps", ],
         "<minitwit_url>",
         "<minitwit_api_url>",
     ],
