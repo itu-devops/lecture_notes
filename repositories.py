@@ -43,9 +43,9 @@ GROUP_REPOS = [
     ],
     [
         "group g",
-        "<name>",
-        ["https://github.com/<gh_id>/<proj_id>", ],
-        "<minitwit_url>",
+        "DevJanitors",
+        ["https://github.com/lauritsbonde/DevJanitors", ],
+        "https://github.com/lauritsbonde/DevJanitors/blob/master/minitwit.py",
         "<minitwit_api_url>",
     ],
     [
