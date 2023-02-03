@@ -38,11 +38,14 @@ https://www.maketecheasier.com/install-dual-boot-ubuntu-mac/
 https://github.com/Dunedan/mbp-2016-linux#wi-fi
 ** If yes: https://apple.stackexchange.com/a/375863
 ** If not, either:
-*** Install in a Virtual Machine (see below), or
+***  Install in a Virtual Machine (see below), or
 *** Install on another old computer that you can use for this course.
 * For Macs with M1 processor:
-** That will not work yet.
-
+** There is not full support yet, but you can try one of these alternatives:
+*** Use [UTM](https://mac.getutm.app/) and virtualize Ubuntu for ARM: https://docs.getutm.app/guides/ubuntu/ (recommended)
+**** You can also try to [install Pop!_OS on top of Ubuntu](https://docs.google.com/document/d/1U1B3uwutmaFCknzo-_c1jme5oOeJ-mdvxhoH5CKamZg/pub)
+*** Use [UTM](https://mac.getutm.app/) and emulate Pop!_OS (this can be slow).
+  
 ==== Installing Linux on USB Key instead of Harddisk
 
 * http://ubuntuhandbook.org/index.php/2014/11/install-real-ubuntu-os-usb-drive/

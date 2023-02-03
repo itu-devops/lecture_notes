@@ -228,22 +228,131 @@ Outside teaching sessions you can communicate with each other, and with the teac
 
 === Groups
 
-TBA
 
-////
 .Overview over all groups.
-[width="100%",cols="5%,10%,10%,65%,10%",options="header",]
+[width="100%",cols="5%,10%,40%,35%,10%",options="header",]
 |=======================================================================
 | |Index |Name |Members |Technology
 
-////
+|BSc
+|Group e
+|Souffle
+|`laku`, `raoo`, `asly`, `pmat`
+|
 
-////
+|BSc
+|Group f
+|Container Maintainers
+|`dayo`, `jarh`, `adjr`, `sabf`, `ddeq`
+|
+
+|BSc
+|Group g
+|DevJanitors
+|`lauh`, `mkjo`, `antbr`, `addo`,`awed`
+|
+
+|BSc
+|Group h
+|FiveGuys
+|`aist`, `flmi`, `joap`, `marki`, `hasc`
+|
+
+|BSc
+|*Group j
+|Niceness
+|`siar`, `tbru`, `behv`
+|
+
+|BSc
+|Group k
+|Radiator
+|`gume`, `niwl`, `sijs`, `vibr`
+|
+
+|BSc
+|Group m
+|Jason Derulo
+|`mpia`, `caws`, `vson`, `nihj`, `luhj`
+|
+
+|MSc
+|Group a
+|Academic Weapons
+|`alkl`, `bamk`, `krwi`, `johc`
+|
+
+|MSc
+|Group b
+|DevUps: Delivering Buggy Software Late since 2023
+|`thki`, `matf`, `awag`, `jfas`
+|
+
+|MSc
+|*Group c
+|DreamTeam
+|`jonan`, `chmj`
+|
+
+|MSc
+|Group d
+|CI/CDont
+|`ojoe`, `sipn`, `bekj`, `januh`
+|
+
+|MSc
+|Group i
+|OpsDev
+|`ivcm`, `alat`, `nesu`, `mmea`, `mirb`
+|
+
+|MSc
+|Group l
+|Bango
+|`ojar`, `bjch`, `nbry`, `gubr`, `amav`
+|
+
+|MSc
+|Group n
+|dudes
+|`jepli`, `dakj`, `nikso`, `jokf`, `beth`
+|
+
+|MSc
+|*Group o
+|group o
+|`gega`, `noho`, `hrto`
+|
+
+|MSc
+|*Group p
+|Holmbladet
+|`chtof`, `muni`, `lson`
+|
+
+|MSc
+|*Group r
+|Visiting Students
+|`jomh`, `ingf`, `fers`
+|
+
+|MSc
+|Group S
+|`inch`, `mhom`, `ngio`, `emgi`, `bact`
+|
+
+|MSc
+|Group t
+|our group name
+|`mcru`, `sgal`, `petst`, `dagp`
+|
+
+|=======================================================================
+
+
 ==== Ungrouped yet
 
-  * `antbr`, `ddel`, `emio`, `hahr`, `hrto`, `krif`, `slaj`, `vson`, `losm`
-
-////
+  * `chfm`, `hljo`, `jocl`, `mbae`
 
 
 
