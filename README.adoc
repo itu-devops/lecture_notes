@@ -337,6 +337,7 @@ Outside teaching sessions you can communicate with each other, and with the teac
 |
 
 |MSc
+|Group s
 |Group S
 |`inch`, `mhom`, `ngio`, `emgi`, `bact`
 |
