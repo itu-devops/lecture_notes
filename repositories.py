@@ -79,8 +79,8 @@ GROUP_REPOS = [
     ],
     [
         "group k",
-        "<name>",
-        ["https://github.com/<gh_id>/<proj_id>", ],
+        "Radiator",
+        ["https://github.com/simonskodt/itu-minitwit", ],
         "<minitwit_url>",
         "<minitwit_api_url>",
     ],
