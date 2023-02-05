@@ -86,8 +86,8 @@ GROUP_REPOS = [
     ],
     [
         "group l",
-        "<name>",
-        ["https://github.com/<gh_id>/<proj_id>", ],
+        "Bango",
+        ["https://github.com/GustavBrygger/DevOps", ],
         "<minitwit_url>",
         "<minitwit_api_url>",
     ],
