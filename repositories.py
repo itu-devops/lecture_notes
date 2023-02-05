@@ -119,4 +119,11 @@ GROUP_REPOS = [
         "<minitwit_url>",
         "<minitwit_api_url>",
     ],
+    [
+        "group t",
+        "our group name",
+        ["https://github.com/szymongalecki/ITU-MiniTwit", ],
+        "<minitwit_url>",
+        "<minitwit_api_url>",
+    ],
 ]
