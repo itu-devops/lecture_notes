@@ -114,8 +114,8 @@ GROUP_REPOS = [
     ],
     [
         "group p",
-        "<name>",
-        ["https://github.com/<gh_id>/<proj_id>", ],
+        "Holmbladet",
+        ["https://github.com/ChristofferTofteng/minitwit", ],
         "<minitwit_url>",
         "<minitwit_api_url>",
     ],
