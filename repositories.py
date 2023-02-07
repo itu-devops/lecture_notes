@@ -15,8 +15,8 @@ GROUP_REPOS = [
     ],
     [
         "group c",
-        "<name>",
-        ["https://github.com/<gh_id>/<proj_id>", ],
+        "Dreamteam,
+        ["https://github.com/JonasDAncher/DevOps/tree/master/itu-minitwit", ],
         "<minitwit_url>",
         "<minitwit_api_url>",
     ],
