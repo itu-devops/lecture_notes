@@ -16,7 +16,7 @@ GROUP_REPOS = [
     [
         "group c",
         "Dreamteam",
-        ["https://github.com/JonasDAncher/DevOps/tree/master/itu-minitwit", ],
+        ["https://github.com/JonasDAncher/DevOps", ],
         "<minitwit_url>",
         "<minitwit_api_url>",
     ],
