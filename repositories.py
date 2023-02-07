@@ -93,8 +93,8 @@ GROUP_REPOS = [
     ],
     [
         "group m",
-        "<name>",
-        ["https://github.com/<gh_id>/<proj_id>", ],
+        "jason derulo",
+        ["https://github.com/NiclasHjortkjaer/itu-minitwit", ],
         "<minitwit_url>",
         "<minitwit_api_url>",
     ],
