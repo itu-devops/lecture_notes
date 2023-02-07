@@ -46,6 +46,7 @@ GROUP_REPOS = [
         "DevJanitors",
         ["https://github.com/lauritsbonde/DevJanitors", ],
         "https://github.com/lauritsbonde/DevJanitors/blob/master/minitwit.py",
+        "<minitwit_url>",
         "<minitwit_api_url>",
     ],
     [
