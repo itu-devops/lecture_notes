@@ -126,4 +126,11 @@ GROUP_REPOS = [
         "<minitwit_url>",
         "<minitwit_api_url>",
     ],
+    [
+        "group s",
+        "Group S",
+        ["https://github.com/ingrid-mc/DevOps-group_s", ],
+        "<minitwit_url>",
+        "<minitwit_api_url>",
+    ],
 ]
