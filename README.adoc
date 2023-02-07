@@ -38,9 +38,9 @@ to 18:00 first in room 2A12/2A14.
 |14:00 - 18:00
 |Helge
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_02/README_PREP.md[Prep. material]
-|Packaging applications, Containerization with Docker
-|Using Docker
-|Refactor _ITU-MiniTwit_ in another programming language and tech. stack
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_02/Slides.md[Packaging applications, Containerization with Docker]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_02/README_EXERCISE.md[Using Docker]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_02/README_TASKS.md[Refactor _ITU-MiniTwit_ in another programming language and tech. stack]
 // w7
 |3
 |14/2
@@ -182,17 +182,19 @@ TBA
 
 * link:http://164.92.246.227/status.html[Status and simulator API errors per
 group]
+////
 
 
 ==== Activity Dashboard
 
-* link:http://159.89.26.109/commit_activity_daily.svg[Daily commit activity
-per group]
-* link:http://159.89.26.109/commit_activity_weekly.svg[Weekly commit
-activity per group]
-* link:http://159.89.26.109/release_activity_weekly.svg[Weekly release
-activity per group]
 ////
+* link:http://138.197.185.85/commit_activity_daily.svg[Daily commit activity
+per group]
+////
+* link:http://138.197.185.85/commit_activity_weekly.svg[Weekly commit
+activity per group]
+* link:http://138.197.185.85/release_activity_weekly.svg[Weekly release
+activity per group]
 
 === Recordings
 
