@@ -73,7 +73,7 @@ GROUP_REPOS = [
     [
         "group j",
         "Niceness",
-        [https://github.com/bhviid/GroupJ_Dev_Ops23", ],
+        ["https://github.com/bhviid/GroupJ_Dev_Ops23", ],
         "<minitwit_url>",
         "<minitwit_api_url>",
     ],
