@@ -64,8 +64,8 @@ GROUP_REPOS = [
     ],
     [
         "group i",
-        "Group I",
-        ["https://github.com/anderslatif/MiniTwit", ],
+        "OpsDev",
+        ["https://github.com/MinitwitGroupI/MiniTwit", ],
         "<minitwit_url>",
         "<minitwit_api_url>",
     ],
