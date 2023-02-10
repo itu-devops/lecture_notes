@@ -37,7 +37,8 @@ GROUP_REPOS = [
     [
         "group f",
         "Container Maintainers",
-        ["https://github.com/Day0r/MiniTwit-DevOps2023", ],
+        ["https://github.com/ContainerMaintainers/MiniTwit-DevOps2023", 
+        "https://github.com/ContainerMaintainers/MiniTwit-Golang", ],
         "<minitwit_url>",
         "<minitwit_api_url>",
     ],
