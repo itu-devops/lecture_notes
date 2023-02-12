@@ -2,7 +2,7 @@ GROUP_REPOS = [
     [
         "group a",
         "Academic Weapons",
-        ["https://github.com/mathiasbk1/itu-minitwit", ],
+        ["https://github.com/mathiasbk1/itu-minitwit", "https://github.com/Magmose/ITU2023-DevOps"],
         "<minitwit_url>",
         "<minitwit_api_url>",
     ],
