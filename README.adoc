@@ -46,7 +46,7 @@ to 18:00 first in room 2A12/2A14.
 |14/2
 |14:00 - 18:00
 |Helge
-|Prep. material
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_03/README_PREP.md[Prep. material]
 |Provision of local and remote virtual machines
 |Using Vagrant, VirtualBox, and DigitalOcean
 |Continue refactoring, introduction of DB abstraction layer, and deployment of your _ITU-MiniTwit_ to a remote server.
