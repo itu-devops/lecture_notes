@@ -89,7 +89,7 @@ to 18:00 first in room 2A12/2A14.
 |Prep. material
 |Software Quality, Maintainability & Technical Debt
 |Understand SonarQube Quality Model and experiment with linters.
-|Enhancing CI/CD setup with static code analysis
+|Enhancing CI/CD setup with test suite and static code analysis
 // w12
 |8
 |21/3
@@ -323,7 +323,13 @@ Outside teaching sessions you can communicate with each other, and with the teac
 |MSc
 |*Group o
 |group o
-|`gega`, `noho`, `hrto` , `chtof`, `muni`, `lson`
+|`gega`, `noho`, `hrto`
+|
+
+|MSc
+|*Group p
+|Holmbladet
+|`chtof`, `muni`, `lson`
 |
 
 |MSc
