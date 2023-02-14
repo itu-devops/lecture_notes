@@ -47,7 +47,7 @@ class: center, middle
   * Use our task descriptions as checklists
     - That is, each bullet point means: _do something to solve it_
 
-  * Make refactored ´_ITU-MiniTwit_ the main branch of your repository
+  * Make refactored _ITU-MiniTwit_ the main branch of your repository
   * Remove original version from main branch
 
   * Do not version built artifact in repositories

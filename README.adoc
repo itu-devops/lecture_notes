@@ -246,97 +246,85 @@ Outside teaching sessions you can communicate with each other, and with the teac
 |Group f
 |Container Maintainers
 |`dayo`, `jarh`, `adjr`, `sabf`, `ddeq`
-|
+|Go (Gin)
 
 |BSc
 |Group g
 |DevJanitors
 |`lauh`, `mkjo`, `antbr`, `addo`,`awed`
-|
+|C#
 
 |BSc
 |Group h
 |FiveGuys
 |`aist`, `flmi`, `joap`, `marki`, `hasc`
-|
+|Python?
 
 |BSc
 |*Group j
 |Niceness
 |`siar`, `tbru`, `behv`, `paab`
-|
+|C# (Blazor)
 
 |BSc
 |Group k
 |Radiator
 |`gume`, `niwl`, `sijs`, `vibr`
-|
+|C# (Razor)
 
 |BSc
 |Group m
 |Jason Derulo
 |`mpia`, `caws`, `vson`, `nihj`, `luhj`
-|
+|C# (Razor)
 
 |MSc
 |Group a
 |Academic Weapons
 |`alkl`, `bamk`, `krwi`, `johc`
-|
+|Java
 
 |MSc
 |Group b
 |DevUps: Delivering Buggy Software Late since 2023
 |`thki`, `matf`, `awag`, `jfas`
-|
+|C# (React)
 
 |MSc
 |*Group c
 |DreamTeam
 |`jonan`, `chmj`
-|
+|C#
 
 |MSc
 |Group d
 |CI/CDont
 |`ojoe`, `sipn`, `bekj`, `januh`
-|
+|Go (Gin) (NextJS)
 
 |MSc
 |Group i
 |OpsDev
 |`ivcm`, `alat`, `nesu`, `mmea`, `mirb`
-|
+|Python (FastAPI)
 
 |MSc
 |Group l
 |Bango
 |`ojar`, `bjch`, `nbry`, `gubr`, `amav`
-|
+|Go (Gin, GORM)
 
 |MSc
 |Group n
 |dudes
 |`jepli`, `dakj`, `nikso`, `jokf`, `beth`
-|
+|Go (Gin)
 
 |MSc
 |*Group o
 |group o
 |`gega`, `noho`, `hrto`
-|
-
-|MSc
-|*Group p
-|Holmbladet
-|`chtof`, `muni`, `lson`
-|
-
-|MSc
-|*Group r
-|Visiting Students
-|`jomh`, `ingf`, `fers`
-|
+|C#
 
 |MSc
 |Group s
@@ -348,9 +336,28 @@ Outside teaching sessions you can communicate with each other, and with the teac
 |Group t
 |our group name
 |`mcru`, `sgal`, `petst`, `dagp`
-|
+|Python (Django)
 
 |=======================================================================
+
+
+////
+|MSc
+|*Group p
+|Holmbladet
+|`chtof`, `muni`, `lson`
+|
+////
+
+////
+|
+MSc
+|*Group r
+|Visiting Students
+|`jomh`, `ingf`, `fers`
+|
+////
+
 
 
 ==== Ungrouped yet
