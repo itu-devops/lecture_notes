@@ -263,7 +263,7 @@ Outside teaching sessions you can communicate with each other, and with the teac
 |BSc
 |*Group j
 |Niceness
-|`siar`, `tbru`, `behv`
+|`siar`, `tbru`, `behv`, `paab`
 |
 
 |BSc
