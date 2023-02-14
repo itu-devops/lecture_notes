@@ -57,13 +57,6 @@ GROUP_REPOS = [
         "<minitwit_api_url>",
     ],
     [
-        "group a",
-        "<name>",
-        ["https://github.com/<gh_id>/<proj_id>", ],
-        "<minitwit_url>",
-        "<minitwit_api_url>",
-    ],
-    [
         "group i",
         "OpsDev",
         ["https://github.com/MinitwitGroupI/MiniTwit", ],
@@ -110,13 +103,6 @@ GROUP_REPOS = [
         "group o",
         "<name>",
         ["https://github.com/Group-O-Minitwit/minitwit-group-o", ],
-        "<minitwit_url>",
-        "<minitwit_api_url>",
-    ],
-    [
-        "group p",
-        "",
-        ["", ],
         "<minitwit_url>",
         "<minitwit_api_url>",
     ],
