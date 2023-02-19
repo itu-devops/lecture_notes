@@ -10,8 +10,8 @@ GROUP_REPOS = [
         "group b",
         "DevUps: Delivering Buggy Software Late since 2023",
         ["https://github.com/ITUDevUps/devUps.git", ],
-        "<minitwit_url>",
-        "<minitwit_api_url>",
+        "http://157.245.27.152:3000",
+        "http://157.245.27.152:3005/sim-api",
     ],
     [
         "group c",
