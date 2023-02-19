@@ -60,8 +60,8 @@ GROUP_REPOS = [
         "group i",
         "OpsDev",
         ["https://github.com/MinitwitGroupI/MiniTwit", ],
-        "<minitwit_url>",
-        "<minitwit_api_url>",
+        "http://134.122.87.182:8000",
+        "http://134.122.87.182:8000",
     ],
 
     [
