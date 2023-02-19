@@ -89,8 +89,8 @@ GROUP_REPOS = [
         "group m",
         "jason derulo",
         ["https://github.com/NiclasHjortkjaer/itu-minitwit", ],
-        "<minitwit_url>",
-        "<minitwit_api_url>",
+        "http://143.244.205.161",
+        "http://143.244.205.161/simulator",
     ],
     [
         "group n",
