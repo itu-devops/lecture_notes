@@ -9,7 +9,7 @@ GROUP_REPOS = [
     [
         "group b",
         "DevUps: Delivering Buggy Software Late since 2023",
-        ["https://github.com/TikoyX/devUps", ],
+        ["https://github.com/ITUDevUps/devUps.git", ],
         "<minitwit_url>",
         "<minitwit_api_url>",
     ],
