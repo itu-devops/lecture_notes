@@ -96,8 +96,8 @@ GROUP_REPOS = [
         "group n",
         "dudes",
         ["https://github.com/Lindharden/DevOps", ],
-        "<minitwit_url>",
-        "<minitwit_api_url>",
+        "http://164.90.223.49:8080",
+        "http://164.90.223.49:8080/sim",
     ],
     [
         "group o",
