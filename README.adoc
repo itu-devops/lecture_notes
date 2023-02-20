@@ -323,7 +323,7 @@ Outside teaching sessions you can communicate with each other, and with the teac
 |MSc
 |*Group o
 |group o
-|`gega`, `noho`, `hrto`
+|`gega`, `noho`, `hrto`,`chtof`,`muni`,`lson`
 |C#
 
 |MSc
