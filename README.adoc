@@ -56,15 +56,15 @@ to 18:00 first in room 2A12/2A14.
 |14:00 - 18:00
 |Helge & Zander (Eficode)
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/README_PREP.md[Prep. material]
-|*Guest Lecture Eficode*; Continuous Integration (CI), Continuous Delivery (CD), and Continuous Deployment
-|Using Travis CI (*Simulator test*)
-|Setup CI & CD for reproducible builds, tests, delivery, and deployment
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/Slides.md[*Guest Lecture Eficode*; Continuous Integration (CI), Continuous Delivery (CD), and Continuous Deployment]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/README_EXERCISE.md[Using GitHub Actions CI] (*Simulator test*)
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/README_TASKS.md[Setup CI & CD for reproducible builds, tests, delivery, and deployment]
 // w9
 |5
 |28/2
 |14:00 - 18:00
 |Helge
-|Prep. material
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_05/README_PREP.md[Prep. material]
 |What is DevOps and configuration management
 // , and techniques for division of subsystems
 |
