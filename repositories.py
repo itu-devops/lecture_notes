@@ -3,8 +3,8 @@ GROUP_REPOS = [
         "group a",
         "Academic Weapons",
         ["https://github.com/mathiasbk1/itu-minitwit", "https://github.com/Magmose/ITU2023-DevOps"],
-        "<minitwit_url>",
-        "<minitwit_api_url>",
+        "http://146.190.207.33:8081",
+        "http://146.190.207.33:8081/sim",
     ],
     [
         "group b",
