@@ -14,13 +14,6 @@ GROUP_REPOS = [
         "http://157.245.27.152:3005/sim-api",
     ],
     [
-        "group c",
-        "Dreamteam",
-        ["https://github.com/JonasDAncher/DevOps", ],
-        "<minitwit_url>",
-        "<minitwit_api_url>",
-    ],
-    [
         "group d",
         "CI/CDont",
         ["https://github.com/kjaerb/DevOps-CI-CDont", ],
