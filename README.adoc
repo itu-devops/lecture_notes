@@ -38,37 +38,38 @@ to 18:00 first in room 2A12/2A14.
 |14:00 - 18:00
 |Helge
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_02/README_PREP.md[Prep. material]
-|Packaging applications, Containerization with Docker
-|Using Docker
-|Refactor _ITU-MiniTwit_ in another programming language and tech. stack
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_02/Slides.md[Packaging applications, Containerization with Docker]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_02/README_EXERCISE.md[Using Docker]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_02/README_TASKS.md[Refactor _ITU-MiniTwit_ in another programming language and tech. stack]
 // w7
 |3
 |14/2
 |14:00 - 18:00
 |Helge
-|Prep. material
-|Provision of local and remote virtual machines
-|Using Vagrant, VirtualBox, and DigitalOcean
-|Continue refactoring, introduction of DB abstraction layer, and deployment of your _ITU-MiniTwit_ to a remote server.
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_03/README_PREP.md[Prep. material]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_03/Slides.md[Provision of local and remote virtual machines]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_03/README_EXERCISE.md[Using Vagrant, VirtualBox, and DigitalOcean]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_03/README_TASKS.md[Continue refactoring, deployment of your _ITU-MiniTwit_ to a remote server.]
 // w8
 |4
 |21/2
 |14:00 - 18:00
-|Helge
-|Prep. material
-|Continuous Integration (CI), Continuous Delivery (CD), and Continuous Deployment
-|Using Travis CI (*Simulator test*)
-|Setup CI & CD for reproducible builds, tests, delivery, and deployment
+|Helge & Zander (Eficode)
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/README_PREP.md[Prep. material]
+|link:https://ituniversity.sharepoint.com/:b:/r/sites/2023DevOpsSoftwareEvolutionandSoftwareMaintenance/Shared%20Documents/General/Guest%20lecture%20slides/ITU%20guest%20lecture%20-%20Intro%20to%20DevOps%20-%2020feb2023%20-%20Zander%20Havgaard.pdf?csf=1&web=1&e=feSA27[*Guest Lecture Eficode: What is DevOps?*];
+link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/Slides.md[Continuous Integration (CI), Continuous Delivery (CD), and Continuous Deployment]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/README_EXERCISE.md[Using GitHub Actions CI] (*Simulator test*)
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/README_TASKS.md[Continue refactoring, Setup CI & CD for reproducible builds, tests, delivery, and deployment]
 // w9
 |5
 |28/2
 |14:00 - 18:00
 |Helge
-|Prep. material
-|What is DevOps and configuration management
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_05/README_PREP.md[Prep. material]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_05/Slides.md[What is DevOps and configuration management]
 // , and techniques for division of subsystems
 |
-|Cleaning and polishing of your _ITU-MiniTwit_ and entering maintenance (*Simulator starts*)
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_05/README_TASKS.md[Cleaning and polishing of your _ITU-MiniTwit_, introduction of DB abstraction layer, and entering maintenance (*Simulator starts*)]
 // refactoring for clean subsystem interfaces
 // Simulator starts for sure
 
@@ -77,7 +78,7 @@ to 18:00 first in room 2A12/2A14.
 |7/3
 |14:00 - 18:00
 |Helge
-|Prep. material
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_06/README_PREP.md[Prep. material]
 |Monitoring
 |Using Prometheus and Grafana
 |Add monitoring to your _ITU-MiniTwit_
@@ -89,7 +90,7 @@ to 18:00 first in room 2A12/2A14.
 |Prep. material
 |Software Quality, Maintainability & Technical Debt
 |Understand SonarQube Quality Model and experiment with linters.
-|Enhancing CI/CD setup with static code analysis
+|Enhancing CI/CD setup with test suite and static code analysis
 // w12
 |8
 |21/3
@@ -182,17 +183,19 @@ TBA
 
 * link:http://164.92.246.227/status.html[Status and simulator API errors per
 group]
+////
 
 
 ==== Activity Dashboard
 
-* link:http://159.89.26.109/commit_activity_daily.svg[Daily commit activity
-per group]
-* link:http://159.89.26.109/commit_activity_weekly.svg[Weekly commit
-activity per group]
-* link:http://159.89.26.109/release_activity_weekly.svg[Weekly release
-activity per group]
 ////
+* link:http://138.197.185.85/commit_activity_daily.svg[Daily commit activity
+per group]
+////
+* link:http://138.197.185.85/commit_activity_weekly.svg[Weekly commit
+activity per group]
+* link:http://138.197.185.85/release_activity_weekly.svg[Weekly release
+activity per group]
 
 === Recordings
 
@@ -244,91 +247,79 @@ Outside teaching sessions you can communicate with each other, and with the teac
 |Group f
 |Container Maintainers
 |`dayo`, `jarh`, `adjr`, `sabf`, `ddeq`
-|
+|Go (Gin)
 
 |BSc
 |Group g
 |DevJanitors
 |`lauh`, `mkjo`, `antbr`, `addo`,`awed`
-|
+|C#
 
 |BSc
 |Group h
 |FiveGuys
 |`aist`, `flmi`, `joap`, `marki`, `hasc`
-|
+|Python?
 
 |BSc
-|*Group j
+|Group j
 |Niceness
-|`siar`, `tbru`, `behv`
-|
+|`siar`, `tbru`, `behv`, `paab`
+|C# (Blazor)
 
 |BSc
 |Group k
 |Radiator
 |`gume`, `niwl`, `sijs`, `vibr`
-|
+|C# (Razor)
 
 |BSc
 |Group m
 |Jason Derulo
 |`mpia`, `caws`, `vson`, `nihj`, `luhj`
-|
+|C# (Razor)
 
 |MSc
 |Group a
 |Academic Weapons
 |`alkl`, `bamk`, `krwi`, `johc`, 'chmj', 'jonan'
-|
+|Java
 
 |MSc
 |Group b
 |DevUps: Delivering Buggy Software Late since 2023
 |`thki`, `matf`, `awag`, `jfas`
-|
+|C# (React)
 
 |MSc
 |Group d
 |CI/CDont
 |`ojoe`, `sipn`, `bekj`, `januh`
-|
+|Go (Gin) (NextJS)
 
 |MSc
 |Group i
 |OpsDev
 |`ivcm`, `alat`, `nesu`, `mmea`, `mirb`
-|
+|Python (FastAPI)
 
 |MSc
 |Group l
 |Bango
 |`ojar`, `bjch`, `nbry`, `gubr`, `amav`
-|
+|Go (Gin, GORM)
 
 |MSc
 |Group n
 |dudes
 |`jepli`, `dakj`, `nikso`, `jokf`, `beth`
-|
+|Go (Gin)
 
 |MSc
-|*Group o
+|Group o
 |group o
-|`gega`, `noho`, `hrto`
-|
-
-|MSc
-|*Group p
-|Holmbladet
-|`chtof`, `muni`, `lson`
-|
-
-|MSc
-|*Group r
-|Visiting Students
-|`jomh`, `ingf`, `fers`
-|
+|`gega`, `noho`, `hrto`,`chtof`,`muni`,`lson`
+|C#
 
 |MSc
 |Group s
@@ -340,9 +331,20 @@ Outside teaching sessions you can communicate with each other, and with the teac
 |Group t
 |our group name
 |`mcru`, `sgal`, `petst`, `dagp`
-|
+|Python (Django)
 
 |=======================================================================
+
+
+////
+|
+MSc
+|*Group r
+|Visiting Students
+|`jomh`, `ingf`, `fers`
+|
+////
+
 
 
 ==== Ungrouped yet
