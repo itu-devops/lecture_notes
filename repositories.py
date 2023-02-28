@@ -24,8 +24,8 @@ GROUP_REPOS = [
         "group d",
         "CI/CDont",
         ["https://github.com/kjaerb/DevOps-CI-CDont", ],
-        "<minitwit_url>",
-        "<minitwit_api_url>",
+        "http://138.68.93.147:3000",
+        "http://138.68.93.147:8081",
     ],
     [
         "group e",
