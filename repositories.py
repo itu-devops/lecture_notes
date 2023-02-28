@@ -46,8 +46,8 @@ GROUP_REPOS = [
         "group g",
         "DevJanitors",
         ["https://github.com/Dev-Janitors/minitwit", ],
-        "<minitwit_url>",
-        "http://165.232.115.211:2222",
+        "http://104.248.101.163:3000",
+        "http://104.248.101.163:2222",
     ],
     [
         "group h",
