@@ -24,8 +24,8 @@ GROUP_REPOS = [
         "group e",
         "Souffle",
         ["https://github.com/PatrickMatthiesen/Souffle-MiniTwit", ],
-        "<minitwit_url>",
-        "<minitwit_api_url>",
+        "http://68.183.209.28:5000",
+        "http://68.183.209.28:5000/api/Sim",
     ],
     [
         "group f",
