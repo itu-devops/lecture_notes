@@ -51,10 +51,10 @@ GROUP_REPOS = [
     ],
     [
         "group h",
-        "<name>",
+        "FiveGuys",
         ["https://github.com/FiveGuys-DevOps/MiniTwit", ],
-        "<minitwit_url>",
-        "<minitwit_api_url>",
+        "http://46.101.250.219:5000",
+        "http://46.101.250.219:5000/sim",
     ],
     [
         "group i",
