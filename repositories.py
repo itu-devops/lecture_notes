@@ -75,8 +75,8 @@ GROUP_REPOS = [
         "group l",
         "Bango",
         ["https://github.com/GustavBrygger/DevOps", ],
-        "<minitwit_url>",
-        "<minitwit_api_url>",
+        "http://206.189.48.173:8080",
+        "http://206.189.48.173:8080",
     ],
     [
         "group m",
