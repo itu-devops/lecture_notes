@@ -56,7 +56,8 @@ to 18:00 first in room 2A12/2A14.
 |14:00 - 18:00
 |Helge & Zander (Eficode)
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/README_PREP.md[Prep. material]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/Slides.md[*Guest Lecture Eficode: What is DevOps?*; Continuous Integration (CI), Continuous Delivery (CD), and Continuous Deployment]
+|link:https://ituniversity.sharepoint.com/:b:/r/sites/2023DevOpsSoftwareEvolutionandSoftwareMaintenance/Shared%20Documents/General/Guest%20lecture%20slides/ITU%20guest%20lecture%20-%20Intro%20to%20DevOps%20-%2020feb2023%20-%20Zander%20Havgaard.pdf?csf=1&web=1&e=feSA27[*Guest Lecture Eficode: What is DevOps?*];
+link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/Slides.md[Continuous Integration (CI), Continuous Delivery (CD), and Continuous Deployment]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/README_EXERCISE.md[Using GitHub Actions CI] (*Simulator test*)
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/README_TASKS.md[Continue refactoring, Setup CI & CD for reproducible builds, tests, delivery, and deployment]
 // w9
@@ -65,10 +66,10 @@ to 18:00 first in room 2A12/2A14.
 |14:00 - 18:00
 |Helge
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_05/README_PREP.md[Prep. material]
-|What is DevOps and configuration management
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_05/Slides.md[What is DevOps and configuration management]
 // , and techniques for division of subsystems
 |
-|Cleaning and polishing of your _ITU-MiniTwit_, introduction of DB abstraction layer, and entering maintenance (*Simulator starts*)
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_05/README_TASKS.md[Cleaning and polishing of your _ITU-MiniTwit_, introduction of DB abstraction layer, and entering maintenance (*Simulator starts*)]
 // refactoring for clean subsystem interfaces
 // Simulator starts for sure
 
@@ -77,7 +78,7 @@ to 18:00 first in room 2A12/2A14.
 |7/3
 |14:00 - 18:00
 |Helge
-|Prep. material
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_06/README_PREP.md[Prep. material]
 |Monitoring
 |Using Prometheus and Grafana
 |Add monitoring to your _ITU-MiniTwit_
@@ -261,7 +262,7 @@ Outside teaching sessions you can communicate with each other, and with the teac
 |Python?
 
 |BSc
-|*Group j
+|Group j
 |Niceness
 |`siar`, `tbru`, `behv`, `paab`
 |C# (Blazor)
@@ -321,7 +322,7 @@ Outside teaching sessions you can communicate with each other, and with the teac
 |Go (Gin)
 
 |MSc
-|*Group o
+|Group o
 |group o
 |`gega`, `noho`, `hrto`,`chtof`,`muni`,`lson`
 |C#
@@ -340,14 +341,6 @@ Outside teaching sessions you can communicate with each other, and with the teac
 
 |=======================================================================
 
-
-////
-|MSc
-|*Group p
-|Holmbladet
-|`chtof`, `muni`, `lson`
-|
-////
 
 ////
 |
