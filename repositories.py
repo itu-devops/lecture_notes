@@ -103,7 +103,7 @@ GROUP_REPOS = [
         "group t",
         "our group name",
         ["https://github.com/szymongalecki/ITU-MiniTwit", ],
-        "<minitwit_url>",
+        "https://minitwit-team-t-ti79k.ondigitalocean.app/",
         "<minitwit_api_url>",
     ],
     [
