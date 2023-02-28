@@ -61,7 +61,7 @@ GROUP_REPOS = [
         "group j",
         "Niceness",
         ["https://github.com/bhviid/GroupJ_Dev_Ops23", ],
-        "http://165.232.119.206:5235/",
+        "http://165.232.119.206:5235",
         "http://164.90.226.52:5235/slimtwit",
     ],
     [
