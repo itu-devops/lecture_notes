@@ -282,7 +282,7 @@ Outside teaching sessions you can communicate with each other, and with the teac
 |MSc
 |Group a
 |Academic Weapons
-|`alkl`, `bamk`, `krwi`, `johc`
+|`alkl`, `bamk`, `krwi`, `johc`, 'chmj', 'jonan'
 |Java
 
 |MSc
@@ -290,12 +290,6 @@ Outside teaching sessions you can communicate with each other, and with the teac
 |DevUps: Delivering Buggy Software Late since 2023
 |`thki`, `matf`, `awag`, `jfas`
 |C# (React)
-
-|MSc
-|*Group c
-|DreamTeam
-|`jonan`, `chmj`
-|C#
 
 |MSc
 |Group d
