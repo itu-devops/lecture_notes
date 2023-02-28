@@ -75,8 +75,8 @@ GROUP_REPOS = [
         "group k",
         "Radiator",
         ["https://github.com/simonskodt/itu-minitwit", ],
-        "<minitwit_url>",
-        "<minitwit_api_url>",
+        "http://164.92.167.188:3000",
+        "http://164.92.167.188:80/sim",
     ],
     [
         "group l",
