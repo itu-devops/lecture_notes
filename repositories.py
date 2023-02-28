@@ -61,8 +61,8 @@ GROUP_REPOS = [
         "group j",
         "Niceness",
         ["https://github.com/bhviid/GroupJ_Dev_Ops23", ],
-        "<minitwit_url>",
-        "<minitwit_api_url>",
+        "http://165.232.119.206:5235",
+        "http://164.90.226.52:5235/slimtwit",
     ],
     [
         "group k",
