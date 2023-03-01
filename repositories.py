@@ -94,10 +94,10 @@ GROUP_REPOS = [
     ],
     [
         "group o",
-        "<name>",
+        "Oh sorry",
         ["https://github.com/Group-O-Minitwit/minitwit-group-o", ],
         "<minitwit_url>",
-        "<minitwit_api_url>",
+        "http://157.230.79.99:5050/",
     ],
     [
         "group t",
