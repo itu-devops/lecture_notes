@@ -182,9 +182,9 @@ TBA
 ==== Simulator Status Dashboard
 
 ++++
-    <object width="65%" height="65%" data="http://104.248.134.203/chart.svg"></object>
-    <br/>
-    <object width="65%" height="65%" data="http://104.248.134.203/error_chart.svg"></object>
+<object width="65%" height="65%" data="http://104.248.134.203/chart.svg"></object>
+<br/>
+<object width="65%" height="65%" data="http://104.248.134.203/error_chart.svg"></object>
 ++++
 
 * link:http://104.248.134.203/status.html[Status and simulator API errors per
@@ -193,11 +193,11 @@ group]
 ==== Activity Dashboard
 
 ++++
-    <object width="65%" height="65%" data="http://138.197.185.85/commit_activity_weekly.svg"></object>
-    <br/>
-    <object width="65%" height="65%" data="http://138.197.185.85/commit_activity_daily.svg"></object>
-    <br/>
-    <object width="65%" height="65%" data="http://138.197.185.85/release_activity_weekly.svg"></object>
+<object width="65%" height="65%" data="http://138.197.185.85/commit_activity_weekly.svg"></object>
+<br/>
+<object width="65%" height="65%" data="http://138.197.185.85/commit_activity_daily.svg"></object>
+<br/>
+<object width="65%" height="65%" data="http://138.197.185.85/release_activity_weekly.svg"></object>
 ++++
 
 ////
