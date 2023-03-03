@@ -175,16 +175,14 @@ TBA
 
 === TA Supervision
 
+TBA
 
-////
 === Dashboards
 
 ==== Simulator Status Dashboard
 
-* link:http://164.92.246.227/status.html[Status and simulator API errors per
+* link:http://104.248.134.203/status.html[Status and simulator API errors per
 group]
-////
-
 
 ==== Activity Dashboard
 
