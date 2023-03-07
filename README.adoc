@@ -87,7 +87,7 @@ link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04
 |14/3
 |14:00 - 18:00
 |Helge
-|Prep. material
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_07/README_PREP.md[Prep. material]
 |Software Quality, Maintainability & Technical Debt
 |Understand SonarQube Quality Model and experiment with linters.
 |Enhancing CI/CD setup with test suite and static code analysis
