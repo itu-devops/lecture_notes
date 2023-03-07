@@ -79,9 +79,9 @@ link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04
 |14:00 - 18:00
 |Helge
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_06/README_PREP.md[Prep. material]
-|Monitoring
-|Using Prometheus and Grafana
-|Add monitoring to your _ITU-MiniTwit_
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_06/Slides.md[Monitoring]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_06/README_EXERCISE.md[Using Prometheus and Grafana]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_06/README_TASKS.md[Add monitoring to your _ITU-MiniTwit_ and peer-review]
 // w11
 |7
 |14/3
@@ -181,16 +181,23 @@ TBA
 
 ==== Simulator Status Dashboard
 
+* link:http://104.248.134.203/status.html[Status and simulator API errors per
+group]
+
 ++++
 <object width="65%" height="65%" data="http://104.248.134.203/chart.svg"></object>
 <br/>
 <object width="65%" height="65%" data="http://104.248.134.203/error_chart.svg"></object>
 ++++
 
-* link:http://104.248.134.203/status.html[Status and simulator API errors per
-group]
-
 ==== Activity Dashboard
+
+* link:http://138.197.185.85/commit_activity_daily.svg[Daily commit activity
+per group]
+* link:http://138.197.185.85/commit_activity_weekly.svg[Weekly commit
+activity per group]
+* link:http://138.197.185.85/release_activity_weekly.svg[Weekly release
+activity per group]
 
 ++++
 <object width="65%" height="65%" data="http://138.197.185.85/commit_activity_weekly.svg"></object>
@@ -200,14 +207,6 @@ group]
 <object width="65%" height="65%" data="http://138.197.185.85/release_activity_weekly.svg"></object>
 ++++
 
-////
-* link:http://138.197.185.85/commit_activity_daily.svg[Daily commit activity
-per group]
-////
-* link:http://138.197.185.85/commit_activity_weekly.svg[Weekly commit
-activity per group]
-* link:http://138.197.185.85/release_activity_weekly.svg[Weekly release
-activity per group]
 
 === Recordings
 
