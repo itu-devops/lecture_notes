@@ -43,9 +43,9 @@ GROUP_URLS = [
     ],
     [
         "group d",
-        "<name>",
+        "CICDont",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://138.68.93.147:4000/d/soYDO5-4k/main-dashboard?orgId=1&refresh=10s",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
