@@ -115,7 +115,7 @@ GROUP_URLS = [
         "group i",
         "<name>",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://134.122.87.182:3000/d/DVJQxp-4k/minitwit-responses?orgId=1",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
