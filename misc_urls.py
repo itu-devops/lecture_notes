@@ -57,9 +57,9 @@ GROUP_URLS = [
     ],
     [
         "group e",
-        "<name>",
+        "Souffle",
         # Monitoring URL:
-        "<monitoring_url>",
+        "174.138.101.165:3000",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
