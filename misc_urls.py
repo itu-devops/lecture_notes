@@ -1,9 +1,9 @@
 GROUP_URLS = [
     [
         "group a",
-        "<name>",
+        "Academic Weapons",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://146.190.207.33:3000",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
