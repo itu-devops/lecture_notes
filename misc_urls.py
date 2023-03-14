@@ -171,7 +171,7 @@ GROUP_URLS = [
         "group m",
         "<name>",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://143.244.205.161:3000/d/0hVMV2-Vz/dash?orgId=1",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
