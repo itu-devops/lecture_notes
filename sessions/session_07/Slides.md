@@ -53,15 +53,6 @@ class: center, middle
 
 ## How do you feel it is going with your projects?
 
-
-<!--
-Stand-up in start of exercise session.
-
-Each group uses three minutes to say:
-
-  * Did you observe something after setting up your monitoring that you fixed?
--->
-
 ---
 
 ### Status of your web-applications?
@@ -667,7 +658,6 @@ from selenium.webdriver.firefox.options import Options
 
 
 GUI_URL = "http://localhost:5000/register"
-DB_URL = "mongodb://localhost:27017/test"
 
 
 def _register_user_via_gui(driver, data):
