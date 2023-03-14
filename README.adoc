@@ -88,9 +88,9 @@ link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04
 |14:00 - 18:00
 |Helge
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_07/README_PREP.md[Prep. material]
-|Software Quality, Maintainability & Technical Debt
-|Understand SonarQube Quality Model and experiment with linters.
-|Enhancing CI/CD setup with test suite and static code analysis
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_07/Slides.md[Software Quality, Maintainability & Technical Debt]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_07/README_EXERCISE.md[Understand tests and SonarQube Quality Model.]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_07/README_TASKS.md[Enhancing CI/CD setup with test suite and static code analysis]
 // w12
 |8
 |21/3
@@ -293,7 +293,7 @@ Outside teaching sessions you can communicate with each other, and with the teac
 |MSc
 |Group a
 |Academic Weapons
-|`alkl`, `bamk`, `krwi`, `johc`, `chmj`, `jonan`
+|`alkl`, `bamk`, `krwi`, `johc`, 'chmj', 'jonan'
 |Java
 
 |MSc
@@ -330,7 +330,7 @@ Outside teaching sessions you can communicate with each other, and with the teac
 |Group o
 |group o
 |`gega`, `noho`, `hrto`,`chtof`,`muni`,`lson`
-|C#.net - React-JavaScript
+|C#
 
 |MSc
 |Group s
