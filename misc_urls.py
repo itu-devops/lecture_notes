@@ -141,9 +141,9 @@ GROUP_URLS = [
     ],
     [
         "group k",
-        "<name>",
+        "Radiator",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://164.92.167.188:9091/d/a94Zmaa4k/minitwit?orgId=1&refresh=10s",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
