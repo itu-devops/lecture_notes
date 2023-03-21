@@ -53,17 +53,14 @@ Mircea Lungu, Associate Professor,<br>
 [IT University of Copenhagen, Denmark](https://www.itu.dk)<br>
 `mlun@itu.dk`
 
----
-
-class: center, middle
-
-# Feedback
 
 ---
 
 ## The state of your projects?
 
 ---
+
+
 
 ### Release Activity
 
@@ -87,20 +84,100 @@ class: center, middle
 
 <object width="100%" data="http://104.248.134.203/chart.svg"></object>
 
----
-
-### Error plot
-
-<object width="100%" data="http://104.248.134.203/error_chart.svg"></object>
 
 ---
 
+class: center, middle
+
+# Feedback
+---
+
+## Monitoring 
+
+- We see 8/16 have monitoring dashboards: Congrats!
+
+	 - ... and the rest?
+
+
+- Of the 8 we still have several have a Prometheus installation without data
+
+- Of the ones with data...
+	- Some we liked: 
+	
+		- [Group G - DevJanitors](http://104.248.101.163:3333/)
+		- [Group K- Radiator](http://164.92.167.188:9091/d/a94Zmaa4k/minitwit?orgId=1&refresh=10s)
+	
+	- Others made us curious: 
+		- [Group i](http://134.122.87.182:3000/d/DVJQxp-4k/minitwit-responses?orgId=1) - why the CPU load?
+		- [Group m](http://143.244.205.161:3000/d/0hVMV2-Vz/dash?orgId=1) - why the dashboard mix? 
+
+
+
+---
+
+## Automatic Testing in Progress: Web Timeline vs. the `/msgs`
+
+- both should return the latest messages
+- automatic script that does `/msgs?10` should find them on the timeline
+
+```
+
+2023-03-21 10:32:00,group a,100,10,200,DifferentAmountOfMessages,200,OK
+2023-03-21 10:32:04,group b,0,0,404,NotFound,200,OK
+2023-03-21 10:32:08,group d,0,0,,ConnectionError,200,OK
+
+
+
+```
+Pay attention to:
+
+- parameter count should be taken into account
+- `NotFound` - `/msgs` -- endpoint absent?
+
+
+
+
+
+---
 
 # Prep Questions
 
-### Question #1 for You: Which of your endpoints is the slowest? How slow is it?
+#### Question #1 for You: Which of your endpoints is the slowest? How slow is it?
 
-### Question #2 for You: Where is the time being spent in this endpoint? How did you find out?
+#### Question #2 for You: Where is the time being spent in this endpoint? How did you find out?
+
+
+---
+
+## Group: M
+- **Slowest**: GET /msgs?no=100  
+- **How Slow**? 798 ms  
+- **How**? Used Postman on all endpoints
+- **Where is the time spent**? We can monitor query times with prometheus? Or we can log it
+-
+
+---
+
+## Group: n
+
+- **Slowest**: We found the register endpoint to be the slowest when running our tests.
+- **How Slow**? The response time is about 50ms.
+- **Where is time spent?** Most of the time is spent hashing the password. This is somewhat on purpose as we are using bcrypt for hashing. We found the information by *measuring in code*.
+-
+
+---
+
+## Group: Souffle
+
+- **Slowest?** **How Slow**?: msgs and fllws can take up to 600ms
+- **Where is time spent?** mostly the database round trips
+
+---
+
+## Group: CI-CDont
+- **Slowest?** /allUsers. 
+- **How Slow?** Postman said 381ms, with 218ms being download. SQL is also a bottleneck.
+- **Where is time spent?** Postman can give some info. Go framework Gin can provide some related logging
 
 
 ---
@@ -112,6 +189,8 @@ class: center, middle
 Tracks high-level metrics the system (error rate of endpoint: 2%)
 
 Does not explain *WHY* there was a problem. 
+
+--
 
 For the WHY: 
 
@@ -128,9 +207,11 @@ Read More: [Why Grafana is Good at Metrics and Not Logs](https://grafana.com/blo
 
 ---
 
-## Profiling ... in one slinde
+## Profiling ... (in one slinde)
 
-A profilter is a tool that helps understand code from a timing point of view.
+### Understanding the code from a timing point of view.
+
+A profilter = a tool for profiling. 
 
 Essentially, answers the question: "Where is my code spending the time?"
 
@@ -142,16 +223,15 @@ Mini case study: [A Performance Problem](https://mircealungu.com/notes/A-Perform
 ---
 
 
-# Case Study: FMD 
+# Case Study: FMD
 
-FMD = Flask Monitoring Dashboard 
+Flask Monitoring Dashboard 
 
-* Research Project ([paper](https://github.com/flask-dashboard/Vissoft-17-Paper/blob/master/FlaskDashboard-Preprint.pdf))
-* MIT License (https://github.com/flask-dashboard/)
-* Laser focused
+* Internal Monitor Research Project ([paper](https://github.com/flask-dashboard/Vissoft-17-Paper/blob/master/FlaskDashboard-Preprint.pdf), [code](https://github.com/flask-dashboard/))
+
+* Can be easily installed **because its laser-focused**
 	* Python + Flask
-	* Small projects => stand-alone API / App
-	* Simple to deploy & use
+	* Small web services / apps
 
 * Leverages version-control information
 * Selectively can deploy a ***statistical profiler*** with fine-granularity
@@ -166,7 +246,7 @@ FMD = Flask Monitoring Dashboard
 
 ## FMD: Meta-Observations
 
-Can be easily installed **because its laser-focused**
+
 
 
 
@@ -655,16 +735,6 @@ Promtail = **agent that ships the contents of local logs**
 
 - LogQL might be more complicated 
 
----
-
-## 6. Without a web interface
-
-LNAV = Log File Navigator ([lnav.org](https://lnav.org/))
-- Basic search from the command line 
-- Practically no resources 
-- Can aggregate live multiple files
-- I use it for my personal research project
-
 
 ---
 
@@ -718,6 +788,15 @@ Note: More logs => and more privacy concerns
 
 - When using Docker containers - log files are lost when recreating continaers
 
+- ELK - you can reduce the memory allocated to it to about 700MB at the minimum
+
+- at least one group succeeded in integrating Loki & Grafana instead of ELK in their setup
+
+- LNAV = Log File Navigator ([lnav.org](https://lnav.org/))
+	- Basic search from the command line 
+	- Practically no resources 
+	- Can aggregate live multiple files
+	
 ---
 
 
@@ -779,15 +858,12 @@ To think about:
 ---
 
 
-## Resources
+class: center, middle
 
-Good patterns for Grok: https://qbox.io/blog/logstash-grok-filter-tutorial-patterns
+# Now it's your Turn: 
 
-Grok Debugger: https://grokdebug.herokuapp.com/
-
-This one uses Filebeat: https://www.elastic.co/guide/en/logstash/current/advanced-pipeline.html
-
-
+## [Exercise: Try out EFK with Our MiniTwit](https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_08/README_EXERCISE.md)
+## [Project: Add Logging to Your Project](https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_08/README_TASKS.md)
 
     </textarea>
     <script src="https://remarkjs.com/downloads/remark-latest.min.js">
