@@ -83,6 +83,19 @@ Read More: [Why Grafana is Good at Metrics and Not Logs](https://grafana.com/blo
 
 ---
 
+## Profiling ... in one slinde
+
+A profilter is a tool that helps understand code from a timing point of view.
+
+Essentially, answers the question: "Where is my code spending the time?"
+
+Mini case study: [A Performance Problem](https://mircealungu.com/notes/A-Performance-Problem.html) (5 min)
+
+<br/><br/>
+<img src="./images/always-profile.png" width="300px" />
+
+---
+
 
 # Case Study: FMD 
 
@@ -96,21 +109,11 @@ FMD = Flask Monitoring Dashboard
 	* Simple to deploy & use
 
 * Leverages version-control information
-
----
-
-## Profiling with FMD
-
-A profilter is a tool that helps understand code from a timing point of view.
-
-Essentially, answers the question: "Where is my code spending the time?"
-
-FMD
-* Selectively can deploy a ***profiler*** with fine-granularity
+* Selectively can deploy a ***statistical profiler*** with fine-granularity
 	* Profiling introduces significant overhead
 	- Measuring the overhead is tricky
-	
-Reading for next time: [A Performance Problem](https://mircealungu.com/notes/A-Performance-Problem.html)
+
+
 
 
 ---
@@ -733,11 +736,10 @@ To think about:
 
 ## Resources
 
-
-Installing ELK with Docker: https://logz.io/blog/elk-stack-on-docker/
-
 Good patterns for Grok: https://qbox.io/blog/logstash-grok-filter-tutorial-patterns
+
+Grok Debugger: https://grokdebug.herokuapp.com/
 
 This one uses Filebeat: https://www.elastic.co/guide/en/logstash/current/advanced-pipeline.html
 
-Grok Debugger: https://grokdebug.herokuapp.com/
+
