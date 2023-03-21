@@ -26,12 +26,6 @@ Write a brief (one to several paragraphs) postmortem report of the incident. Add
 
 
 
-## 3) Write an SLA for Your Own API
 
-Imagine that Beff Jezos, your boss, came to tell you that from next week, your MiniTwit API will become one of the products that your company will sell to third-party developers who want to implement their own frontend.
-
-Obviously, these clients, would need some guarantees before they start paying for your API. What guarantees can you offer? Write an SLA for your API. Add it as `SLA.md` to your repo and add it to also to the `misc_urls.py` under the corresponding "SLA" section. 
-
-Next week another team will get to read and review your team's SLA. Make sure that it's clear and it's a good offer :) At the same time aim for something that's realistic: don't overpromise.
 
 
