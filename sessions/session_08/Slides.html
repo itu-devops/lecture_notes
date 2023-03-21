@@ -119,20 +119,27 @@ class: center, middle
 
 - both should return the latest messages
 - automatic script that does `/msgs?10` should find them on the timeline
-
-```
-
-2023-03-21 10:32:00,group a,100,10,200,DifferentAmountOfMessages,200,OK
-2023-03-21 10:32:04,group b,0,0,404,NotFound,200,OK
-2023-03-21 10:32:08,group d,0,0,,ConnectionError,200,OK
-
-
-
-```
-Pay attention to:
-
 - parameter count should be taken into account
-- `NotFound` - `/msgs` -- endpoint absent?
+
+```
+
+2023-03-21 10:37:37,group a,100,10,200,DifferentAmountOfMessages,200,OK
+2023-03-21 10:37:38,group b,0,0,404,NotFound,200,OK
+2023-03-21 10:37:38,group d,0,0,,ConnectionError,200,OK
+2023-03-21 10:37:39,group e,100,0,200,DifferentAmountOfMessages,200,OK
+2023-03-21 10:42:57,group f,100,0,200,DifferentAmountOfMessages,200,FrontPageNotAvailable
+2023-03-21 10:42:57,group g,310693,0,200,DifferentAmountOfMessages,,
+2023-03-21 10:43:00,group h,0,0,500,InternalServerError,200,OK
+2023-03-21 10:43:03,group i,30,4,200,DifferentAmountOfMessages,200,OK
+2023-03-21 10:43:03,group j,100,0,200,DifferentAmountOfMessages,200,OK
+2023-03-21 10:43:04,group k,100,0,200,DifferentAmountOfMessages,200,OK
+2023-03-21 10:43:05,group l,0,0,500,InternalServerError,200,OK
+2023-03-21 10:43:07,group m,100,0,200,DifferentAmountOfMessages,200,OK
+2023-03-21 10:43:09,group n,100,0,200,DifferentAmountOfMessages,200,OK
+2023-03-21 10:43:09,group o,0,0,404,NotFound,,
+2023-03-21 10:43:09,group t,0,0,404,NotFound,200,OK
+2023-03-21 10:43:15,group s,0,0,,MissingSchema,200,OK
+```
 
 
 
