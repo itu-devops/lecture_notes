@@ -87,7 +87,7 @@ GROUP_URLS = [
         "group g",
         "DevJanitors",
         # Monitoring URL:
-        "http://104.248.101.163:3333/",
+        "http://104.248.101.163:3333/d/O2Yo12a4z/minitwit?orgId=1",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
