@@ -198,18 +198,15 @@ A threat is defined by a triplet:
 
 ---
 
-### Who attacks you? 
+### Intent and Capability of Attackers
 
-* Black Hat - bad guys in the western movies
+* Black Hat - bad intent, high capabilities (inspired from western movies)
+
+* Script Kiddies - they have time on their hands and not good intentions
 
 * White hat - ethical hackers, working with orgs to strengthen security
 
 * Grey Hat - not malicious, usually notify you that they hacked you
-
-* Script Kiddies - they have time on their hands
-
-
-What differentiates them: **intent** & **capability**...
 
 ---
 
