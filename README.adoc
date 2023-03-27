@@ -105,8 +105,8 @@ link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04
 |28/3
 |14:00 - 18:00
 |Mircea
-|Prep. material
-|Security of web-facing applications
+|-
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_09/Slides.md[Security]
 |A Basic Pen-Test with Metasploit
 |Security Assessment & Pen Testing
 // w14
