@@ -61,16 +61,7 @@ By **continuing to run security experiments**, we can evaluate and improve such 
 Question: Is it the same or not? 
 
 
-???
 
-Read More:
-
-- What is a SRE? 
- - https://opensource.com/article/18/10/what-site-reliability-engineer
- - https://www.csoonline.com/article/3244925/on-cybersecurity-and-it-teams-of-the-future-we-will-all-be-sres.html
-- SRE as an approach to DevOps:   
- - https://en.wikipedia.org/wiki/Site_Reliability_Engineering
- - Post-mortems
 
 
 ---
@@ -107,9 +98,6 @@ Sommerville defines **dependability** as:
 
 - **security** <-- *today's focus*!!!!
 
-???
-difference between availability and reliability
-https://www.indeed.com/career-advice/career-development/reliability-vs-availability
 
 
 
@@ -143,11 +131,7 @@ Security = "preventing information from being freed :)"
 (A question from the book: "Can you map the flow of information in the world?" + [One possible attempt at answering it](https://mircealungu.com/post/13-09-01-visualizing-stack-overflow/) )
 
 
-???
 
-- history of early days in computing
-- excitement about basics (reminder not to take things for granted)
-- More Stewart Brand: http://longnow.org/
 
 
 
@@ -271,10 +255,7 @@ What differentiates them: **intent** & **capability**...
 
 <img src="images/matrix.png" alt="Drawing" style="height: 300px;"/>
 
-???
 
-- https://sectara.com/news/risk-assessment-matrix/
-- https://31000risk.wordpress.com/article/what-s-right-with-risk-matrices-3dksezemjiq54-4/#_Ref125355130
 
 
 
@@ -303,12 +284,7 @@ What differentiates them: **intent** & **capability**...
 
 
 
-???
-Read more: 
-- Full top 10 list: https://owasp.org/www-project-top-ten/
-- Same Origin Policy (long but good video) https://www.youtube.com/watch?v=zul8TtVS-64
-- XSS explained nicely: https://portswigger.net/web-security/cross-site-scripting
-- CSRF - Cross Side Request Forgery - often detected by tools
+
 
 
 ---
@@ -567,9 +543,7 @@ sudo lynis audit system
 
 - e.g. [`apt-get install unattended-upgrades`](https://wiki.debian.org/UnattendedUpgrades)
 
-???
 
-https://www.ninjaone.com/blog/it-horror-stories-why-unpatched-software-hurts-business/
 
 ---
 
