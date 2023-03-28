@@ -581,8 +581,8 @@ Multiple US government agencies [hacked due to misconfiguration of their TeamCit
 
 # What Next?
 
-- Exercise: pen testing with Metasploit / wmap
+- Exercise: [Pen testing with Metasploit / wmap](https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_09/README_EXERCISE.md)
 
 - Practical: 
-	- own security assessment
-	- pen-testing another group
+	- [Own security assessment](https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_09/README_TASKS.md#1-perform-a-security-assessment)
+	- [White-hat pen-test another group](https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_09/README_TASKS.md#2-white-hat-attack-the-next-team)
