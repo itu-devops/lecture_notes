@@ -71,9 +71,9 @@ GROUP_URLS = [
     ],
     [
         "group f",
-        "<name>",
+        "containerMaintainers",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://164.92.240.232:3000/",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
