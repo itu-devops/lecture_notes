@@ -315,7 +315,7 @@ Logging Cheatsheet from OWASP: https://cheatsheetseries.owasp.org/cheatsheets/Lo
 ### Risk Matrices
 
 
-<img src="images/risk-rating-matrix.png" alt="Drawing" style="height: 450px; margin-left: 20px; margin-top: -100px; float:right"/>
+<img src="images/matrix.png" alt="Drawing" style="height: 300px; margin-left: 20px;  float:right"/>
 
 **Likelihood** e.g., Certain, Likely, Possible, Unlikely, Rare
 
