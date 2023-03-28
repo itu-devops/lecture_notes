@@ -149,9 +149,9 @@ link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04
 |13
 |2/5
 |14:00 - 18:00
-|Mircea & Helge
+|Lars (Implement Consulting Group), Mircea & Helge
 |
-|Documentation of Systems and Projects
+|*Guest Lecture*, Documentation of Systems and Projects
 |
 |*Simulator stops*. Write report.
 // w19

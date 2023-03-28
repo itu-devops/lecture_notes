@@ -164,16 +164,39 @@ A question from the book: "Can you map the flow of information in the world?" + 
 
 ## That time when I migrated a web app to a new server
 
-<img src="images/zeeguu_migration_arch.png" style="width:90%"/>
+<img src="images/migration.png" style="width:100%; margin-top:-40px;"/>
 
-
-- NGINX - as reverse proxy
 - UFW as more *uncomplicated* firewall than iptables
 	- in practice, ufw is an abstraction layer above iptables
+- NGINX - as *reverse proxy*  + TLS provider
+---
+# Intermezzo: Reverse Proxy
+
+<img src="images/reverse_proxy_concept.png" style ="width:400px; margin-top: -40px;"/>
+
+[Forward proxy vs. reverse proxy: an analogy](https://www.pankajtanwar.in/blog/proxy-vs-reverse-proxy-using-a-real-life-example)
+
+- A Reverse Proxy
+	- Acts on behalf of the server
+	- Forwards the client requests to the appropriate servers
+	- Forwards responses back on behalf of the servers
+
+
+
+
+
+- Why? 
+--
+
+	- security
+		- protecting ports
+		- TLS
+	- load balancing
+	- caching
 
 ---
 
-## The Next Day: Backup of ElasticSearch DB is very small... 
+	## Next Day: Backup of ElasticSearch DB is very small!
 
 ### Looking in the DB Shows a Single Document!
 <img src="images/give_us_btc.png" width="120%" />
@@ -198,17 +221,13 @@ A question from the book: "Can you map the flow of information in the world?" + 
   
 
 **We need a proactive and systematic approach**
-  1. understanding threats
-  1. assessing risk
-  1. testing security
-  1. detect breaches
+  1. Understanding threats
+  
+  3. Assessing risk
+  
+  5. Testing security
+  6. Detect breaches
 
---
-
-**As Devs coming to DevOps...** we must become good with
-   - security
-   - system administration
-   - networking
 
 ---
 
@@ -438,22 +457,22 @@ Warning signs that you might have an intruder
  
 ---
 
-# Practical Steps to Improve Security
+class: center, middle
+
+# 8 Practical Steps to Improve Security
+
 
 ---
 
 
-## 1. Evaluate Dependencies
-
-
-- Keep dependencies up to date
+## 1. Evaluate & Update Dependencies
 
 
 - Scan dependencies for security breaches
   - source code and container images too
   - add security checks as part of your CI
 
-
+- Keep dependencies up to date
 
 
 
@@ -463,7 +482,7 @@ Warning signs that you might have an intruder
 
 
 ##### Case Study
-[Postmortem for Malicious eslint Packages Published on July 12th, 2018](https://eslint.org/blog/2018/07/postmortem-for-malicious-package-publishes)
+- [Postmortem for Malicious eslint Packages Published on July 12th, 2018](https://eslint.org/blog/2018/07/postmortem-for-malicious-package-publishes)
 
 
 
@@ -492,14 +511,14 @@ Warning signs that you might have an intruder
 
 ## 3. Protect  Servers
 
-- Keep software on servers up to date
-	- - e.g. [`apt-get install unattended-upgrades`](https://wiki.debian.org/UnattendedUpgrades)
+- Keep server software up to date
+	- e.g. [`apt-get install unattended-upgrades`](https://wiki.debian.org/UnattendedUpgrades)
 
 
 - System hardening
 	- analyzes the system from within
 	- treats the system as white box as opposed to blackbox
-	- e.g. tool `sudo lynis audit system`
+	- e.g. [`sudo lynis audit system`](https://www.digitalocean.com/community/tutorials/how-to-perform-security-audits-with-lynis-on-ubuntu-16-04#step-2-performing-an-audit)
 
 
 
@@ -522,7 +541,7 @@ Warning signs that you might have an intruder
 
 
 ##### Case Study
-[The Uber Breach](https://www.bloomberg.com/news/articles/2017-11-21/uber-concealed-cyberattack-that-exposed-57-million-people-s-data) - started accessing a private GitHub repo, where keys were found for an AWS account, etc.
+- [The Uber Breach](https://www.bloomberg.com/news/articles/2017-11-21/uber-concealed-cyberattack-that-exposed-57-million-people-s-data) - started accessing a private GitHub repo, where keys were found for an AWS account, etc.
 
 ---
 
@@ -545,11 +564,19 @@ Warning signs that you might have an intruder
 
 ##### Case Study
 
-Multiple US government agencies [hacked due to misconfiguration of their TeamCity CI tool](https://cd.foundation/blog/2021/01/07/could-ci-cd-tool-teamcity-really-have-been-exploited-to-hack-the-us/_)
+- US government agencies [hacked due to misconfiguration of their TeamCity CI tool](https://cd.foundation/blog/2021/01/07/could-ci-cd-tool-teamcity-really-have-been-exploited-to-hack-the-us/)
+
+- That very safe OS of NASA that red team changed the code of
 
 ---
 
-## 7. Automatic Backups
+## 7. Log Everything 
+
+- Your key to being able to detect attacks 
+
+---
+
+## 8. Automatic Backups
 
 - Data is probably your most precious asset; don't lose it
 
@@ -559,16 +586,6 @@ Multiple US government agencies [hacked due to misconfiguration of their TeamCit
 
 
 
-
----
-
-
-## 8. Log Everything 
-
-- Your key to being able to detect attacks 
-- See previous lecture for details
-
-
 ---
 
 # What Next?
@@ -576,5 +593,7 @@ Multiple US government agencies [hacked due to misconfiguration of their TeamCit
 - Exercise: [Pen testing with Metasploit / wmap](https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_09/README_EXERCISE.md)
 
 - Practical: 
-	- [Own security assessment](https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_09/README_TASKS.md#1-perform-a-security-assessment)
+	- [Own security assessment + Hardening](https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_09/README_TASKS.md#1-perform-a-security-assessment)
 	- [White-hat pen-test another group](https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_09/README_TASKS.md#2-white-hat-attack-the-next-team)
+
+- TLS & Certbot? 
