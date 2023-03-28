@@ -159,27 +159,58 @@ A question from the book: "Can you map the flow of information in the world?" + 
 [1] 2017 Cost of Data Breach Study by IBM -  https://www.ibm.com/downloads/cas/ZYKLN2E3
 
 
+  
+---
+
+## That time when I migrated a web app to a new server
+
+<img src="images/zeeguu_migration_arch.png" style="width:90%"/>
+
+
+- NGINX - as reverse proxy
+- UFW as more *uncomplicated* firewall than iptables
+	- in practice, ufw is an abstraction layer above iptables
+
+---
+
+## The Next Day: Backup of ElasticSearch DB is very small... 
+
+### Looking in the DB Shows a Single Document!
+<img src="images/give_us_btc.png" width="100%" />
+
+
+---
+
+## What went wrong ?
+
+- Docker circumvents the UFW firewall and alters iptables directly 
+
+- Mapping the ports with `-p 9200:9200` maps the port to the host but also opens it to the world! ([bug report from '19](https://github.com/docker/for-linux/issues/690))) 
+	> Publishing ports produce a firewall rule that binds a container port to a port on the Docker host, ensuring the ports are accessible to any client that can communicate with the host.
+- Solution: [configure Docker to not do this]([descriptive article](https://www.techrepublic.com/article/how-to-fix-the-docker-and-ufw-security-flaw/)
+
+
+
 ---
 
 
-## What to do? 
+# What to do? 
   
-  
+
+**We need a proactive and systematic approach**
+  1. understanding threats
+  1. assessing risk
+  1. testing security
+  1. detect breaches
+
+--
+
 **As Devs coming to DevOps...** we must become good with
    - security
    - system administration
    - networking
 
---
-
-**We need a proactive and systematic approach**
-  1. understand threats
-  1. assess risk
-  1. test security
-  1. detect breaches
-  
 ---
-
 
 # 1. Understanding Threats
 
@@ -189,13 +220,15 @@ A question from the book: "Can you map the flow of information in the world?" + 
 A threat is defined by a triplet:
 
 1. Intent (we can guess)
-2. Capability (we can't change)
-3. Opportunity <-- (this is our focus!)
+
+1. Capability (we can't change)
+2. Opportunity <-- (this is our focus!)
+
 
 
 ---
 
-### Intent and Capability of Attackers
+## 1&2: Intent and Capability of Attackers
 
 * Black Hat - bad intent, high capabilities (inspired from western movies)
 
@@ -205,66 +238,15 @@ A threat is defined by a triplet:
 
 * Grey Hat - not malicious, usually notify you that they hacked you
 
----
-
-## Migrating from GCE to DO: A Case Study
-
-<img src="images/ufw_and_docker.png" width="90%" />
-
----
-
-## The Next Day: Backup of ES is very small... 
-
-### Looking in the DB Shows a Single Document:
-<img src="images/give_us_btc.png" width="100%" />
-
-
----
-
-## What went wrong ?
-
-- docker circumvents the UFW firewall configuraition and opens the ports to the world! [a discussion](https://github.com/docker/for-linux/issues/690)
-- undermines the point of the reverse proxy :)
-
----
-
-# Learning from the "Intelligence Field"
-
-1. Collect (**What are your assets**? What is worth protecting?)
-1. Analyse the adversary and opportunities
-1. Process (**What are the *risks*? Which should be addressed?**)
-1. Disseminate (Implement mitigations)
-
----
-
-# So How do *we* assess risk? 
-
-### Risk Matrices
-
-- **Severity**. e.g., Insignificant, Negligible, Marginal, Critical, Catastrophic
-- **Likelihood** e.g., Certain, Likely, Possible, Unlikely, Rare
-- **Risk** = f(Likelihood, Severity)
-
-## 
-
-<img src="images/matrix.png" alt="Drawing" style="height: 300px;"/>
-
-
-
-
-
----
-
-# e.g. A More Detailed Matrix
-
-<img src="images/risk-rating-matrix.png" style="width:500px; float: right"/>
 
 ---
 
 
-## Open Web Application Security Project: OWASP
+## 3: Opportunities
 
+Framework for Discovering Opportunities for Web Applications: OWASP
 
+- Open Web Application Security Project
 - Online Community
 - Maintains lists of vulnerabilityes for web applications
 
@@ -283,7 +265,7 @@ A threat is defined by a triplet:
 
 ---
 
-### Detail: Insufficient Logging and Monitoring
+### OWASP Detail: Insufficient Logging and Monitoring
 
 Issue included in the Top 10 **based on an industry survey**
 
@@ -300,7 +282,7 @@ Note: *applying this strategy is part of your assignment*
 ---
 
 
-## Insufficient Logging and Monitoring: When...
+### Insufficient Logging and Monitoring: When...
 
 - Auditable events are not logged
   - e.g. loginsfailed logins, and high-value transactions
@@ -313,17 +295,54 @@ Source: [OWASP Top 10: Insufficient Logging and Monitoring](https://owasp.org/ww
 
 Logging Cheatsheet from OWASP: https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html
 
+
+
 ---
 
-## Testing Security: Penetration Testing
+# 2. Assessing risk
 
-- a.k.a. pen-testing
+### Risk Matrices
+
+
+<img src="images/risk-rating-matrix.png" alt="Drawing" style="height: 450px; margin-left: 20px; margin-top: -100px; float:right"/>
+
+**Likelihood** e.g., Certain, Likely, Possible, Unlikely, Rare
+
+**Severity**. e.g., Insignificant, Negligible, Marginal, Critical, Catastrophic
+
+**Risk** = f(Likelihood, Severity)
+
+
+
+---
+
+### Example: Levels of Severity 
+
+cf. Security Risk Management Body of Knowledge
+
+<img src="images/levels_of_severity.png" alt="Drawing" style="height: 400px; margin-left: 20px; float:right"/>
+
+---
+
+### Example: Degrees of Likelihood
+
+cf. Security Risk Management Body of Knowledge
+
+<img src="images/degrees_of_likelihood.png" alt="Drawing" style="height: 400px; margin-left: 20px; float:right"/>
+
+
+
+---
+
+
+# 3. Testing
+
+Penetration Testing (a.k.a. pen-testing)
 - simulate attacks on your system
-- helps understand what an attacker can do
+- helps you understand what an attacker can do
 
 > "blue teams always need **red teams** to test them against each other"
 
-- requires you to know potential vulnerabilities
 
 
 
@@ -333,17 +352,17 @@ Logging Cheatsheet from OWASP: https://cheatsheetseries.owasp.org/cheatsheets/Lo
 
 ### Automating Pen Testing
 
-- tools exist that can automate the process
-- you provide a target IP and they scan it for vulnerabilities
+- Tools exist that can automate the process
+- You provide a target IP and they scan it for vulnerabilities
 
 - Kali Linux
   - security focused distro
   - contains a very large set of tools (https://tools.kali.org/tools-listing)
   - can be installed in meta-packages (https://www.kali.org/news/kali-linux-metapackages/)
-    - top10
-    - web
-    - wireless
-    - etc.
+	    - top10
+	    - web
+	    - wireless
+	    - etc.
 
 ---
 
@@ -400,7 +419,7 @@ Online Services
 
 ---
 
-## Detection
+# 4. Detection
 
 Is hard.
 
@@ -413,72 +432,23 @@ Warning signs that you might have an intruder
 ---
 
 
-### Detection - Approach
+## Detection - Approach
 
 - Develop baseline for normal
+
 - Stop intruders from taking information out 
   - firewall
   - traffic filtering
   - white/black listing
-- Auditing, system hardening, compliance testing, e.g. Lynis
+  
+- Auditing, compliance testing
 
  
 ---
 
+# Practical Steps to Improve Security
 
-### Tool for System Hardening: Lynis
-
-- analyzes the system from within
-- treats the system as white box as opposed to blackbox
-
-
-``` 
-
-sudo lynis audit system
-
-... 
-
- [+] Boot and services
-------------------------------------
-  - Service Manager                                           [ systemd ]
-  - Checking UEFI boot                                        [ DISABLED ]
-  - Checking presence GRUB                                    [ OK ]
-  - Checking presence GRUB2                                   [ FOUND ]
-    - Checking for password protection                        [ NONE ]
-  - Check running services (systemctl)                        [ DONE ]
-        Result: found 27 running services
-  - Check enabled services at boot (systemctl)                [ DONE ]
-        Result: found 54 enabled services
-  - Check startup files (permissions)                         [ OK ]
-
-[+] Containers
-------------------------------------
-    - Docker
-      - Docker daemon                                         [ RUNNING ]
-        - Docker info output (warnings)                       [ 1 ]
-      - Containers
-        - Total containers                                    [ UNKNOWN ]
-          - Running containers                                [ 4 ]
-    - File permissions                                        [ OK ]
-
-[+] Security frameworks
-------------------------------------
-  - Checking presence AppArmor                                [ FOUND ]
-    - Checking AppArmor status                                [ ENABLED ]
-  - Checking presence SELinux                                 [ NOT FOUND ]
-  - Checking presence TOMOYO Linux                            [ NOT FOUND ]
-  - Checking presence grsecurity                              [ NOT FOUND ]
-  - Checking for implemented MAC framework                    [ OK ]
-
-```
- 
 ---
-
-
-# Practical Steps to Improve Security in your Web Application
-
-
-
 
 
 ## 1. Evaluate Dependencies
@@ -509,33 +479,38 @@ sudo lynis audit system
 
 
 
-<img src="images/hacker_license_plate.png" style="width:400px" />
-[source](https://hackaday.com/2014/04/04/sql-injection-fools-speed-traps-and-clears-your-record/)
-
-
-
-
---
-
 ## 2. Never Trust User Input
+
+> Principle: "All input is bad until proven otherwise
+
 
 - Validate the input before using it
   - in the webpages
   - in the API
 - Use parameterized DB queries (or whatever framework help you can)
 
-> Principle: "All input is bad until proven otherwise"
+--
+
+<img src="images/hacker_license_plate.png" style="width:350px" />
+[](https://hackaday.com/2014/04/04/sql-injection-fools-speed-traps-and-clears-your-record/)
 
 
 ---
 
 
-## 3. Protect your Servers
+## 3. Protect  Servers
 
 - Keep software on servers up to date
+	- - e.g. [`apt-get install unattended-upgrades`](https://wiki.debian.org/UnattendedUpgrades)
 
 
-- e.g. [`apt-get install unattended-upgrades`](https://wiki.debian.org/UnattendedUpgrades)
+- System hardening
+	- analyzes the system from within
+	- treats the system as white box as opposed to blackbox
+	- e.g. tool `sudo lynis audit system`
+
+
+
 
 
 
@@ -560,7 +535,7 @@ sudo lynis audit system
 ---
 
 
-## 5. Go Hack Yourself
+## 5. Hack Yourself
 
 - Create a red team to pen test
 
@@ -584,16 +559,12 @@ Multiple US government agencies [hacked due to misconfiguration of their TeamCit
 
 ## 7. Automatic Backups
 
-- This is critical
+- Data is probably your most precious asset; don't lose it
 
-- Test your full recovery process
+- Test your full recovery process! 
 
+	- A backup is not useful unless you can use it to actually perform the backup
 
-**Principle**
-
-> Data is probably your most precious asset; don't lose it
-
-> A backup is not useful unless you can use it to actually perform the backup
 
 
 
@@ -608,15 +579,10 @@ Multiple US government agencies [hacked due to misconfiguration of their TeamCit
 
 ---
 
-# References:
+# What Next?
 
-- [Five Easy Steps to Keep on Your Organization’s DevOps Security Checklist
-](https://www.tripwire.com/state-of-security/devops/devops-security-checklist/)
-- [What Is A Risk Assessment Matrix?](https://sectara.com/news/risk-assessment-matrix/)
-- [ Guide To Conducting Cybersecurity Risk Assessment For Critical Information Infrastructure](https://www.csa.gov.sg/-/media/csa/documents/legislation_supplementary_references/guide_to_conducting_cybersecurity_risk_assessment_for_cii.pdf), Dec 2019
-- The DevOps Security Checklist by Sqreen
+- Exercise: pen testing with Metasploit / wmap
 
-
-Further Reading
-- [Information Security Risk Analysis – A Matrix-based Approach ](https://www.albany.edu/~goel/publications/goelchen2005.pdf) -- an advanced approach to security risk analysis 
-
+- Practical: 
+	- own security assessment
+	- pen-testing another group
