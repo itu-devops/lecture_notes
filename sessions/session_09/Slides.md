@@ -176,7 +176,7 @@ A question from the book: "Can you map the flow of information in the world?" + 
 ## The Next Day: Backup of ElasticSearch DB is very small... 
 
 ### Looking in the DB Shows a Single Document!
-<img src="images/give_us_btc.png" width="100%" />
+<img src="images/give_us_btc.png" width="120%" />
 
 
 ---
@@ -244,12 +244,10 @@ A threat is defined by a triplet:
 
 ## 3: Opportunities
 
-Framework for Discovering Opportunities for Web Applications: OWASP
-
-- Open Web Application Security Project
+Framework for Discovering Opportunities for Web Applications: [Open Web Application Security Project](https://owasp.org/www-project-top-ten/) OWASP
 - Online Community
-- Maintains lists of vulnerabilityes for web applications
 
+- Maintains lists of vulnerabilityes for web applications
 
 - **OWASP Top 10** Include:
   1. Broken Access Control
@@ -258,21 +256,15 @@ Framework for Discovering Opportunities for Web Applications: OWASP
   9. Insufficient Logging & Monitoring (!!!)
 
 
-
-
-
-
-
 ---
 
 ### OWASP Detail: Insufficient Logging and Monitoring
 
-Issue included in the Top 10 **based on an industry survey**
+Included in the Top 10 **based on an industry survey**
 
 Strategy for determining if you have **sufficient monitoring**
 
-- examine the logs following *penetration testing* (defined later)
-
+- examine the logs following *penetration testing* 
 
 - the testers’ actions should be recorded sufficiently to understand what damages they may have inflicted
 
