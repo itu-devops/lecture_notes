@@ -223,4 +223,18 @@ GROUP_URLS = [
         # SLA Review:
         "<sla_review_url>",
     ],
+        [
+        "group s",
+        "Group S",
+        # Monitoring URL:
+        "http://64.226.65.220:3005/dashboard/db/minitwit-group-s-dashboard?orgId=1",
+        # Security report URL:
+        "<security_report_url>",
+        # Logging URL:
+        "<logging_url>",
+        # SLA:
+        "<sla_url>",
+        # SLA Review:
+        "<sla_review_url>",
+    ],
 ]
