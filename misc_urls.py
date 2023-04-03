@@ -113,13 +113,13 @@ GROUP_URLS = [
     ],
     [
         "group i",
-        "<name>",
+        "OpsDev",
         # Monitoring URL:
         "http://134.122.87.182:3000/d/DVJQxp-4k/minitwit-responses?orgId=1",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
-        "<logging_url>",
+        "http://157.245.16.6:5601/",
         # SLA:
         "<sla_url>",
         # SLA Review:
