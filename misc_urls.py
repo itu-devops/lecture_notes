@@ -51,7 +51,7 @@ GROUP_URLS = [
         # Logging URL:
         "<logging_url>",
         # SLA:
-        "<sla_url>",
+        "https://github.com/DevOps-CI-CDont/DevOps-CI-CDont/blob/main/SLA.md",
         # SLA Review:
         "<sla_review_url>",
     ],
