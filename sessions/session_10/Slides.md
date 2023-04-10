@@ -20,7 +20,7 @@ Mircea Lungu, Associate Professor,<br>
 ## Before we Start: State of the Projects
 
 **Security** 
-
+**Logging**
 
 
 
@@ -35,7 +35,7 @@ Mircea Lungu, Associate Professor,<br>
 
 ## What happens if one of your components fails in this system?
 
-![](possible_arch1.png)
+![](images/possible_arch1.png)
 
 --
 
@@ -45,7 +45,7 @@ Mircea Lungu, Associate Professor,<br>
 
 ## Is this scenario better? 
 
-![](possible_arch2.png)
+![](images/possible_arch2.png)
 
 --
 
@@ -59,7 +59,7 @@ Nope. Here we just have more **single points of failure** because each hardware 
 
 = **adding extra hardware and/or software components to the system and designing such that in case one fails, the other can take over**
 
-![400](lung_redundancy.png)
+![400](images/lung_redundancy.png)
 
 - solution to single-point of failure
 - challenge = keeping redundant components in sync
@@ -84,7 +84,7 @@ Possible Reasons:
 
 --
 
-![360](healthcare_gov.png)
+![360](images/healthcare_gov.png)
 
 ???
 
@@ -137,7 +137,7 @@ Solution to congestion?
 3. Power On VM
 4. From within the VM update the OS wrt your new disk size (takes a while!)
 
-![400](vertical-scaling-ui.png)
+![400](images/vertical-scaling-ui.png)
 
 ???
 
@@ -195,7 +195,7 @@ Similar to VirtualBox, only that on the Web
 
 **You can only resize VMs that are not running**.
 
-![](DO-resize-options.png)
+![](images/DO-resize-options.png)
     
 
 
@@ -266,7 +266,7 @@ Consider rewriting this into: contexts where VS does not work.
 - **adding more machines* to a setup**
 - **making all the machines share the responsibilities**
 
-![420](scaling-graphic.png)
+![420](images/scaling-graphic.png)
 
 \*Initially was about physical machines. Nowadays VMs too.
 
@@ -302,7 +302,7 @@ When they started, Google's index (a map) was small enough to fit on a single co
 = **Distributing application traffic across multiple servers**
 
 
-![](load_balancing.png)
+![](images/load_balancing.png)
 
 - Ensures no single server bears too much demand
 - Improves responsiveness
@@ -322,7 +322,7 @@ Provides increased availability
 
 Removes Single Point of Failure
 
-[![600](ha-diagram-animated.gif)
+[![600](images/ha-diagram-animated.gif)
 ](https://assets.digitalocean.com/articles/high_availability/ha-diagram-animated.gif)
 
 
@@ -350,14 +350,13 @@ Where to read more about this setup
  
 Container Orchestration and Management tools
 
-![](tools_that_help_scaling.png)
+![](images/tools_that_help_scaling.png)
 
   * Docker Swarm Mode -- comes together with Docker
   * Kubernetes -- originally developed at Google
   * OpenShift -- dedicated for RedHad Enterprise
   * Mesosphere/Marathon
   * and many more...
-
 
 ???
 
@@ -385,7 +384,7 @@ Container Orchestration and Management tools
   1. Managers
   2. Workers
 
-![](swarm_diagram.png)
+![](images/swarm_diagram.png)
 
 ---
 
@@ -424,7 +423,7 @@ See more https://docs.docker.com/engine/swarm/how-swarm-mode-works/nod
 - Types: **replicated** vs. **global**
 
   
-![500](replicated_vs_global.png)
+![500](images/replicated_vs_global.png)
 
 ---
 
@@ -433,7 +432,7 @@ See more https://docs.docker.com/engine/swarm/how-swarm-mode-works/nod
 - Carries **a container and the commands to run inside it**
 - Manager nodes assign tasks to worker nodes according to the number of replicas set in the service scale
  
-![500](service-task-container.png)
+![500](images/service-task-container.png)
 
 "A service is a description of a desired state, and a task does the work"
 
@@ -487,7 +486,7 @@ Read more:  https://docs.docker.com/engine/swarm/ingress
 ### A Docker Swarm cluster on DigitalOcean
 
 
-![500](do_generating_token.png)
+![500](images/do_generating_token.png)
 
 Assumes: 
 - Defined envvar: $DIGITAL_OCEAN_TOKEN
@@ -807,7 +806,7 @@ The guide is based on the [tutorial at DigitalOcean](https://www.digitalocean.co
 
 Two identical environments, where only one is hot (e.g. green) at any time
 
-![280](blue_green.png)
+![280](images/blue_green.png)
   
   1. Currently deployed application (Green) is serving incoming traffic
   1. New version (Blue) is deployed and tested, but not yet receiving traffic
@@ -861,7 +860,7 @@ How would you solve it with two different databases: https://www.linkedin.com/pu
 
 **Deploy to a small group first, then deploy to the rest**
 
-![400](canary.png)
+![400](images/canary.png)
   
   
   
@@ -874,7 +873,7 @@ How would you solve it with two different databases: https://www.linkedin.com/pu
 
 **Deploy in rolling iterations**
 
-  ![400](rolling.gif)
+  ![400](images/rolling.gif)
   
 See https://opensource.com/article/17/5/colorful-deployme
 
