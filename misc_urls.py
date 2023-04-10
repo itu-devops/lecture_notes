@@ -117,7 +117,7 @@ GROUP_URLS = [
         # Monitoring URL:
         "http://134.122.87.182:3000/d/DVJQxp-4k/minitwit-responses?orgId=1",
         # Security report URL:
-        "<security_report_url>",
+        "https://github.com/MinitwitGroupI/MiniTwit/tree/main/documentation/security%20report",
         # Logging URL:
         "http://157.245.16.6:5601/",
         # SLA:
