@@ -123,10 +123,10 @@ link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04
 |11/4
 |14:00 - 18:00
 |Mircea
-|Prep. material
-|Deployment strategies, scalability, load balancing.
-|A Basic Swarm
-|Isolate components into services/containers/VMs
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_10/README_PREP.md[Prep. material]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_10/Slides.md[Scaling]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_10/README_EXERCISE.md[A Basic Swarm]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_10/README_TASKS.md[Isolate components into services/containers/VMs]
 // w16
 |11
 |18/4
