@@ -5,7 +5,7 @@ GROUP_URLS = [
         # Monitoring URL:
         "<monitoring_url>",
         # Security report URL:
-        "<security_report_url>",
+        "https://github.com/Academic-Weapons/ITU2023-DevOps/blob/dev/worklogs/session09/SecurityAnalysis.md",
         # Logging URL:
         "<logging_url>",
         # SLA:
