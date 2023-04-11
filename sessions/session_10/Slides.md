@@ -78,7 +78,7 @@ More on redundancy: https://csis.pace.edu/~marchese/CS865/Lectures/Chap8/New8/Ch
 # What happens when there is a spike in number of users?
 
 Possible Reasons:
-- [The slashdot effect](https://en.wikipedia.org/wiki/Slashdot_effect)
+- [The Slashdot effect](https://en.wikipedia.org/wiki/Slashdot_effect)
 - Seasonal spikes in demand
 - Highly anticipated launch (e.g. the [healthcare.gov](https://www.cbsnews.com/news/healthcaregov-plagued-by-crashes-on-1st-day/) story)
 
@@ -211,12 +211,12 @@ See https://www.digitalocean.com/docs/droplets/how-to/resize/#resizing-via-the-c
 Resize CPU and RAM **automatically shuts down the droplet** 
 
 ```bash
-> curl -X POST -H 'Content-Type: application/json' \
+$ curl -X POST -H 'Content-Type: application/json' \
 	   -H "Authorization: Bearer $DIGITAL_OCEAN_TOKEN" \
 	   -d '{"type":"resize","size":"s-2vcpu-4gb"}' \
 	   "https://api.digitalocean.com/v2/droplets/$DROPLET_ID/actions" | jq
 
-> curl -X POST -H 'Content-Type: application/json' \
+$ curl -X POST -H 'Content-Type: application/json' \
 	   -H "Authorization: Bearer $DIGITAL_OCEAN_TOKEN" \
 	   -d '{"type":"power_on"}' \
 	   "https://api.digitalocean.com/v2/droplets/$DROPLET_ID/actions"
@@ -279,13 +279,18 @@ Consider rewriting this into: contexts where VS does not work.
 --
 
 **Lack of Alternative**
-- Some workloads exceed the capacity of the largest supercomputer and can only be handled by distributed systems
-	- e.g. [As of 2000 Google could not host all their DB on a single machine anymore](https://www.linkedin.com/pulse/how-did-google-scale-untold-story-shrey-batra/?trk=articles_directory)
+- Some workloads exceed the capacity of the largest supercomputer and can only be handled by distributed systems, e.g. 
+	- [As of 2000 Google can not host all their DB on a single machine](https://www.linkedin.com/pulse/how-did-google-scale-untold-story-shrey-batra/?trk=articles_directory). In 2004 they introduce the [MapReduce paper](./papers/mapreduce-osdi04.pdf) and the whole world gets excited.
+ 
+	- [Story of scaling at LinkedIn](https://engineering.linkedin.com/architecture/brief-history-scaling-linkedin): *"An easy fix we did was classic vertical scaling ... While that bought some time, we needed to scale further"*
 
 --
 
 **Cost**
-- High-performance computing applications, such as seismic analysis and biotechnology, scale workloads horizontally to support tasks that once would have required expensive supercomputers. 
+- Supports tasks that once would have required expensive supercomputers
+	- seismic analysis 
+	- biotechnology
+	- ...
 
 
 ???
@@ -294,21 +299,31 @@ We take it for granted, but it was a very revolutionary idea two decades ago
 
 When they started, Google's index (a map) was small enough to fit on a single computer. In March of 2000, there was no Supercomputer that could process the index. The only way that Google could keep up was by buying normal computers and wiring them together into a fleet. Because half the cost of these computers was considered junk—floppy drives, metal chassis—the company would order raw motherboards and hard drives and sandwich them together. To survive, Google would have to unite its computers into a seamless, resilient whole
 
-[hints at the google story](https://www.linkedin.com/pulse/how-did-google-scale-untold-story-shrey-batra/?trk=articles_directory) - of needing to 
+[hints at the google story](https://www.linkedin.com/pulse/how-did-google-scale-untold-story-shrey-batra/?trk=articles_directory) - of needing to scale beyond an individual machine
+
+[Hadoop timeline](https://data-flair.training/blogs/hadoop-history/)
+- defeats supecomputers in 2008
+- yahoo deployes it on 1000 nodes in 2007
+
 
 ---
 ## Automated Load-Balancing
 
-= **Distributing application traffic across multiple servers**
-
-
-![](images/load_balancing.png)
+= **Distributing traffic to - and computation across multiple servers**
 
 - Ensures no single server bears too much demand
 - Improves responsiveness
 
+![](images/load_balancing.png)
 
-Solves **scaling** but... load balancer could still represent SPF
+\#ClassicalHorizontalScaling
+
+
+Solves **scaling** but... 
+
+--
+
+... load balancer could still represent SPF
 
 ???
 
@@ -317,8 +332,6 @@ From: [Horizontally Scaling PHP Applications](https://blog.digitalocean.com/hori
 
 ---
 ## Redundant Load Balancer Setup
-
-Provides increased availability 
 
 Removes Single Point of Failure
 
@@ -336,6 +349,8 @@ Removes Single Point of Failure
 
 ???
 
+Provides increased availability 
+
 - **Note:** Setup above is relevant for your project. [**Source**](https://www.digitalocean.com/community/tutorials/how-to-create-a-high-availability-setup-with-heartbeat-and-floating-ips-on-ubuntu-16-04)
 
 
@@ -346,34 +361,36 @@ Where to read more about this setup
 
 ---
 
-# Tools that Help Horizontal Scaling
- 
-Container Orchestration and Management tools
+# Tools that Help With Horizontal Scaling
 
-![](images/tools_that_help_scaling.png)
+Specialized Tools for Distributing Computations
+- Hadoop - Implementation of MapReduce
+- Spark - Faster, more generic implementation
 
-  * Docker Swarm Mode -- comes together with Docker
-  * Kubernetes -- originally developed at Google
-  * OpenShift -- dedicated for RedHad Enterprise
-  * Mesosphere/Marathon
-  * and many more...
 
-???
+**Container Orchestration Tools**
+- Managing **computing nodes** and services
+- Resource aware task scheduling
 
-#### Why not Kubernetes?
-
-  * ... is popular in the US, see [Google Trends](https://trends.google.com/trends/explore?geo=US&q=Kubernetes,Docker%20Swarm,Mesos)
-  * But since Danmark has another size, it is [not that much more popular compared to alternatives](https://trends.google.com/trends/explore?geo=DK&q=Kubernetes,Docker%20Swarm,Mes
 
 ---
-## Docker Swarm Mode
+
+## Many Container Orchestration Alternatives
+
+![400](images/tools_that_help_scaling.png)
+
+**Docker Swarm Mode**
+- Comes with Docker by default
+- The easiest to use from all the alternatives
 
 
-**supports **orchestration of** Docker **containers** across multipled nodes**
+ **Kubernetes** 
+  * Originally developed at Google
+  * We don't ask you to use it because we're nice :) ([see hacker news discussion](https://news.ycombinator.com/item?id=26271470))
 
-* Orchestration
-    - Manages nodes and services
-    - Resource aware task scheduling
+  
+ ... and [many more](https://devopscube.com/docker-container-clustering-tools/)
+
   
 ---
 
@@ -388,7 +405,7 @@ Container Orchestration and Management tools
 
 ---
 
-### Swarm Element: Manager Nodes
+### 1. Manager Nodes
 
   * Maintain cluster state
   * Schedule services
@@ -403,9 +420,10 @@ Notes:
 
 ---
 
-### Swarm Element: Worker Node
+### 2. Worker Nodes
 
-  * Are instances of Docker Engine whith sole purpose to execute containers
+  * Instances of Docker Engine 
+  - Sole purpose to execute containers
   * Do not participate in scheduling decisions, or serve the swarm mode HTTP API
   * Have at least one manager node
   * By default, all managers are also workers
@@ -417,13 +435,20 @@ See more https://docs.docker.com/engine/swarm/how-swarm-mode-works/nod
 ## Swarm Concept: Service
 
 - The primary abstraction of user interaction with the swarm
-- The central structure of the swarm 
-- Is bound to a port
 - Represents the definition of the tasks to execute on the nodes
-- Types: **replicated** vs. **global**
+- Is bound to a port
+- Can be **replicated** or **global** (exactly one replica running on each node)
 
   
 ![500](images/replicated_vs_global.png)
+
+???
+
+Good examples of global service? logging. It is important to ensure that the service is running on every node. By deploying the service as a global service, you can ensure that every node in the cluster has a copy of the service running, which can collect data from that node and forward it to a centralized location.
+
+In a sense, global = highest availability. Replicated allows you to select the level of replication. 
+
+
 
 ---
 
@@ -624,17 +649,17 @@ To add a manager to this swarm, run 'docker swarm join-token manager' and follow
 ##### Let's get that token from the swarm-manager
 
 ```sh
-> ssh root@$SWARM_MANAGER_IP "docker swarm join-token worker -q"
+$ ssh root@$SWARM_MANAGER_IP "docker swarm join-token worker -q"
 SWMTKN-1-4rndqz4hwe38wtbl9fwgj33rk48ok3hri7a0xy42o7sf5ll38z-afkri2vu57m5z31v34bny16aj
 
-> WORKER_TOKEN=`ssh root@$SWARM_MANAGER_IP "docker swarm join-token worker -q"`
+$ WORKER_TOKEN=`ssh root@$SWARM_MANAGER_IP "docker swarm join-token worker -q"`
 ```
 
 ##### and build a command that we can run on node-1 and node-2 to join the swarm.
 ```sh
-> REMOTE_JOIN_CMD="docker swarm join --token $WORKER_TOKEN $SWARM_MANAGER_IP:2377"
+$ REMOTE_JOIN_CMD="docker swarm join --token $WORKER_TOKEN $SWARM_MANAGER_IP:2377"
 
-> ssh root@$WORKER1_IP "$REMOTE_JOIN_CMD"
+$ ssh root@$WORKER1_IP "$REMOTE_JOIN_CMD"
 ```
 
 ```
@@ -642,7 +667,7 @@ SWMTKN-1-4rndqz4hwe38wtbl9fwgj33rk48ok3hri7a0xy42o7sf5ll38z-afkri2vu57m5z31v34bn
 ```
 
 ```sh
-> ssh root@$WORKER2_IP "$REMOTE_JOIN_CMD"
+$ ssh root@$WORKER2_IP "$REMOTE_JOIN_CMD"
 ```
 
 ```
@@ -656,7 +681,7 @@ SWMTKN-1-4rndqz4hwe38wtbl9fwgj33rk48ok3hri7a0xy42o7sf5ll38z-afkri2vu57m5z31v34bn
 
 ```sh
 
-> ssh root@$SWARM_MANAGER_IP "docker node ls"
+$ ssh root@$SWARM_MANAGER_IP "docker node ls"
 
 ID                            HOSTNAME            STATUS              AVAILABILITY        MANAGER STATUS      ENGINE VERSION
 sozjy3nmfrieacm2pbgj41ek3 *   node-0              Ready               Active              Leader              18.09.0
@@ -670,7 +695,7 @@ hy6ie5xq561f9w1zpiyaqkrk5     node-1              Ready               Active    
 Now that everything is setup, let's run a service on our cluster:
 
 ```sh
-> ssh root@$SWARM_MANAGER_IP "docker service create -p 8080:8080 --name appserver stifstof/crashserver"
+$ ssh root@$SWARM_MANAGER_IP "docker service create -p 8080:8080 --name appserver stifstof/crashserver"
 overall progress: 0 out of 1 tasks
 ...
 overall progress: 1 out of 1 tasks
@@ -687,7 +712,7 @@ verify: Service converged
 
 
 ```bash
-> ssh root@$SWARM_MANAGER_IP "docker service ls"
+$ ssh root@$SWARM_MANAGER_IP "docker service ls"
 ID                  NAME                MODE                REPLICAS            IMAGE                        PORTS
 ttkqm9wzthgu        appserver           replicated          1/1                 stifstof/crashserver:latest   *:8080->8080/tcp
 ```
@@ -695,14 +720,14 @@ ttkqm9wzthgu        appserver           replicated          1/1                 
 You may directly ask for the state of a service with
 
 ```bash
-> ssh root@$SWARM_MANAGER_IP "docker service ps appserver"
+$ ssh root@$SWARM_MANAGER_IP "docker service ps appserver"
 ```
 
 
 Now, on a Mac you can: 
 
 ```sh
-> open http://$SWARM_MANAGER_IP:8080
+$ open http://$SWARM_MANAGER_IP:8080
 ```
 
 Alternatively, navigate manually to the swarm manager's IP port 8080 and see the webpage served. 
@@ -726,15 +751,15 @@ Now we will scale the service to increase availability.
 ### Scaling the service
 
 ```bash
-> ssh root@$SWARM_MANAGER_IP "docker service scale appserver=5"
-> ssh root@$SWARM_MANAGER_IP "docker service ls"
+$ ssh root@$SWARM_MANAGER_IP "docker service scale appserver=5"
+$ ssh root@$SWARM_MANAGER_IP "docker service ls"
 
 ID                  NAME                MODE                REPLICAS            IMAGE                        PORTS
 ttkqm9wzthgu        appserver           replicated          5/5                 stifstof/crashserver:latest   *:8080->8080/tcp
 
 
 
-> ssh root@$SWARM_MANAGER_IP \"docker service ps appserver\"
+$ ssh root@$SWARM_MANAGER_IP \"docker service ps appserver\"
 
 
 ID                  NAME                IMAGE                        NODE                DESIRED STATE       CURRENT STATE            ERROR               PORTS
@@ -826,35 +851,6 @@ Two identical environments, where only one is hot (e.g. green) at any time
 
 ---
 
-### DB Migrations with Blue Green Deployment 
-
-From [article](https://martinfowler.com/bliki/BlueGreenDeployment.html)  on martinfowler.com: 
-
-> "The trick is to separate the deployment of schema changes from application upgrades"
-
-
-
-### Same DB
-
-> "(One) variation would be to use the same database, making the blue-green switches for web and domain layers."
-
-
-1. deploy a database refactoring to change the schema to support both the new and old version of the application, 
-2. check everything is working fine so you have a rollback point, 
-3. then deploy the new version of the application. 
-4. And when the upgrade has bedded down remove the database support for the old version.
-
-
-???
-
-e.g. [renaming a column in the DB in a backwards compatible way](https://spring.io/blog/2016/05/31/zero-downtime-deployment-with-a-database)
-
-How would you solve it with two different databases: https://www.linkedin.com/pulse/addressing-elephant-blue-green-room-data-deployment-using-madisa/
-
-
-
----
-
 
 # Canary
 
@@ -911,7 +907,57 @@ See More: [Rolling Updates Swarm Tutorial](https://docs.docker.com/engine/swarm/
 
 ---
 
+# DB Migrations 
 
+### With Blue Green Deployment 
+
+From [article](https://martinfowler.com/bliki/BlueGreenDeployment.html)  on martinfowler.com: 
+
+> "The trick is to separate the deployment of schema changes from application upgrades"
+
+
+
+### Same DB
+
+> "(One) variation would be to use the same database, making the blue-green switches for web and domain layers."
+
+
+1. deploy a database refactoring to change the schema to support both the new and old version of the application, 
+2. check everything is working fine so you have a rollback point, 
+3. then deploy the new version of the application. 
+4. And when the upgrade has bedded down remove the database support for the old version.
+
+
+???
+
+e.g. [renaming a column in the DB in a backwards compatible way](https://spring.io/blog/2016/05/31/zero-downtime-deployment-with-a-database)
+
+How would you solve it with two different databases: https://www.linkedin.com/pulse/addressing-elephant-blue-green-room-data-deployment-using-madisa/
+
+
+
+---
+
+## Why not Horizontal Scaling?
+
+**It can be more complicated that vertical** (see [hacker news thread on k8s](https://news.ycombinator.com/item?id=26271470))
+
+
+**To *cargocult* what others (e.g. Google, Facebook) do**
+
+- There are many large scale infras that use veritcal scaling
+	- Thibault Duplessis on the architecture of Lichess
+	- [StackOverflow does not use horizontal scaling](https://hanselminutes.com/847/engineering-stack-overflow-with-roberta-arcoverde)
+
+
+???
+
+
+![400](images/StackOverflowInfraTweet.png)
+
+
+
+---
 
 
 # What Next?
