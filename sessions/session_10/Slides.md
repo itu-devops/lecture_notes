@@ -19,8 +19,11 @@ Mircea Lungu, Associate Professor,<br>
 
 ## Before we Start: State of the Projects
 
-**Security** 
-**Logging**
+**Logging**: 6/16 ... Keep up the good work!
+
+**Security** ... how are we doing? 
+
+
 
 
 
@@ -39,7 +42,7 @@ Mircea Lungu, Associate Professor,<br>
 
 --
 
-**Single point of failure** = the situation in which, **if a part of the system fails, it will stop the entire system from working**
+A system has a **single point of failure** if **a part of the system failing will stop the entire system from working**
 
 ---
 
@@ -278,18 +281,21 @@ Consider rewriting this into: contexts where VS does not work.
 --
 
 **Lack of Alternative**
-- Some workloads exceed the capacity of the largest supercomputer and can only be handled by distributed systems, e.g. 
-	- [As of 2000 Google can not host all their DB on a single machine](https://www.linkedin.com/pulse/how-did-google-scale-untold-story-shrey-batra/?trk=articles_directory). In 2004 they introduce the [MapReduce paper](./papers/mapreduce-osdi04.pdf) and the whole world gets excited.
- 
-	- [Story of scaling at LinkedIn](https://engineering.linkedin.com/architecture/brief-history-scaling-linkedin): *"An easy fix we did was classic vertical scaling ... While that bought some time, we needed to scale further"*
+
+Some workloads exceed the capacity of the largest supercomputer and can only be handled by distributed systems, e.g. 
+- [As of 2000 Google can not host all their DB on a single machine](https://www.linkedin.com/pulse/how-did-google-scale-untold-story-shrey-batra/?trk=articles_directory). In 2004 they introduce the [MapReduce paper](./papers/mapreduce-osdi04.pdf) and the whole world gets excited.
+
+- [LinkedIn](https://engineering.linkedin.com/architecture/brief-history-scaling-linkedin): *"An easy fix we did was classic vertical scaling ... While that bought some time, we needed to scale further"*
+- ...
 
 --
 
 **Cost**
-- Supports tasks that once would have required expensive supercomputers
-	- seismic analysis 
-	- biotechnology
-	- ...
+
+Tasks that once would have required expensive supercomputers can be done for less:
+- seismic analysis 
+- biotechnology
+- ...
 
 
 ???
@@ -315,9 +321,6 @@ When they started, Google's index (a map) was small enough to fit on a single co
 
 ![](images/load_balancing.png)
 
-\#ClassicalHorizontalScaling
-
-
 Solves **scaling** but... 
 
 --
@@ -332,7 +335,7 @@ From: [Horizontally Scaling PHP Applications](https://blog.digitalocean.com/hori
 ---
 ## Redundant Load Balancer Setup
 
-Removes Single Point of Failure
+Load balancer is not anymore a single point of failure ([setup description](https://www.digitalocean.com/community/tutorials/how-to-create-a-high-availability-setup-with-heartbeat-and-floating-ips-on-ubuntu-16-04))
 
 [![600](images/ha-diagram-animated.gif)
 ](https://assets.digitalocean.com/articles/high_availability/ha-diagram-animated.gif)
@@ -342,6 +345,7 @@ Removes Single Point of Failure
 	 - DigialOcean name for static IPs
 	 - Equivalents on other platforms, e.g. Elastic IPs @ Amazon
 - Keepalived - daemon used for health check
+
 
 
 
@@ -393,53 +397,69 @@ Specialized Tools for Distributing Computations
   
 ---
 
-## Swarm Concept: Nodes
+## Docker Swarm Concepts
 
 - Node = A VM instance participating in a swarm 
-- Two types of nodes: 
   1. Managers
   2. Workers
-
-![](images/swarm_diagram.png)
+- Services 
+- Tasks
+- The Routing Mesh
 
 ---
 
-### 1. Manager Nodes
+### 1. Manager Node
 
   * Maintain cluster state
   * Schedule services
-  * In production you should have at least three manager nodes
-    - $n$ manager swarm tolerates maximum loss of $(n-1)/2$ managers.
-    - Three manager swarm tolerates a maximum loss of one manager.
-    - For teaching we run a single swarm manager. 
+  * an *n manager swarm* tolerates maximum loss of *(n-1)/2* managers.
+
+
+![600](images/swarm_diagram.png)
 
 Notes: 
-- Docker recommends a *maximum of seven manager nodes for a swarm* (!!!)
-- Adding more managers does NOT mean increased scalability or higher performance. In general, the opposite is true
+- Docker recommends a *maximum of seven manager nodes for a swarm* (!?!)
+- More managers does NOT mean increased scalability or higher performance. In general, the opposite is true
 
 ---
 
-### 2. Worker Nodes
+### 2. Worker Node
 
+  * Sole purpose to execute containers
   * Instances of Docker Engine 
-  - Sole purpose to execute containers
-  * Do not participate in scheduling decisions, or serve the swarm mode HTTP API
+  * Do not participate in scheduling decisions
   * Have at least one manager node
   * By default, all managers are also workers
 
+???
+
 See more https://docs.docker.com/engine/swarm/how-swarm-mode-works/nod
+
+Docker engine is a runtime environment that allows you to create, run and manage containers
 
 ---
 
-## Swarm Concept: Service
+## 3. Service
 
-- The primary abstraction of user interaction with the swarm
-- Represents the definition of the tasks to execute on the nodes
+**= the definition of the tasks to execute on the nodes**
+
+- The primary abstraction of user interaction with the swarm 
 - Is bound to a port
-- Can be **replicated** or **global** (exactly one replica running on each node)
+
+
+![400](images/service-task-container.png)
+
+---
+
+### Types of Services
+
+Can be **replicated** or **global** (exactly one replica running on each node)
+
 
   
 ![500](images/replicated_vs_global.png)
+
+*What would you replicate?*
 
 ???
 
@@ -451,12 +471,12 @@ In a sense, global = highest availability. Replicated allows you to select the l
 
 ---
 
-## Swarm Concept: Task
+## 4. Task
 - The atomic scheduling unit of swarm
 - Carries **a container and the commands to run inside it**
 - Manager nodes assign tasks to worker nodes according to the number of replicas set in the service scale
  
-![500](images/service-task-container.png)
+![400](images/service-task-container.png)
 
 "A service is a description of a desired state, and a task does the work"
 
@@ -470,7 +490,7 @@ Read more at: https://docs.docker.com/engine/swarm/key-concep
 
 ---
 
-## Swarm Concept: The Routing Mesh
+## 5. The Routing Mesh
 
 - Routes all incoming requests to published ports on available nodes to an active container
 - Enables each node in the swarm to accept connections 
@@ -486,7 +506,7 @@ Read more:  https://docs.docker.com/engine/swarm/ingress
 
 ---
 
-## 4. New Docker Commands
+## New Docker Commands
 
     
     
@@ -495,7 +515,8 @@ Read more:  https://docs.docker.com/engine/swarm/ingress
   
   * `docker service` ... to manage replicated containers (services) in the swarm
   
-  
+???
+
 * ~~`docker-machine` ... to manage virtual machines~~
     - usually used for quickly creating new VMs
     - creates machines locally on cloud providers
@@ -507,15 +528,15 @@ Read more:  https://docs.docker.com/engine/swarm/ingress
 
 # Interactive 
 
-### A Docker Swarm cluster on DigitalOcean
+### CLI Deployment of A Docker Swarm cluster on DigitalOcean
 
 
 ![500](images/do_generating_token.png)
 
 Assumes: 
-- Defined envvar: $DIGITAL_OCEAN_TOKEN
-- Installed the `jq`  command line tool (e.g., `brew install jq` on a mac)
-- [Uploaded your public key](https://docs.digitalocean.com/products/droplets/how-to/add-ssh-keys/to-team/#upload-an-ssh-key-to-a-digitalocean-team-with-the-control-panel) in Settings>Security
+- Definition envvar: $DIGITAL_OCEAN_TOKEN
+- Availability the `jq`  command line tool (e.g., `brew install jq` on a mac)
+- SSH public key [uploaded](https://docs.digitalocean.com/products/droplets/how-to/add-ssh-keys/to-team/#upload-an-ssh-key-to-a-digitalocean-team-with-the-control-panel)  in DigitalOcean>Settings>Security
 
 
 ---
@@ -523,9 +544,7 @@ Assumes:
 
 
 ```sh
-export DIGITALOCEAN_REGION=fra1 
 export DIGITALOCEAN_PRIVATE_NETWORKING=true
-
 export DROPLETS_API="https://api.digitalocean.com/v2/droplets"
 export BEARER_AUTH_TOKEN="Authorization: Bearer $DIGITAL_OCEAN_TOKEN"
 export JSON_CONTENT="Content-Type: application/json"
@@ -535,7 +554,8 @@ export JSON_CONTENT="Content-Type: application/json"
 
 ```bash 
 
-CONFIG='{"name":"swarm-manager","tags":["demo"],"size":"s-1vcpu-1gb", "image":"docker-20-04",
+CONFIG='{"name":"swarm-manager","tags":["demo"],
+	"size":"s-1vcpu-1gb", "image":"docker-20-04",
 	"ssh_keys":["01:97:fe:0a:01:e3:a9:68:99:60:b5:e9:74:30:8f:71"]}'
 
 SWARM_MANAGER_ID=$(curl -X POST $DROPLETS_API -d$CONFIG\
@@ -557,7 +577,7 @@ SWARM_MANAGER_IP=$(curl -s GET $DROPLETS_API\
 
 ```
 
-See also: [generating_ssh_key_fingerprint](https://superuser.com/a/453022)
+See: [Generating ssh key fingerprint](https://superuser.com/a/453022), [API doc for creating a droplet](https://docs.digitalocean.com/reference/api/api-reference/#operation/droplets_create) 
 
 
 ---
@@ -568,7 +588,8 @@ See also: [generating_ssh_key_fingerprint](https://superuser.com/a/453022)
 #### Worker1
 ```bash
 WORKER1_ID=$(curl -X POST $DROPLETS_API\
-       -d'{"name":"worker1","tags":["demo"],"size":"s-1vcpu-1gb","image":"docker-20-04",
+       -d'{"name":"worker1","tags":["demo"],"region":"fra1",
+       "size":"s-1vcpu-1gb","image":"docker-20-04",
        "ssh_keys":["01:97:fe:0a:01:e3:a9:68:99:60:b5:e9:74:30:8f:71"]}'\
        -H $BEARER_AUTH_TOKEN -H $JSON_CONTENT\
        | jq -r .droplet.id )\
@@ -585,7 +606,6 @@ WORKER1_IP=$(curl -s GET $DROPLETS_API\
     | jq -r $JQFILTER)\
     && echo "WORKER1_IP=$WORKER1_IP"
 
-
 ```
 
 ---
@@ -593,7 +613,8 @@ WORKER1_IP=$(curl -s GET $DROPLETS_API\
 #### Worker2
 ```bash
 WORKER2_ID=$(curl -X POST $DROPLETS_API\
-       -d'{"name":"worker2","tags":["demo"],"size":"s-1vcpu-1gb","image":"docker-20-04",
+       -d'{"name":"worker2","tags":["demo"],"region":"fra1",
+       "size":"s-1vcpu-1gb","image":"docker-20-04",
        "ssh_keys":["01:97:fe:0a:01:e3:a9:68:99:60:b5:e9:74:30:8f:71"]}'\
        -H $BEARER_AUTH_TOKEN -H $JSON_CONTENT\
        | jq -r .droplet.id )\
@@ -621,8 +642,10 @@ WORKER2_IP=$(curl -s GET $DROPLETS_API\
 
 ##### Open the ports that Docker needs
 ```sh
-
-ssh root@$SWARM_MANAGER_IP "ufw allow 22/tcp && ufw allow 2376/tcp && ufw allow 2377/tcp && ufw allow 7946/tcp && ufw allow 7946/udp && ufw allow 4789/udp && ufw reload && ufw --force  enable && systemctl restart docker"
+ssh root@$SWARM_MANAGER_IP "ufw allow 22/tcp && ufw allow 2376/tcp &&\
+ufw allow 2377/tcp && ufw allow 7946/tcp && ufw allow 7946/udp &&\
+ufw allow 4789/udp && ufw reload && ufw --force  enable &&\
+systemctl restart docker"
 ```
 
 ##### Initialize the swarm
@@ -648,17 +671,17 @@ To add a manager to this swarm, run 'docker swarm join-token manager' and follow
 ##### Let's get that token from the swarm-manager
 
 ```sh
-$ ssh root@$SWARM_MANAGER_IP "docker swarm join-token worker -q"
+ssh root@$SWARM_MANAGER_IP "docker swarm join-token worker -q"
 SWMTKN-1-4rndqz4hwe38wtbl9fwgj33rk48ok3hri7a0xy42o7sf5ll38z-afkri2vu57m5z31v34bny16aj
 
-$ WORKER_TOKEN=`ssh root@$SWARM_MANAGER_IP "docker swarm join-token worker -q"`
+WORKER_TOKEN=`ssh root@$SWARM_MANAGER_IP "docker swarm join-token worker -q"`
 ```
 
 ##### and build a command that we can run on node-1 and node-2 to join the swarm.
 ```sh
-$ REMOTE_JOIN_CMD="docker swarm join --token $WORKER_TOKEN $SWARM_MANAGER_IP:2377"
+REMOTE_JOIN_CMD="docker swarm join --token $WORKER_TOKEN $SWARM_MANAGER_IP:2377"
 
-$ ssh root@$WORKER1_IP "$REMOTE_JOIN_CMD"
+ssh root@$WORKER1_IP "$REMOTE_JOIN_CMD"
 ```
 
 ```
@@ -666,7 +689,7 @@ $ ssh root@$WORKER1_IP "$REMOTE_JOIN_CMD"
 ```
 
 ```sh
-$ ssh root@$WORKER2_IP "$REMOTE_JOIN_CMD"
+ssh root@$WORKER2_IP "$REMOTE_JOIN_CMD"
 ```
 
 ```
@@ -828,17 +851,19 @@ The guide is based on the [tutorial at DigitalOcean](https://www.digitalocean.co
 
 ## Blue-green
 
-Two identical environments, where only one is hot (e.g. green) at any time
+**Two identical environments, where only one is hot at any time**
 
-![280](images/blue_green.png)
-  
+![300](images/blue-green-fowler.png)
+
+--
+
   1. Currently deployed application (Green) is serving incoming traffic
-  1. New version (Blue) is deployed and tested, but not yet receiving traffic
-  1. When Blue is ready, LB starts sending incoming traffic to it too
-  1. For a while: two versions of the application run in parallel
-  1. LB stops sending incoming traffic to the "Green"; "Blue" is handling all the incoming traffic
-  1. Green can now be safely removed
-  1. Blue is marked as Green...
+  2. New version (Blue) is deployed and tested, but not yet receiving traffic
+  3. When Blue is ready, LB starts sending incoming traffic to it too
+  4. For a while: two versions of the application run in parallel
+  5. LB stops sending incoming traffic to the "Green"; "Blue" is handling all the incoming traffic
+  6. Green can now be safely removed
+  7. Blue is marked as Green...
 
   
   
@@ -855,7 +880,7 @@ Two identical environments, where only one is hot (e.g. green) at any time
 
 **Deploy to a small group first, then deploy to the rest**
 
-![400](images/canary.png)
+![250](images/canary.png)
   
   
   
@@ -868,15 +893,20 @@ Two identical environments, where only one is hot (e.g. green) at any time
 
 **Deploy in rolling iterations**
 
-  ![400](images/rolling.gif)
+  ![250](images/rolling.gif)
   
 See https://opensource.com/article/17/5/colorful-deployme
 
 
 ---
 
-## Docker Swarm Update Order is By Default Rolling
+## Docker Swarm 
 
+Two update-order options: (stop-first|start-first) 
+- stop-first (default) -- corresponds to rolling updates
+- start-first -- corresponds to blue-green service deployment
+
+Rolling Updates (stop-first):
 
 1. Stop the first task
 2. Schedule update for the stopped task
@@ -884,24 +914,14 @@ See https://opensource.com/article/17/5/colorful-deployme
 4. If the update to a task returns RUNNING, wait for the specified delay period (`--update-delay` flag) then start the next task
 5. If, at any  me during the update, a task returns FAILED, pause the update
 
+???
+
 Note: You need at least two replicas otherwise there will be downtime
 
-
-
-See More: [Rolling Updates Swarm Tutorial](https://docs.docker.com/engine/swarm/swarm-tutorial/rolling-update/ ) 
+See: [Rolling Updates Swarm Tutorial](https://docs.docker.com/engine/swarm/swarm-tutorial/rolling-update/ ) 
 
 
 
----
-
-### Update order can be configured in Swarm
-
-- update-order: (stop-first|start-first) 
-
-- default: stop-first -- corresponds to rolling updates
-  -  configures the time delay between updates to a service task or sets of tasks.
-
-- start-first -- corresponds to blue-green service deployment
 
 
 ---
@@ -941,14 +961,18 @@ How would you solve it with two different databases: https://www.linkedin.com/pu
 
 **It can be more complicated that vertical** (see [hacker news thread on k8s](https://news.ycombinator.com/item?id=26271470))
 
+--
 
 **To *cargocult* what others (e.g. Google, Facebook) do**
 
 - There are many large scale infras that use veritcal scaling
 	- Thibault Duplessis on the architecture of Lichess
-	- [StackOverflow does not use horizontal scaling](https://hanselminutes.com/847/engineering-stack-overflow-with-roberta-arcoverde)
+	- StackOverflow does not use horizontal scaling ([podcast](https://hanselminutes.com/847/engineering-stack-overflow-with-roberta-arcoverde), [tweet](images/StackOverflowInfraTweet.png))
+- If Google needs it, than probably you don't 
 
-**To make up for bad architecture**: algo, comm pattern improvements, etc.
+--
+
+**To make up for bad architecture**: algo, comm patterns, language, etc.
 
 ???
 
@@ -966,3 +990,4 @@ Exercise: *Try out the swarm creation example from this lecture*
 
 Practical: [Scale your API](./README_TASKS.md)
 
+Workshop: propose topics on the Teams channel
