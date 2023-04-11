@@ -48,6 +48,10 @@ Mircea Lungu, Associate Professor,<br>
 
 <object width="100%" data="http://104.248.134.203/chart.svg"></object>
 
+---
+### Error plot
+
+<object width="100%" data="http://104.248.134.203/error_chart.svg"></object>
 
 ---
 

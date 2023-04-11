@@ -35,6 +35,12 @@ Mircea Lungu, Associate Professor,<br>
 
 ---
 
+### Error plot
+
+<object width="100%" data="http://104.248.134.203/error_chart.svg"></object>
+
+---
+
 
 ## What happens if one of your components fails in this system?
 
@@ -209,25 +215,29 @@ See https://www.digitalocean.com/docs/droplets/how-to/resize/#resizing-via-the-c
 
 ## Example 4: Vertical Scaling With the REST API  of DigitalOcean
 
-
-Resize CPU and RAM **automatically shuts down the droplet** 
-
 ```bash
 $ curl -X POST -H 'Content-Type: application/json' \
 	   -H "Authorization: Bearer $DIGITAL_OCEAN_TOKEN" \
 	   -d '{"type":"resize","size":"s-2vcpu-4gb"}' \
 	   "https://api.digitalocean.com/v2/droplets/$DROPLET_ID/actions" | jq
-
-$ curl -X POST -H 'Content-Type: application/json' \
-	   -H "Authorization: Bearer $DIGITAL_OCEAN_TOKEN" \
-	   -d '{"type":"power_on"}' \
-	   "https://api.digitalocean.com/v2/droplets/$DROPLET_ID/actions"
 ```
 
 *Notes:* 
 - $DIGITAL_OCEAN_TOKEN environment variable is defined
 - $DROPLET_ID is defined
 - Image types and sizes at: https://slugs.do-api.dev/
+--
+
+- Resize CPU and RAM **automatically shuts down the droplet** 
+
+```bash
+$ curl -X POST -H 'Content-Type: application/json' \
+-H "Authorization: Bearer $DIGITAL_OCEAN_TOKEN" \
+-d '{"type":"power_on"}' \
+"https://api.digitalocean.com/v2/droplets/$DROPLET_ID/actions"
+```
+
+
 
 ???
 
@@ -247,13 +257,15 @@ Discussion: why REST is particularily nice for IaC
 ---
 ## Drawbacks of Vertical Scaling
 
-2. Some services are too big for it
-
-3.  Still has a single point of failure
-
 4.  Can't adapt fast and easy to varying workload
 	5. Complicated to scale down
 	6. Slow -- it implies switching machines off and on 
+
+1. Some services are too big for it
+
+2.  Still has a single point of failure
+
+
 
 ???
 
@@ -285,8 +297,7 @@ Consider rewriting this into: contexts where VS does not work.
 Some workloads exceed the capacity of the largest supercomputer and can only be handled by distributed systems, e.g. 
 - [As of 2000 Google can not host all their DB on a single machine](https://www.linkedin.com/pulse/how-did-google-scale-untold-story-shrey-batra/?trk=articles_directory). In 2004 they introduce the [MapReduce paper](./papers/mapreduce-osdi04.pdf) and the whole world gets excited.
 
-- [LinkedIn](https://engineering.linkedin.com/architecture/brief-history-scaling-linkedin): *"An easy fix we did was classic vertical scaling ... While that bought some time, we needed to scale further"*
-- ...
+- [Brief History of Scaling at LinkedIn](https://engineering.linkedin.com/architecture/brief-history-scaling-linkedin): *"An easy fix we did was classic vertical scaling ... While that bought some time, we needed to scale further"*
 
 --
 
@@ -295,7 +306,7 @@ Some workloads exceed the capacity of the largest supercomputer and can only be 
 Tasks that once would have required expensive supercomputers can be done for less:
 - seismic analysis 
 - biotechnology
-- ...
+- SETI@Home
 
 
 ???
@@ -321,11 +332,11 @@ When they started, Google's index (a map) was small enough to fit on a single co
 
 ![](images/load_balancing.png)
 
-Solves **scaling** but... 
+Solves **scaling** and SPF at the application server level but... 
 
 --
 
-... load balancer could still represent SPF
+... load balancer is still SPF
 
 ???
 
@@ -341,7 +352,7 @@ Load balancer is not anymore a single point of failure ([setup description](http
 ](https://assets.digitalocean.com/articles/high_availability/ha-diagram-animated.gif)
 
 
-- [Floating IP](https://blog.digitalocean.com/floating-ips-start-architecting-your-applications-for-high-availability/) 
+- [Reserved IP](https://blog.digitalocean.com/floating-ips-start-architecting-your-applications-for-high-availability/)  (used to be Floating IP)
 	 - DigialOcean name for static IPs
 	 - Equivalents on other platforms, e.g. Elastic IPs @ Amazon
 - Keepalived - daemon used for health check
@@ -412,7 +423,7 @@ Specialized Tools for Distributing Computations
 
   * Maintain cluster state
   * Schedule services
-  * an *n manager swarm* tolerates maximum loss of *(n-1)/2* managers.
+  * An *n manager swarm* tolerates maximum loss of *(n-1)/2* managers.
 
 
 ![600](images/swarm_diagram.png)
@@ -425,8 +436,8 @@ Notes:
 
 ### 2. Worker Node
 
-  * Sole purpose to execute containers
-  * Instances of Docker Engine 
+  * Sole purpose to execute Docker containers
+  * Each one runs an instances of Docker Engine 
   * Do not participate in scheduling decisions
   * Have at least one manager node
   * By default, all managers are also workers
@@ -459,7 +470,7 @@ Can be **replicated** or **global** (exactly one replica running on each node)
   
 ![500](images/replicated_vs_global.png)
 
-*What would you replicate?*
+*What service does it make sense to have "global" replication for?*
 
 ???
 
@@ -571,8 +582,7 @@ export JQFILTER='.droplets | .[] | select (.name == "swarm-manager")
 
 
 SWARM_MANAGER_IP=$(curl -s GET $DROPLETS_API\
-    -H "Content-Type: application/json"\
-    -H "Authorization: Bearer ${DIGITAL_OCEAN_TOKEN}"\
+    -H $BEARER_AUTH_TOKEN -H $JSON_CONTENT\
     | jq -r $JQFILTER) && echo "SWARM_MANAGER_IP=$SWARM_MANAGER_IP"
 
 ```
@@ -671,10 +681,10 @@ To add a manager to this swarm, run 'docker swarm join-token manager' and follow
 ##### Let's get that token from the swarm-manager
 
 ```sh
-ssh root@$SWARM_MANAGER_IP "docker swarm join-token worker -q"
+$ ssh root@$SWARM_MANAGER_IP "docker swarm join-token worker -q"
 SWMTKN-1-4rndqz4hwe38wtbl9fwgj33rk48ok3hri7a0xy42o7sf5ll38z-afkri2vu57m5z31v34bny16aj
 
-WORKER_TOKEN=`ssh root@$SWARM_MANAGER_IP "docker swarm join-token worker -q"`
+$ WORKER_TOKEN=`ssh root@$SWARM_MANAGER_IP "docker swarm join-token worker -q"`
 ```
 
 ##### and build a command that we can run on node-1 and node-2 to join the swarm.
@@ -760,17 +770,16 @@ Alternatively, navigate manually to the swarm manager's IP port 8080 and see the
 ### Checking that the Swarm also restarts services
 
 
-To demonstrate this we used the ***crashserver service***
-- a webserver which kills itself three seconds after serving an http request
+To demonstrate this we used the ***crashserver service***: a webserver which kills itself three seconds after serving an http request
 
 Take some time and observe the behavior of the container before continuing with the guide. 
-Note how the infrastructure is self-healing, by checking the state of the service multiple times after an invocation as shown above.
+- note how the infrastructure is self-healing, by checking the state of the service multiple times after an invocation as shown above.
+- the service becomes unavailable while Swarm is recreating the container after it has been killed
 
-The service becomes unavailable while Swarm is recreating the container after it has been killed. 
-Now we will scale the service to increase availability.
+*How to increase availability?*
 
 ---
-### Scaling the service
+### Scaling the service to increase availability?
 
 ```bash
 $ ssh root@$SWARM_MANAGER_IP "docker service scale appserver=5"
@@ -781,7 +790,7 @@ ttkqm9wzthgu        appserver           replicated          5/5                 
 
 
 
-$ ssh root@$SWARM_MANAGER_IP \"docker service ps appserver\"
+$ ssh root@$SWARM_MANAGER_IP "docker service ps appserver"
 
 
 ID                  NAME                IMAGE                        NODE                DESIRED STATE       CURRENT STATE            ERROR               PORTS
@@ -802,7 +811,7 @@ Althrough it is possible to kill all container by manically invoking the /status
 
 ---
 
-### What happens if you navigate to the worker node ips? 
+### Checking that the routing mesh works as advertised
 
 
 ```sh
@@ -813,9 +822,7 @@ open http://$WORKER1_IP:8080
 open http://$WORKER2_IP:8080
 ```
 
---
-
-**This is the routing mesh.** 
+Note: Remmeber to open the 8080 port from the firewall.
 
 ---
 
@@ -829,7 +836,7 @@ curl -X DELETE\
   "https://api.digitalocean.com/v2/droplets?tag_name=demo"
   
 ```
-See the [documentation](https://docs.digitalocean.com/reference/api/api-reference/#operation/droplets_destroy_byTag)  for the delete API endpoint
+See: [documentation](https://docs.digitalocean.com/reference/api/api-reference/#operation/droplets_destroy_byTag)  for the delete API endpoint
 
 
 ???
@@ -844,8 +851,8 @@ The guide is based on the [tutorial at DigitalOcean](https://www.digitalocean.co
 
 #### Upgrade Strategies
 1. Blue-Green
-2. Canary
 3. Rolling Updates
+2. Canary
 
 ---
 
@@ -876,20 +883,7 @@ The guide is based on the [tutorial at DigitalOcean](https://www.digitalocean.co
 ---
 
 
-# Canary
-
-**Deploy to a small group first, then deploy to the rest**
-
-![250](images/canary.png)
-  
-  
-  
-  [Article](https://martinfowler.com/bliki/CanaryRelease.html)  on martinfowler.com
-  
-
----
-
-# Rolling Updates
+## Rolling Updates
 
 **Deploy in rolling iterations**
 
@@ -900,6 +894,19 @@ See https://opensource.com/article/17/5/colorful-deployme
 
 ---
 
+
+## Canary
+
+**Deploy to a small group first, then deploy to the rest**
+
+![600](images/canary_release.png)
+  
+  
+  
+  See: [Article](https://martinfowler.com/bliki/CanaryRelease.html)  on martinfowler.com
+  
+
+---
 ## Docker Swarm 
 
 Two update-order options: (stop-first|start-first) 
@@ -908,7 +915,7 @@ Two update-order options: (stop-first|start-first)
 
 Rolling Updates (stop-first):
 
-1. Stop the first task
+1. Stop the first *task*
 2. Schedule update for the stopped task
 3. Start the container for the updated task
 4. If the update to a task returns RUNNING, wait for the specified delay period (`--update-delay` flag) then start the next task
