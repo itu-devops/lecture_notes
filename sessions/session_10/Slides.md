@@ -115,7 +115,6 @@ Solution to congestion?
 
 
 
-
 ---
 
 # Vertical Scaling
@@ -949,6 +948,7 @@ How would you solve it with two different databases: https://www.linkedin.com/pu
 	- Thibault Duplessis on the architecture of Lichess
 	- [StackOverflow does not use horizontal scaling](https://hanselminutes.com/847/engineering-stack-overflow-with-roberta-arcoverde)
 
+**To make up for bad architecture**: algo, comm pattern improvements, etc.
 
 ???
 
@@ -964,5 +964,5 @@ How would you solve it with two different databases: https://www.linkedin.com/pu
 
 Exercise: *Try out the swarm creation example from this lecture*
 
-Practical: [Scale your service](./README_TASKS.md)
+Practical: [Scale your API](./README_TASKS.md)
 
