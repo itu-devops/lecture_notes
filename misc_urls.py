@@ -143,11 +143,11 @@ GROUP_URLS = [
         "group k",
         "Radiator",
         # Monitoring URL:
-        "http://164.92.167.188:9091/d/a94Zmaa4k/minitwit?orgId=1&refresh=10s",
+        "http://164.92.167.188:9091/d/a94Zmaa4k/minitwit-monitoring?orgId=1",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
-        "<logging_url>",
+        "http://164.92.167.188:9091/d/rMmO7PYVk/minitwit-logging?orgId=1",
         # SLA:
         "<sla_url>",
         # SLA Review:
