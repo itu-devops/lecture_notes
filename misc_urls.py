@@ -59,11 +59,11 @@ GROUP_URLS = [
         "group e",
         "Souffle",
         # Monitoring URL:
-        "174.138.101.165:3000",
+        "http://174.138.101.165:3000",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
-        "<logging_url>",
+        "http://174.138.101.165:5601",
         # SLA:
         "<sla_url>",
         # SLA Review:
