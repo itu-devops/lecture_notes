@@ -187,7 +187,7 @@ GROUP_URLS = [
         # Monitoring URL:
         "http://157.230.76.157:3000/d/6m9Cd4aVz/minitwit-dashboard",
         # Security report URL:
-        "<security_report_url>",
+        "https://github.com/Lindharden/DevOps/blob/main/docs/lecture09_security.md",
         # Logging URL:
         "http://157.230.76.157:5601/",
         # SLA:
