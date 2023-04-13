@@ -110,7 +110,7 @@ GROUP_REPOS = [
         "group s",
         "Group S",
         ["https://github.com/ingrid-mc/DevOps-group_s", ],
-        "http://142.93.108.127:3000/api",
-        "http://142.93.108.127:3000",
+        "http://64.226.68.37:3000/api",
+        "http://64.226.68.37:3000",
     ],
 ]
