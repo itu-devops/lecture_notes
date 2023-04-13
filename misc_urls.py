@@ -49,7 +49,7 @@ GROUP_URLS = [
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
-        "<logging_url>",
+        "http://138.68.93.147:5601/",
         # SLA:
         "https://github.com/DevOps-CI-CDont/DevOps-CI-CDont/blob/main/SLA.md",
         # SLA Review:
