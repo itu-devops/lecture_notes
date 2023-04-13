@@ -227,7 +227,7 @@ GROUP_URLS = [
         "group s",
         "Group S",
         # Monitoring URL:
-        "http://64.226.65.220:3005/dashboard/db/minitwit-group-s-dashboard?orgId=1",
+        "http://64.226.65.220:3005/dashboard/db/main?orgId=1",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
