@@ -89,8 +89,8 @@ GROUP_REPOS = [
         "group n",
         "dudes",
         ["https://github.com/Lindharden/DevOps", ],
-        "http://164.90.223.49:8080",
-        "http://164.90.223.49:8080/sim",
+        "http://157.230.76.157:8080",
+        "http://157.230.76.157:8080/sim",
     ],
     [
         "group o",
