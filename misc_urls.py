@@ -129,7 +129,7 @@ GROUP_URLS = [
         "group j",
         "<name>",
         # Monitoring URL:
-        "http://164.90.226.52:3000/d/8GsCrMB4z/slimtwit-is-awesom?orgId=1",
+        "http://164.90.226.52:3000/d/zyAf4i4Zz/groupj-monitoring?orgId=1&refresh=5s",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
