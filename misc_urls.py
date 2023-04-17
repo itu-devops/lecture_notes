@@ -15,7 +15,7 @@ GROUP_URLS = [
     ],
     [
         "group b",
-        "<name>",
+        "DevUps: Delivering Buggy Software Late since 2023",
         # Monitoring URL:
         "<monitoring_url>",
         # Security report URL:
@@ -23,7 +23,7 @@ GROUP_URLS = [
         # Logging URL:
         "<logging_url>",
         # SLA:
-        "<sla_url>",
+        "https://github.com/ITUDevUps/devUps/blob/dev/SLA.md",
         # SLA Review:
         "<sla_review_url>",
     ],
