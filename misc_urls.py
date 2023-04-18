@@ -9,7 +9,7 @@ GROUP_URLS = [
         # Logging URL:
         "<logging_url>",
         # SLA:
-        "<sla_url>",
+        "https://github.com/Academic-Weapons/ITU2023-DevOps/blob/dev/worklogs/session08/SLA.md",
         # SLA Review:
         "<sla_review_url>",
     ],
