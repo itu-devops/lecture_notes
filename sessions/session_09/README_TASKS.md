@@ -5,14 +5,14 @@
 
 The following general steps will guide you through a security assessment. Consider using them as steps in a report. The report will become a section in your final project report.
 
-###A. Risk Identification
+### A. Risk Identification
 
 1. Identify assets (e.g. web application)
 1. Identify threat sources (e.g. SQL injection)
 1. Construct risk scenarios (e.g. Attacker performs SQL injection on web application to download sensitive user data)
 
 
-###B. Risk Analysis
+### B. Risk Analysis
 
 1. Determine likelihood
 1. Determine impact
