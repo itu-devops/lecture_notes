@@ -99,9 +99,10 @@ GROUP_URLS = [
     ],
     [
         "group h",
-        "<name>",
+        "FiveGuys",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://46.101.250.219:3000/",
+        "http://46.101.250.219:5000/silk/",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
