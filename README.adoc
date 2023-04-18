@@ -133,7 +133,7 @@ link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04
 |14:00 - 18:00
 |Mircea
 |
-|Workshop
+|Workshop, link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_11/README_EXERCISE.md[HTTPS with Lets Encrypt]
 |
 |Continue isolation of components into services/containers/VMs and Fix reported problems
 // w17
