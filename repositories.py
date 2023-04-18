@@ -53,7 +53,7 @@ GROUP_REPOS = [
         "group i",
         "OpsDev",
         ["https://github.com/MinitwitGroupI/MiniTwit", ],
-        "http://157.245.16.6:8000",
+        "https://opsdev.gg",
         "http://157.245.16.6:8000",
     ],
 
