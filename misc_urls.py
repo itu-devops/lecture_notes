@@ -172,11 +172,11 @@ GROUP_URLS = [
         "group m",
         "<name>",
         # Monitoring URL:
-        "http://143.244.205.161:3000/d/0hVMV2-Vz/dash?orgId=1",
+        "http://143.244.205.161:3000/d/0hVMV2-Vz/users?orgId=1",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
-        "http://143.244.205.161:3000/d/zs1TJ1f4z/logs?orgId=1",
+        "http://143.244.205.161:3000/d/vMydHtPVz/logs?orgId=1&refresh=5s",
         # SLA:
         "<sla_url>",
         # SLA Review:
