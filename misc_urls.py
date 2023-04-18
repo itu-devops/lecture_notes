@@ -122,7 +122,7 @@ GROUP_URLS = [
         # Logging URL:
         "http://157.245.16.6:5601/",
         # SLA:
-        "<sla_url>",
+        "https://github.com/MinitwitGroupI/MiniTwit/blob/main/SLA.md",
         # SLA Review:
         "<sla_review_url>",
     ],
