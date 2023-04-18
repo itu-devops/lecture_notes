@@ -7,7 +7,7 @@ GROUP_URLS = [
         # Security report URL:
         "https://github.com/Academic-Weapons/ITU2023-DevOps/blob/dev/worklogs/session09/SecurityAnalysis.md",
         # Logging URL:
-        "<logging_url>",
+        "http://64.226.93.127:5601",
         # SLA:
         "https://github.com/Academic-Weapons/ITU2023-DevOps/blob/dev/worklogs/session08/SLA.md",
         # SLA Review:
