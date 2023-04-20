@@ -146,7 +146,7 @@ GROUP_URLS = [
         # Monitoring URL:
         "http://164.92.167.188:9091/d/a94Zmaa4k/minitwit-monitoring?orgId=1",
         # Security report URL:
-        "<security_report_url>",
+        "https://github.com/simonskodt/itu-minitwit/blob/main/Documents/SECURITY_ASSESSMENT.md",
         # Logging URL:
         "http://164.92.167.188:9091/d/rMmO7PYVk/minitwit-logging?orgId=1",
         # SLA:
