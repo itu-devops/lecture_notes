@@ -27,6 +27,6 @@ We are in software maintenance. That is, fix issues of your version of _ITU-Mini
 
 Now, with your monitoring and logging systems in place, you will likely observe issues when they arise or even before the arise. Just fix them as soon as you realize them.
 
-Additionally, our dashboards illustrate status and potential errors as the simulator 'sees' them [here](http://138.68.93.2/status.html). For example, fix wrong status codes, e.g., `tweet` shall return `204` instead of `200`, or too slow response times.
+Additionally, our dashboards illustrate status and potential errors as the simulator 'sees' them [here](http://104.248.134.203/status.html). For example, fix wrong status codes, e.g., `tweet` shall return `204` instead of `200`, or too slow response times.
 
 Continue to release (now likely automatically) at least once per week versions of your system with corresponding fixes.
