@@ -192,7 +192,7 @@ GROUP_URLS = [
         # Logging URL:
         "http://157.230.76.157:5601/",
         # SLA:
-        "<sla_url>",
+        "https://github.com/Lindharden/DevOps/blob/main/SLA.md",
         # SLA Review:
         "<sla_review_url>",
     ],
