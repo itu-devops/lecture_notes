@@ -2,7 +2,7 @@
 
 # Infrastructure as Code
 
-The final part of your project is automating also the creation of infrastructure. 
+The final part of your project (🥳) is automating also the creation of infrastructure. 
 You can choose how you want to do it:
 - Using Terraform
 - Using Vagrant (can do most of the things that are required)
