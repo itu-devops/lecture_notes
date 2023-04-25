@@ -192,13 +192,11 @@ group]
 
 ==== Activity Dashboard
 
-* link:http://138.197.185.85/commit_activity_daily.svg[Daily commit activity
-per group]
-* link:http://138.197.185.85/commit_activity_weekly.svg[Weekly commit
+* link:http://138.197.185.85/commit_activity_daily.svg[Daily commit activity per group]
+* link:http://138.197.185.85/commit_activity_weekly.svg[Weekly commit activity per group]
+* link:http://138.197.185.85/release_activity_weekly.svg[Weekly release activity per group]
+* link:http://104.248.134.203/check_tweets.svg[Number of last ten tweets from the API that appear also on the GUI]
 activity per group]
-* link:http://138.197.185.85/release_activity_weekly.svg[Weekly release
-activity per group]
-* link:http://138.197.185.85/check_tweets.svg[Number of last ten tweets from the API that appear also on the GUI]
 
 ++++
 <object width="65%" height="65%" data="http://138.197.185.85/commit_activity_weekly.svg"></object>
