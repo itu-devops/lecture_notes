@@ -4,7 +4,7 @@ class: center, middle
 
 <img src="https://www.saa-authors.eu/picture/739/ftw_768/saa-mtcwmza4nzq5mq.jpg" width=40%/>
 
-# Architectural Solutions with Swarm
+# Architectural Choices with Swarm
 
 
 Mircea Lungu, Associate Professor,<br>
@@ -25,24 +25,18 @@ Mircea Lungu, Associate Professor,<br>
 1. How do you migrate from `compose` to `swarm`?
 3. What do you replicate?
 4. Where do you keep the database?
-6. How do you handle the monitoring in the swarm context?
-7. How do you ensure that your replicated services are stateless?
-
-
 
 
 ---
 # 1. From Docker-Compose to Docker-Swarm
 
-Simplest way is to add the extra information needed in the docker-compose.yml 
-- deploy:
-	- replicas: *minimum requirement*
-	- [placement constriants](https://docs.docker.com/engine/swarm/services/)
-		- work with labels
-			- e.g. manager, worker are default
-			- you can add labels to individual VMs 
-		- or any other info about the node, e.g. 
+Simplest way is to add the extra information needed in the docker-compose.yml unde the **deploy** key:
+- replicas
+- [placement constriants](https://docs.docker.com/engine/swarm/services/): labels, roles, other props of nodes
+- update strategies, restart strategies
+- [etc](https://docs.docker.com/compose/compose-file/deploy/).
 
+Example: 
 ```
   api:
     image: itudevops/go-minitwit-api:TAG
@@ -55,30 +49,64 @@ Simplest way is to add the extra information needed in the docker-compose.yml
         constraints:
           - "node.role==manager"
           - "node.hostname!=dbvm"
+          - "node.label==frankfurt"
 ```
-
-See: [reference manaual for compose deploy](https://docs.docker.com/compose/compose-file/deploy/) More on [service constraints](### Specify service constraints)
 
 
 ---
-# What do you replicate?
+# 2. What do you replicate?
 
 
-![500](images/where_to_replicate.png)
+![300](images/where_to_replicate.png)
 
 - Very likely the API 
 - The log shipper (e.g. FileBeat) -- must be on every VM
 
-Also answers: "How do you handle logs"?
+--
+
+### ... and what **not** to?
+- The stuff that's not critical (e.g. Kibana)
+- *Processes that store client state* (e.g. Databases that are not designed for replication)
+
+
+---
+
+## Why not replicate services that store client state?
+
+
+![360](images/where_to_replicate.png)
+
+*Examples of state from your systems?* 
+
+--
+- the clients that are currently logged in
+- the last processed ID
+
+If the client is routed to a different replica, they might be surprised.
+
+---
+
+## Ensure that your replicated services are stateless
+
+Stateless services = A type of software application or system that does not store any data or state information related to a user or client's session between different requests.
+
+*How?* 
 
 --
 
-### ... and what **not** to replicate?
-- Databases that are not replicatable
-- The stuff that's not critical (e.g. Kibana, Prometheus)
+Refactor data to the DB
+
+*What if that's too slow?*
+
+--
+
+- Move some of the data to a distributed in-memory DB, e.g. [redis](https://collabnix.com/getting-started-with-redis-inside-docker-container-in-2-minutes/)
+- Use specific tactics: e.g., JWT (JSON Web Tokens)
+
+
 
 ---
-# Where do you keep the database? 
+# 3. Where do you keep the database? 
 
 1. Database on Separate VM
 2. Database in the Swarm
@@ -87,7 +115,7 @@ Also answers: "How do you handle logs"?
 
 ---
 
-## 1. Database on Separate VM
+## 3.1. Database on Separate VM
 
 ![540](images/db_on_separate_vm.png)
 
@@ -119,7 +147,7 @@ Also answers: "How do you handle logs"?
 
 ---
 
-## 2. Database in the Swarm
+## 3.2. Database in the Swarm
 
 - The DB is also part of your swarm stack
 - Use placement constraints to ensure DB task always on the same VM
@@ -139,53 +167,14 @@ Advantage: easily changing VMs for the DB
 
 ---
 
-## 3. Managed Database
+## 3.3. Managed Database
 
-![](images/price_for_managed_db.png)
+![600](images/price_for_managed_db.png)
 
 - You connect to it with an explicit IP as you did also in the DB in the Separate VM 
-- you still have to configure connection rules and firewall for that VM but this time via the DigitalOcean CLI tool, REST API, or by clicking around (but that's not cool)
+- You still have to configure connection rules and firewall for that VM but this time via the DigitalOcean CLI tool, REST API, or by clicking around (but that's not cool)
+- Downside: more expensive than the cheapest VM
 
-disadvantage
-- more expensive than the cheapest VM 
-
-
----
-
-# What kinds of services are easy to replicate? 
-
-
-![420](images/where_to_replicate.png)
-
-*What could be problematic in your current state of the API if you replicate it?* 
-
---
-
-If you have `state` that remmebers details about the client
-	- e.g. the clients that are currently logged in
-	- the last processed ID
-Then, if the client is routed to a different replica, they might be surprised.
-
---
-
-A: Stateless services = A type of software application or system that does not store any data or state information related to a user or client's session between different requests.
-
----
-
-# How do you ensure that your replicated services are stateless?
-
-![420](images/where_to_replicate.png)
-
-
-Refactor data to the DB
-
-*What if that's too slow?*
-
---
-
-Move some of the data to a distributed in-memory DB, e.g. **RE**mote **DI**ctionary **S**erver ([redis](https://collabnix.com/getting-started-with-redis-inside-docker-container-in-2-minutes/))
-
-Use specific tactics: e.g., JWT (JSON Web Tokens)
 
 
 
