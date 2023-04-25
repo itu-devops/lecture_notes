@@ -142,7 +142,7 @@ link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04
 |14:00 - 18:00
 |Mircea
 |
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_12/Slides.md[Architectural Choices with Swarm] link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_12/IaC.pdf[Infrastructure as Code] 
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_12/Slides.md[Architectural Choices with Swarm] link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_12/IaC.pdf[Infrastructure as Code]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_12/README_EXERCISE.md[MiniTwit Infrastructure as Code]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_12/README_TASKS.md[Encode your infrastructure setup]
 // w18
@@ -198,6 +198,7 @@ per group]
 activity per group]
 * link:http://138.197.185.85/release_activity_weekly.svg[Weekly release
 activity per group]
+* link:http://138.197.185.85/check_tweets.svg[Number of last ten tweets from the API that appear also on the GUI]
 
 ++++
 <object width="65%" height="65%" data="http://138.197.185.85/commit_activity_weekly.svg"></object>
