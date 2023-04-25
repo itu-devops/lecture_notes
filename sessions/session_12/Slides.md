@@ -13,7 +13,12 @@ Mircea Lungu, Associate Professor,<br>
 
 ---
 
+# Next Lecture: Guest talking about  TD
 
+![](images/guest_lecturer.png)
+
+
+---
 
 ## To Think About
 

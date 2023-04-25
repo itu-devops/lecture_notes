@@ -142,7 +142,7 @@ link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04
 |14:00 - 18:00
 |Mircea
 |
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_12/IaC.pdf[Infrastructure as Code] link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_12/Slides.md[Architectural Solutions with Swarm]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_12/Slides.md[Architectural Solutions with Swarm] link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_12/IaC.pdf[Infrastructure as Code] 
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_12/README_EXERCISE.md[MiniTwit Infrastructure as Code]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_12/README_TASKS.md[Encode your infrastructure setup]
 // w18
