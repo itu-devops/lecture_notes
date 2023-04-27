@@ -45,13 +45,13 @@ GROUP_URLS = [
         "group d",
         "CICDont",
         # Monitoring URL:
-        "http://138.68.93.147:4000/d/soYDO5-4k/main-dashboard?orgId=1&refresh=10s",
+        "http://grafana.cicdont.live/d/soYDO5-4k/main-dashboard?orgId=1&refresh=10s",
         # Security report URL:
-        "<security_report_url>",
+        "https://github.com/DevOps-CI-CDont/DevOps-CI-CDont/tree/main/CICdont3.html",
         # Logging URL:
-        "http://138.68.93.147:5601/",
+        "logs.cicdont.live",
         # SLA:
-        "https://github.com/DevOps-CI-CDont/DevOps-CI-CDont/blob/main/SLA.md",
+        "sla.cicdont.live",
         # SLA Review:
         "<sla_review_url>",
     ],
