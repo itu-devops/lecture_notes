@@ -248,7 +248,7 @@ GROUP_URLS = [
         # Logging URL:
         "http://138.68.73.127:5000/",
         # SLA:
-        "<sla_url>",
+        "https://github.com/szymongalecki/ITU-MiniTwit/blob/main/docs/SLA.md",
         # SLA Review:
         "<sla_review_url>",
     ], 
