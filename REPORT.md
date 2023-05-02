@@ -66,6 +66,9 @@ A description and illustration of:
   - What do you log in your systems and how do you aggregate logs?
   - Brief results of the security assessment.
   - Applied strategy for scaling and load balancing.
+  - In case you have used AI-assistants for writing code during your project or to write the report:
+    - Explain which system(s) you used during the project.
+    - Reflect how it supported/hindered your process.
 
 
 In essence it has to be clear how code or other artifacts come from idea into the running system and everything that happens on the way.
