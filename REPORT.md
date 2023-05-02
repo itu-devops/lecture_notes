@@ -3,7 +3,7 @@
 This is a preliminary description of all the practicalities concerning your report.
 
 
-Be aware as described in the Exam Description on LearnIT ([BSc](https://learnit.itu.dk/local/coursebase/view.php?ciid=1139)/[MSc](https://learnit.itu.dk/local/coursebase/view.php?ciid=909)), the report forms the basis of your exam. It is a document describing what you have done during the term in this course with regards to everything around your _ITU-MiniTwit_ systems.
+Be aware as described in the Exam Description on LearnIT ([BSc](https://learnit.itu.dk/local/coursebase/view.php?ciid=1137)/[MSc](https://learnit.itu.dk/local/coursebase/view.php?ciid=1139)), the report forms the basis of your exam. It is a document describing what you have done during the term in this course with regards to everything around your _ITU-MiniTwit_ systems.
 
 ---------
 
