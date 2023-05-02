@@ -1,6 +1,6 @@
 # The Report
 
-This is a preliminary description of all the practicalities concerning your report.
+This is a description of all the practicalities concerning your report.
 
 
 Be aware as described in the Exam Description on LearnIT ([BSc](https://learnit.itu.dk/local/coursebase/view.php?ciid=1137)/[MSc](https://learnit.itu.dk/local/coursebase/view.php?ciid=1139)), the report forms the basis of your exam. It is a document describing what you have done during the term in this course with regards to everything around your _ITU-MiniTwit_ systems.
@@ -35,12 +35,11 @@ That is, valid file names are, e.g., `MSc_group_a.pdf`, `BSc_group_e.pdf`, etc.
 
 A description and illustration of the:
 
-  - Design of your _ITU-MiniTwit_ systems
-  - Architecture of your _ITU-MiniTwit_ systems
+  - Design and architecture of your _ITU-MiniTwit_ systems
   - All dependencies of your _ITU-MiniTwit_ systems on all levels of abstraction and development stages.
     - That is, list and briefly describe all technologies and tools you applied and depend on.
   - Important interactions of subsystems
-  - Describe the current state of your systems, for example using results of static analysis and quality assessment systems.
+  - Describe the current state of your systems, for example using results of static analysis and quality assessments.
   - Finally, describe briefly, if the license that you have chosen for your project is actually compatible with the licenses of all your direct dependencies.
 
 Double check that for all the weekly tasks (those listed in the schedule) you include the corresponding information.
