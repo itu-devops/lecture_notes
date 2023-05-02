@@ -3,7 +3,7 @@ GROUP_REPOS = [
         "group a",
         "Academic Weapons",
         ["https://github.com/Academic-Weapons/ITU2023-DevOps"],
-        "http://146.190.207.33:8081",
+        "https://academicweapons.dk/public",
         "http://146.190.207.33:8081/sim",
     ],
     [
