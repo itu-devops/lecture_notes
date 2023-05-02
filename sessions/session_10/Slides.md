@@ -542,12 +542,15 @@ Read more:  https://docs.docker.com/engine/swarm/ingress
 ### CLI Deployment of A Docker Swarm cluster on DigitalOcean
 
 
+- create a new token 
 ![500](images/do_generating_token.png)
 
-Assumes: 
-- Definition envvar: $DIGITAL_OCEAN_TOKEN
-- Availability the `jq`  command line tool (e.g., `brew install jq` on a mac)
-- SSH public key [uploaded](https://docs.digitalocean.com/products/droplets/how-to/add-ssh-keys/to-team/#upload-an-ssh-key-to-a-digitalocean-team-with-the-control-panel)  in DigitalOcean>Settings>Security
+- Define the envvar: 
+```
+DIGITAL_OCEAN_TOKEN=blablabla
+```
+- Install the `jq`  command line tool if you don't already have it (e.g., `brew install jq` on a mac)
+- [Upload](https://docs.digitalocean.com/products/droplets/how-to/add-ssh-keys/to-team/#upload-an-ssh-key-to-a-digitalocean-team-with-the-control-panel)  your SSH public key in DigitalOcean>Settings>Security
 
 
 ---
@@ -562,7 +565,7 @@ export JSON_CONTENT="Content-Type: application/json"
 
 ```
 
-
+- replace the fingerprint with your own 
 ```bash 
 
 CONFIG='{"name":"swarm-manager","tags":["demo"],

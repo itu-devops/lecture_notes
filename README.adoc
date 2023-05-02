@@ -151,7 +151,7 @@ link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04
 |14:00 - 18:00
 |Lars (Implement Consulting Group), Mircea & Helge
 |
-|*Guest Lecture*, Documentation of Systems and Projects
+|*Guest Lecture*, link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_13/Architectural_Documentation.pdf[Documentation of Systems and Projects]
 |
 |*Simulator stops*. Write report.
 // w19
