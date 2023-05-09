@@ -73,11 +73,11 @@ GROUP_URLS = [
         "group f",
         "containerMaintainers",
         # Monitoring URL:
-        "http://164.92.240.232:3000/",
+        "http://164.92.240.232:3000/d/lZ0DEAs4z/endpoints?orgId=1",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
-        "<logging_url>",
+        "http://164.92.240.232:3000/d/377h8i84z/logs?orgId=1",
         # SLA:
         "<sla_url>",
         # SLA Review:
