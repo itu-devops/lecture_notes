@@ -19,9 +19,9 @@ GROUP_URLS = [
         # Monitoring URL:
         "<monitoring_url>",
         # Security report URL:
-        "<security_report_url>",
+        "https://github.com/ITUDevUps/devUps/tree/dev/docs/ZAP%20Scanning%20Report.pdf",
         # Logging URL:
-        "<logging_url>",
+        "http://207.154.228.44:5601",
         # SLA:
         "https://github.com/ITUDevUps/devUps/blob/dev/SLA.md",
         # SLA Review:
@@ -73,11 +73,11 @@ GROUP_URLS = [
         "group f",
         "containerMaintainers",
         # Monitoring URL:
-        "http://164.92.240.232:3000/d/lZ0DEAs4z/endpoints?orgId=1",
+        "http://164.92.240.232:3000/",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
-        "http://164.92.240.232:3000/d/377h8i84z/logs?orgId=1",
+        "<logging_url>",
         # SLA:
         "<sla_url>",
         # SLA Review:
