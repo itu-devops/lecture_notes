@@ -758,7 +758,28 @@ Note: More logs => and more privacy concerns
 	- Basic search from the command line 
 	- Practically no resources 
 	- Can aggregate live multiple files
-	
+
+ 
+---
+### Debugging
+
+Hi, we are using Serilog, Elasticsearch and kibana in our application for logging but kibana isn't showing any data. I'm not sure where in the process it is failing and the logs aren't being passed on. I've looked at countless guides and tutorial and our  configuration matches those but still haven't been able to get to work. Has anyone had any issues? or can offer help. thanks!
+
+Try to debug it step by step. Is the data in ES?
+
+If you know the name of your index, then you can `curl localhost:9200/nameofindex/_count` and you should see the number of "documents" (logs) in your case.
+
+if you don't know the name of your index, then try to get all of them with something like `curl localhost:9200/_cat/indices`
+
+![](../session_12/images/Pasted%20image%2020230508144501.png)
+
+
+ah, now I see that you have two documents in each one of your indexes. every log message should be a document. you should definitely have more than 2 if your logs are being sent to ES. in fact, if you look at the name of those two indices, they're both named `.kibana*` - they are internal kibana indices; you have not succeeded in creating an index or sending any data to elastic search it seems. Probably better do the `docker logs` on the elasticsearch container to see whether you can learn something from that!
+
+alternative to `docker logs `  is  [`docker attach`](https://docs.docker.com/engine/reference/commandline/attach/) 
+
+
+
 ---
 
 
