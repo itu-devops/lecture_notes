@@ -17,11 +17,11 @@ GROUP_URLS = [
         "group b",
         "DevUps: Delivering Buggy Software Late since 2023",
         # Monitoring URL:
-        "<monitoring_url>",
+        "https://snapshots.raintank.io/dashboard/snapshot/jITF6HqbARS8WymCJNvKxNlykrNmBEl5",
         # Security report URL:
-        "<security_report_url>",
+        "https://github.com/ITUDevUps/devUps/tree/dev/docs/ZAP%20Scanning%20Report.pdf",
         # Logging URL:
-        "<logging_url>",
+        "http://207.154.228.44:5601",
         # SLA:
         "https://github.com/ITUDevUps/devUps/blob/dev/SLA.md",
         # SLA Review:
