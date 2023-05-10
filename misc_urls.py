@@ -156,13 +156,13 @@ GROUP_URLS = [
     ],
     [
         "group l",
-        "<name>",
+        "Bango",
         # Monitoring URL:
         "http://206.189.48.173:3000/d/E4amSsB4k/minitwit-monitoring?orgId=1&from=1681196813508&to=1681207613508",
         # Security report URL:
-        "<security_report_url>",
+        "https://github.com/organizationGB/DevOps/blob/main/securityassesment.md",
         # Logging URL:
-        "<logging_url>",
+        "http://206.189.48.173:5601/",
         # SLA:
         "<sla_url>",
         # SLA Review:
