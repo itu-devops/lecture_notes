@@ -261,8 +261,8 @@ Outside teaching sessions you can communicate with each other, and with the teac
 |BSc
 |Group g
 |DevJanitors
-|`lauh`, `mkjo`, `antbr`, `addo`,`awed`
-|C#
+|`lauh`, `mkjo`, `antbr`, `addo`
+|C# (React)
 
 |BSc
 |Group h
