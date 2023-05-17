@@ -79,7 +79,7 @@ GROUP_URLS = [
         # Logging URL:
         "http://164.92.240.232:3000/d/377h8i84z/logs?orgId=1",
         # SLA:
-        "<sla_url>",
+        "https://github.com/ContainerMaintainers/MiniTwit-Golang/blob/development/SLA.md",
         # SLA Review:
         "<sla_review_url>",
     ],
