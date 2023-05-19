@@ -234,7 +234,7 @@ GROUP_URLS = [
         # Logging URL:
         "http://104.248.16.95:5601/",
         # SLA:
-        "<sla_url>",
+        "https://github.com/ingrid-mc/DevOps-group_s/blob/main/sla.md",
         # SLA Review:
         "<sla_review_url>",
     ],
