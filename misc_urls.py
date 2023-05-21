@@ -244,7 +244,7 @@ GROUP_URLS = [
         # Monitoring URL:
         "http://138.68.73.127:5003/",
         # Security report URL:
-        "<security_report_url>",
+        "https://github.com/szymongalecki/ITU-MiniTwit/blob/main/dev_notes/Penetration%20Test%20Assesment.md",
         # Logging URL:
         "http://138.68.73.127:5000/",
         # SLA:
