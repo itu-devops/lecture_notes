@@ -75,7 +75,7 @@ REPORT_URLS = [
         "group m",
         "<name>",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/NiclasHjortkjaer/itu-minitwit/blob/main/report/build/report.pdf",
     ],
     [
         "group n",
