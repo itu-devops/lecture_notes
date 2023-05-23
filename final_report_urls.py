@@ -79,9 +79,9 @@ REPORT_URLS = [
     ],
     [
         "group n",
-        "<name>",
+        "dudes",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/nikso-itu/devops-report/blob/main/build/MSc_group_n.pdf",
     ],
     [
         "group o",
