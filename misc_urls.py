@@ -164,7 +164,7 @@ GROUP_URLS = [
         # Logging URL:
         "http://206.189.48.173:5601/",
         # SLA:
-        "<sla_url>",
+        "https://github.com/organizationGB/DevOps/blob/main/SLA.md",
         # SLA Review:
         "<sla_review_url>",
     ],
