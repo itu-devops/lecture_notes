@@ -19,9 +19,9 @@ REPORT_URLS = [
     ],
     [
         "group d",
-        "<name>",
+        "CICDont",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/DevOps-CI-CDont/DevOps-CI-CDont/archive/refs/tags/Exam.zip",
     ],
     [
         "group e",
