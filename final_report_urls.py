@@ -55,9 +55,9 @@ REPORT_URLS = [
     ],
     [
         "group j",
-        "<name>",
+        "Niceness",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/bhviid/GroupJ_Dev_Ops23/archive/refs/tags/v.1.0.zip",
     ],
     [
         "group k",
