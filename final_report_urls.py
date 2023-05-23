@@ -95,4 +95,10 @@ REPORT_URLS = [
         # Report Release URL:
         "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
+    [
+        "group s",
+        "Group S",
+        # Report Release URL:
+        "https://github.com/ingrid-mc/DevOps-group_s/blob/main/report/MSc_group_s.pdf",
+    ],
 ]
