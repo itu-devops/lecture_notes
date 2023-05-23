@@ -95,4 +95,10 @@ REPORT_URLS = [
         # Report Release URL:
         "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
+    [
+        "group t",
+        "our group name",
+        # Report Release URL:
+        "https://github.com/szymongalecki/ITU-MiniTwit/archive/refs/tags/v.5.2.0.zip",
+    ],
 ]
