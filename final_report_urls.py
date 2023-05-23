@@ -61,9 +61,9 @@ REPORT_URLS = [
     ],
     [
         "group k",
-        "<name>",
+        "Radiator",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/simonskodt/itu-minitwit/archive/refs/tags/v2.0.0.zip",
     ],
     [
         "group l",
