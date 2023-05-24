@@ -1,9 +1,9 @@
 REPORT_URLS = [
     [
         "group a",
-        "<name>",
+        "Academic Weapons",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/Academic-Weapons/ITU2023-DevOps/blob/dev/report/MSc_group_a.pdf",
     ],
     [
         "group b",
