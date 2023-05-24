@@ -7,9 +7,9 @@ REPORT_URLS = [
     ],
     [
         "group b",
-        "<name>",
+        "DevUps",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/ITUDevUps/devUps/releases/download/v1.0/MSc_group_b.zip",
     ],
     [
         "group c",
