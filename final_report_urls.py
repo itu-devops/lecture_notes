@@ -43,9 +43,9 @@ REPORT_URLS = [
     ],
     [
         "group h",
-        "<name>",
+        "FiveGuys",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/FiveGuys-DevOps/exam-report/archive/refs/tags/v1.0.zip",
     ],
     [
         "group i",
