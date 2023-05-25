@@ -75,7 +75,7 @@ GROUP_URLS = [
         # Monitoring URL:
         "http://164.92.240.232:3000/d/lZ0DEAs4z/endpoints?orgId=1",
         # Security report URL:
-        "<security_report_url>",
+        "https://github.com/ContainerMaintainers/MiniTwit-Golang/blob/development/report/SecurityAssessment.pdf",
         # Logging URL:
         "http://164.92.240.232:3000/d/377h8i84z/logs?orgId=1",
         # SLA:
@@ -164,7 +164,7 @@ GROUP_URLS = [
         # Logging URL:
         "http://206.189.48.173:5601/",
         # SLA:
-        "<sla_url>",
+        "https://github.com/organizationGB/DevOps/blob/main/SLA.md",
         # SLA Review:
         "<sla_review_url>",
     ],
