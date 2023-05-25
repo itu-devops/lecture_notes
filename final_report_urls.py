@@ -51,7 +51,7 @@ REPORT_URLS = [
         "group i",
         "OpsDev",
         # Report Release URL:
-        "https://github.com/MinitwitGroupI/MiniTwit/blob/main/report/build/report.pdf",
+        "https://github.com/MinitwitGroupI/MiniTwit/archive/refs/tags/v1.1.0.zip",
     ],
     [
         "group j",
