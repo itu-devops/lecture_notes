@@ -96,9 +96,16 @@ REPORT_URLS = [
         "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
+        "group t",
+        "our group name",
+        # Report Release URL:
+        "https://github.com/szymongalecki/ITU-MiniTwit/archive/refs/tags/v.5.2.0.zip",
+    ],
+    [
         "group s",
         "Group S",
         # Report Release URL:
         "https://github.com/ingrid-mc/DevOps-group_s/blob/main/report/MSc_group_s.pdf",
+
     ],
 ]
