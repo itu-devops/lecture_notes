@@ -261,8 +261,8 @@ Outside teaching sessions you can communicate with each other, and with the teac
 |BSc
 |Group g
 |DevJanitors
-|`lauh`, `mkjo`, `antbr`, `addo`
-|C# (React)
+|`lauh`, `mkjo`, `antbr`, `addo`,`awed`
+|C#
 
 |BSc
 |Group h
@@ -363,14 +363,147 @@ MSc
 
 
 == Exam Schedule
+.Exam schedule. The room for the exam is 2F12.
+[width="100%",cols="4%,4%,6%,30%,4%,9%,5%",options="header",]
+|=======================================================================
+|Day |Time Slot |Group |Group Name |Degree |#Group Members |Duration
 
-TBA
-////
+|12/6
+|9:30-10:30
+|Group g
+|DevJanitors
+|BSc
+|4
+|1:00
+
+|
+|10:40-12:10
+|Group a
+|Academic Weapons
+|MSc
+|6
+|1:30
+
+|
+|12:55-13:55
+|Group d
+|CI/CDont
+|MSc
+|4
+|1:00
+
+|
+|14:05-15:20
+|Group l
+|Bango
+|MSc
+|5
+|1:15
+
+
+|
+|15:30-17:00
+|Group o
+|group o
+|MSc
+|6
+|1:30
+
+
+
+
+|13/6
+|9:30-10:30
+|Group k
+|Radiator
+|BSc
+|4
+|1:00
+
+|
+|10:40-11:40
+|Group b
+|DevUps: Delivering Buggy Software Late since 2023
+|MSc
+|4
+|1:00
+
+|
+|11:50-12:50
+|Group j
+|Niceness
+|BSc
+|4
+|1:00
+
+|
+|13:35-14:50
+|Group n
+|dudes
+|MSc
+|5
+|1:15
+
+|
+|15:00-16:15
+|Group s
+|Group S
+|MSc
+|5
+|1:15
+
+|
+|16:25-17:25
+|Group t
+|our group name
+|MSc
+|4
+|1:00
+
+
+|14/6
+|9:30-10:45
+|Group f
+|Container Maintainers
+|BSc
+|5
+|1:15
+
+|
+|10:55-12:10
+|Group m
+|Jason Derulo
+|BSc
+|5
+|1:15
+
+|
+|12:55-14:10
+|Group i
+|OpsDev
+|MSc
+|5
+|1:15
+
+|
+|14:20-15:20
+|Group e
+|Souffle
+|BSc
+|4
+|1:00
+
+|
+|15:30-16:45
+|Group h
+|FiveGuys
+|BSc
+|5
+|1:15
+
+|=======================================================================
 
 More details about the exam structure can be found here: link:https://github.com/itu-devops/lecture_notes/blob/master/exam_details.md[exam_details.md]
-
-////
-
 
 
 ===== Attributions
