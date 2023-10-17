@@ -5,7 +5,7 @@
 
 <img src="https://media.giphy.com/media/13GIgrGdslD9oQ/giphy.gif" width=50%/>
 
-  - [1) Add Monitoring to Your Systems](#\1)-Add-Monitoring-to-Your-Systems)
+  - [1) Add Monitoring to Your Systems](#1\)-Add-Monitoring-to-Your-Systems)
   - [2) Software Maintenance](#2\)-Software-Maintenance)
   - [3) Software Maintenance II](#3\)-Software-Maintenance-II)
 
