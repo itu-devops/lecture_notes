@@ -9,13 +9,13 @@ image:images/banner.png[image]
 === Content
 
 
-This page contains information on the schedule, material, exam, etc. for the elective "DevOps, Software Evolution and Software Maintenance Content" at IT University of Copenhagen, spring 2023 (link:https://learnit.itu.dk/local/coursebase/view.php?ciid=1137[BSc course description on LearnIT] and link:https://learnit.itu.dk/local/coursebase/view.php?ciid=1139[MSc course description on LearnIT]).
+This page contains information on the schedule, material, exam, etc. for the elective "DevOps, Software Evolution and Software Maintenance Content" at IT University of Copenhagen, spring 2024 (link:https://learnit.itu.dk/local/coursebase/view.php?ciid=1139[BSc course description on LearnIT] and link:https://learnit.itu.dk/local/coursebase/view.php?ciid=1391[MSc course description on LearnIT]).
 
 
 === Schedule
 
-Sessions (lectures combined with exercises) are on Tuesdays from 14:00
-to 18:00 first in room 2A12/2A14.
+Sessions (lectures combined with exercises) are on Fridays from 10:00
+to 14:00 in room 4A14-16.
 
 *OBS*: We expect you to be present during the entire time, not only the first two hours.
 
@@ -25,8 +25,8 @@ to 18:00 first in room 2A12/2A14.
 |# |Date |Time |Lecturer |Preparation |Topic |Exercises |Project Work
 // w5
 |1
-|31/1
-|14:00 - 18:00
+|2/2
+|10:00 - 14:00
 |Helge
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_01/README_PREP.md[Prep. material]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_01/Slides.md[Project start, forming groups, SSH, SCP, and Bash]
@@ -34,8 +34,8 @@ to 18:00 first in room 2A12/2A14.
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_01/README_TASKS.md[Refactor _ITU-MiniTwit_ to work on modern system]
 // w6
 |2
-|7/2
-|14:00 - 18:00
+|9/2
+|10:00 - 14:00
 |Helge
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_02/README_PREP.md[Prep. material]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_02/Slides.md[Packaging applications, Containerization with Docker]
@@ -43,8 +43,8 @@ to 18:00 first in room 2A12/2A14.
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_02/README_TASKS.md[Refactor _ITU-MiniTwit_ in another programming language and tech. stack]
 // w7
 |3
-|14/2
-|14:00 - 18:00
+|16/2
+|10:00 - 14:00
 |Helge
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_03/README_PREP.md[Prep. material]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_03/Slides.md[Provision of local and remote virtual machines]
@@ -52,18 +52,18 @@ to 18:00 first in room 2A12/2A14.
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_03/README_TASKS.md[Continue refactoring, deployment of your _ITU-MiniTwit_ to a remote server.]
 // w8
 |4
-|21/2
-|14:00 - 18:00
-|Helge & Zander (Eficode)
+|23/2
+|10:00 - 14:00
+|Helge
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/README_PREP.md[Prep. material]
-|link:https://ituniversity.sharepoint.com/:b:/r/sites/2023DevOpsSoftwareEvolutionandSoftwareMaintenance/Shared%20Documents/General/Guest%20lecture%20slides/ITU%20guest%20lecture%20-%20Intro%20to%20DevOps%20-%2020feb2023%20-%20Zander%20Havgaard.pdf?csf=1&web=1&e=feSA27[*Guest Lecture Eficode: What is DevOps?*];
+|link:[*Guest Lecture: What is DevOps?*];
 link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/Slides.md[Continuous Integration (CI), Continuous Delivery (CD), and Continuous Deployment]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/README_EXERCISE.md[Using GitHub Actions CI] (*Simulator test*)
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/README_TASKS.md[Continue refactoring, Setup CI & CD for reproducible builds, tests, delivery, and deployment]
 // w9
 |5
-|28/2
-|14:00 - 18:00
+|1/3
+|10:00 - 14:00
 |Helge
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_05/README_PREP.md[Prep. material]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_05/Slides.md[What is DevOps and configuration management]
@@ -75,8 +75,8 @@ link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04
 
 // w10
 |6
-|7/3
-|14:00 - 18:00
+|8/3
+|10:00 - 14:00
 |Helge
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_06/README_PREP.md[Prep. material]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_06/Slides.md[Monitoring]
@@ -84,8 +84,8 @@ link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_06/README_TASKS.md[Add monitoring to your _ITU-MiniTwit_ and peer-review]
 // w11
 |7
-|14/3
-|14:00 - 18:00
+|15/3
+|10:00 - 14:00
 |Helge
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_07/README_PREP.md[Prep. material]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_07/Slides.md[Software Quality, Maintainability & Technical Debt]
@@ -93,35 +93,35 @@ link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_07/README_TASKS.md[Enhancing CI/CD setup with test suite and static code analysis]
 // w12
 |8
-|21/3
-|14:00 - 18:00
+|22/3
+|10:00 - 14:00
 |Mircea
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_08/README_PREP.md[Prep. material]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_08/Slides.md[Logging, and Log Analysis. Service-level agreements.]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_08/README_EXERCISE.md[A Basic EFK Stack]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_08/README_TASKS.md[Add logging to your _ITU-MiniTwit_ and create a set of SLAs for it]
 // w13
-|9
-|28/3
-|14:00 - 18:00
-|Mircea
-|-
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_09/Slides.md[Security]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_09/README_EXERCISE.md[A Basic Pen-Test with Metasploit]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_09/README_TASKS.md[Security Assessment & Pen Testing]
-// w14
 |–
-|4/4
+|29/3
 |-
 |-
 |-
 |Easter Break
 |-
 | Operations & maintenance still reacting on issue reports and fixing of errors :)
+// w14
+|9
+|5/4
+|10:00 - 14:00
+|Mircea
+|-
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_09/Slides.md[Security]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_09/README_EXERCISE.md[A Basic Pen-Test with Metasploit]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_09/README_TASKS.md[Security Assessment & Pen Testing]
 // w15
 |10
-|11/4
-|14:00 - 18:00
+|12/4
+|10:00 - 14:00
 |Mircea
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_10/README_PREP.md[Prep. material]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_10/Slides.md[Scaling]
@@ -129,8 +129,8 @@ link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_10/README_TASKS.md[Isolate components into services/containers/VMs]
 // w16
 |11
-|18/4
-|14:00 - 18:00
+|19/4
+|10:00 - 14:00
 |Mircea
 |
 |Workshop
@@ -138,8 +138,8 @@ link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04
 |Continue isolation of components into services/containers/VMs and Fix reported problems
 // w17
 |12
-|25/4
-|14:00 - 18:00
+|26/4
+|10:00 - 14:00
 |Mircea
 |
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_12/Slides.md[Architectural Choices with Swarm] link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_12/IaC.pdf[Infrastructure as Code]
@@ -147,17 +147,17 @@ link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_12/README_TASKS.md[Encode your infrastructure setup]
 // w18
 |13
-|2/5
-|14:00 - 18:00
-|Lars (Implement Consulting Group), Mircea & Helge
+|3/5
+|10:00 - 14:00
+|Mircea & Helge
 |
 |*Guest Lecture*, link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_13/Architectural_Documentation.pdf[Documentation of Systems and Projects]
 |
 |*Simulator stops*. Write report.
 // w19
 |14
-|9/5
-|14:00 - 18:00
+|10/5
+|10:00 - 14:00
 |Mircea & Helge
 |
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_14/Slides.md[Exam prep., Thesis topics, Evaluation, Cookies :)]
@@ -165,8 +165,8 @@ link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04
 |Write report.
 |=======================================================================
 
-* Exam submission: Latest Wednesday *24/5/2023 14:00*
-* Exam dates: 12/6/2023 to 14/6/2023
+* Exam submission: Latest Thursday *23/5/2023 14:00*
+* Exam period: 11/6/2023 to 14/6/2023
 
 
 === Peer-feedback, presentations, and discussions in exercise sessions
@@ -178,6 +178,9 @@ TBA
 TBA
 
 === Dashboards
+
+TBA
+////
 
 ==== Simulator Status Dashboard
 
@@ -204,6 +207,7 @@ group]
 <br/>
 <object width="65%" height="65%" data="http://138.197.185.85/release_activity_weekly.svg"></object>
 ++++
+////
 
 
 === Recordings
@@ -216,7 +220,7 @@ You will have access to all written lecture material through this repository tho
 === Recommendation
 
 All examples in class target link:https://pop.system76.com/[Pop!_OS 22.04].
-Essentially, this is a link:http://releases.ubuntu.com/21.10/[Ubuntu 22.04 (Jammy Jellyfish)] Linux distribution.
+Essentially, this is an link:https://releases.ubuntu.com/22.04/[Ubuntu 22.04 (Jammy Jellyfish)] Linux distribution.
 There are many more such Ubuntu derivates, choose one of your liking: link:https://linuxmint.com/[Linux Mint], link:https://elementary.io/[Elementary OS], link:https://neon.kde.org/[KDE Neon], etc.
 
 Since all sessions contain hands-on exercises, we recommend that you have such a Linux version installed on a computer.
@@ -231,7 +235,7 @@ Consequently, likely many of the technologies that we demonstrate will have issu
 === Team
 
 * *Teachers*: Helge, Mircea
-* *TAs*: Leonora, Gianmarco
+* *TAs*: Leonora, Mikkel, Patrick
 
 === Communication
 
@@ -240,127 +244,27 @@ Outside teaching sessions you can communicate with each other, and with the teac
 
 === Groups
 
+TBA
 
 .Overview over all groups.
 [width="100%",cols="5%,10%,40%,35%,10%",options="header",]
 |=======================================================================
 | |Index |Name |Members |Technology
 
-|BSc
-|Group e
-|Souffle
-|`laku`, `raoo`, `asly`, `pmat`
+|<BSc|MSc>
+|Group <id>
+|<name>
+|`<id>`, `<id>`, `<id>`, `<id>`, `<id>`
 |
 
-|BSc
-|Group f
-|Container Maintainers
-|`dayo`, `jarh`, `adjr`, `sabf`, `ddeq`
-|Go (Gin)
-
-|BSc
-|Group g
-|DevJanitors
-|`lauh`, `mkjo`, `antbr`, `addo`,`awed`
-|C#
-
-|BSc
-|Group h
-|FiveGuys
-|`aist`, `flmi`, `joap`, `marki`, `hasc`
-|Python?
-
-|BSc
-|Group j
-|Niceness
-|`siar`, `tbru`, `behv`, `paab`
-|C# (Blazor)
-
-|BSc
-|Group k
-|Radiator
-|`gume`, `niwl`, `sijs`, `vibr`
-|C# (Razor)
-
-|BSc
-|Group m
-|Jason Derulo
-|`mpia`, `caws`, `vson`, `nihj`, `luhj`
-|C# (Razor)
-
-|MSc
-|Group a
-|Academic Weapons
-|`alkl`, `bamk`, `krwi`, `johc`, 'chmj', 'jonan'
-|Java
-
-|MSc
-|Group b
-|DevUps: Delivering Buggy Software Late since 2023
-|`thki`, `matf`, `awag`, `jfas`
-|C# (React)
-
-|MSc
-|Group d
-|CI/CDont
-|`ojoe`, `sipn`, `bekj`, `januh`
-|Go (Gin) (NextJS)
-
-|MSc
-|Group i
-|OpsDev
-|`ivcm`, `alat`, `nesu`, `mmea`, `mirb`
-|Python (FastAPI)
-
-|MSc
-|Group l
-|Bango
-|`ojar`, `bjch`, `nbry`, `gubr`, `amav`
-|Go (Gin, GORM)
-
-|MSc
-|Group n
-|dudes
-|`jepli`, `dakj`, `nikso`, `jokf`, `beth`
-|Go (Gin)
-
-|MSc
-|Group o
-|group o
-|`gega`, `noho`, `hrto`,`chtof`,`muni`,`lson`
-|C#
-
-|MSc
-|Group s
-|Group S
-|`inch`, `mhom`, `ngio`, `emgi`, `bact`
-|
-
-|MSc
-|Group t
-|our group name
-|`mcru`, `sgal`, `petst`, `dagp`
-|Python (Django)
 
 |=======================================================================
-
-
-////
-|
-MSc
-|*Group r
-|Visiting Students
-|`jomh`, `ingf`, `fers`
-|
-////
 
 
 
 ==== Ungrouped yet
 
-  * `chfm`, `hljo`, `jocl`, `mbae`
-
-
+////
 
 == Exam Schedule
 .Exam schedule. The room for the exam is 2F12.
@@ -504,6 +408,7 @@ MSc
 |=======================================================================
 
 More details about the exam structure can be found here: link:https://github.com/itu-devops/lecture_notes/blob/master/exam_details.md[exam_details.md]
+////
 
 
 ===== Attributions
