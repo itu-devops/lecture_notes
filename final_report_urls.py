@@ -1,15 +1,15 @@
 REPORT_URLS = [
     [
         "group a",
-        "Academic Weapons",
+        "<name>",
         # Report Release URL:
-        "https://github.com/Academic-Weapons/ITU2023-DevOps/archive/refs/tags/v1.0.8.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group b",
-        "DevUps",
+        "<name>",
         # Report Release URL:
-        "https://github.com/ITUDevUps/devUps/releases/download/v1.0/MSc_group_b.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group c",
@@ -19,9 +19,9 @@ REPORT_URLS = [
     ],
     [
         "group d",
-        "CICDont",
+        "<name>",
         # Report Release URL:
-        "https://github.com/DevOps-CI-CDont/DevOps-CI-CDont/archive/refs/tags/Exam.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group e",
@@ -31,57 +31,57 @@ REPORT_URLS = [
     ],
     [
         "group f",
-        "containerMaintainers",
+        "<name>",
         # Report Release URL:
-        "https://github.com/ContainerMaintainers/MiniTwit-Golang/archive/refs/tags/1.6.0.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group g",
-        "DevJanitors",
+        "<name>",
         # Report Release URL:
-        "https://github.com/Dev-Janitors/minitwit/archive/refs/tags/v1.0.172.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group h",
-        "FiveGuys",
+        "<name>",
         # Report Release URL:
-        "https://github.com/FiveGuys-DevOps/exam-report/archive/refs/tags/v1.0.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group i",
-        "OpsDev",
+        "<name>",
         # Report Release URL:
-        "https://github.com/MinitwitGroupI/MiniTwit/archive/refs/tags/v1.1.0.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group j",
-        "Niceness",
+        "<name>",
         # Report Release URL:
-        "https://github.com/bhviid/GroupJ_Dev_Ops23/archive/refs/tags/v.1.0.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group k",
-        "Radiator",
+        "<name>",
         # Report Release URL:
-        "https://github.com/simonskodt/itu-minitwit/archive/refs/tags/v2.0.0.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group l",
-        "Bango",
+        "<name>",
         # Report Release URL:
-        "https://github.com/organizationGB/DevOps/archive/refs/tags/v2.21.0.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group m",
         "<name>",
         # Report Release URL:
-        "https://github.com/NiclasHjortkjaer/itu-minitwit/archive/refs/tags/v2.1.0.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group n",
-        "dudes",
+        "<name>",
         # Report Release URL:
-        "https://github.com/Lindharden/DevOps/archive/refs/tags/v4.0.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group o",
@@ -96,16 +96,9 @@ REPORT_URLS = [
         "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
-        "group t",
-        "our group name",
+        "group q",
+        "<name>",
         # Report Release URL:
-        "https://github.com/szymongalecki/ITU-MiniTwit/archive/refs/tags/v.5.2.0.zip",
-    ],
-    [
-        "group s",
-        "Group S",
-        # Report Release URL:
-        "https://github.com/ingrid-mc/DevOps-group_s/blob/main/report/MSc_group_s.pdf",
-
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
 ]
