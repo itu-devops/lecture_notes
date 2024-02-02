@@ -22,7 +22,7 @@ In case you are in doubt about converting a directory of files into a Git reposi
 
 Throughout the semester you will work on your own version of _ITU-MiniTwit_, which will be in many ways similar to the version you just took over. Therefore, it is worth to understand how it is working. Perhaps it is best to start your investigation on the top of the file `minitwit.py`, followed by the function `timeline()`, the functions `before_request()` and `after_request()`, and then all the other functions.
 
-As described in class, _ITU-MiniTwit_ relies on the web-application framework [Flask](https://palletsprojects.com/p/flask/). The [official documentation](https://flask.palletsprojects.com/en/1.1.x/) as well as the book [Flask Web Development](https://www.oreilly.com/library/view/flask-web-development/9781491991725/) might support you in this task. In case you are in doubt about some Python constructs, the free book [Whirlwind Tour of Python](https://jakevdp.github.io/WhirlwindTourOfPython/) might be helpful.
+As described in class, _ITU-MiniTwit_ relies on the web-application framework [Flask](https://palletsprojects.com/p/flask/). The [official documentation](https://flask.palletsprojects.com/en/) as well as the book [Flask Web Development](https://www.oreilly.com/library/view/flask-web-development/9781491991725/) might support you in this task. In case you are in doubt about some Python constructs, the free book [Whirlwind Tour of Python](https://jakevdp.github.io/WhirlwindTourOfPython/) might be helpful.
 
 
 #### Why do we do that? Why do I have to understand other peoples' code?
@@ -46,8 +46,8 @@ By "modern computer", we mean your personal computer running, e.g., Linux.
     - via [pyenv](https://github.com/pyenv/pyenv)
     - via [Anaconda](https://www.anaconda.com/products/individual)
   * The Python dependencies from `itu-minitwit`:
-    - [Flask](https://flask.palletsprojects.com/en/1.1.x/) >= version 2.0.0
-      - [Werkzeug](https://palletsprojects.com/p/werkzeug/) >= version 2.0.0
+    - [Flask](https://flask.palletsprojects.com/en/3.0.x/) >= version 3.0.0
+      - [Werkzeug](https://palletsprojects.com/p/werkzeug/) >= version 3.0.0
       - [Jinja2](https://palletsprojects.com/p/jinja/) >= version 3.0.0
   * A current C compiler, e.g., `gcc`
     - Likely it is already part of your Linux installation.
@@ -82,10 +82,13 @@ Your task is to modify as few lines as possible in the given sources of _ITU-Min
       diff minitwit.py minitwit.py3
       ```
       - Once you are sure that you understand what the `2to3` tool changed, replace the contents of `minitwit.py` with the Python 3 sources.
-
+  * After refactoring `minitwit.py` to a modern Python 3 version, do the same refactoring with `minitwit_tests.py`.
+    That is, make sure that the tests that can be executed against the original version of `minitwit.py` pass against your refactored version of `minitwit.py` too.
+    **OBS**: Making use of existing test suites during refactoring is one of the most important tasks in software evolution.
 
   * **Hint**:
-    - When converting `minitwit.py` to Python 3 you might receive an error when reading the SQL script when initializing the database in line: `db.cursor().executescript(f.read())`. Likely decoding of the file contents into `utf-8` has to be declared explicitly.
+    - When converting `minitwit.py` to Python 3 you might receive an error when reading the SQL script when initializing the database in line: `db.cursor().executescript(f.read())`.
+      Likely, decoding of the file contents into `utf-8` has to be declared explicitly.
     - Make sure to test this code (by running it), which will only be executed when initializing an empty database.
     - Also some functions from the `werkzeug` module were moved to another submodule. To resolve the issue Google for the error message and you will find a corresponding change entry.
 
