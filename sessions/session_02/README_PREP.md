@@ -69,6 +69,6 @@ The above is adapted from the official documentation: https://docs.docker.com/en
 ### Docker Compose
 
 ```bash
-sudo apt install -y docker-compose
+sudo apt install -y docker-compose-v2
 ```
 
