@@ -22,8 +22,8 @@ GROUP_REPOS = [
     ],
     [
         "group d",
-        "<Name>",
-        ["https://github.com/<organization|user>/<repository_name>"],
+        "mini-x",
+        ["https://github.com/sumrdev/mini-x"],
         "http(s)://<TBA>/<FrontEndURL>",
         "http(s)://<TBA>/<APIURL>",
     ],
