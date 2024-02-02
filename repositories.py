@@ -23,7 +23,7 @@ GROUP_REPOS = [
     [
         "group d",
         "mini-x",
-        ["mgrandp@outlook.com"],
+        ["https://github.com/sumrdev/mini-x"],
         "http(s)://<TBA>/<FrontEndURL>",
         "http(s)://<TBA>/<APIURL>",
     ],
