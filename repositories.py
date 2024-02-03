@@ -29,8 +29,8 @@ GROUP_REPOS = [
     ],
     [
         "group e",
-        "<Name>",
-        ["https://github.com/<organization|user>/<repository_name>"],
+        "Grl Pwr",
+        ["https://github.com/devops2024-group-e/itu-minitwit"],
         "http(s)://<TBA>/<FrontEndURL>",
         "http(s)://<TBA>/<APIURL>",
     ],
