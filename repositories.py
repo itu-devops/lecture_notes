@@ -15,8 +15,8 @@ GROUP_REPOS = [
     ],
     [
         "group c",
-        "<Name>",
-        ["https://github.com/<organization|user>/<repository_name>"],
+        "GroupC",
+        ["https://github.com/ebrvc/DevOps-GroupC"],
         "http(s)://<TBA>/<FrontEndURL>",
         "http(s)://<TBA>/<APIURL>",
     ],
