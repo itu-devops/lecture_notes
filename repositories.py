@@ -106,8 +106,8 @@ GROUP_REPOS = [
     ],
     [
         "group p",
-        "<Name>",
-        ["https://github.com/<organization|user>/<repository_name>"],
+        "int* ptr",
+        ["https://github.com/AAFredsted/maxitwit"],
         "http(s)://<TBA>/<FrontEndURL>",
         "http(s)://<TBA>/<APIURL>",
     ],
