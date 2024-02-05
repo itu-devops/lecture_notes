@@ -92,8 +92,8 @@ GROUP_REPOS = [
     ],
     [
         "group n",
-        "<Name>",
-        ["https://github.com/<organization|user>/<repository_name>"],
+        "MacOnTop",
+        ["https://github.com/itu-devops-groupn/itu-minitwit"],
         "http(s)://<TBA>/<FrontEndURL>",
         "http(s)://<TBA>/<APIURL>",
     ],
