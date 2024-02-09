@@ -108,7 +108,7 @@ Your task is to modify as few lines as possible in the given sources of _ITU-Min
     - Either create an organization for all your team members and let the organization own all repositories that you create during this semester,
     - or, create a public repository for one of you and invite the other team members as collaborators.
   - Keep versions of all your refactoring work in that repository.
-  - Once you are done (and latest by **Sunday Feb 5th, at 23:00**) [create a release](https://help.github.com/en/github/administering-a-repository/creating-releases) with your refactored version of _ITU-MiniTwit_.
+  - Once you are done (and latest by **Thursday Feb 8th, at 23:00**) [create a release](https://help.github.com/en/github/administering-a-repository/creating-releases) with your refactored version of _ITU-MiniTwit_.
 
 
 Please share your repositories with us. Send a GitHub pull-request on the file [`repositories.py`](https://github.com/itu-devops/lecture_notes/blob/master/repositories.py) in which you replace, e.g., `https://github.com/<gh_id>/<proj_id>` with the repository URL of your group. In case you use more than one repository, please add them to the corresponding list too.
