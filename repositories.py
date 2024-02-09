@@ -43,8 +43,8 @@ GROUP_REPOS = [
     ],
     [
         "group g",
-        "<Name>",
-        ["https://github.com/<organization|user>/<repository_name>"],
+        "GESMT",
+        ["https://github.com/dudustri/DevOps-Adventure"],
         "http(s)://<TBA>/<FrontEndURL>",
         "http(s)://<TBA>/<APIURL>",
     ],
