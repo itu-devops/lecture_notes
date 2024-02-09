@@ -78,8 +78,8 @@ GROUP_REPOS = [
     ],
     [
         "group l",
-        "<Name>",
-        ["https://github.com/<organization|user>/<repository_name>"],
+        "Baglinjen",
+        ["https://github.com/devops-group-l/itu-minitwit"],
         "http(s)://<TBA>/<FrontEndURL>",
         "http(s)://<TBA>/<APIURL>",
     ],
