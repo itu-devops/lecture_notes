@@ -1,7 +1,7 @@
 version: '3'
 services:
   webserver:
-    image: youruser/myserver
+    image: helgecph/myserver
     ports:
       - "8080:8080"
 
