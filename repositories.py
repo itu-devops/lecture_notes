@@ -99,8 +99,8 @@ GROUP_REPOS = [
     ],
     [
         "group o",
-        "<Name>",
-        ["https://github.com/<organization|user>/<repository_name>"],
+        "Group O",
+        ["https://github.com/MadsHogenhaug/MiniTwit"],
         "http(s)://<TBA>/<FrontEndURL>",
         "http(s)://<TBA>/<APIURL>",
     ],
