@@ -108,8 +108,8 @@ GROUP_REPOS = [
         "group p",
         "int* ptr",
         ["https://github.com/AAFredsted/maxitwit"],
-        "http(s)://<TBA>/<FrontEndURL>",
-        "http(s)://<TBA>/<APIURL>",
+        "http://138.68.125.103:3000",
+        "http://138.68.125.103:3001",
     ],
     [
         "group q",
