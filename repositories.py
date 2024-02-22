@@ -38,8 +38,8 @@ GROUP_REPOS = [
         "group f",
         "Group F",
         ["https://github.com/GertLu/itu-minitwit-devops/"],
-        "http(s)://<TBA>/<FrontEndURL>",
-        "http(s)://<TBA>/<APIURL>",
+        "http://52.138.206.101:8080",
+        "http://52.138.206.101:5001",
     ],
     [
         "group g",
