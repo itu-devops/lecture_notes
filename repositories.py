@@ -52,8 +52,8 @@ GROUP_REPOS = [
         "group h",
         "Eagles",
         ["https://github.com/Eagles-DevOps/MiniTwit/"],
-        "http(s)://<TBA>/<FrontEndURL>",
-        "http(s)://<TBA>/<APIURL>",
+        "http://167.99.37.119:15000",
+        "http://159.223.239.98:15001",
     ],
     [
         "group i",
