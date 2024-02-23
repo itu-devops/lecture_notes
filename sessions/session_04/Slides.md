@@ -62,7 +62,7 @@ If that is not suitable for you, you choose another one.
   * Advantage of **logging** your actions:
     * It is easier for the TAs and your group fellows to help you.
     * It is a prerequisite to [ask good questions](https://stackoverflow.com/help/how-to-ask)
-    * It is a prerequisite to write good [bug reports](https://www.kenst.com/2018/02/how-to-write-a-good-bug-report-use-rimgen/).
+    * It is a prerequisite to write good [bug reports](https://web.archive.org/web/20210414020435/https://www.kenst.com/2018/02/how-to-write-a-good-bug-report-use-rimgen/).
 
 ---
 
