@@ -115,7 +115,7 @@ GROUP_REPOS = [
         "group q",
         "Test1",
         ["https://github.com/TheisHS/test1-itu-minitwit"],
-        "http(s)://<TBA>/<FrontEndURL>",
-        "http(s)://<TBA>/<APIURL>",
+        "http://46.101.123.125:4000",
+        "http://46.101.123.125:4001",
     ],
 ]
