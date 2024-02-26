@@ -17,7 +17,7 @@ GROUP_REPOS = [
         "group c",
         "GroupC",
         ["https://github.com/ebrvc/DevOps-GroupC"],
-        "http(s)://<TBA>/<FrontEndURL>",
+        "http(s)://209.38.178.164:5000/",
         "http(s)://<TBA>/<APIURL>",
     ],
     [
