@@ -59,8 +59,8 @@ GROUP_REPOS = [
         "group i",
         "Ben11",
         ["https://github.com/DevOps-Ben11/minitwit"],
-        "http(s)://<TBA>/<FrontEndURL>",
-        "http(s)://<TBA>/<APIURL>",
+        "http://138.68.126.8:5000",
+        "http://138.68.126.8:5000/sim",
     ],
     [
         "group j",
