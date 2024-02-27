@@ -17,8 +17,8 @@ GROUP_REPOS = [
         "group c",
         "GroupC",
         ["https://github.com/ebrvc/DevOps-GroupC"],
-        "https://209.38.178.164:5000/",
-        "https://209.38.178.164:5000/api",
+        "http://209.38.178.164:5000/",
+        "http://209.38.178.164:5000/api",
     ],
     [
         "group d",
