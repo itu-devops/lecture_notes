@@ -37,9 +37,9 @@ GROUP_REPOS = [
     [
         "group f",
         "Group F",
-        ["https://github.com/GertLu/itu-minitwit-devops/"],
+        ["https://github.com/DevOps-GroupF/itu-minitwit-devops"],
         "http://52.138.206.101:8080",
-        "http://52.138.206.101:5001",
+        "http://52.138.206.101:8080/api",
     ],
     [
         "group g",
