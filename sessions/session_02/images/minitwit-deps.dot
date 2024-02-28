@@ -1,0 +1,27 @@
+digraph G {
+    "control.sh" -> "Bash";
+    "control.sh" -> "minitwit.pid";
+    "control.sh" -> "flag_tool";
+    "control.sh" -> "minitwit.py";
+    "Bash" -> "Ubuntu 20.04";
+
+    "flag_tool" -> "flag_tool.c";
+    "flag_tool" -> "Makefile";
+
+    "minitwit.py" -> "Flask";
+    "minitwit.py" -> "CPython";
+    "minitwit.py" -> "minitwit.db";
+    "minitwit.py" -> "static/";
+    "minitwit.py" -> "templates/";
+    "Flask" -> "CPython";
+    "Flask" -> "Werkzeug";
+    "Flask" -> "Jinja";
+    "Werkzeug" -> "CPython";
+    "Jinja" -> "CPython";
+    "CPython" -> "Ubuntu 20.04";
+
+    "flag_tool.c" -> "GCC";
+    "flag_tool.c" -> "sqlite.h";
+    "flag_tool.c" -> "libsqlite3.so.0";
+    "GCC" -> "Ubuntu 20.04";
+}
