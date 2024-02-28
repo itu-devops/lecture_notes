@@ -24,8 +24,8 @@ GROUP_REPOS = [
         "group d",
         "mini-x",
         ["https://github.com/sumrdev/mini-x"],
-        "http(s)://<TBA>/<FrontEndURL>",
-        "http(s)://<TBA>/<APIURL>",
+        "http://164.92.201.193:5000/",
+        "http://164.92.201.193:5001/",
     ],
     [
         "group e",
