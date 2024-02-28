@@ -94,8 +94,8 @@ GROUP_REPOS = [
         "group n",
         "MacOnTop",
         ["https://github.com/itu-devops-groupn/itu-minitwit"],
-        "http(s)://<TBA>/<FrontEndURL>",
-        "http(s)://<TBA>/<APIURL>",
+        "http://206.189.50.92:8080",
+        "http://206.189.50.92:5050",
     ],
     [
         "group o",
