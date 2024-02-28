@@ -52,7 +52,7 @@ GROUP_REPOS = [
         "group h",
         "Eagles",
         ["https://github.com/Eagles-DevOps/MiniTwit.git"],
-        "http://142.93.139.208:15000/public",
+        "http://142.93.139.208:15000",
         "http://161.35.154.39:15001",
     ],
     [
