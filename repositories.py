@@ -87,8 +87,8 @@ GROUP_REPOS = [
         "group m",
         "Group M",
         ["https://github.com/davrepo/devops2024"],
-        "http(s)://<TBA>/<FrontEndURL>",
-        "http(s)://<TBA>/<APIURL>",
+        "http://104.248.43.157:8080/",
+        "http://104.248.43.157:5000/",
     ],
     [
         "group n",
