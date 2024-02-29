@@ -67,7 +67,7 @@ GROUP_REPOS = [
         "Baglinjen",
         ["https://github.com/devops-group-l/chirp"],
         "http://64.227.120.186:8080/",
-        "http(s)://<TBA>/<APIURL>",
+        "http://64.227.120.186:8080/api/Simulation",
     ],
     [
         "group m",
