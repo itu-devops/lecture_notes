@@ -104,4 +104,11 @@ GROUP_REPOS = [
         "http://46.101.123.125:4000",
         "http://46.101.123.125:4001",
     ],
+    [
+        "secret",
+        "twizzy",
+        ["https://github.com/PatNei/minitwizzy"],
+        "https://minitwizzy.tailb4659.ts.net",
+        "https://minitwizzy.tailb4659.ts.net/api",
+    ],
 ]
