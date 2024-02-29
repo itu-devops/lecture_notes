@@ -17,8 +17,8 @@ GROUP_REPOS = [
         "group e",
         "Grl Pwr",
         ["https://github.com/devops2024-group-e/itu-minitwit"],
-        "http(s)://<TBA>/<FrontEndURL>",
-        "http(s)://<TBA>/<APIURL>",
+        "http://161.35.78.128",
+        "http://161.35.78.128:8080",
     ],
     [
         "group f",
