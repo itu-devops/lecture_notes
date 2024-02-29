@@ -45,8 +45,8 @@ GROUP_REPOS = [
         "group g",
         "GESMT",
         ["https://github.com/dudustri/DevOps-Adventure"],
-        "http(s)://<TBA>/<FrontEndURL>",
-        "http(s)://<TBA>/<APIURL>",
+        "http://134.209.226.165:8081",
+        "http://134.209.226.165:8081/api",
     ],
     [
         "group h",
