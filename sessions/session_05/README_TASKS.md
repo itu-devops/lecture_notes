@@ -55,6 +55,6 @@ Instead introduce for example an Object-relational mapping (ORM) framework to yo
 
 From now on we are in software maintenance. That is, fix issues of your version of _ITU-MiniTwit_ as soon as possible. Likely, after the simulator is started you will experience some issues in your systems. Just fix them as soon as you realize them.
 
-For example, you will be able to see status and potential errors as the simulator 'sees' them [here](http://164.92.243.132/status.html).
+For example, you will be able to see status and potential errors as the simulator 'sees' them [here](http://206.81.24.116/status.html).
 
 Continue to release (now likely automatically) whenever new features and bug-fixes are ready (least once per week).
