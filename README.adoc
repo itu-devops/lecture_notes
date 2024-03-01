@@ -56,7 +56,7 @@ to 14:00 in room 4A14-16.
 |10:00 - 14:00
 |Helge
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/README_PREP.md[Prep. material]
-|link:[*Guest Lecture: What is DevOps? (Eficode)*];
+|link:https://ituniversity.sharepoint.com/:b:/r/sites/2024DevOpsSoftwareEvolutionandSoftwareMaintenance9/Shared%20Documents/General/Guest%20Lectures/DevOps%20Culture%20and%20Agile%20Mindset-%20ITU.pdf?csf=1&web=1&e=QbXdrP[*Guest Lecture: What is DevOps? (Eficode)*];
 link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/Slides.md[Continuous Integration (CI), Continuous Delivery (CD), and Continuous Deployment]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/README_EXERCISE.md[Using GitHub Actions CI] (*Simulator test*)
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/README_TASKS.md[Continue refactoring, Setup CI & CD for reproducible builds, tests, delivery, and deployment]
@@ -255,12 +255,95 @@ TBA
 |=======================================================================
 | |Index |Name |Members |Technology
 
-|<BSc|MSc>
-|Group <id>
-|<name>
-|`<id>`, `<id>`, `<id>`, `<id>`, `<id>`
-|
+|MSc
+|group c
+|GroupC
+|`tofm`, `soad`, `cefr`, `eleb`, `mglh`, `mlup`
+|C♯, ASP.NET
 
+|BSc
+|group d
+|mini-x
+|`dafe`, `mawn`, `midf`, `mariu`, `mgrp`
+|Rust, Actix
+
+|MSc
+|group e
+|Grl Pwr
+|`abso`, `anti`, `milo`, `sacc`, `myje`, `bino`
+|C♯, ASP.NET
+
+|MSc
+|group f
+|Group F
+|`nicje`, `mlsc`, `dmon`, `gelu`, `piro`
+|C♯, ASP.NET Razor
+
+|MSc
+|group g
+|GESMT
+|`tbab`, `harw`, `gusm`, `edtr`, `mihr`
+|Go, Gin
+
+|MSc
+|group h
+|Eagles
+|`trro`, `rozv`, `anam`, `rano`, `dangr`, `jlis`
+|Go Gorilla
+
+|MSc
+|group i
+|Ben11
+|`mathl`, `rokk`, `mcfa`, `anjp`
+|Go Gorilla
+
+|BSc
+|group j
+|Ben10
+|`madsd`, `olau`, `bekr`, `mbek`, `casho`
+|C♯, ASP.NET Razor
+
+|BSc
+|group k
+|GitGurus
+|`ssbo`, `frepe`, `mroa`, `aguh`, `atro`
+|Ruby, Sinatra
+
+|BSc
+|group l
+Baglinjen",
+|`anbc`, `vilg`, `maraa`, `lupa`, `mbrh`
+|Ruby, Sinatra
+
+|BSc
+|group m
+|Group M
+|`maxt`, `memr`, `jhou`, `hajj`, `fume`, `dard`
+|Go, Gin
+
+|BSc
+|group n
+|MacOnTop
+|`dmil`, `frlr`, `jacp`, `natp`, `raln`
+|C♯, ASP.NET
+
+|MSc
+|group o
+|Group O
+|`mkrh`, `mahf`, `jkau`, `lakj`, `ezpa`
+|JavaScript, Node.js/Express
+
+|MSc
+|group p
+|int* ptr
+|`rslu`, `bluz`, `cemn`, `mithi`, `aandr`
+|JavaScript, Node.js/Express
+
+|MSc
+|group q
+|Test1
+|`ches`, `carbr`, `nako`, `thhs`, `tokj`
+|Go, Gorilla
 
 |=======================================================================
 
