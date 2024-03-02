@@ -108,7 +108,7 @@ GROUP_REPOS = [
         "group s",
         "twizzy",
         ["https://github.com/PatNei/minitwizzy"],
-        "https://minitwizzy.tailb4659.ts.net",
-        "https://minitwizzy.tailb4659.ts.net/api",
+        "http://159.69.213.182:9000",
+        "http://159.69.213.182:9000/api",
     ],
 ]
