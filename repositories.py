@@ -93,7 +93,7 @@ GROUP_REPOS = [
     [
         "group p",
         "int* ptr",
-        ["https://github.com/AAFredsted/maxitwit"],
+        ["https://github.com/DevOps-2024-group-p/maxitwit"],
         "http://138.68.125.103:3000",
         "http://138.68.125.103:3001",
     ],
