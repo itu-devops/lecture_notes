@@ -10,7 +10,11 @@ Lecture notes for: DevOps, Software Evolution and Software Maintenance @  [IT Un
 
 
 
-*In the last episode...* monitoring - a tool that allows you to detect problems.
+*In the last episode...* 
+
+- monitoring - a tool that allows you to detect problems.
+
+*To think about...* 
 
 - What are the types of problems detectable by monitoring? 
 - Does monitoring help you understand why these problems occur? 
