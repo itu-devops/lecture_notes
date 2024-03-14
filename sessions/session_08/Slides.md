@@ -434,14 +434,14 @@ What's necessary for?
 - MiniTwit
 
 
-Why? Because you avoid 
+Why? Because you **avoid ...** 
 
-* **Redundancy**
+1. **duplicated information**
 	* e.g., you don't need log the web server accesses; they're already logged by your web server
 
-* **Information overload** 
+2. **information overload** on the reader of the logs
 
-* **Wasting disk space**
+3. **wasted disk space**
 
 
 
@@ -449,8 +449,9 @@ Why? Because you avoid
 
 Why? 
 
-* Intention revealing
-- Allows the user to control the amount of logging
+- Allows the user to control the amount of logging (one can easily increase log level if they want to analyze more)
+* Intention revealing enables the reader to make sense of the messages
+
 
 Possible intention revealing classification of log levels in Python with the `logging` package: 
 

@@ -39,7 +39,12 @@ The task description for this week contained the following:
 
 > Please share your repositories with us. Send a GitHub pull-request on the file [`repositories.py`](https://github.com/itu-devops/lecture_notes/blob/master/repositories.py) in which you replace, e.g., `https://github.com/<gh_id>/<proj_id>` with the repository URL of your group. In case you use more than one repository, please add them to the corresponding list too.
 
-But did all groups sent a respective pull request linking their repositories?
+--
+
+But where are your pull requests linking to repositories?
+
+<img src=" images/no_pr.png" width="80%">
+
 Please send them today!
 
 ---

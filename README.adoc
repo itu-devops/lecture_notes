@@ -190,11 +190,11 @@ TBA
 ////
 
 
-////
-
 ==== Simulator Status Dashboard
 
-* link:http://104.248.134.203/status.html[Status and simulator API errors per group]
+* link:http://206.81.24.116/status.html[Status and simulator API errors per group]
+
+////
 
 ++++
 <object width="65%" height="65%" data="http://104.248.134.203/chart.svg"></object>
