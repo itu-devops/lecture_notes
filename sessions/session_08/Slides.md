@@ -583,22 +583,31 @@ Example of a specialized tool: Sentry
 	- Can be shipped across machines
 - Bitcoin = a big distributed log of all transactions?
 
+## Visualizing multiple logfiles at once from terminal
 
+I use this in one of my deployments
+
+LNAV = Log File Navigator ([lnav.org](https://lnav.org/))
+
+- Terminal based (as opposed to web-based)
+- Can aggregate live multiple files
+- Supports basic search from the command line 
+- Very little resources compared with ElasticSearch / Grafana
 
 # Lessons Learned 
 
 Situations encountered in past iterations of this course that might be relevant also for you.
 
-## .NET logging package + EK
+## .NET logging Instead of Logstash
 
 > "My group ditched LogStash last year in part because it is slow, but also because .NET had a logging package that seamlessly integrated with ElasticSearch. So we basically just logged straight into ElasticSearch"
 > (DevOps student from 2021)
 
-## Are my logs being sent to ElasticSearch?
+## Are  logs being sent to ElasticSearch?
 
-Hi, we are using Serilog, Elasticsearch and kibana in our application for logging but kibana isn't showing any data. I'm not sure where in the process it is failing and the logs aren't being passed on. I've looked at countless guides and tutorial and our  configuration matches those but still haven't been able to get to work. Has anyone had any issues? or can offer help. thanks!
+> Q: Hi, we are using Serilog, Elasticsearch and kibana in our application for logging but kibana isn't showing any data. I'm not sure where in the process it is failing and the logs aren't being passed on. I've looked at countless guides and tutorial and our  configuration matches those but still haven't been able to get to work. Has anyone had any issues? or can offer help. thanks!
 
-Try to debug it step by step. Is the data in ES?
+A: Try to debug it step by step. Is the data in ES?
 
 If you know the name of your index, then you can `curl localhost:9200/nameofindex/_count` and you should see the number of "documents" (logs) in your case.
 
@@ -610,16 +619,7 @@ if you don't know the name of your index, then try to get all of them with somet
 ah, now I see that you have two documents in each one of your indexes. every log message should be a document. you should definitely have more than 2 if your logs are being sent to ES. in fact, if you look at the name of those two indices, they're both named `.kibana*` - they are internal kibana indices; you have not succeeded in creating an index or sending any data to elastic search it seems. Probably better do the `docker logs` on the elasticsearch container to see whether you can learn something from that!
 
 
-## Visualizing multiple logfiles at once from terminal
 
-I use this in one of my deployments
-
-LNAV = Log File Navigator ([lnav.org](https://lnav.org/))
-
-- Terminal based (as opposed to web-based)
-- Can aggregate live multiple files
-- Supports basic search from the command line 
-- Very little resources compared with ElasticSearch / Grafana
 
 ## Minimum memory requirements for ELK (E?)
 
