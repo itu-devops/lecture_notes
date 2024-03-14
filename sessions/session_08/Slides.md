@@ -396,13 +396,9 @@ Why? Because you avoid
 * **Redundancy**
 	* e.g., you don't need log the web server accesses; they're already logged by your web server
 
-* **Information Overload** 
+* **Information overload** 
 
 * **Wasting disk space**
-### Architectural Tactic: Log Rotation
-
-- Set a threshold of time / size 
-- After which the data in the file is truncated / stored elsewhere
 
 
 
@@ -412,20 +408,8 @@ Why?
 * Intention revealing
 - Allows the user to control the amount of logging
 
-Possible intention revealing classification of log levels
+Possible intention revealing classification of log levels in Python with the `logging` package: 
 
-- DEBUG = anything that happens in the program => deploy to production carefully; ideally turn on only as needed
-- INFO = actions that are **user-driven** and **meaningful for your system**
-- NOTICE = thought out for production - notable events that are not an error
-- WARN = events that might turn into an error 
-- ERROR = every error situation
-###### Personal Story: The Python library with very verbose logs!
-I remember I was reusing this Python library that would generate a LOT of logs by default, so my own logs were drowning in their's. 
-
-
-
-
-###### A Python example 
 ```python
 import sys
 import logging
@@ -438,22 +422,14 @@ logging.basicConfig(
 )
 
 logging.debug("Got here!")
-logging.info("Demo started.")
-logging.warning("Ooops. Something went wrong!")
-logging.error("Logging is broken in Javascript")
-logging.critical("System will shut down")
-
+logging.info("User updated preferences.")
+logging.warning("Could not retrieve any items from feed.")
+logging.error("Google Translate API not answering")
+logging.critical("Out of memory")
 ```
 
-    2022-03-22 11:05:23.fZ DEBUG [392630104] Got here!
-    2022-03-22 11:05:23.fZ INFO [392630104] Demo started.
-    2022-03-22 11:05:23.fZ WARNING [392630104] Ooops. Something went wrong!
-    2022-03-22 11:05:23.fZ ERROR [392630104] Logging is broken in Javascript
-    2022-03-22 11:05:23.fZ CRITICAL [392630104] System will shut down
-
-
-
-
+###### Personal Story: The Python library with very verbose logs!
+I remember I was reusing this Python library that would generate a LOT of logs by default, so my own logs were drowning in their's. It is good that the logging package allows you to turn on/off logging per package.
 
 ## Logs  should be centralized
 
@@ -643,4 +619,14 @@ LNAV = Log File Navigator ([lnav.org](https://lnav.org/))
 - Can aggregate live multiple files
 - Supports basic search from the command line 
 - Very little resources compared with ElasticSearch / Grafana
+
+## Architectural Tactic: Log Rotation
+
+- Set a threshold of time / size 
+- After which the data in the file is truncated / stored elsewhere
+
+Example configuration on Linux
+```
+cat /etc/logrotate.conf
+```
 
