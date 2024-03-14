@@ -72,18 +72,20 @@ Running the above command on an Internet-facing server should be a reminder of t
 
 ## Why do it?
 
-* **Understanding** (how is your system being used?)
+There are three main reasons for logging: 
 
+1. **Diagnosis** 
 
-* **Diagnosis** (of an actual problem)
+  - What happened yesterday when the user could not login? 
+  - Why is the service slow?
 
-  - What happened yesterday? 
-  - Why is/was the service slow/down?
-  - Were we under attack?
+2. **Understanding** 
 
+ - How is your system being used?
+ - Were we under attack last night?
 
-* **Audit trails**
-  - Sometimes logs are legally required
+3. **Audit trails**
+  - Sometimes logs are legally required (e.g. banking)
   - Bitcoin = the most famous example? A big distributed log of all transactions.
 
 
@@ -97,41 +99,31 @@ Running the above command on an Internet-facing server should be a reminder of t
 
 ## Challenges?
 
-1. **Scalability of Analysis** = Searching through a deluge of log messages can be complicated 
+There are three main challenges
+### **Scalability of Analysis** 
+ Logs can quickly become very large and searching information in them can become tedious and difficult
 
-2. **Compatibility of Formats** = Complex systems can generate logs in different formats 
+### **Compatibility of Formats** 
+ Complex systems can generate logs in different formats 
+ 
+ E.g. three logfiles on the same system:
+	```
+	$ head -n 1 /var/log/auth.log
+	$ head -n 1 /var/log/apache2/error.log
+	$ head -n 1 /var/log/nginx/access.log```
 
-3. **Storage Management** = Logging can result in very large data 
-
-
-### e.g., The Tower of LogBabel... 
-
-Every program uses a different format.
-
-```
-$ head -n 1 /var/log/auth.log
-
-Mar 16 07:15:55 zeeguu-amsterdam sshd[29424]: Invalid user vultr from 144.217.243.216 
-port 56450
-
-
-$  head -n 1 /var/log/apache2/error.log
-
-[Wed Mar 18 20:39:02.962354 2020] [wsgi:error] [pid 18:tid 140056344164096] 
-[remote 212.187.36.136:57046] Session is retrived from cookies
-
-
-$ head -n 1 /var/log/nginx/access.log
-
-66.249.65.62 - - [06/Nov/2014:19:12:14 +0600] "GET /?q=%E0%A6%A6%E0%A7%8B%E0%A7%9F%E0%A6%BE 
-HTTP/1.1" 200 4356 "-" "Mozilla/5.0 (compatible; Googlebot/2.1;)"
+### **Storage Management** 
+ 
+ Logging can result in very large data that has to be managed.
+###### Story: How to not be able to login to your sever anymore
+The situation resulted from the following sequence of unfortunate events
+- Logfile grows to multi-GB size in a few months
+ - Disk becomes full
+ - To the point of not even being able to ssh into bash 
+ - Solution is to run a delete command  w/o even creating a terminal (e.g. `ssh user@server rm -rf /tmp`
 
 
-$ head -n 1 /var/log/system.log
 
-Mar 18 21:25:16 Harlequin logd[85]: #DECODE failed to resolve UUID: [pc:0x7fff75485ac7 
-ns:0x06 type:0x82 flags:0x8208 main:A52374C3-0F9D-3062-A636 pid:435]
-```
 
 
 
@@ -196,13 +188,13 @@ Protocol
 
 * Developed in 80s
 * Standardizes **formatting** and **transmission** of logs in a network ([RFC 3164 (2001)](https://tools.ietf.org/html/rfc3164) [RFC 5424 (2009)](https://tools.ietf.org/html/rfc5424))
-* For any system exchanging logs (although most popular in Linux)
+* Popular in Linux
+* General - for any system exchanging logs 
 
 
 
 
-
-### Entry Format
+### Formatting
 
 A syslog message is structured in a pre-defined format. Most essential elements are timestamp, application, level, and message. 
 
@@ -225,13 +217,13 @@ A syslog message is structured in a pre-defined format. Most essential elements 
 
 
 
-### Architectures
+### Architectures for Log Transmission
 
-Syslog proposes a separation between the following roles: 
+Syslog proposes a separation between the following roles 
 
-  - Originator = sender
-  - Collector = responsible for gathering, receiving, and storing log messages
-  - Relay = responsible with receiving syslog messages from multiple sources, possibly aggregating them or filtering them, and then forwarding them to one or more destinations
+  - **Originator** = sender
+  - **Collector** = responsible for gathering, receiving, and storing log messages
+  - **Relay** = responsible with receiving syslog messages from multiple sources, possibly aggregating them or filtering them, and then forwarding them to one or more destinations
 
 ![](images/syslog_architectures.png)
 
@@ -243,12 +235,13 @@ cat /etc/rsyslog.conf
 ```
 ## ELK
 
-One of the most popular solutions at the moment. Acronym for
+One of the most popular solutions at the moment. 
 
-* ElasticSearch
-* Logstash
-* Kibana
+Acronym for
 
+* ElasticSearch = Scalable full text search DB
+* Logstash = Java-based log parser
+* Kibana = Visualization tool tailored for ElasticSearch
 
 
 ![](images/ELK.png)
@@ -257,28 +250,26 @@ One of the most popular solutions at the moment. Acronym for
 
 
 
-### E: ElasticSearch
+### ElasticSearch
 
-Scalable Full Text Search
-
-* Based on Apache Lucene
-* Distributed & Replicated
+Database 
 * *Almost* real time full text search
 * Stores logs in dedicated log indexes
-* Based on JSON over HTTP
+* Distributed & replicated
+* JSON over HTTP
+
+*Story*: That time when we evaluated the performance of [MySQL 8.0 Full Text Search](https://dev.mysql.com/doc/refman/8.0/en/fulltext-search.html) vs. ElasticSearch. And ES blows MySQL out of the water on this task. 
 
 
-*Personal Story*: That time when we evaluated the peformance of [MySQL 8.0 Full Text Search](https://dev.mysql.com/doc/refman/8.0/en/fulltext-search.html) vs. ElasticSearch. And ES blows MySQL out of the water on this task. 
 
 
+### Logstash
 
+Java-Based Log Parser which ... 
 
-### L: Logstash
-
-Java-Based Log Parser
 - Converts from various log line formats to JSON
-- Tails log files and emits events when a new log message is added
-- Comes with a powerful pattern parsing plugin (Grok)
+- *Tails* log files and emits events when a new log message is added
+- Comes with a pattern parsing plugin: Grok
 
 ![](images/logstash_example_.png)
 
@@ -288,37 +279,11 @@ Challenges
 - Not easy to configure + difficult to troubleshoot
 
 
-#### Example: Parsing syslog format with Logstash
 
 
-    input {
-    	file {
-    		path => "/Users/mircea/local/zeeguu/web.log"
-    	}
-    }
+### Kibana
 
-    filter {
-    	grok {
-    		match => { "message" => "%{TIMESTAMP_ISO8601:timestamp} %{DATA:level} %{DATA:process} %{GREEDYDATA:log}" }
-    	}
-        date {
-            match => [ "timestamp" , "dd/MMM/yyyy:HH:mm:ss Z" ]
-        }
-    }
-
-    output {
-    	elasticsearch {
-    		hosts => "elasticsearch:9200"
-    		user => "elastic"
-    		password => "changeme"
-    	    index => "zeeguu_web"
-    	}
-    }
-
-
-### K: Kibana
-
-- Powerful visualization tool tailored for ElasticSearch
+- Visualization tool tailored for ElasticSearch
 - Has its own query language: KQL
 
 ![](images/kibana-screenshot.png)
@@ -327,7 +292,8 @@ Challenges
 
 ## Variations and Alternatives to ELK
 
-There are many **variations** 
+There are many **variations** where one component in ELK is replaced with another or new components are introduced. 
+
 ### EFLK: Filebeat for shipping logs
 
 Filebeat = *Log Shipper*
@@ -347,25 +313,20 @@ Filebeat = *Log Shipper*
 
 - If you don't need to parse further the `@message` field
 
-- In your exercises example !!!
+- In your exercises example
 
 
 
 ### FRELK: With the Redis message broker
 
-- Purpose: prevention of data loss
+Redis = in memory data structure that can be used as DB, cache, and message broker
+
+Purpose: prevention of data loss. Can you explain how?
 
 ![](images/FRELK.png)
 
 
 
-
-
-### .NET logging package + EK
-
-
-> "My group ditched LogStash last year in part because it is slow, but also because .NET had a logging package that seamlessly integrated with ElasticSearch. So we basically just logged straight into ElasticSearch"
-> (DevOps student from 2021)
 
 
 
@@ -386,43 +347,6 @@ Loki = **log aggregation tool developed by Grafana labs**
 
 
 ![](images/loki-and-promtail.png)
-
-
-
-
-### LNAV for visualizing multiple logfiles at once from terminal
-
-LNAV = Log File Navigator ([lnav.org](https://lnav.org/))
-
-- Basic search from the command line 
-- Very little resources compared with ElasticSearch / Grafana
-- Can aggregate live multiple files
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -475,15 +399,6 @@ Why? Because you avoid
 * **Information Overload** 
 
 * **Wasting disk space**
-
-###### Personal Story: Not being able to login to the zeeguu server
-The situation resulted from the following sequence of unfortunate events
-- Logfile grows to multi-GB size in a few months
-- Disk becomes full
-- To the point of not being able to ssh into bash using ssh
-
-Solution is to run a delete command  w/o even creating a terminal (e.g. `ssh user@server rm -rf /tmp`
-
 ### Architectural Tactic: Log Rotation
 
 - Set a threshold of time / size 
@@ -672,6 +587,11 @@ Example tool: Sentry
 
 Situations encountered in past iterations of this course. 
 
+## .NET logging package + EK
+
+> "My group ditched LogStash last year in part because it is slow, but also because .NET had a logging package that seamlessly integrated with ElasticSearch. So we basically just logged straight into ElasticSearch"
+> (DevOps student from 2021)
+
 ## Are my logs being sent to ElasticSearch?
 
 Hi, we are using Serilog, Elasticsearch and kibana in our application for logging but kibana isn't showing any data. I'm not sure where in the process it is failing and the logs aren't being passed on. I've looked at countless guides and tutorial and our  configuration matches those but still haven't been able to get to work. Has anyone had any issues? or can offer help. thanks!
@@ -687,6 +607,40 @@ if you don't know the name of your index, then try to get all of them with somet
 
 ah, now I see that you have two documents in each one of your indexes. every log message should be a document. you should definitely have more than 2 if your logs are being sent to ES. in fact, if you look at the name of those two indices, they're both named `.kibana*` - they are internal kibana indices; you have not succeeded in creating an index or sending any data to elastic search it seems. Probably better do the `docker logs` on the elasticsearch container to see whether you can learn something from that!
 
+## Example Configuration of Logstash
 
+I used this for one of my projects 
 
+    input {
+    	file {
+    		path => "/Users/mircea/local/zeeguu/web.log"
+    	}
+    }
+
+    filter {
+    	grok {
+    		match => { "message" => "%{TIMESTAMP_ISO8601:timestamp} %{DATA:level} %{DATA:process} %{GREEDYDATA:log}" }
+    	}
+        date {
+            match => [ "timestamp" , "dd/MMM/yyyy:HH:mm:ss Z" ]
+        }
+    }
+
+    output {
+    	elasticsearch {
+    		hosts => "elasticsearch:9200"
+    		user => "elastic"
+    		password => "changeme"
+    	    index => "zeeguu_web"
+    	}
+    }
+
+## LNAV for visualizing multiple logfiles at once from terminal
+
+LNAV = Log File Navigator ([lnav.org](https://lnav.org/))
+
+- Terminal based (as opposed to web-based)
+- Can aggregate live multiple files
+- Supports basic search from the command line 
+- Very little resources compared with ElasticSearch / Grafana
 
