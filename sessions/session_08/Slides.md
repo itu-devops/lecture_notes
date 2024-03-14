@@ -64,17 +64,19 @@ There are three main reasons for logging:
 
 1. **Diagnosis** 
 
-  - What happened yesterday when the user could not login? 
+  - Why could the user not login yesterday? 
   - Why is the service slow?
+
 
 2. **Understanding** 
 
  - How is our system being used?
- - Were we under attack last night?
- - Are people trying to hack into our server? (Yes!)
+ - Was our server under attack last night?
+
 
 3. **Audit trails**
   - Sometimes logs are legally required (e.g. banking)
+  - Sometimes they save your ass (because your DB model was not updated - but you can still recover info from the logs)
 
 
 
@@ -203,6 +205,9 @@ A syslog message is structured in a pre-defined format. Most essential elements 
 
 ### Log Levels
 
+Syslog predefines 8 levels of severity for logs, presented in the table below.
+Other systems use only a subset of these (e.g. the `logging` package in Python).
+
 ![](images/syslog_levels.png)
 
 
@@ -260,7 +265,31 @@ Java-based log parser which ...
 - *Tails* log files and emits events when a new log message is added
 - Uses a pattern parsing plugin named Grok
 
-![](images/logstash_example_.png)
+An example configuration for logstash when trying to run it on my mac os looks like below: 
+
+    input {
+    	file {
+    		path => "/Users/mircea/local/zeeguu/web.log"
+    	}
+    }
+
+    filter {
+    	grok {
+    		match => { "message" => "%{TIMESTAMP_ISO8601:timestamp} %{DATA:level} %{DATA:process} %{GREEDYDATA:log}" }
+    	}
+        date {
+            match => [ "timestamp" , "dd/MMM/yyyy:HH:mm:ss Z" ]
+        }
+    }
+
+    output {
+    	elasticsearch {
+    		hosts => "elasticsearch:9200"
+    		user => "elastic"
+    		password => "changeme"
+    	    index => "zeeguu_web"
+    	}
+    }
 
 
 Challenges
@@ -298,7 +327,7 @@ Filebeat = *Log Shipper*
 
 
 
-### EFK: Dropping the Logstash Alltogether
+### EFK: Dropping Logstash Alltogether
 
 - Filebeat sends data straight to ElasticSearch 
 
@@ -344,7 +373,15 @@ Might be relevant if you already use Grafana.
 
 
 
+## Architectural Tactic: Log Rotation
 
+- Set a threshold of time / size 
+- After which the data in the file is truncated / stored elsewhere
+
+Example configuration on Linux
+```
+cat /etc/logrotate.conf
+```
 
 
 
@@ -429,7 +466,7 @@ Why? Because having all the information in one place ...
 - Is **more efficient** than having to search through different files on different machines
 - Enables **correlation analysis**
 
-Note: When you are running containers if you don't collect and ship the logs, they'll disappear when you restart (or destroy) the container
+
 
 
 
@@ -485,7 +522,7 @@ Note: When you are running containers if you don't collect and ship the logs, th
 
 ## Privacy and Security
 
-* Do not log secrets in plain 
+* Do not log secrets in plaintext
 
 - Do not log user private data 
 	- You might have to "GDPR-remove" them 
@@ -511,22 +548,19 @@ Note: More logs => and more privacy concerns
 
 
 
-# References 
-
-- [Why Grafana is Good at Metrics and Not Logs](https://grafana.com/blog/2016/01/05/logs-and-metrics-and-graphs-oh-my/)
-- [Loki vs Elasticsearch - Which tool to choose for Log Analytics?](https://signoz.io/blog/loki-vs-elasticsearch/)
-- [What is a Syslog server and its working?](https://www.geeksforgeeks.org/what-is-syslog-server-and-its-working/)
 
 
 # Further Considerations
 
-## Good to Know
+## Docker and logging
 
-- Docker - all logs can be found in `/var/lib/docker/containers/<container_id>`
+- When you are running containers if you don't collect and ship the logs, they'll disappear when you restart (or destroy) the container
+
+- Docker - all logs on a machine can be found in `/var/lib/docker/containers/<container_id>`
 
 - When using Docker containers - log files are lost when recreating containers
 
-- ELK - you can reduce the memory allocated to it to about 700MB at the minimum
+
 
 - At least one group succeeded in integrating Loki & Grafana instead of ELK in their setup
 
@@ -539,7 +573,7 @@ Similarity: often written to the same logfile
 
 Difference: obviously not all logs are crashes
 
-Example tool: Sentry
+Example of a specialized tool: Sentry
 
 ## Logging every event 
 
@@ -551,7 +585,7 @@ Example tool: Sentry
 
 
 
-# Case Studies
+# Lessons Learned 
 
 Situations encountered in past iterations of this course that might be relevant also for you.
 
@@ -575,35 +609,10 @@ if you don't know the name of your index, then try to get all of them with somet
 
 ah, now I see that you have two documents in each one of your indexes. every log message should be a document. you should definitely have more than 2 if your logs are being sent to ES. in fact, if you look at the name of those two indices, they're both named `.kibana*` - they are internal kibana indices; you have not succeeded in creating an index or sending any data to elastic search it seems. Probably better do the `docker logs` on the elasticsearch container to see whether you can learn something from that!
 
-## Example Configuration of Logstash
 
-I used this for one of my projects 
+## Visualizing multiple logfiles at once from terminal
 
-    input {
-    	file {
-    		path => "/Users/mircea/local/zeeguu/web.log"
-    	}
-    }
-
-    filter {
-    	grok {
-    		match => { "message" => "%{TIMESTAMP_ISO8601:timestamp} %{DATA:level} %{DATA:process} %{GREEDYDATA:log}" }
-    	}
-        date {
-            match => [ "timestamp" , "dd/MMM/yyyy:HH:mm:ss Z" ]
-        }
-    }
-
-    output {
-    	elasticsearch {
-    		hosts => "elasticsearch:9200"
-    		user => "elastic"
-    		password => "changeme"
-    	    index => "zeeguu_web"
-    	}
-    }
-
-## LNAV for visualizing multiple logfiles at once from terminal
+I use this in one of my deployments
 
 LNAV = Log File Navigator ([lnav.org](https://lnav.org/))
 
@@ -612,13 +621,16 @@ LNAV = Log File Navigator ([lnav.org](https://lnav.org/))
 - Supports basic search from the command line 
 - Very little resources compared with ElasticSearch / Grafana
 
-## Architectural Tactic: Log Rotation
+## Minimum memory requirements for ELK (E?)
 
-- Set a threshold of time / size 
-- After which the data in the file is truncated / stored elsewhere
+- ELK - in the past one could reduce the memory allocated to it to about 700MB at the minimum
 
-Example configuration on Linux
-```
-cat /etc/logrotate.conf
-```
 
+
+
+# Further reading
+
+- [Why Grafana is Good at Metrics and Not Logs](https://grafana.com/blog/2016/01/05/logs-and-metrics-and-graphs-oh-my/)
+- [Loki vs Elasticsearch - Which tool to choose for Log Analytics?](https://signoz.io/blog/loki-vs-elasticsearch/)
+- [What is a Syslog server and its working?](https://www.geeksforgeeks.org/what-is-syslog-server-and-its-working/)
+- ... 
