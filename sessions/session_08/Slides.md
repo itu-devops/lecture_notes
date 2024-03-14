@@ -354,7 +354,7 @@ There are four main practical principles
 
 ## A process should not worry about storage
 
-i.e., don't hardcode to which logfile to write to.
+Or, **don't hardcode the path to the logfile to which your process writes**.
 
 Instead, each process should **write to its unbuffered stdout stream**.
 
