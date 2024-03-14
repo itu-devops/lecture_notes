@@ -3,21 +3,25 @@
 
 Mircea Lungu (`mlun@itu.dk`)  
 
-Lecture notes for: DevOps, Software Evolution and Software Maintenance @  [IT University of Copenhagen, Denmark](https://www.itu.dk)
+[IT University of Copenhagen, Denmark](https://www.itu.dk)
+
+Lecture notes for: DevOps, Software Evolution and Software Maintenance 
+
+([*pdf version of this doc*](./Logging.pdf))
 
 
-
+--- 
 
 
 
 *In the last episode...* 
 
-- monitoring - a tool that allows you to detect problems.
+- **monitoring** - a tool that allows you to detect problems.
+	- What are the types of problems detectable by monitoring? 
+	- Does monitoring help you understand why these problems occur? 
 
-*To think about...* 
 
-- What are the types of problems detectable by monitoring? 
-- Does monitoring help you understand why these problems occur? 
+--- 
 
 
 ## From Monitoring to Logging
@@ -92,7 +96,7 @@ There are three main reasons for logging:
 
 
 
-## Challenges?
+## Challenges
 
 There are three main challenges
 
@@ -175,6 +179,9 @@ The situation resulted from the following sequence of unfortunate events
 
 
 
+
+
+Maybe a final conceptual challenge: what stack and architecture do you use for your logging infrastructure?
 
 # Architectures 
 
@@ -542,7 +549,7 @@ Why? Because having all the information in one place ...
 
 You can use your own logging infra for analytics instead of relying on Google Analytics
 
-Note: More logs => and more privacy concerns
+Note: More logs => more privacy concerns
 
 
 
