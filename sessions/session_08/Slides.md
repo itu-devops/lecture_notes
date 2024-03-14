@@ -69,7 +69,7 @@ There are three main reasons for logging:
 
 2. **Understanding** 
 
- - How is your system being used?
+ - How is our system being used?
  - Were we under attack last night?
  - Are people trying to hack into our server? (Yes!)
 
