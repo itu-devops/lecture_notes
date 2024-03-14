@@ -198,10 +198,15 @@ A syslog message is structured in a pre-defined format. Most essential elements 
 
 ### Facility Codes
 
-0 - kern  = Kernel messages
-1 - user = user-level messages
-2 - mail = mail system
-... [etc.](https://www.geeksforgeeks.org/what-is-syslog-server-and-its-working/)
+The original protocol defines many facility codes, several examples of which are below. 
+
+0. kern  = Kernel messages
+1. user = user-level messages
+2. mail = mail system
+3. ... [etc.](https://www.geeksforgeeks.org/what-is-syslog-server-and-its-working/)
+
+Most of your applications will use the user facility. 
+
 
 
 
