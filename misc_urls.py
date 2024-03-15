@@ -93,9 +93,9 @@ GROUP_URLS = [
     ],
     [
         "group h",
-        "<name>",
+        "Eagles",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://188.166.201.66:3000/public-dashboards/a4edbbfac4b544f8bf5abdc58447f4bd?orgId=1",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:

@@ -18,9 +18,8 @@ In case you install Pop!_OS or any similar Linux on you Laptop and you want to c
 * Open a terminal and run `python3 eduroam-linux-IUoC-All_users.py`
 * Use your full email address as userid when prompted
 
-The process above installs the necessary certificates on your computer.
+The process above installs the necessary certificates on you computer.
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 === Installing Linux on Harddisk (Windows Dual Boot)
 
@@ -46,7 +45,7 @@ https://github.com/Dunedan/mbp-2016-linux#wi-fi
 *** Use [UTM](https://mac.getutm.app/) and virtualize Ubuntu for ARM: https://docs.getutm.app/guides/ubuntu/ (recommended)
 **** You can also try to [install Pop!_OS on top of Ubuntu](https://docs.google.com/document/d/1U1B3uwutmaFCknzo-_c1jme5oOeJ-mdvxhoH5CKamZg/pub)
 *** Use [UTM](https://mac.getutm.app/) and emulate Pop!_OS (this can be slow).
-
+  
 ==== Installing Linux on USB Key instead of Harddisk
 
 * http://ubuntuhandbook.org/index.php/2014/11/install-real-ubuntu-os-usb-drive/
