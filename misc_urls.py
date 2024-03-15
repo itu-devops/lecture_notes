@@ -51,9 +51,9 @@ GROUP_URLS = [
     ],
     [
         "group e",
-        "<name>",
+        "Grl Pwr",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://64.226.117.89/d/KdDACDp4z/asp-net-core?orgId=1&refresh=10s",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
