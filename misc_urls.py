@@ -219,9 +219,9 @@ GROUP_URLS = [
     ],
     [
         "group q",
-        "<name>",
+        "Test1",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://46.101.123.125:3000/d/a3ea5dee-5d18-45c9-8ca9-bf0ea8b37cc6/dashboard?orgId=1",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
