@@ -100,14 +100,13 @@ There are three main reasons for logging:
 
 There are three main challenges
 
-
+### Scalability of Analysis
+ Logs can quickly become very large and searching information in them can become tedious and difficult
 
 ### Compatibility of Formats 
  Complex systems can generate logs in different formats 
  
- E.g. look at the following files in `/var/log`: `auth.log`, `apache2/error.log`, `nginx/access.log`. 
-
-Do they use the same format?
+ E.g. look at the following files in `/var/log`: `auth.log`, `apache2/error.log`, `nginx/access.log`. Do they use the same format?
 
 ### Storage Management 
  
@@ -121,8 +120,6 @@ The situation resulted from the following sequence of unfortunate events
  - Solution is to run a delete command  w/o even creating a terminal (e.g. `ssh user@server rm -rf /tmp`
 
 
-### Finding Relevant Data in Logs
- Logs can quickly become very large and searching information in them can become tedious and difficult
 
 
 
@@ -132,10 +129,63 @@ The situation resulted from the following sequence of unfortunate events
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Maybe a final conceptual challenge: what stack and architecture do you use for your logging infrastructure?
 
 # Practical Principles
 
-There are four main practical principles
+There are four main practical principles that you should apply when adding logging to your system. 
 
 ## A process should not worry about storage
 
@@ -171,9 +221,9 @@ Why? Because you **avoid ...**
 1. **duplicated information**
 	* e.g., you don't need log the web server accesses; they're already logged by your web server
 
-2. **information overload** on the reader of the logs
+2. information overload on the reader of the logs
 
-3. **wasted disk space**
+3. wasted disk space
 
 
 
@@ -194,7 +244,7 @@ import logging
 logging.basicConfig(
         format="%(asctime)-15sZ %(levelname)s [%(module)s] %(message)s",
         datefmt="%Y-%m-%d %H:%M:%S.%f",
-        level=logging.DEBUG,
+        level=logging.INFO,
         stream=sys.stdout
 )
 
@@ -205,7 +255,7 @@ logging.error("Google Translate API not answering")
 logging.critical("Out of memory")
 ```
 
-###### Story: The Python library with very verbose logs!
+###### Personal Story: The Python library with very verbose logs!
 I remember I was reusing this Python library that would generate a LOT of logs by default, so my own logs were drowning in their's. It is good that the logging package allows you to turn on/off logging per package.
 
 ## Logs  should be centralized
@@ -214,8 +264,6 @@ Why? Because having all the information in one place ...
 
 - Is **more efficient** than having to search through different files on different machines
 - Enables **correlation analysis**
-
-
 
 
 
@@ -328,7 +376,7 @@ Source: [RFC 5424 (2009)](https://tools.ietf.org/html/rfc5424)
 
 Example of syslog configuration: 
 ```
-	cat /etc/rsyslog.conf 
+cat /etc/rsyslog.conf 
 ```
 ## ELK
 
@@ -336,8 +384,8 @@ One of the most popular solutions at the moment.
 
 Acronym for
 
+* ElasticSearch = Scalable full text search DB
 * Logstash = Java-based log parser
-* ElasticSearch = Distributed DB supporting full text search
 * Kibana = Visualization tool tailored for ElasticSearch
 
 
@@ -361,7 +409,7 @@ Distributed database which
 
 ### Logstash
 
-Java-based log parser 
+Java-based log parser which ... 
 
 - Converts from various log line formats to JSON
 - *Tails* log files and emits events when a new log message is added
@@ -389,7 +437,7 @@ An example configuration for logstash when trying to run it on my mac os looks l
     		hosts => "elasticsearch:9200"
     		user => "elastic"
     		password => "changeme"
-    	    index => "zeeguu_log_web"
+    	    index => "zeeguu_web"
     	}
     }
 
@@ -487,56 +535,6 @@ cat /etc/logrotate.conf
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Ethical & Security Aspects
 
 ## Privacy and Security
@@ -575,9 +573,13 @@ Note: More logs => more privacy concerns
 
 - When you are running containers if you don't collect and ship the logs, they'll disappear when you restart (or destroy) the container
 
-- Docker - all logs on a **host machine** can be found in `/var/lib/docker/containers/<container_id>`
+- Docker - all logs on a machine can be found in `/var/lib/docker/containers/<container_id>`
 
-- When using Docker containers - log files are lost when recreating container
+- When using Docker containers - log files are lost when recreating containers
+
+
+
+- At least one group succeeded in integrating Loki & Grafana instead of ELK in their setup
 
 - Alternative to `docker logs `  is  [`docker attach`](https://docs.docker.com/engine/reference/commandline/attach/) 
 
@@ -628,7 +630,7 @@ If you know the name of your index, then you can `curl localhost:9200/nameofinde
 
 if you don't know the name of your index, then try to get all of them with something like `curl localhost:9200/_cat/indices`
 
-![](../session_12/images/Pasted%20image%2020230508144501.png)
+![](images/cat_indices_from_es.png)
 
 
 ah, now I see that you have two documents in each one of your indexes. every log message should be a document. you should definitely have more than 2 if your logs are being sent to ES. in fact, if you look at the name of those two indices, they're both named `.kibana*` - they are internal kibana indices; you have not succeeded in creating an index or sending any data to elastic search it seems. Probably better do the `docker logs` on the elasticsearch container to see whether you can learn something from that!
