@@ -475,7 +475,7 @@ logging.error("Google Translate API not answering")
 logging.critical("Out of memory")
 ```
 
-###### Personal Story: The Python library with very verbose logs!
+###### Story: The Python library with very verbose logs!
 I remember I was reusing this Python library that would generate a LOT of logs by default, so my own logs were drowning in their's. It is good that the logging package allows you to turn on/off logging per package.
 
 ## Logs  should be centralized
