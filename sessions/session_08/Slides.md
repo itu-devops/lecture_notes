@@ -100,7 +100,7 @@ There are three main reasons for logging:
 
 There are three main challenges
 
-### Scalability of Analysis
+### Finding Relevant Data in Logs
  Logs can quickly become very large and searching information in them can become tedious and difficult
 
 ### Compatibility of Formats 
