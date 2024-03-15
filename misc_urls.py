@@ -107,9 +107,9 @@ GROUP_URLS = [
     ],
     [
         "group i",
-        "<name>",
+        "Ben11",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://138.68.126.8:9090/",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
