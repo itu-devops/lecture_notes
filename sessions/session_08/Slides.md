@@ -100,8 +100,7 @@ There are three main reasons for logging:
 
 There are three main challenges
 
-### Finding Relevant Data in Logs
- Logs can quickly become very large and searching information in them can become tedious and difficult
+
 
 ### Compatibility of Formats 
  Complex systems can generate logs in different formats 
@@ -122,6 +121,99 @@ The situation resulted from the following sequence of unfortunate events
  - Solution is to run a delete command  w/o even creating a terminal (e.g. `ssh user@server rm -rf /tmp`
 
 
+### Finding Relevant Data in Logs
+ Logs can quickly become very large and searching information in them can become tedious and difficult
+
+
+
+
+
+
+
+
+
+
+# Practical Principles
+
+There are four main practical principles
+
+## A process should not worry about storage
+
+Or, **don't hardcode the path to the logfile to which your process writes**.
+
+Instead, each process should **write to its unbuffered stdout stream**.
+
+Advantage is adaptability
+
+* **In development**: the developer looks at the terminal
+
+* **In deployment**: output from process is routed where needed 
+
+* Different contexts result in different logfiles, e.g. cronjob
+
+
+
+
+
+
+
+## A process should log only what is necessary
+
+What's necessary for? 
+
+- Apache
+- Credit Suisse
+- MiniTwit
+
+
+Why? Because you **avoid ...** 
+
+1. **duplicated information**
+	* e.g., you don't need log the web server accesses; they're already logged by your web server
+
+2. **information overload** on the reader of the logs
+
+3. **wasted disk space**
+
+
+
+## Logging should be done *at the proper level*
+
+Why? 
+
+- Allows the user to control the amount of logging (one can easily increase log level if they want to analyze more)
+* Intention revealing enables the reader to make sense of the messages
+
+
+Possible intention revealing classification of log levels in Python with the `logging` package: 
+
+```python
+import sys
+import logging
+
+logging.basicConfig(
+        format="%(asctime)-15sZ %(levelname)s [%(module)s] %(message)s",
+        datefmt="%Y-%m-%d %H:%M:%S.%f",
+        level=logging.DEBUG,
+        stream=sys.stdout
+)
+
+logging.debug("Got here!")
+logging.info("User updated preferences.")
+logging.warning("Could not retrieve any items from feed.")
+logging.error("Google Translate API not answering")
+logging.critical("Out of memory")
+```
+
+###### Story: The Python library with very verbose logs!
+I remember I was reusing this Python library that would generate a LOT of logs by default, so my own logs were drowning in their's. It is good that the logging package allows you to turn on/off logging per package.
+
+## Logs  should be centralized
+
+Why? Because having all the information in one place ... 
+
+- Is **more efficient** than having to search through different files on different machines
+- Enables **correlation analysis**
 
 
 
@@ -176,14 +268,6 @@ The situation resulted from the following sequence of unfortunate events
 
 
 
-
-
-
-
-
-
-
-Maybe a final conceptual challenge: what stack and architecture do you use for your logging infrastructure?
 
 # Architectures 
 
@@ -277,7 +361,7 @@ Distributed database which
 
 ### Logstash
 
-Java-based log parser which ... 
+Java-based log parser 
 
 - Converts from various log line formats to JSON
 - *Tails* log files and emits events when a new log message is added
@@ -400,90 +484,6 @@ Example configuration on Linux
 ```
 cat /etc/logrotate.conf
 ```
-
-
-
-# Practical Principles
-
-There are four main practical principles
-
-## A process should not worry about storage
-
-Or, **don't hardcode the path to the logfile to which your process writes**.
-
-Instead, each process should **write to its unbuffered stdout stream**.
-
-Advantage is adaptability
-
-* **In development**: the developer looks at the terminal
-
-* **In deployment**: output from process is routed where needed 
-
-* Different contexts result in different logfiles, e.g. cronjob
-
-
-
-
-
-
-
-## A process should log only what is necessary
-
-What's necessary for? 
-
-- Apache
-- Credit Suisse
-- MiniTwit
-
-
-Why? Because you **avoid ...** 
-
-1. **duplicated information**
-	* e.g., you don't need log the web server accesses; they're already logged by your web server
-
-2. **information overload** on the reader of the logs
-
-3. **wasted disk space**
-
-
-
-## Logging should be done *at the proper level*
-
-Why? 
-
-- Allows the user to control the amount of logging (one can easily increase log level if they want to analyze more)
-* Intention revealing enables the reader to make sense of the messages
-
-
-Possible intention revealing classification of log levels in Python with the `logging` package: 
-
-```python
-import sys
-import logging
-
-logging.basicConfig(
-        format="%(asctime)-15sZ %(levelname)s [%(module)s] %(message)s",
-        datefmt="%Y-%m-%d %H:%M:%S.%f",
-        level=logging.DEBUG,
-        stream=sys.stdout
-)
-
-logging.debug("Got here!")
-logging.info("User updated preferences.")
-logging.warning("Could not retrieve any items from feed.")
-logging.error("Google Translate API not answering")
-logging.critical("Out of memory")
-```
-
-###### Story: The Python library with very verbose logs!
-I remember I was reusing this Python library that would generate a LOT of logs by default, so my own logs were drowning in their's. It is good that the logging package allows you to turn on/off logging per package.
-
-## Logs  should be centralized
-
-Why? Because having all the information in one place ... 
-
-- Is **more efficient** than having to search through different files on different machines
-- Enables **correlation analysis**
 
 
 
