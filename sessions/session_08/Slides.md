@@ -106,7 +106,9 @@ There are three main challenges
 ### Compatibility of Formats 
  Complex systems can generate logs in different formats 
  
- E.g. look at the following files in `/var/log`: `auth.log`, `apache2/error.log`, `nginx/access.log`. Do they use the same format?
+ E.g. look at the following files in `/var/log`: `auth.log`, `apache2/error.log`, `nginx/access.log`. 
+
+Do they use the same format?
 
 ### Storage Management 
  
