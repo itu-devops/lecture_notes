@@ -84,7 +84,7 @@ There are three main reasons for logging:
 
 3. **Audit trails**
   - Sometimes logs are legally required (e.g. banking)
-  - Sometimes they save your ass (because your DB model was not updated - but you can still recover info from the logs)
+  - Sometimes they save your business (because your DB model was not updated - but you can still recover info from the logs)
 
 
 
@@ -328,7 +328,7 @@ Source: [RFC 5424 (2009)](https://tools.ietf.org/html/rfc5424)
 
 Example of syslog configuration: 
 ```
-cat /etc/rsyslog.conf 
+	cat /etc/rsyslog.conf 
 ```
 ## ELK
 
@@ -336,8 +336,8 @@ One of the most popular solutions at the moment.
 
 Acronym for
 
-* ElasticSearch = Scalable full text search DB
 * Logstash = Java-based log parser
+* ElasticSearch = Distributed DB supporting full text search
 * Kibana = Visualization tool tailored for ElasticSearch
 
 
@@ -389,7 +389,7 @@ An example configuration for logstash when trying to run it on my mac os looks l
     		hosts => "elasticsearch:9200"
     		user => "elastic"
     		password => "changeme"
-    	    index => "zeeguu_web"
+    	    index => "zeeguu_log_web"
     	}
     }
 
@@ -575,13 +575,9 @@ Note: More logs => more privacy concerns
 
 - When you are running containers if you don't collect and ship the logs, they'll disappear when you restart (or destroy) the container
 
-- Docker - all logs on a machine can be found in `/var/lib/docker/containers/<container_id>`
+- Docker - all logs on a **host machine** can be found in `/var/lib/docker/containers/<container_id>`
 
-- When using Docker containers - log files are lost when recreating containers
-
-
-
-- At least one group succeeded in integrating Loki & Grafana instead of ELK in their setup
+- When using Docker containers - log files are lost when recreating container
 
 - Alternative to `docker logs `  is  [`docker attach`](https://docs.docker.com/engine/reference/commandline/attach/) 
 
