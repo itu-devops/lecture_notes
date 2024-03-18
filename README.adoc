@@ -89,9 +89,9 @@ link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04
 |10:00 - 14:00
 |Mircea
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_08/README_PREP.md[Prep. material]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_08/Slides.md[Logging, and Log Analysis. Service-level agreements.]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_08/Slides.md[Logging, and Log Analysis]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_08/README_EXERCISE.md[A Basic EFK Stack]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_08/README_TASKS.md[Add logging to your _ITU-MiniTwit_ and create a set of SLAs for it]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_08/README_TASKS.md[Add logging to your _ITU-MiniTwit_ and UI Testing Each Others Systems]
 // w12
 |8
 |22/3
