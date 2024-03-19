@@ -135,13 +135,13 @@ GROUP_URLS = [
     ],
     [
         "group k",
-        "<name>",
+        "GitGurus",
         # Monitoring URL:
-        "<monitoring_url>",
+        "https://onenr.io/0EjOnVrA8R6",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
-        "<logging_url>",
+        "https://onenr.io/01wZaxrYbQ6",
         # SLA:
         "<sla_url>",
         # SLA Review:
