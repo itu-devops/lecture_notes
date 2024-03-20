@@ -177,9 +177,9 @@ GROUP_URLS = [
     ],
     [
         "group n",
-        "<name>",
+        "MacOnTop",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://206.189.50.92:3000/",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
