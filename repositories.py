@@ -86,7 +86,7 @@ GROUP_REPOS = [
     [
         "group o",
         "Group O",
-        ["https://github.com/MadsHogenhaug/MiniTwit"],
+        ["https://github.com/group-o-minitwit-2024/MiniTwit"],
         "http://178.62.218.96:5000",
         "http://178.62.218.96:5001",
     ],
