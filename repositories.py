@@ -2,7 +2,7 @@ GROUP_REPOS = [
     [
         "group c",
         "GroupC",
-        ["https://github.com/ebrvc/DevOps-GroupC"],
+        ["https://github.com/DevopsGroupC/Minitwit"],
         "http://209.38.178.164:5000/",
         "http://209.38.178.164:5000/api",
     ],
