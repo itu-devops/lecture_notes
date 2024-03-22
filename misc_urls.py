@@ -164,9 +164,9 @@ GROUP_URLS = [
     ],
     [
         "group m",
-        "<name>",
+        "Group M",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://104.248.43.157:3000/dashboards",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
