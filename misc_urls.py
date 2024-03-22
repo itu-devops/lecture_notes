@@ -81,7 +81,8 @@ GROUP_URLS = [
         "group g",
         "<name>",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://134.209.226.165:3000/d/d838ae72-a496-4b2a-9e59-21e0a4977792/user-registrations-monitoring?orgId=1",
+        "http://134.209.226.165:3000/d/rYdddlPWk/linux-monitorin-node-exporter-full?orgId=1&refresh=1m&from=1711020127594&to=1711106527594"
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
