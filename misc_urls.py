@@ -57,7 +57,7 @@ GROUP_URLS = [
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
-        "<logging_url>",
+        "http://64.226.117.89/d/edgfqhyan2znka/logging-dashboard?orgId=1",
         # SLA:
         "<sla_url>",
         # SLA Review:
