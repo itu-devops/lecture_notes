@@ -37,9 +37,9 @@ GROUP_URLS = [
     ],
     [
         "group d",
-        "<name>",
+        "mini-x",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://164.92.239.172:3000/d/fdfqkjebp3x8gb/mini-x-monitoring",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
