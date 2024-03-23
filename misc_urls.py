@@ -208,7 +208,7 @@ GROUP_URLS = [
         "group p",
         "<name>",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://138.68.125.103:3002/public-dashboards/5c5acf78c89447a583b37a1060d5865c?orgId=1",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
