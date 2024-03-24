@@ -25,7 +25,7 @@ GROUP_URLS = [
         "group c",
          "<name>",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://159.223.26.252:3000",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
