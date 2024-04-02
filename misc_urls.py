@@ -109,7 +109,7 @@ GROUP_URLS = [
         "group i",
         "Ben11",
         # Monitoring URL:
-        "http://http://138.68.126.8:8080/public-dashboards/e3373d74db664e8b89ed95ddadc9f887",
+        "http://138.68.126.8:8080/public-dashboards/e3373d74db664e8b89ed95ddadc9f887",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
