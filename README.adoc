@@ -134,7 +134,7 @@ link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04
 |10:00 - 14:00
 |Mircea
 |
-|Workshop
+|Workshop, link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_12/Slides.md[Advanced Architectural Choices with Swarm]
 |
 |Continue isolation of components into services/containers/VMs and Fix reported problems
 // w17
@@ -143,7 +143,7 @@ link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04
 |10:00 - 14:00
 |Mircea
 |
-|*Guest Lecture:* Albert, "MiniTwit on Kubernetes", link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_12/Slides.md[Architectural Choices with Swarm] link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_12/IaC.pdf[Infrastructure as Code]
+|*Guest Lecture:* Albert, "MiniTwit on Kubernetes", link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_12/IaC.pdf[Infrastructure as Code]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_12/README_EXERCISE.md[MiniTwit Infrastructure as Code]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_12/README_TASKS.md[Encode your infrastructure setup]
 // w18
