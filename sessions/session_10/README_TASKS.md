@@ -14,10 +14,9 @@ Or:
 
   2. Create a Docker Swarm cluster for your _ITU-MiniTwit_ applications in which various components run as services and can be scaled as needed. Note, very likely you do not want to scale you DB servers horizontally (to keep your data consistent) but only all the services 'in front' of it.
   
-## 2) Rolling Updates
+## 2) Update Strategy
 
-Implement a rolling update strategy in your build chain.
-
+Implement an automatic update strategy in your build chain. Choose either rolling updates or blue-green. 
 
 
 ## 3) Software Maintenance
@@ -26,7 +25,5 @@ Implement a rolling update strategy in your build chain.
 We are in software maintenance. That is, fix issues of your version of _ITU-MiniTwit_ **as soon as possible**. Let's say that as soon as possible means within 24 hours if possible, i.e., if it is not a super big issue that requires a big rewrite. 
 
 Now, with your monitoring and logging systems in place, you will likely observe issues when they arise or even before the arise. Just fix them as soon as you realize them.
-
-Additionally, our dashboards illustrate status and potential errors as the simulator 'sees' them [here](http://104.248.134.203/status.html). For example, fix wrong status codes, e.g., `tweet` shall return `204` instead of `200`, or too slow response times.
 
 Continue to release (now likely automatically) at least once per week versions of your system with corresponding fixes.
