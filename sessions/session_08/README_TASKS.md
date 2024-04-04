@@ -21,8 +21,7 @@ It is ideal if you find a way to make the logging infrastructure available also 
 
 
 
-
-## 3) Software Maintenance II
+## 2) Software Maintenance II
 
 Check the user interface of another group's _ITU-MiniTwit_ application for functionality. That is, connect via a browser to another group's application and check if the system is working similar to the original _ITU-MiniTwit_, i.e.,
 

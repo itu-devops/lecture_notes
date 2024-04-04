@@ -116,18 +116,18 @@ link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04
 |10:00 - 14:00
 |Mircea
 |-
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_09/Slides.md[Security]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_09/README_EXERCISE.md[A Basic Pen-Test with Metasploit]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_09/README_TASKS.md[Security Assessment & Pen Testing]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_10/Slides.md[Availability]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_10/README_EXERCISE.md[A Basic Swarm]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_10/README_TASKS.md[Isolate components into services/containers/VMs]
 // w15
 |10
 |12/4
 |10:00 - 14:00
 |Mircea
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_10/README_PREP.md[Prep. material]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_10/Slides.md[Scaling]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_10/README_EXERCISE.md[A Basic Swarm]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_10/README_TASKS.md[Isolate components into services/containers/VMs]
+|-
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_09/Slides.md[Security]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_09/README_EXERCISE.md[]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_09/README_TASKS.md[Security Hardening ]
 // w16
 |11
 |19/4
