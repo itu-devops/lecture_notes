@@ -5,6 +5,10 @@ Mircea Lungu, Associate Professor,<br>
 `mlun@itu.dk`
 
 
+
+
+
+
 # Introduction
 
 ## The story of healthcare.gov
@@ -92,7 +96,7 @@ It introduces other problems:
 
 # Scalability
 
-Designing the system to scale easily by adding more resources when needed to accommodate increased demand.
+Designing the system to scale easily by being able to add more resources when needed to accommodate increased demand.
 
 
 
@@ -125,7 +129,7 @@ Possible Reasons for congestion,
 
 The first and most important solution is 
 
-- ****Performance optimization:**** Ensuring that the system is designed and tuned to handle the expected load efficiently, reducing the risk of bottlenecks and failures.
+- **Performance optimization:*** Ensuring that the system is designed and tuned to handle the expected load efficiently, reducing the risk of bottlenecks and failures.
 
 The second solution to congestion is **Scaling**. 
 
@@ -254,8 +258,9 @@ Discussion: why REST is particularly nice for IaC
 ---
 ## When is vertical scaling not appropriate? 
 
-- Can't adapt fast to varying workload (e.g. Amazon's Black Friday)
-	- Complicated to scale down (often)
+- You have to adapt fast to varying workload (e.g. Amazon's Black Friday)
+
+- Complicated to scale down (often)
 	- Slow: it implies switching machines off and on (both VM and physical)
 
 - Some workloads are simply too big for vertical scaling
@@ -272,7 +277,7 @@ Discussion: why REST is particularly nice for IaC
 # Horizontal Scaling
 
 = **Increasing the computing power by**
-- **adding more machines* to a setup**
+- **adding more machines to a setup** and
 - **making all the machines share the responsibilities**
 
 ![420](images/scaling-graphic.png)
@@ -310,7 +315,7 @@ How to make the balancer not anymore a single point of failure: [Heartbeat and F
 
 [![600](images/ha-diagram-animated.gif)](https://assets.digitalocean.com/articles/high_availability/ha-diagram-animated.gif)
 
-- [Floating IP](https://blog.digitalocean.com/floating-ips-start-architecting-your-applications-for-high-availability/)  (used to be Reserved IP since 2022)
+- [Floating IP](https://blog.digitalocean.com/floating-ips-start-architecting-your-applications-for-high-availability/)  (Reserved IP since 2022)
 	 - DigialOcean name for static IPs
 	 - Equivalents on other platforms, e.g. Elastic IPs @ Amazon
 - Keepalived - daemon used for health check
@@ -840,7 +845,32 @@ Two update-order options: (stop-first|start-first)
 
 
 
-## Why *not* horizontal scaling?
+
+# How to migrate from docker-compose to docker swarm?
+
+Simplest way is to add the extra information needed in the docker-compose.yml unde the **deploy** key:
+- replicas
+- [placement constriants](https://docs.docker.com/engine/swarm/services/): labels, roles, other props of nodes
+- update strategies, restart strategies
+- [etc](https://docs.docker.com/compose/compose-file/deploy/).
+
+Example: 
+```
+  api:
+    image: itudevops/go-minitwit-api:TAG
+    deploy:
+      replicas: 2
+      update_config:
+        delay: 10s
+        order: start-first
+      placement:
+        constraints:
+          - "node.role==manager"
+          - "node.hostname!=dbvm"
+          - "node.label==frankfurt"
+```
+
+# Why *not* horizontal scaling?
 
 **It can be more complicated that vertical** (see [hacker news thread on k8s](https://news.ycombinator.com/item?id=26271470))
 
