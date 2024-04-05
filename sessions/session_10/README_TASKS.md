@@ -1,4 +1,3 @@
------------
 
 # Your turn now: Scale and Increase Availability of Your Infra!
 
