@@ -64,7 +64,7 @@ This scenario has different containers run on different machines (V or not V ;).
 
 --
 
-No. The scenario is not better from an availability POV. Here we just have more **single points of failure** because each hardware node is also one such possible point of failures. 
+No. The scenario is not better from an availability POV. Here we just have more **single points of failure** because each hardware node is one such possible point of failure. 
 
 ---
 
@@ -78,16 +78,15 @@ The solution nature found with respect to availability and removing single point
 
 ## Redundancy 
 
-In system design **redundancy** means *adding extra (hardware and/or software) components to the system and designing such that in case one fails, the other can take over 
+In system design **redundancy** means *adding extra (hardware and/or software) components to the system and designing such that **in case one fails another can take over** 
 
-It solves the single-point of failure problem. 
+Solution to the single-point of failure problem. 
 
 It introduces other problems:
-- it is more expensive 
-- keeping redundant components in sync can be challenging
+- cost: it is more expensive 
+- synchronization: keeping redundant components in sync can be challenging
 
-More on redundancy: https://csis.pace.edu/~marchese/CS865/Lectures/Chap8/New8/Chapter8.html
-
+[More](https://csis.pace.edu/~marchese/CS865/Lectures/Chap8/New8/Chapter8.html) on redundancy.
 
 
 
@@ -95,27 +94,41 @@ More on redundancy: https://csis.pace.edu/~marchese/CS865/Lectures/Chap8/New8/Ch
 
 Designing the system to scale easily by adding more resources when needed to accommodate increased demand.
 
+
+
 ## Motivational example
 
 > > Your user authentication system is slow, and your application becomes really popular with many users trying to create accounts at the same time. The server’s CPU becomes a bottleneck hashing algorithms used by the application is computationally intensive, causing login delays, and users going away from the system. 
 
-What did just happen? 
+
+What's the problem in this situation? 
+
+
+
+
+
+
+
 
 ## Congestion
 
-= **reduced quality of service that occurs when a network node or link is carrying more data than it can handle**
+= **reduced quality of service that occurs when a network node or link is attempting to handle more data than it can**
 
 Possible Reasons for congestion, 
 - Seasonal spikes in demand
-- Highly anticipated launches
+- Highly anticipated launches (healthcare.gov)
 - Traffic surges (e.g. [The Slashdot effect](https://en.wikipedia.org/wiki/Slashdot_effect), etc.)
+
+
 
 ## Solution to congestion?
 
 The first and most important solution is 
+
 - ****Performance optimization:**** Ensuring that the system is designed and tuned to handle the expected load efficiently, reducing the risk of bottlenecks and failures.
 
 The second solution to congestion is **Scaling**. 
+
 Of which there are two kinds: 
 1. **Vertical**
 2. **Horizontal**
@@ -127,7 +140,7 @@ Of which there are two kinds:
 * In a **physical server**: open the hood, and add: more memory, disk, etc.
 * In a **VM**: reconfigure the machine programmatically
 
-*Story*: When the internet became slow.
+*Story*: When the internet became slow during my Zeeguu demo.
 
 
 ## Example 1. Vertical Scaling with the VirtualBox  GUI
@@ -139,9 +152,7 @@ Of which there are two kinds:
 
 ![400](images/vertical-scaling-ui.png)
 
-???
-
-repartitioning 
+Repartitioning 
   - e.g. with `gparted` or similar tools
 
 ---
@@ -178,7 +189,7 @@ $ VBoxManage clonehd "9953ea1b-7295-4547-94fa-..." "cloned.vdi" --format vdi
 $ VBoxManage modifymedium disk "cloned.vdi" --resize 65536
 ```
 
-???
+Notes:
 
 Optionally, you may want to convert the disk back to `vmdk` with `VBoxManage clonehd "cloned.vdi" "resized.vmdk" --format vmdk`
 
@@ -198,8 +209,6 @@ Similar to VirtualBox, only that on the Web
 ![](images/DO-resize-options.png)
     
 
-
-???
 
 See https://www.digitalocean.com/docs/droplets/how-to/resize/#resizing-via-the-control-panel
 
@@ -229,15 +238,11 @@ $ curl -X POST -H 'Content-Type: application/json' \
 "https://api.digitalocean.com/v2/droplets/$DROPLET_ID/actions"
 ```
 
-
-
-???
-
-Discussion: why REST is particularily nice for IaC
+Discussion: why REST is particularly nice for IaC
 
 ---
 
-## When does vertical scaling make sense?
+## When is vertical scaling appropriate?
 
 - Legacy systems (e.g. bank mainframes)
 
@@ -247,32 +252,20 @@ Discussion: why REST is particularily nice for IaC
 
 
 ---
-## What are some of the limitations of vertical scaling?
+## When is vertical scaling not appropriate? 
 
 - Can't adapt fast to varying workload (e.g. Amazon's Black Friday)
 	- Complicated to scale down (often)
 	- Slow: it implies switching machines off and on (both VM and physical)
 
-- Single point of failure
-
 - Some workloads are simply too big for vertical scaling
+	- Facebook, Google, etc. 
+	- [Brief History of Scaling at LinkedIn](https://engineering.linkedin.com/architecture/brief-history-scaling-linkedin): *"An easy fix we did was classic vertical scaling ... While that bought some time, we needed to scale further"*
+	- Scientific computing
+		- seismic analysis 
+		- biotechnology
+		- SETI@Home
 
-## What kind of workloads are too big for vertical scaling? 
-
-Some company workloads exceed the capacity of the largest supercomputer and can only be handled by distributed systems, e.g. 
-
-- [As of 2000 Google can not host all their DB on a single machine](https://www.linkedin.com/pulse/how-did-google-scale-untold-story-shrey-batra/?trk=articles_directory). In **2004** they introduce the [MapReduce paper](./papers/mapreduce-osdi04.pdf) to propose an architecture for distributing the DB and subsequent queries over an array of machines 
-
-- [Hadoop timeline](https://data-flair.training/blogs/hadoop-history/)
-	- defeats supecomputers in **2008**
-	- yahoo deployes it on 1000 nodes in **2007**
-
-- [Brief History of Scaling at LinkedIn](https://engineering.linkedin.com/architecture/brief-history-scaling-linkedin): *"An easy fix we did was classic vertical scaling ... While that bought some time, we needed to scale further"*
-
-Some scientific workloads would become prohibitively expensive if run on supercomputers: 
-- seismic analysis 
-- biotechnology
-- SETI@Home
 
 
 
@@ -287,12 +280,11 @@ Some scientific workloads would become prohibitively expensive if run on superco
 
 *We take it for granted, but it was a very revolutionary idea two decades ago*
 
-> When they started, Google's index (a map) was small enough to fit on a single computer. In March of 2000, there was no Supercomputer that could process the index. The only way that Google could keep up was by buying normal computers and wiring them together into a fleet. Because half the cost of these computers was considered junk—floppy drives, metal chassis—the company would order raw motherboards and hard drives and sandwich them together. To survive, Google would have to unite its computers into a seamless, resilient whole
-
-[hints at the google story](https://www.linkedin.com/pulse/how-did-google-scale-untold-story-shrey-batra/?trk=articles_directory) - of needing to scale beyond an individual machine
-
-*Initially was about physical machines. Nowadays it's mostly VMs.
-
+- [As of **2000** Google can not host all their DB on a single machine](https://www.linkedin.com/pulse/how-did-google-scale-untold-story-shrey-batra/?trk=articles_directory). 
+- The only way that Google could keep up was by buying normal computers and wiring them together into a fleet
+- Because half the cost of these computers was considered junk—floppy drives, metal chassis—the company would order raw motherboards and hard drives and sandwich them together.
+- To survive, Google would have to unite its computers into a seamless, resilient whole
+- In **2004** they introduce the [MapReduce paper](./papers/mapreduce-osdi04.pdf) to propose an architecture for distributing the DB and subsequent queries over an array of machines 
 
 
 # Horizontal Scaling 101: Automated Load-Balancing
@@ -333,7 +325,8 @@ Where to read more about this setup
 
 # Advanced Scaling: Container Orchestration Platforms 
 
-**Container Orchestration Tools**
+
+Container Orchestration Tools
 - **Manage computing nodes** and services
 - **Schedule tasks** in a resource aware manner
 
@@ -350,7 +343,6 @@ Where to read more about this setup
  **Kubernetes** 
   * Originally developed at Google
   * We don't ask you to use it because we're nice :) ([see hacker news discussion](https://news.ycombinator.com/item?id=26271470))
-
   
  ... and [many more](https://devopscube.com/docker-container-clustering-tools/)
 
@@ -398,7 +390,7 @@ Notes:
 
 See more [https://docs.docker.com/engine/swarm/how-swarm-mode-works/nodes/](https://docs.docker.com/engine/swarm/how-swarm-mode-works/nodes/)
 
-## 3. Service
+### 3. Service
 
 - The primary abstraction of user interaction with the swarm 
 - Defined by: 
@@ -411,7 +403,7 @@ See more [https://docs.docker.com/engine/swarm/how-swarm-mode-works/nodes/](http
 
  More on [services](https://docs.docker.com/engine/swarm/how-swarm-mode-works/services/)
 
-### Types of Services
+#### Types of Services
 
 Can be 
 - **replicated** - allows you to select the level of replication 
@@ -425,11 +417,10 @@ To think about:
 ![500](images/replicated_vs_global.png)
 
 
-??? 
 Good examples of global service? A log shipper. It is important to ensure that the service is running on every node. By deploying the service as a global service, you can ensure that every node in the cluster has a copy of the service running, which can collect data from that node and forward it to a centralized location.
 
 
-## 4. Task
+### 4. Task
 
 "A service is a description of a desired state, and a task does the work"
 
@@ -441,7 +432,7 @@ Good examples of global service? A log shipper. It is important to ensure that t
 
 
 
-## 5. The Routing Mesh
+### 5. The Routing Mesh
 
 - Routes all incoming requests to published ports on available nodes to an active container
 
@@ -455,27 +446,9 @@ Good examples of global service? A log shipper. It is important to ensure that t
 
 Read more:  https://docs.docker.com/engine/swarm/ingress
 
----
-
-## New Docker Commands
-
-    
-    
-  * `docker swarm` ... to manage a cluster (swarm)
-  
-  
-  * `docker service` ... to manage replicated containers (services) in the swarm
-  
-???
-
-* ~~`docker-machine` ... to manage virtual machines~~
-    - usually used for quickly creating new VMs
-    - creates machines locally on cloud providers
-    - eases executing remote commands on the remote machines
-    - as of end of 2020 - in maintenance mode
 
 
----
+
 
 # Interactive 
 
@@ -493,7 +466,13 @@ DIGITAL_OCEAN_TOKEN=blablabla
 - [Upload](https://docs.digitalocean.com/products/droplets/how-to/add-ssh-keys/to-team/#upload-an-ssh-key-to-a-digitalocean-team-with-the-control-panel)  your SSH public key in DigitalOcean>Settings>Security
 
 
----
+### New Docker Commands
+
+  * `docker swarm` ... to manage a cluster (swarm)
+  
+  * `docker service` ... to manage replicated containers (services) in the swarm
+
+
 ### Creating a Docker Swarm Cluster Node
 
 
@@ -561,7 +540,7 @@ WORKER1_IP=$(curl -s GET $DROPLETS_API\
 
 ```
 
----
+
 
 #### Worker2
 ```bash
@@ -587,7 +566,7 @@ WORKER2_IP=$(curl -s GET $DROPLETS_API\
 ```
 
 
----
+
 
 ### Making `swarm-manager` a Cluster Manager
 
@@ -619,7 +598,7 @@ To add a worker to this swarm, run the following command:
 
 To add a manager to this swarm, run 'docker swarm join-token manager' and follow the instructions.```
 
----
+
 
 ### Converting node-1 and node-2 to Workers
 
@@ -652,7 +631,7 @@ ssh root@$WORKER2_IP "$REMOTE_JOIN_CMD"
 ```
 
 
----
+
 
 ### Seeing the state of the cluster on the manager
 
@@ -665,7 +644,7 @@ sozjy3nmfrieacm2pbgj41ek3 *   node-0              Ready               Active    
 hy6ie5xq561f9w1zpiyaqkrk5     node-1              Ready               Active                                  18.09.0
 ```
 
----
+
 
 ### Starting a Service
 
@@ -684,7 +663,7 @@ verify: Service converged
 
 ... about 1-2 min ..
 
----
+
 ### Checking the state of the service
 
 
@@ -709,7 +688,7 @@ $ open http://$SWARM_MANAGER_IP:8080
 
 Alternatively, navigate manually to the swarm manager's IP port 8080 and see the webpage served. 
 
----
+
 
 
 ### Checking that the Swarm also restarts services
@@ -721,9 +700,8 @@ Take some time and observe the behavior of the container before continuing with 
 - note how the infrastructure is self-healing, by checking the state of the service multiple times after an invocation as shown above.
 - the service becomes unavailable while Swarm is recreating the container after it has been killed
 
-*How to increase availability?*
 
----
+
 ### Scaling the service to increase availability?
 
 ```bash
@@ -746,15 +724,15 @@ sfpn4f2kg5nq        appserver.4         stifstof/crashserver:latest   node-1    
 wa8f99b6t199        appserver.5         stifstof/crashserver:latest   node-0              Running             Running 12 seconds ago
 ```
 
----
+
 
 ### Does the replication work?
 
 You should now be able to invoke the webpage without seeing the error-page each time the container is killed, but instead see the request being served by another container. Nice!
 
-Althrough it is possible to kill all container by manically invoking the /status endpoint, if you want to test the self-healing feature of swarm, you can invoke the /kill endpoint, which will kill the container immediately, so you don't have to wait.  
+Although it is possible to kill all container by manically invoking the /status endpoint, if you want to test the self-healing feature of swarm, you can invoke the /kill endpoint, which will kill the container immediately, so you don't have to wait.  
 
----
+
 
 ### Checking that the routing mesh works as advertised
 
@@ -769,7 +747,7 @@ open http://$WORKER2_IP:8080
 
 Note: Make sure to open port 8080 from the firewall.
 
----
+
 
 ### Cleaning up to not pay anymore...
 
@@ -784,16 +762,15 @@ curl -X DELETE\
 See: [documentation](https://docs.digitalocean.com/reference/api/api-reference/#operation/droplets_destroy_byTag)  for the delete API endpoint
 
 
-???
+Note: 
+- The interactive guide is based on the [tutorial at DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-create-a-cluster-of-docker-containers-with-docker-swarm-and-digitalocean-on-ubuntu-16) 
 
-The guide is based on the [tutorial at DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-create-a-cluster-of-docker-containers-with-docker-swarm-and-digitalocean-on-ubuntu-16) 
 
----
 
 
 # Stateless vs. Stateful Services 
 
-A service can be of two types
+There are two types of services: 
 
 - **Stateless**
 	- Does not maintain any internal state or data between requests. 
@@ -805,18 +782,21 @@ A service can be of two types
 	- Examples include databases and file storage services 
 	- Replicating stateful services introduces challenges related to data consistency, synchronization, and failover
 
-# How do you deploy a new version of the service when it's replicated? 
 
-#### Upgrade Strategies
+
+# How do you upgrade a service when it's replicated? 
+
+Two possible upgrade strategies: 
+
 1. Blue-Green
-3. Rolling Updates
-2. Canary
+2. Rolling Updates
 
----
 
 ## Blue-green
 
-**Two identical environments, where only one is hot at any time**
+Conceptually: 
+- **Two identical environments, where only one (green) is hot at any time**
+- Use the blue environment as your staging environment for the final testing step for your next deployment
 
 ![300](images/blue-green-fowler.png)
 
@@ -829,15 +809,14 @@ Step by step:
   6. Green can now be safely removed
   7. Blue is marked as Green...
 
-**Zero downtime upgrades**
-- "use the blue environment as your staging environment for the final testing step for your next deployment"
+More about [colorful deployments](https://opensource.com/article/17/5/colorful-deployments) 
 
----
+
 
 
 ## Rolling Updates
 
-**Deploy in rolling iterations**
+**Deploy the upgrade in rolling iterations**
 
 Rolling Updates in Docker Swarm:
 1. Stop the first *task*
@@ -850,17 +829,6 @@ Note:
 - **You need at least two replicas otherwise there will be downtime**
 - [Rolling Updates Swarm Tutorial](https://docs.docker.com/engine/swarm/swarm-tutorial/rolling-update/ ) 
 
-More about [colorful deployments](https://opensource.com/article/17/5/colorful-deployments) 
-
-
-
-## Canary
-
-**Deploy to a small group first, then deploy to the rest**
-
-![600](images/canary_release.png)
-
-Source: [article](https://martinfowler.com/bliki/CanaryRelease.html) on martinfowler.com
 
 ## Upgrade Strategies in Docker Swarm 
 
@@ -871,38 +839,8 @@ Two update-order options: (stop-first|start-first)
 
 
 
-# DB Migrations 
 
-### With Blue Green Deployment 
-
-From [article](https://martinfowler.com/bliki/BlueGreenDeployment.html)  on martinfowler.com: 
-
-> "The trick is to separate the deployment of schema changes from application upgrades"
-
-
-
-### Same DB
-
-> "(One) variation would be to use the same database, making the blue-green switches for web and domain layers."
-
-
-1. deploy a database refactoring to change the schema to support both the new and old version of the application, 
-2. check everything is working fine so you have a rollback point, 
-3. then deploy the new version of the application. 
-4. And when the upgrade has bedded down remove the database support for the old version.
-
-
-???
-
-e.g. [renaming a column in the DB in a backwards compatible way](https://spring.io/blog/2016/05/31/zero-downtime-deployment-with-a-database)
-
-How would you solve it with two different databases: https://www.linkedin.com/pulse/addressing-elephant-blue-green-room-data-deployment-using-madisa/
-
-
-
----
-
-## Why not Horizontal Scaling?
+## Why *not* horizontal scaling?
 
 **It can be more complicated that vertical** (see [hacker news thread on k8s](https://news.ycombinator.com/item?id=26271470))
 
@@ -921,7 +859,6 @@ How would you solve it with two different databases: https://www.linkedin.com/pu
 
 
 
----
 
 
 # What Next?
