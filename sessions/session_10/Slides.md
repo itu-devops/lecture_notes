@@ -496,8 +496,8 @@ CONFIG='{"name":"swarm-manager","tags":["demo"],
 	"size":"s-1vcpu-1gb", "image":"docker-20-04",
 	"ssh_keys":["01:97:fe:0a:01:e3:a9:68:99:60:b5:e9:74:30:8f:71"]}'
 
-SWARM_MANAGER_ID=$(curl -X POST $DROPLETS_API -d$CONFIG\
-	-H $BEARER_AUTH_TOKEN -H $JSON_CONTENT\
+SWARM_MANAGER_ID=$(curl -X POST "$DROPLETS_API" -d "$CONFIG"\
+	-H "$BEARER_AUTH_TOKEN" -H "$JSON_CONTENT"\
 	| jq -r .droplet.id ) && sleep 5 && echo $SWARM_MANAGER_ID
 ```
 
@@ -508,9 +508,9 @@ export JQFILTER='.droplets | .[] | select (.name == "swarm-manager")
 	| .networks.v4 | .[]| select (.type == "public") | .ip_address'
 
 
-SWARM_MANAGER_IP=$(curl -s GET $DROPLETS_API\
-    -H $BEARER_AUTH_TOKEN -H $JSON_CONTENT\
-    | jq -r $JQFILTER) && echo "SWARM_MANAGER_IP=$SWARM_MANAGER_IP"
+SWARM_MANAGER_IP=$(curl -s GET "$DROPLETS_API"\
+    -H "$BEARER_AUTH_TOKEN" -H "$JSON_CONTENT"\
+    | jq -r "$JQFILTER") && echo "SWARM_MANAGER_IP=$SWARM_MANAGER_IP"
 
 ```
 
@@ -524,11 +524,11 @@ See: [Generating ssh key fingerprint](https://superuser.com/a/453022), [API doc 
 
 #### Worker1
 ```bash
-WORKER1_ID=$(curl -X POST $DROPLETS_API\
+WORKER1_ID=$(curl -X POST "$DROPLETS_API"\
        -d'{"name":"worker1","tags":["demo"],"region":"fra1",
        "size":"s-1vcpu-1gb","image":"docker-20-04",
-       "ssh_keys":["01:97:fe:0a:01:e3:a9:68:99:60:b5:e9:74:30:8f:71"]}'\
-       -H $BEARER_AUTH_TOKEN -H $JSON_CONTENT\
+       "ssh_keys":["a7:39:2c:a6:21:f8:a2:6d:33:a7:d9:87:1f:c9:d4:57"]}'\
+       -H "$BEARER_AUTH_TOKEN" -H "$JSON_CONTENT"\
        | jq -r .droplet.id )\
        && sleep 3 && echo $WORKER1_ID
 ```
@@ -538,9 +538,9 @@ WORKER1_ID=$(curl -X POST $DROPLETS_API\
 export JQFILTER='.droplets | .[] | select (.name == "worker1") | .networks.v4 | .[]| select (.type == "public") | .ip_address'
 
 
-WORKER1_IP=$(curl -s GET $DROPLETS_API\
-    -H $BEARER_AUTH_TOKEN -H $JSON_CONTENT\
-    | jq -r $JQFILTER)\
+WORKER1_IP=$(curl -s GET "$DROPLETS_API"\
+    -H "$BEARER_AUTH_TOKEN" -H "$JSON_CONTENT"\
+    | jq -r "$JQFILTER")\
     && echo "WORKER1_IP=$WORKER1_IP"
 
 ```
@@ -549,11 +549,11 @@ WORKER1_IP=$(curl -s GET $DROPLETS_API\
 
 #### Worker2
 ```bash
-WORKER2_ID=$(curl -X POST $DROPLETS_API\
+WORKER2_ID=$(curl -X POST "$DROPLETS_API"\
        -d'{"name":"worker2","tags":["demo"],"region":"fra1",
        "size":"s-1vcpu-1gb","image":"docker-20-04",
-       "ssh_keys":["01:97:fe:0a:01:e3:a9:68:99:60:b5:e9:74:30:8f:71"]}'\
-       -H $BEARER_AUTH_TOKEN -H $JSON_CONTENT\
+       "ssh_keys":["a7:39:2c:a6:21:f8:a2:6d:33:a7:d9:87:1f:c9:d4:57"]}'\
+       -H "$BEARER_AUTH_TOKEN" -H "$JSON_CONTENT"\
        | jq -r .droplet.id )\
        && sleep 3 && echo $WORKER2_ID
 ```
@@ -563,9 +563,9 @@ WORKER2_ID=$(curl -X POST $DROPLETS_API\
 export JQFILTER='.droplets | .[] | select (.name == "worker2") | .networks.v4 | .[]| select (.type == "public") | .ip_address'
 
 
-WORKER2_IP=$(curl -s GET $DROPLETS_API\
-    -H $BEARER_AUTH_TOKEN -H $JSON_CONTENT\
-    | jq -r $JQFILTER)\
+WORKER2_IP=$(curl -s GET "$DROPLETS_API"\
+    -H "$BEARER_AUTH_TOKEN" -H "$JSON_CONTENT"\
+    | jq -r "$JQFILTER")\
     && echo "WORKER2_IP=$WORKER2_IP"
 
 ```
@@ -760,7 +760,7 @@ Note: Make sure to open port 8080 from the firewall.
 
 ```bash
 curl -X DELETE\
-  -H $BEARER_AUTH_TOKEN -H $JSON_CONTENT\
+  -H "$BEARER_AUTH_TOKEN" -H "$JSON_CONTENT"\
   "https://api.digitalocean.com/v2/droplets?tag_name=demo"
   
 ```
