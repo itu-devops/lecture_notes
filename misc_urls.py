@@ -222,11 +222,12 @@ GROUP_URLS = [
         "group q",
         "Test1",
         # Monitoring URL:
-        "http://46.101.123.125:3000/d/a3ea5dee-5d18-45c9-8ca9-bf0ea8b37cc6/dashboard?orgId=1",
+        "http://46.101.123.125:3000/d/e95c2e9e-3e3c-4d11-b5e5-6d81fdbcc3fa/minitwit-dashboard?orgId=1",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
-        "<logging_url>",
+        # Same user as for monitoring (Grafana)
+        "http://46.101.123.125:3000/d/ba59f303-5c43-4d0d-917f-c1e55af67bb5/logging?orgId=1",
         # SLA:
         "<sla_url>",
         # SLA Review:
