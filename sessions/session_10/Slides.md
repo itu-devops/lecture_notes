@@ -391,7 +391,7 @@ A machine which from the POV of the swarm
 
 Notes: 
   * By default, all managers are also workers
-  * Workers do not participate in scheduling decisions
+
 
 See more [https://docs.docker.com/engine/swarm/how-swarm-mode-works/nodes/](https://docs.docker.com/engine/swarm/how-swarm-mode-works/nodes/)
 
@@ -422,12 +422,12 @@ To think about:
 ![500](images/replicated_vs_global.png)
 
 
-Good examples of global service? A log shipper. It is important to ensure that the service is running on every node. By deploying the service as a global service, you can ensure that every node in the cluster has a copy of the service running, which can collect data from that node and forward it to a centralized location.
+Good examples of global service? A **log shipper** or a **monitoring container**. It is important to ensure that the service is running on every node. By deploying the service as a global service, you can ensure that every node in the cluster has a copy of the service running, which can collect data from that node and forward it to a centralized location.
 
 
 ### 4. Task
 
-"A service is a description of a desired state, and a task does the work"
+*"A service is a description of a desired state, and a task does the work"*
 
 - The atomic scheduling unit of swarm
 - Carries **a container and the commands to run inside it**
@@ -444,7 +444,7 @@ Good examples of global service? A log shipper. It is important to ensure that t
 - Enables each node in the swarm to accept connections 
   - on published ports 
   - for any service running in the swarm
-  - even if there’s no task running on the node
+  - even if there’s no task (container) running on the node
 
 - Can support load balancing in Docker Swarm
 
@@ -837,9 +837,9 @@ Note:
 
 ## Upgrade Strategies in Docker Swarm 
 
-Two update-order options: (stop-first|start-first) 
-- stop-first (default) -- corresponds to rolling updates
-- start-first -- corresponds to blue-green service deployment
+Two `update-order` options: (stop-first|start-first) 
+- `stop-first` (default) -- corresponds to rolling updates
+- `start-first` -- corresponds to blue-green service deployment
 
 
 
