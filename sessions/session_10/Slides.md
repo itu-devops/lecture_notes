@@ -11,15 +11,8 @@ Mircea Lungu, Associate Professor,<br>
 
 Highly anticipated launch (e.g. the [healthcare.gov](https://www.cbsnews.com/news/healthcaregov-plagued-by-crashes-on-1st-day/) story) that resulted in the system experiencing a performance degradation 
 
---
-
 ![360](images/healthcare_gov.png)
 
-???
-
-[Amazon AWS history as a consequence of their scaling needs](https://digitalcloud.training/a-brief-history-of-aws-and-how-computing-has-changed/) 
-
-Healtcare.gov 
 
 > Instead of new choices, the website told him to wait. Attempts to log on with a CBS News producer's iPad failed too. 
 > After more than an hour, he gave up.
@@ -30,29 +23,34 @@ https://www.cbsnews.com/news/healthcaregov-plagued-by-crashes-on-1st-day/
 
 ## Availability 
 
-Availability refers to the proportion of time that a system or service is operational and accessible for use. It is a critical aspect of designing reliable and resilient systems, especially in the context of online services, websites, cloud-based applications, and other mission-critical systems.
+Availability refers to the **proportion of time that a system or service is operational** and accessible for use. 
 
-Availability refers to the readiness and accessibility of a system or service to users at any given time. It measures the percentage of time a system remains operational and usable. High availability ensures that users can access the system without significant interruptions or downtime, typically achieved through redundancy, fault tolerance, and efficient recovery mechanisms.
+Relevant especially in the context of 
+- online services and apps
+- banks
+- healthcare
+- cloud-based applications
+- mission-critical systems
+
+High availability means that users can access the system without significant interruptions or downtime.
 
 ## How do we achieve high availability? 
 
-High availability is essential for systems where continuous operation is vital, and any disruption could lead to financial losses, reputational damage, or even safety hazards. Commonly, systems with high availability requirements include banking applications, e-commerce platforms, healthcare systems, emergency response services, and cloud infrastructure.
+Two of the most essential strategies are
 
-System designers implement various strategies and technologies to achieve high availability. Three of the most essential ones are: 
+- **Redundancy** 
+- **Scalability**
 
-- Redundancy 
-- Scalability
-- Disaster recovery
 
 # Redundancy
 
-## Thought Experiment: What happens if one of the components fails in your system?
+## Thought Experiment: What the problem with the following architecture?
 
 This is probably the architecture that many of your systems have at the moment. 
 
 ![](images/possible_arch1.png)
 
---
+
 
 We say that such an architecture has a **single point of failure** because *a part of the system failing will stop the entire system from working*. 
 
