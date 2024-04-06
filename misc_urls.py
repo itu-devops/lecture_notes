@@ -65,9 +65,9 @@ GROUP_URLS = [
     ],
     [
         "group f",
-        "<name>",
+        "group f",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://52.138.206.101:3000/",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
