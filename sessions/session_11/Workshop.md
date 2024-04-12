@@ -14,6 +14,7 @@ Most of the people are
 - discussion about envvars vs. configuration files
 - problem with envvars
 	- every library that you transitively depend on has access to all the envvars - it could easily ship them to their server for example
+- [Good discussion on SO about the pros and cons of envvars and config files](https://serverfault.com/questions/892481/what-are-the-advantages-of-putting-secret-values-of-a-website-as-environment-var)
 
 Some of the envvars in the example below are ok and some are more problematic. Can you spot a problematic one?
 
@@ -29,6 +30,7 @@ environment:
       GOOGLE_APPLICATION_CREDENTIALS: /Zeeguu-API/lu-mir-zeeguu-credentials.json
       WORDNIK_API_KEY: ${WORDNIK_API_KEY}
       MULTI_LANG_TRANSLATOR_AB_TESTING: ${MULTI_LANG_TRANSLATOR_AB_TESTING}
+      MYSQL_CONNECTION_STRING: {MYSQL_CONNECTION_STRING}
 ```
 
 ## Healtcheck
