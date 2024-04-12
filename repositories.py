@@ -94,8 +94,8 @@ GROUP_REPOS = [
         "group p",
         "int* ptr",
         ["https://github.com/DevOps-2024-group-p/maxitwit"],
-        "http://138.68.125.103:3000",
-        "http://138.68.125.103:3001",
+        "http://209.38.188.177:3000",
+        "http://209.38.188.177:3001",
     ],
     [
         "group q",
