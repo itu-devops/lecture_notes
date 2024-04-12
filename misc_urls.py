@@ -122,9 +122,9 @@ GROUP_URLS = [
     ],
     [
         "group j",
-        "<name>",
+        "Ben10",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://165.227.156.51:3000/d/bdggsy585x2ioe/minitwitapi?orgId=1&refresh=5s&theme=dark",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
