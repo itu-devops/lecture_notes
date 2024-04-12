@@ -125,8 +125,8 @@ link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04
 |10:00 - 14:00
 |Mircea
 |-
-|Workshop
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_12/Slides.md[Advanced Availability]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_11/Workshop.md[Workshop Notes]
+|
 |Continue isolation of components into services/containers/VMs and Fix reported problems
 // w16
 |11

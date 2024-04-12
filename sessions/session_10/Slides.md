@@ -289,7 +289,7 @@ Discussion: why REST is particularly nice for IaC
 - The only way that Google could keep up was by buying normal computers and wiring them together into a fleet
 - Because half the cost of these computers was considered junk—floppy drives, metal chassis—the company would order raw motherboards and hard drives and sandwich them together.
 - To survive, Google would have to unite its computers into a seamless, resilient whole
-- In **2004** they introduce the [MapReduce paper](./papers/mapreduce-osdi04.pdf) to propose an architecture for distributing the DB and subsequent queries over an array of machines 
+- In **2004** they introduce the [MapReduce paper](papers/mapreduce-osdi04.pdf) to propose an architecture for distributing the DB and subsequent queries over an array of machines 
 
 
 # Horizontal Scaling 101: Automated Load-Balancing
@@ -894,5 +894,5 @@ Example:
 # What Next?
 
 Exercise: *Try out the swarm creation example from this lecture*
-Practical: [Scale your API](./README_TASKS.md) in preparation for the future increase in user requests.
+Practical: [Scale your API](README_TASKS.md) in preparation for the future increase in user requests.
 
