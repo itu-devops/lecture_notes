@@ -15,7 +15,24 @@ Most of the people are
 
 ## Healtcheck
 - can be useful also to ensure that your app is ready to take connection
-- 
+Example:
+
+```yml
+  zapi:
+    depends_on:
+      - mysql
+      - fmd_mysql 
+      - elasticsearch 
+      - readability_server
+    image: zeeguu/api:latest
+    deploy:
+      replicas: 2
+
+    healthcheck:
+      test: curl localhost:8080/available_languages | grep ', "es",'
+      interval: 30s
+      timeout: 13s
+```
 ## Migrating to Swarm
 - how to do it with zero downtime?
 - create a new machine; play with it there; when you're happy simply switch
