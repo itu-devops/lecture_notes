@@ -33,8 +33,12 @@ environment:
       MYSQL_CONNECTION_STRING: {MYSQL_CONNECTION_STRING}
 ```
 
-## Healtcheck
-- can be useful also to ensure that your app is ready to take connection
+## Healthchecks
+
+The container is up, but how is the orchestrator to know that your service inside it is working as expected? What if the web server has encountered an error, and is not answering any requests? 
+
+Can be useful also to ensure that your app is ready to take connection a connection for apps that take some time to "warm up" (loading ML models in memory, etc.).
+
 Example:
 
 ```yml
@@ -62,6 +66,7 @@ Example:
 - with blue-green they never see inconsistent results
 - with rolling-updates they might see different results in different calls 
 
+![](images/inconsistent-state-with-rolling-updates.png)
 ## Logging in Swarm
 - you should use a log driver, e.g. 
 ```yml
