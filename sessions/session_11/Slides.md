@@ -3,7 +3,7 @@
 
 Mircea Lungu
 
-`mlun@itu.dk
+mlun@itu.dk
 
 [IT University of Copenhagen, Denmark](https://www.itu.dk)<br>
 [![](images/cyberattacks_close_businesses.png)](https://www.inc.com/joe-galvin/60-percent-of-small-businesses-fold-within-6-months-of-a-cyber-attack-heres-how-to-protect-yourself.html)
