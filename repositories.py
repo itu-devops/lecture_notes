@@ -10,8 +10,8 @@ GROUP_REPOS = [
         "group d",
         "mini-x",
         ["https://github.com/sumrdev/mini-x"],
-        "http://164.92.201.193:5000",
-        "http://164.92.201.193:5001",
+        "http://helge.lol:5000",
+        "http://helge.lol:5001",
     ],
     [
         "group e",
