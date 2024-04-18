@@ -240,8 +240,8 @@ Framework for Discovering Opportunities for Web Applications: [Open Web Applicat
 - **OWASP Top 10** Include:
   1. [Broken Access Control](https://owasp.org/Top10/A01_2021-Broken_Access_Control/) : e.g., broken permissions, broken authorization
   3. [Injection](https://owasp.org/Top10/A03_2021-Injection/): e.g., XSS, SQL, etc.
-  6. [Vulnerable and Outdated Components](https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/)
-  9. [Security Logging and Monitoring Failures](https://owasp.org/Top10/A09_2021-Security_Logging_and_Monitoring_Failures/): e.g., auditable events are not logged, logs are not monitored for suspicious activity, etc. (See also the [Logging Cheatsheet](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html) from OWASP).
+  7. [Vulnerable and Outdated Components]([**A06:2021-Vulnerable and Outdated Components**](https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/))
+  9. [Insufficient Logging & Monitoring](https://owasp.org/Top10/A09_2021-Security_Logging_and_Monitoring_Failures/): e.g., auditable events are not logged, logs are not monitored for suspicious activity, etc. (See also the [Logging Cheatsheet](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html) from OWASP).
 
 ##  Assessing risk
 
@@ -401,12 +401,12 @@ Example of output from `snyk container test elasticsearch:7.6.2`:
 
 ![](images/snyk-output-es.png)
 
-![](../session_12/images/docker-scout.png)
+![](images/docker-scout.png)
 
 
 Or when I run `snyk` on my own project, `zeeguu/api` I get this as one example. Can you tell me what's the solution? 
 
-![](../session_12/images/snyk-on-zapi-example.png)
+![](images/snyk-on-zapi-example.png)
 
 Note: DockerHub has info about image vulns (e.g. [3.9.2-buster](https://hub.docker.com/_/python/tags?page=&page_size=&ordering=&name=3.9.2-buster) vs. [3.12.3](https://hub.docker.com/layers/library/python/3.12.3/images/sha256-49f4118027f9494ebe47d3d9b6c7a46b6d7454a19a7ba42eca32734d8108b323?context=explore)).  
 
@@ -414,8 +414,10 @@ Note: DockerHub has info about image vulns (e.g. [3.9.2-buster](https://hub.dock
 - [Postmortem for Malicious eslint Packages Published on July 12th, 2018](https://eslint.org/blog/2018/07/postmortem-for-malicious-package-publishes)
 
 For your project:
-- consider adding a step 
+- consider adding a step in the CI/CD pipeline that checks for vulnerabilities
 
+Further reading:
+- the [fascinating thought experiment about a malicious npm package](https://david-gilbertson.medium.com/im-harvesting-credit-card-numbers-and-passwords-from-your-site-here-s-how-9a8cb347c5b5)
 
 ## Never Trust User Input
 
@@ -515,7 +517,7 @@ Log everything. This is the key to being able to detect attacks
 
 # What Next?
 
-- Exercise: [Pen testing with Metasploit / wmap](https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_11/README_EXERCISE.md)
+- Exercise: [Pen testing with Metasploit / wmap](https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_09/README_EXERCISE.md)
 
 - Practical: [Own security assessment + Hardening](./README_TASKS.md)
 
