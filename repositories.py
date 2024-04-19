@@ -17,8 +17,8 @@ GROUP_REPOS = [
         "group e",
         "Grl Pwr",
         ["https://github.com/devops2024-group-e/itu-minitwit", "https://github.com/devops2024-group-e/ansible-action", "https://github.com/devops2024-group-e/flag"],
-        "http://165.232.73.220",
-        "http://165.232.73.220:8080",
+        "http://159.223.250.240",
+        "http://159.223.250.240:8080",
     ],
     [
         "group f",
