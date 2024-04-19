@@ -166,8 +166,8 @@ link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04
 |Write report.
 |=======================================================================
 
-* Exam submission: Latest Thursday *23/5/2023 14:00*
-* Exam period: 11/6/2023 to 14/6/2023
+* Exam submission: Latest Thursday *23/5/2024 14:00*
+* Exam period: 11/6/2024 to 14/6/2024
 
 
 === Peer-feedback, presentations, and discussions in exercise sessions
