@@ -51,9 +51,9 @@ Since we want use Nginx as a reverse proxy (that sends the user to a minitwit se
 # A list of servers that should be used as backends
 upstream echoapp {
     # You can use external IPs here, but it's better to use the "LAN"/VPC IP.
-    server 46.101.203.143:8080;
-    server 164.92.235.181:8080;
-    server 64.226.105.17:8080;
+    server 46.101.203.143:80;
+    server 164.92.235.181:80;
+    server 64.226.105.17:80;
 }
 server {
     # Your domain should be here
