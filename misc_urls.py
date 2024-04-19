@@ -152,7 +152,7 @@ GROUP_URLS = [
         "group l",
         "<name>",
         # Monitoring URL:
-        "http://64.227.120.186:3000/d/zyAf4i4Zz/prometheus-net?orgId=1&refresh=5s",
+        "http://67.207.76.189:3000/d/zyAf4i4Zz/prometheus-net?orgId=1&refresh=5s",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
