@@ -203,7 +203,7 @@ If one is to follow a  **systematic approach** to security, this would mean a fo
 
 In this section we will briefly discuss each of these in turn.
 
-## 1. Understanding Threats
+## Understanding Threats
 
 ### What is a threat? 
 
@@ -240,8 +240,8 @@ Framework for Discovering Opportunities for Web Applications: [Open Web Applicat
 - **OWASP Top 10** Include:
   1. [Broken Access Control](https://owasp.org/Top10/A01_2021-Broken_Access_Control/) : e.g., broken permissions, broken authorization
   3. [Injection](https://owasp.org/Top10/A03_2021-Injection/): e.g., XSS, SQL, etc.
-  7. [Vulnerable and Outdated Components]([**A06:2021-Vulnerable and Outdated Components**](https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/))
-  9. [Insufficient Logging & Monitoring](https://owasp.org/Top10/A09_2021-Security_Logging_and_Monitoring_Failures/): e.g., auditable events are not logged, logs are not monitored for suspicious activity, etc. (See also the [Logging Cheatsheet](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html) from OWASP).
+  6. [Vulnerable and Outdated Components](https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/)
+  9. [Security Logging and Monitoring Failures](https://owasp.org/Top10/A09_2021-Security_Logging_and_Monitoring_Failures/): e.g., auditable events are not logged, logs are not monitored for suspicious activity, etc. (See also the [Logging Cheatsheet](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html) from OWASP).
 
 ##  Assessing risk
 
@@ -282,7 +282,7 @@ cf. Security Risk Management Body of Knowledge
 
 
 
-## 3. Testing
+## Testing
 
 > "blue teams always need **red teams** to test them against each other"
 
@@ -351,7 +351,7 @@ Online Services
 - shodan.io
 
 
-## 4. Detecting Intrusions
+## Detecting Intrusions
 
 Is hard. And it is usually a little bit too late. So better focus on preventing. 
 
@@ -374,7 +374,7 @@ Is hard. And it is usually a little bit too late. So better focus on preventing.
 - Auditing, compliance testing
 
  
-# 8 Practical Steps to Improve Security
+# Practical Advice to Improve Security
 
 
 ## Evaluate, Scan & Update Dependencies
@@ -410,15 +410,40 @@ Or when I run `snyk` on my own project, `zeeguu/api` I get this as one example. 
 
 Note: DockerHub has info about image vulns (e.g. [3.9.2-buster](https://hub.docker.com/_/python/tags?page=&page_size=&ordering=&name=3.9.2-buster) vs. [3.12.3](https://hub.docker.com/layers/library/python/3.12.3/images/sha256-49f4118027f9494ebe47d3d9b6c7a46b6d7454a19a7ba42eca32734d8108b323?context=explore)).  
 
-##### Case Study
-- [Postmortem for Malicious eslint Packages Published on July 12th, 2018](https://eslint.org/blog/2018/07/postmortem-for-malicious-package-publishes)
+Case Study: [Postmortem for Malicious eslint Packages Published on July 12th, 2018](https://eslint.org/blog/2018/07/postmortem-for-malicious-package-publishes)
 
-For your project:
-- consider adding a step in the CI/CD pipeline that checks for vulnerabilities
+For your project: consider adding a step in the CI/CD pipeline that checks for vulnerabilities
 
-Further reading:
-- the [fascinating thought experiment about a malicious npm package](https://david-gilbertson.medium.com/im-harvesting-credit-card-numbers-and-passwords-from-your-site-here-s-how-9a8cb347c5b5)
 
+## Always Provide the Least Privileges Possible
+
+What if the base image you depend on is malevolent? What if a dependency that you have is? 
+
+Run your containers with least possible privileges, i.e., [do not run them as root](https://collabnix.com/running-docker-containers-as-root/#Why_Running_as_Root_Is_a_Concern). E.g. , switching to a new user after installing the required dependencies in the system.
+
+```Dockerfile 
+# Base image
+FROM ubuntu:latest
+
+# Install packages (**as root**)
+RUN apt-get update && apt-get install -y curl
+
+# Create a non-root user
+RUN useradd -m myuser
+
+# Switch to the non-root user
+USER myuser
+
+# Set the working directory
+WORKDIR /home/myuser
+
+# ... continue with other instructions ...
+
+```
+ 
+ For how not to trust code running in your web app see the [fascinating thought experiment about a malicious npm package](https://david-gilbertson.medium.com/im-harvesting-credit-card-numbers-and-passwords-from-your-site-here-s-how-9a8cb347c5b5)
+
+ 
 ## Never Trust User Input
 
 > Principle: "All input is bad until proven otherwise
@@ -459,8 +484,7 @@ The solution to this is:
 
 - Consider using dedicated tools and vaults for secrets (e.g. `docker secret`)
 
-##### Case Study
-- [The Uber Breach](https://www.bloomberg.com/news/articles/2017-11-21/uber-concealed-cyberattack-that-exposed-57-million-people-s-data) - started accessing a private GitHub repo, where keys were found for an AWS account, etc.
+Case Study: [The Uber Breach](https://www.bloomberg.com/news/articles/2017-11-21/uber-concealed-cyberattack-that-exposed-57-million-people-s-data) - started accessing a private GitHub repo, where keys were found for an AWS account, etc.
 
 - Legend has it that when I was a student, one of the lecturers in our university has declared his love for his wife by sharing with her the root password for one of his servers. There are other ways to show love :) 
 
@@ -470,11 +494,9 @@ The solution to this is:
 - CI pipeline is part of your infrastructure
 - Make sure that it's secure (2FA, etc.)
 
-##### Case Study
-
+Case Studies: 
 - US government agencies [hacked due to misconfiguration of their TeamCity CI tool](https://cd.foundation/blog/2021/01/07/could-ci-cd-tool-teamcity-really-have-been-exploited-to-hack-the-us/)
-
-- That very safe OS of NASA that red team changed the code of
+- That very safe OS of NASA that red team changed the code
 
 
 ## Automatic Backups
@@ -517,7 +539,7 @@ Log everything. This is the key to being able to detect attacks
 
 # What Next?
 
-- Exercise: [Pen testing with Metasploit / wmap](https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_09/README_EXERCISE.md)
+- Exercise: [Pen testing with Metasploit / wmap](https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_11/README_EXERCISE.md)
 
 - Practical: [Own security assessment + Hardening](./README_TASKS.md)
 
