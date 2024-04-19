@@ -374,7 +374,7 @@ Is hard. And it is usually a little bit too late. So better focus on preventing.
 - Auditing, compliance testing
 
  
-# Practical Advice to Improve Security
+# Practical Advice to Improve Security in DevOps
 
 
 ## Evaluate, Scan & Update Dependencies
@@ -410,10 +410,9 @@ Or when I run `snyk` on my own project, `zeeguu/api` I get this as one example. 
 
 Note: DockerHub has info about image vulns (e.g. [3.9.2-buster](https://hub.docker.com/_/python/tags?page=&page_size=&ordering=&name=3.9.2-buster) vs. [3.12.3](https://hub.docker.com/layers/library/python/3.12.3/images/sha256-49f4118027f9494ebe47d3d9b6c7a46b6d7454a19a7ba42eca32734d8108b323?context=explore)).  
 
+**For your project**: consider adding a step in the CI/CD pipeline that checks for vulnerabilities
+
 Case Study: [Postmortem for Malicious eslint Packages Published on July 12th, 2018](https://eslint.org/blog/2018/07/postmortem-for-malicious-package-publishes)
-
-For your project: consider adding a step in the CI/CD pipeline that checks for vulnerabilities
-
 
 ## Always Provide the Least Privileges Possible
 
@@ -446,7 +445,7 @@ WORKDIR /home/myuser
  
 ## Never Trust User Input
 
-> Principle: "All input is bad until proven otherwise
+> Principle: "All input is bad until proven otherwise"
 
 Another attack vector is the **inputs in your application**. The photo below is from a legendary story where one good American citizen tried to delete the DB of the auto registry. 
 
@@ -489,6 +488,10 @@ Case Study: [The Uber Breach](https://www.bloomberg.com/news/articles/2017-11-21
 - Legend has it that when I was a student, one of the lecturers in our university has declared his love for his wife by sharing with her the root password for one of his servers. There are other ways to show love :) 
 
 
+
+
+
+
 ## Protect your CI/CD tools 
 
 - CI pipeline is part of your infrastructure
@@ -507,7 +510,7 @@ Case Studies:
 
 	- A backup is not useful unless you can use it to actually perform the backup
 
-## Hack Yourself
+## Hack Your Own System
 
 - Create a red team to pen test
 
