@@ -73,10 +73,12 @@ Example:
 version: '3.8'
 
 services:
-  my_app:
+  my_api:
     image: my_image
     ports:
       - "8080:8080"
+	network: 
+	  - mynet
     logging:
       driver: "fluentd"
       options:
@@ -84,12 +86,15 @@ services:
 
   fluentd:
     image: fluent/fluentd
+	network: 
+	  - mynet    
     volumes:
       - ./fluentd/conf:/fluentd/etc
-    ports:
-      - "24224:24224"
+      - ./logs:/tmp/logs
+
 
 ```
+vi ./log/... 
 
 Simplest possible `fluentd` config: 
 ```xml
@@ -99,10 +104,12 @@ Simplest possible `fluentd` config:
 </source>
 
 <match **>
-  @type stdout
+  .... /tmp/logs/api.log
 </match>
 
 ```
+
+
 More complex configuration of `fluentd` with ELK: https://sysadmins.co.za/shipping-your-logs-from-docker-swarm-to-elasticsearch-with-fluentd/
 
 

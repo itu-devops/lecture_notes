@@ -9,38 +9,60 @@ mlun@itu.dk
 [![](images/cyberattacks_close_businesses.png)](https://www.inc.com/joe-galvin/60-percent-of-small-businesses-fold-within-6-months-of-a-cyber-attack-heres-how-to-protect-yourself.html)
 
 
+# Intro
 
-Programming is easy and fun. Creating a proof-of-concept is not that hard. I once implemented with a friend a facebook clone in our spare time in parallel with doing our PhD. At the opposite spectrum maintaining Facebook itself takes thousands of developers working non stop on it. What is the difference? 
+
+### Why does FB need thousands of developers? 
+
+Programming is easy and fun. Creating a proof-of-concept is not that hard. With a friend I once implemented  a Facebook clone in our spare time in parallel with doing our PhD. At the opposite spectrum maintaining Facebook itself takes thousands of talented developers working non stop on it. What is the difference? Where are all those man-hours going?
+
+
+
 
 ### Dependable Systems
+
+My claim is that the reason is that they want to build a dependable system. And they also want to have a reliable process. 
 
 Dictionary defines dependable as *trusthworthy* and *reliable*. This is the difference between my friend and my FB and the real deal. You can trust that millions of people have access to the real FB at any time and it's services will always be there. 
 
 ![](images/dependable.png)
 
-We want our systems to be dependable. Sommerville decomposes **dependability** into multiple components: 
+Sommerville decomposes **dependability** into multiple components: 
 
-- **availability**  -- probability that a system is operational at a given time -- Uptime / (Uptime + Downtime), e.g. "5 nines"
+- **Availability**  -- probability that a system is operational at a given time -- Uptime / (Uptime + Downtime), e.g. "5 nines"
 
-- **reliability** -- probability of correct functioning  for some given time  -- MTBF = mean time between failures 
+- **Reliability** -- probability of correct functioning  for some given time  -- MTBF = mean time between failures 
 
-- **safety**  -- ability to operate w/o catastrophic failure
+- **Safety**  -- ability to operate w/o catastrophic failure
 
-- **security** <-- *today's focus*!!!!
+- **Security** <-- fighting against the fact that "information wants to be free" :) I'll explain a bit later what this means.
 
-### Intermezzo: Site Reliability Engineer
+I remember one of my friends once telling me proudly that he has been upgraded from engineer to site reliability engineer, and this was one of the most important roles in the company. 
 
-The importance of reliability was recognized early by Google when they introduced the role of site reliability engineer. I remember one of my friends once telling me proudly that he has been upgraded from engineer to site reliability engineer, and this was one of the most important roles in the company. 
+
+### Term: Site Reliability Engineer
+
+The importance of reliability was recognized early by Google when they introduced the role of site reliability engineer and a [site-readability team in 2003](https://www.usenix.org/conference/srecon14/technical-sessions/presentation/keys-sre). 
 
 > "The SRE role of today **combines** the skills of the **developer** responsible for writing applications and the skills that **operations engineers** use to deploy those applications. 
-> 
+
+*To think about*: *how does this sound like something else that you know about?* 
+
+
+What does an SRE do?
+
 > The SRE moves an application from proof of concept, to quality control, and then to deployment – **automating that entire process** and giving it consistency.
-> 
+
+*To think about: Does it sound like something else you know about?*
+
+
+What else does an SRE do? 
+
 > By **continuing to run security experiments**, we can evaluate and improve such vulnerabilities proactively in the ecosystem before they become crisis situations." 
 
-([Through the looking glass: Security and the SRE](https://opensource.com/article/18/3/through-looking-glass-security-sre))
+Quotes from: [Through the looking glass: Security and the SRE](https://opensource.com/article/18/3/through-looking-glass-security-sre)
 
-To think about: how does this compare with *devops*? 
+No stress about the terminology... what matters is the details. Automation, security, these are essential problems 
 
 
 ## Security: What's the Problem? 
@@ -49,12 +71,13 @@ To think about: how does this compare with *devops*?
 <img src="https://images-na.ssl-images-amazon.com/images/I/51FbpAQFVPL.jpg" alt="Drawing" style="width: 200px; float:right; margin: 10px;"/>
 
 
-> Information wants to be free
+> *Information wants to be free*
 > 
-> Information also wants to be expensive.
+> *Information also wants to be expensive.*
 > 
-> That tension will not go away
+> *That tension will not go away*
 
+(From: The Media Lab: Inventing the future ..., by Stewart Brand)
 
 
 
@@ -70,11 +93,11 @@ The information in your systems wants to be free and many people are after it. Y
 
 
 
-## Personal Story: that time when I migrated a web app to a new server
+## Personal Story: that time when I migrated a web app to a new server and you will never guess what happened :)
 
 Before the story, I must introduce two concepts that are related to security and devops.
 
-### New Term: Reverse Proxy
+### Concept: Reverse Proxy
 
 - A Reverse Proxy is a server that: 
 	- acts on behalf of one or more other servers
@@ -93,7 +116,7 @@ Why reverse proxy?
 - load balancing
 - caching
 
-### New Concept: Firewall
+### Concept: Firewall
 
 A firewall is a system that limits access to servers and processes based on the source and destination of the accesses, where these are defined in terms of IP:PORT pairs. 
 
@@ -101,25 +124,46 @@ Firewalls can be either hardware or software.
 
 Most often we'll be working with software firewall installed on our servers. 
 
+E.g. allowing HTTP, SSL, and HTTPS traffic on a server with the help of [`iptables`](https://erravindrapawadia.medium.com/iptables-tutorial-beginners-to-advanced-guide-to-linux-firewall-839e10501759) firewall software: 
+
+```
+$  sudo iptables –A INPUT –p tcp  ––dport 80 –j ACCEPT
+$  sudo iptables –A INPUT –p tcp ––dport 22 –j ACCEPT
+$  sudo iptables –A INPUT –p tcp ––dport 443 –j ACCEPT
+
+```
+Or a simper, and more modern firewall software: [`ufw`](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu) where u stands for *uncomplicated*.  
+
+```
+$ sudo ufw allow ssh
+
+Rule added
+Rule added (v6)
+```
+
+
+
 ### Back to the story
 
-I moved my stack from one server to another. 
+I moved my stack from one server to another.  
 
-Architecture presented in the diagram. 
-- NGINX - as *reverse proxy*  + TLS provider
-- Relevant docker-compose fragment is highlighted near the *elasticsearch*.
-- `UFW` as more *uncomplicated* firewall than `iptables`
-	- rules to block everything but ports 80 and 443
+Next day I realize that the ElasticSearch queries don't work. I query the main index and don't find it. I look for all the indexes, and there is a new index in the db called `__read__me`. This is bad. I list the documents in it, and it has only a single document that you can see below: 
+
+![](images/give_us_btc.png)
+
+How could this happen? Let's see what I deployed on the new server: 
+- Flask API talks to ElasticSearch and MySQL 
+- NGINX - as *reverse proxy*  + TLS provide 
+- `ufw` rules to block everything but ports 80 and 443
+- Relevant docker-compose fragment is highlighted near the *elasticsearch*
+
 
 
 ![](images/migration.png)
 
 
-Next day I realize that the ElasticSearch DB size is very small. Looking in the database, I see a single document: 
 
-![](images/give_us_btc.png)
-
-How could this happen? The answer is a combination of factors:
+The answer is a combination of factors:
 - Docker circumvents the UFW firewall and alters iptables directly when you instruct it about ports
 - Mapping the ports with `-p 9200:9200` (or in docker-compose) maps the port to the host but also opens it to the world! ([bug report from '19](https://github.com/docker/for-linux/issues/690))) 
 	> Publishing ports produce a firewall rule that binds a container port to a port on the Docker host, ensuring the ports are accessible to any client that can communicate with the host.
@@ -128,30 +172,30 @@ How could this happen? The answer is a combination of factors:
 
 
 Lessons learned:
-- you must know how the tools that you work with ([configure Docker to not do this]([descriptive article](https://www.techrepublic.com/article/how-to-fix-the-docker-and-ufw-security-flaw/))
-- you must have a backup - luckily the ES database was backed up so I didn't have to pay
-- do not rely on a single security mechanism (e.g. firewall) but use multiple (e.g. protect the ES db also with a password)
+- You must know how the tools you work with work! (e.g. [configure Docker to not do this]([descriptive article](https://www.techrepublic.com/article/how-to-fix-the-docker-and-ufw-security-flaw/)) ) 
+- You must have a backup - luckily the ES database was backed up so I didn't have to pay
+- Do not rely on a single security mechanism (e.g. firewall) but use multiple (e.g. protect the ES db also with a password)
 
 
 # State of the Security
 
-So how likely was the scenario that I've presented before? Unfortunately security breaches are quite likely in fact. In an article about the [Cost of Data Breach Study](https://documents.ncsl.org/wwwncsl/Task-Forces/Cybersecurity-Privacy/IBM_Ponemon2017CostofDataBreachStudy.pdf) by IBM we learn that 
+So how likely was the scenario that I've presented before? Unfortunately quite likely. In an article about the [Cost of Data Breach Study](https://documents.ncsl.org/wwwncsl/Task-Forces/Cybersecurity-Privacy/IBM_Ponemon2017CostofDataBreachStudy.pdf) by IBM we learn that: 
 
-- **The most common way to discover security failures?** is when a security incident happens 
-- **Average time until people found out they were hacked?**
-  - half a year! [1]
+1. **The most common way to discover security failures** is when a security incident happens. 
+2. **Average time until people found out they were hacked** is quite long: 
+  - half a year
   - By this time, it is often too late, and damage has been done. 
-  - *Story*: Russian vs. Brazilian hackers.
+
+*Second hand anecdote*: Russian vs. Brazilian hackers.
 
 
 # A Systematic Approach to Security
   
-
-**We need a proactive and systematic approach**, and this means 
+If one is to follow a  **systematic approach** to security, this would mean a four-pronged approach consisting of: 
 
   1. Understanding threats
-  
-  2. Assessing risk
+
+  2. Assessing risks
   
   3. Testing security
 
@@ -159,7 +203,7 @@ So how likely was the scenario that I've presented before? Unfortunately securit
 
 In this section we will briefly discuss each of these in turn.
 
-## 1. Understanding Threats
+## Understanding Threats
 
 ### What is a threat? 
 
@@ -167,10 +211,10 @@ A threat is defined by a triplet:
 
 1. Intent (we can guess)
 2. Capability (we can't change)
-3. Opportunity <-- (this is our focus!)
+3. Opportunity <-- (we can influence)
 
 
-#### 1&2: Intent and Capability Define Attackers
+#### Threat Component: Intent and Capability
 
 * **Black Hat** - bad intent, high capabilities (inspired from western movies)
 
@@ -183,9 +227,9 @@ A threat is defined by a triplet:
 In your case, most of the times it will be one of the first two. 
 
 
-#### 3: Opportunity
+#### Threat Component: Opportunity
 
-Opportunities - this is where you can have an impact. You can reduce the opportunity for threats. 
+Opportunities - this is where you can have an impact. You can reduce the opportunity for threats. The way to do it is to analyze your system and think 
 
 Framework for Discovering Opportunities for Web Applications: [Open Web Application Security Project](https://owasp.org/www-project-top-ten/) OWASP
 
@@ -194,42 +238,10 @@ Framework for Discovering Opportunities for Web Applications: [Open Web Applicat
 - Maintains lists of vulnerabilities for web applications
 
 - **OWASP Top 10** Include:
-  1. Broken Access Control
-  3. Injection (XSS, SQL, etc.)
-  7. Identification and Authenticaion Failures
-  9. Insufficient Logging & Monitoring (!!!)
-
-##### OWASP Detail: Insufficient Logging and Monitoring
-
-Included in the Top 10 **based on an industry survey**
-
-Strategy for determining if you have **sufficient monitoring**
-
-- examine the logs following *penetration testing* 
-
-- the testers’ actions should be recorded sufficiently to understand what damages they may have inflicted
-
-
-Note: *applying this strategy is part of your assignment*
-
-##### OWASP Detail: Insufficient Logging and Monitoring
-
-This is considered to be the case when: 
-
-- Auditable events are not logged
-  - e.g. logins, failed logins, and high-value transactions
-
-- Warnings and errors generate no log messages
-  - (or inadequate, or unclear)
-
-- You're not looking at the logs!
-- The application is unable to detect, escalate, or alert for active attacks in real time or near real time.
-
-Source: [OWASP Top 10: Insufficient Logging and Monitoring](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A10-Insufficient_Logging%252526Monitoring)
-
-Logging Cheatsheet from OWASP: https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html
-
-
+  1. [Broken Access Control](https://owasp.org/Top10/A01_2021-Broken_Access_Control/) : e.g., broken permissions, broken authorization
+  3. [Injection](https://owasp.org/Top10/A03_2021-Injection/): e.g., XSS, SQL, etc.
+  6. [Vulnerable and Outdated Components](https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/)
+  9. [Security Logging and Monitoring Failures](https://owasp.org/Top10/A09_2021-Security_Logging_and_Monitoring_Failures/): e.g., auditable events are not logged, logs are not monitored for suspicious activity, etc. (See also the [Logging Cheatsheet](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html) from OWASP).
 
 ##  Assessing risk
 
@@ -245,14 +257,13 @@ A possible template is this:
 
 Once you define the matrix, you place the risks that you identified in it. Then address the ones for which both impact and probability are highest first. 
 
-
 You can define yourself the levels of: 
 
-- **Probability** (**Likelihood**) e.g., Certain, Likely, Possible, Unlikely, Rare
+- **Probability** (**Likelihood**) e.g.: {Certain, Likely, Possible, Unlikely, Rare}
 
-- **Impact** (**Severity**). e.g., Insignificant, Negligible, Marginal, Critical, Catastrophic
+- **Impact** (**Severity**). e.g.: {Insignificant, Negligible, Marginal, Critical, Catastrophic}
 
-Or you can reuse existing pre-defined levels. 
+Or you can reuse existing pre-defined levels. See two examples below.
 
 #### e.g.: Levels of Severity 
 
@@ -271,12 +282,9 @@ cf. Security Risk Management Body of Knowledge
 
 
 
-
-
-## 3. Testing
+## Testing
 
 > "blue teams always need **red teams** to test them against each other"
-
 
 Penetration Testing (a.k.a. pen-testing)
 - simulate attacks on your system
@@ -343,16 +351,16 @@ Online Services
 - shodan.io
 
 
-## 4. Detecting Intrusions
+## Detecting Intrusions
 
-Is hard.
+Is hard. And it is usually a little bit too late. So better focus on preventing. 
 
 ### Warning signs that you might have an intruder
 
- - you can't access your server !!! 
- - your server IP has been blacklisted
- - abnormal network traffic (important to monitor!)
- - unusual resource usage (ditto)
+ - You can't access your server !!!
+ - Your server IP has been blacklisted
+ - Abnormal network traffic (that's why you monitor!)
+ - Unusual resource usage (ditto)
 
 ### Detection - Approach
 
@@ -366,39 +374,90 @@ Is hard.
 - Auditing, compliance testing
 
  
-# 8 Practical Steps to Improve Security
+# Practical Advice to Improve Security in DevOps
 
 
-## Evaluate & Update Dependencies
+## Evaluate, Scan & Update Dependencies
 
-- Scan dependencies for security breaches
-  - source code and container images too
+
+  > **Principle**: "If its part of your app, it should be part of your security process"
+
+
+One of the most important attack vectors on your system are all the ***giants*** your application is *"**standing on the shoulders of**"*. 
+
+Best approach here is to:
+- **Always keep dependencies up to date**
+- This is why we use dependencies, to get updates for free and this is why they're better than copy-pasting code from generative ai tools.
+
+
+One way to do that is to: 
+- **Scan dependencies for security breaches**
+  - source code and container images too (e.g. 
+	  - `snyk` as a tool for scanning
+	  - `docker scout` as a first-class command!
   - add security checks as part of your CI
 
-- Keep dependencies up to date
+Example of output from `snyk container test elasticsearch:7.6.2`: 
+
+![](images/snyk-output-es.png)
+
+![](images/docker-scout.png)
 
 
-**Principle**
+Or when I run `snyk` on my own project, `zeeguu/api` I get this as one example. Can you tell me what's the solution? 
 
-  > "If its part of your app, it should be part of your security process"
+![](images/snyk-on-zapi-example.png)
 
+Note: DockerHub has info about image vulns (e.g. [3.9.2-buster](https://hub.docker.com/_/python/tags?page=&page_size=&ordering=&name=3.9.2-buster) vs. [3.12.3](https://hub.docker.com/layers/library/python/3.12.3/images/sha256-49f4118027f9494ebe47d3d9b6c7a46b6d7454a19a7ba42eca32734d8108b323?context=explore)).  
 
-##### Case Study
-- [Postmortem for Malicious eslint Packages Published on July 12th, 2018](https://eslint.org/blog/2018/07/postmortem-for-malicious-package-publishes)
+**For your project**: consider adding a step in the CI/CD pipeline that checks for vulnerabilities
 
+Case Study: [Postmortem for Malicious eslint Packages Published on July 12th, 2018](https://eslint.org/blog/2018/07/postmortem-for-malicious-package-publishes)
 
+## Always Provide the Least Privileges Possible
 
+What if the base image you depend on is malevolent? What if a dependency that you have is? 
 
+Run your containers with least possible privileges, i.e., [do not run them as root](https://collabnix.com/running-docker-containers-as-root/#Why_Running_as_Root_Is_a_Concern). E.g. , switching to a new user after installing the required dependencies in the system.
+
+```Dockerfile 
+# Base image
+FROM ubuntu:latest
+
+# Install packages (**as root**)
+RUN apt-get update && apt-get install -y curl
+
+# Create a non-root user
+RUN useradd -m myuser
+
+# Switch to the non-root user
+USER myuser
+
+# Set the working directory
+WORKDIR /home/myuser
+
+# ... continue with other instructions ...
+
+```
+ 
+ For how not to trust code running in your web app see the [fascinating thought experiment about a malicious npm package](https://david-gilbertson.medium.com/im-harvesting-credit-card-numbers-and-passwords-from-your-site-here-s-how-9a8cb347c5b5)
+
+ 
 ## Never Trust User Input
 
-> Principle: "All input is bad until proven otherwise
+> Principle: "All input is bad until proven otherwise"
 
-- Validate the input before using it
-  - in the webpages
-  - in the API
-- Use parameterized DB queries (or whatever framework help you can)
+Another attack vector is the **inputs in your application**. The photo below is from a legendary story where one good American citizen tried to delete the DB of the auto registry. 
 
 ![](images/hacker_license_plate.png)
+
+
+The solution to this is: 
+- **Validate web input before using it**
+  - in the webpages
+  - in the API
+
+- Use parameterized DB queries (or whatever framework help you can)
 
 
 
@@ -422,13 +481,14 @@ Is hard.
 
 - Use 2FA for secret repositories
 
-- Consider using dedicated tools and vaults for secrets
+- Consider using dedicated tools and vaults for secrets (e.g. `docker secret`)
+
+Case Study: [The Uber Breach](https://www.bloomberg.com/news/articles/2017-11-21/uber-concealed-cyberattack-that-exposed-57-million-people-s-data) - started accessing a private GitHub repo, where keys were found for an AWS account, etc.
+
+- Legend has it that when I was a student, one of the lecturers in our university has declared his love for his wife by sharing with her the root password for one of his servers. There are other ways to show love :) 
 
 
-##### Case Study
-- [The Uber Breach](https://www.bloomberg.com/news/articles/2017-11-21/uber-concealed-cyberattack-that-exposed-57-million-people-s-data) - started accessing a private GitHub repo, where keys were found for an AWS account, etc.
 
----
 
 
 
@@ -437,22 +497,10 @@ Is hard.
 - CI pipeline is part of your infrastructure
 - Make sure that it's secure (2FA, etc.)
 
-##### Case Study
-
+Case Studies: 
 - US government agencies [hacked due to misconfiguration of their TeamCity CI tool](https://cd.foundation/blog/2021/01/07/could-ci-cd-tool-teamcity-really-have-been-exploited-to-hack-the-us/)
+- That very safe OS of NASA that red team changed the code
 
-- That very safe OS of NASA that red team changed the code of
-
-
-## Hack Yourself
-
-- Create a red team to pen test
-
-- Stress the app infrastructure
-
-## Log Everything 
-
-- Your key to being able to detect attacks 
 
 ## Automatic Backups
 
@@ -462,29 +510,39 @@ Is hard.
 
 	- A backup is not useful unless you can use it to actually perform the backup
 
+## Hack Your Own System
 
+- Create a red team to pen test
 
----
+- Stress the app infrastructure
+
 
 ## Use More than One Security Mechanism
+
 - the example I gave you in the introduction: both firewall and application passwords
+
+- could based firewall but firewall also on every machine
+
 - 2FA
-- etc.
-## Monitor your server
+
+
+## Log Your Application & Monitor Your Server
+
+Monitor
 - traffic
 - accesses
 
-All these might help you discover an intrusion. 
+Log everything. This is the key to being able to detect attacks 
 
 
 
 
-Legend has it that when I was a student, one of the lecturers in our university has declared his love for his wife by sharing with her the root password for one of his servers. That is unnecessary :) 
+
 
 
 # What Next?
 
-- Exercise: [Pen testing with Metasploit / wmap](https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_09/README_EXERCISE.md)
+- Exercise: [Pen testing with Metasploit / wmap](https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_11/README_EXERCISE.md)
 
 - Practical: [Own security assessment + Hardening](./README_TASKS.md)
 
