@@ -53,11 +53,11 @@ GROUP_URLS = [
         "group e",
         "Grl Pwr",
         # Monitoring URL:
-        "http://64.226.117.89/d/KdDACDp4z/asp-net-core?orgId=1&refresh=10s",
+        "http://209.38.228.55/d/KdDACDp4z/asp-net-core?orgId=1&refresh=10s",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
-        "http://64.226.117.89/d/edgfqhyan2znka/logging-dashboard?orgId=1",
+        "http://209.38.228.55/d/edgfqhyan2znka/logging-dashboard?orgId=1",
         # SLA:
         "<sla_url>",
         # SLA Review:
