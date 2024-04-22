@@ -59,8 +59,8 @@ GROUP_REPOS = [
         "group k",
         "GitGurus",
         ["https://github.com/git-gurus-itu-devops/itu-minitwit"],
-        "http://165.227.245.161:5000",
-        "http://165.227.245.161:5001",
+        "https://minitwit.tech",
+        "https://api.minitwit.tech",
     ],
     [
         "group l",
