@@ -52,8 +52,8 @@ GROUP_REPOS = [
         "group j",
         "<Name>",
         ["https://github.com/ITU-DevOps2024-Ben10/ITU-minitwit"],
-        "http://64.23.243.192:8080/",
-        "http://64.23.243.192:8080/api",
+        "http://165.227.156.51:8080/",
+        "http://165.227.156.51:8080/api",
     ],
     [
         "group k",
