@@ -102,7 +102,7 @@ GROUP_REPOS = [
         "Test1",
         ["https://github.com/TheisHS/test1-itu-minitwit"],
         "https://minitest1.dk/",
-        "https://api.minitest.dk/",
+        "https://api.minitest1.dk/",
     ],
     [
         "group s",
