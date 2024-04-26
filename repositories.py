@@ -72,7 +72,7 @@ GROUP_REPOS = [
     [
         "group m",
         "Group M",
-        ["https://github.com/davrepo/devops2024", "https://github.com/DevOps2024-Organization/devops2024/tree/main"],
+        ["https://github.com/davrepo/devops2024", "https://github.com/DevOps2024-Organization/devops2024"],
         "http://104.248.43.157:8080",
         "http://104.248.43.157:5000",
     ],
