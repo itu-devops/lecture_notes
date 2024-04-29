@@ -31,7 +31,7 @@ GROUP_REPOS = [
         "group g",
         "GESMT",
         ["https://github.com/dudustri/DevOps-Adventure"],
-        "http://134.209.226.165:8081",
+        "http://gemst.dk/public",
         "http://134.209.226.165:8081/api",
     ],
     [
