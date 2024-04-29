@@ -101,8 +101,8 @@ GROUP_REPOS = [
         "group q",
         "Test1",
         ["https://github.com/TheisHS/test1-itu-minitwit"],
-        "http://46.101.123.125:4000",
-        "http://46.101.123.125:4001",
+        "https://minitest1.dk/",
+        "https://api.minitest1.dk/",
     ],
     [
         "group s",
