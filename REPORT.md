@@ -59,7 +59,7 @@ In particular, the following descriptions should be included:
   - Brief results of the security assessment and brief description of how did you harden the security of your system based on the analysis
   - Applied strategy for scaling and upgrades
 
-**Important**: Also, in case you have used AI-assistants during your project briefly explain which system(s) you used during the project and reflect how it supported/hindered your process.
+In case you have used AI-assistants during your project briefly explain which system(s) you used during the project and reflect how it supported/hindered your process.
 
 
 
