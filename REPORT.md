@@ -9,7 +9,7 @@ Be aware as described in the Exam Description on LearnIT ([BSc](https://learnit.
 
 ## Formal Requirements
 
-Your final report should be maximum 2500 words long. So, try to be brief and concise, but be sure to include all necessary information listed below.
+Your final report should be maximum 2500 words long (images do not count as words). So, try to be brief and concise, but be sure to include all necessary information listed below.
 
 Your main project repository shall contain a directory called `report` containing either a single large or a set of linked ASCIIDOC, MarkDown, or LaTex files forming the report. All images should be collected in a directory called `images`, a sub-directory of `report`.
 
