@@ -157,8 +157,8 @@ link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04
 |*Simulator stops*. Write report.
 // w19
 |14
-|10/5
-|10:00 - 14:00
+|Online
+|Via Teams comments
 |Mircea & Helge
 |
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_14/Slides.md[Exam prep., Thesis topics, Evaluation, Cookies :)]
@@ -312,7 +312,7 @@ TBA
 
 |BSc
 |group l
-|Baglinjen",
+Baglinjen",
 |`anbc`, `vilg`, `maraa`, `lupa`, `mbrh`
 |Ruby, Sinatra
 
