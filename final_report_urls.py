@@ -43,9 +43,9 @@ REPORT_URLS = [
     ],
     [
         "group h",
-        "<name>",
+        "Eagles",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/Eagles-DevOps/MiniTwit/blob/main/report/MSc_group_h.pdf",
     ],
     [
         "group i",
