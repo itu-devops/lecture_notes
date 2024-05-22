@@ -79,9 +79,9 @@ REPORT_URLS = [
     ],
     [
         "group n",
-        "<name>",
+        "MacOnTop",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/itu-devops-groupn/itu-minitwit/blob/main/report/build/BSc_group_n.pdf",
     ],
     [
         "group o",
