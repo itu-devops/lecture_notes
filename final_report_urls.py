@@ -73,9 +73,9 @@ REPORT_URLS = [
     ],
     [
         "group m",
-        "<name>",
+        "Group M",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/DevOps2024-Organization/devops2024/archive/refs/tags/v1.3.33.zip",
     ],
     [
         "group n",
