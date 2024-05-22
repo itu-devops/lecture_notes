@@ -49,7 +49,7 @@ REPORT_URLS = [
     ],
     [
         "group i",
-        "<name>",
+        "Baglinjen",
         # Report Release URL:
         "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
@@ -67,9 +67,9 @@ REPORT_URLS = [
     ],
     [
         "group l",
-        "<name>",
+        "Baglinjen",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/devops-group-l/chirp/archive/refs/tags/v3.0.0.zip",
     ],
     [
         "group m",
