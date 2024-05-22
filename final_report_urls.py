@@ -19,9 +19,9 @@ REPORT_URLS = [
     ],
     [
         "group d",
-        "<name>",
+        "mini-x",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/sumrdev/mini-x/releases/tag/report",
     ],
     [
         "group e",
