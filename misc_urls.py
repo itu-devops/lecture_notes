@@ -152,11 +152,11 @@ GROUP_URLS = [
         "group l",
         "<name>",
         # Monitoring URL:
-        "http://67.207.76.189:3000/d/zyAf4i4Zz/prometheus-net?orgId=1&refresh=5s",
+        "http://67.207.76.189:3000/d/zyAf4i4Zz/monitoring-and-logging?orgId=1&refresh=5s",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
-        "<logging_url>",
+        "http://67.207.76.189:3000/d/zyAf4i4Zz/monitoring-and-logging?orgId=1&refresh=5s",
         # SLA:
         "<sla_url>",
         # SLA Review:
