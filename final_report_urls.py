@@ -37,7 +37,7 @@ REPORT_URLS = [
     ],
     [
         "group g",
-        "<name>",
+        "GEMST",
         # Report Release URL:
         "https://github.com/DevOps-Adventure/DevOps-Adventure/tree/main/report/build",
     ],
