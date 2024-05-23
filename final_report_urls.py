@@ -55,9 +55,9 @@ REPORT_URLS = [
     ],
     [
         "group j",
-        "<name>",
+        "Ben10",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/ITU-DevOps2024-Ben10/ITU-minitwit/archive/refs/tags/v2.1.33.zip",
     ],
     [
         "group k",
