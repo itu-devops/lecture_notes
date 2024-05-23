@@ -312,7 +312,7 @@ TBA
 
 |BSc
 |group l
-Baglinjen",
+|Baglinjen",
 |`anbc`, `vilg`, `maraa`, `lupa`, `mbrh`
 |Ruby, Sinatra
 
