@@ -97,8 +97,8 @@ REPORT_URLS = [
     ],
     [
         "group q",
-        "<name>",
+        "Test1",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/TheisHS/test1-itu-minitwit/archive/refs/tags/v1.8.zip",
     ],
 ]
