@@ -19,9 +19,9 @@ REPORT_URLS = [
     ],
     [
         "group d",
-        "<name>",
+        "mini-x",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/sumrdev/mini-x/releases/tag/report",
     ],
     [
         "group e",
@@ -37,9 +37,9 @@ REPORT_URLS = [
     ],
     [
         "group g",
-        "<name>",
+        "GEMST",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/DevOps-Adventure/DevOps-Adventure/tree/main/report/build",
     ],
     [
         "group h",
@@ -67,27 +67,27 @@ REPORT_URLS = [
     ],
     [
         "group l",
-        "<name>",
+        "Baglinjen",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/devops-group-l/chirp/archive/refs/tags/v3.0.0.zip",
     ],
     [
         "group m",
-        "<name>",
+        "Group M",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/DevOps2024-Organization/devops2024/archive/refs/tags/v1.3.33.zip",
     ],
     [
         "group n",
-        "<name>",
+        "MacOnTop",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/itu-devops-groupn/itu-minitwit/releases/tag/v4.0.5",
     ],
     [
         "group o",
         "<name>",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/group-o-minitwit-2024/MiniTwit/archive/refs/tags/Final-Release.zip",
     ],
     [
         "group p",

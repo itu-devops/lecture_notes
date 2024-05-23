@@ -152,11 +152,11 @@ GROUP_URLS = [
         "group l",
         "<name>",
         # Monitoring URL:
-        "http://67.207.76.189:3000/d/zyAf4i4Zz/prometheus-net?orgId=1&refresh=5s",
+        "http://67.207.76.189:3000/d/zyAf4i4Zz/monitoring-and-logging?orgId=1&refresh=5s",
         # Security report URL:
         "<security_report_url>",
         # Logging URL:
-        "<logging_url>",
+        "http://67.207.76.189:3000/d/zyAf4i4Zz/monitoring-and-logging?orgId=1&refresh=5s",
         # SLA:
         "<sla_url>",
         # SLA Review:
@@ -194,9 +194,9 @@ GROUP_URLS = [
         "group o",
         "<name>",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://178.62.193.231:3000/d/ediic79ugn1moe/monitortwit?orgId=1&refresh=5s",
         # Security report URL:
-        "<security_report_url>",
+        "https://group-o-minitwit-2024.github.io/",
         # Logging URL:
         "<logging_url>",
         # SLA:
