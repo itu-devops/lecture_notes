@@ -61,9 +61,9 @@ REPORT_URLS = [
     ],
     [
         "group k",
-        "<name>",
+        "GitGurus",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/git-gurus-itu-devops/itu-minitwit/releases/tag/v.1d1fd0a9971ce62cc0a4ed534d41bf2b18bab00b",
     ],
     [
         "group l",
