@@ -91,9 +91,9 @@ REPORT_URLS = [
     ],
     [
         "group p",
-        "<name>",
+        "Int* ptr = nullptr;",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/DevOps-2024-group-p/maxitwit/blob/v1.4.11/report/report.pdf",
     ],
     [
         "group q",
