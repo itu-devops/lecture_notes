@@ -13,9 +13,9 @@ REPORT_URLS = [
     ],
     [
         "group c",
-        "<name>",
+        "csharp-minitwit",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/DevopsGroupC/Minitwit/tree/main",
     ],
     [
         "group d",
