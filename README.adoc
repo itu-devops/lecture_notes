@@ -312,7 +312,7 @@ TBA
 
 |BSc
 |group l
-|Baglinjen",
+Baglinjen",
 |`anbc`, `vilg`, `maraa`, `lupa`, `mbrh`
 |Ruby, Sinatra
 
@@ -343,7 +343,7 @@ TBA
 |MSc
 |group q
 |Test1
-|`ches`, `carbr`, `nako`, `thhs`, `tokj`
+|`ches`, `carbr`, `nako`, `thhs`
 |Go, Gorilla
 
 |=======================================================================
@@ -352,151 +352,125 @@ TBA
 
 ==== Ungrouped yet
 
-////
 
 == Exam Schedule
-.Exam schedule. The room for the exam is 2F12.
-[width="100%",cols="4%,4%,6%,30%,4%,9%,5%",options="header",]
-|=======================================================================
-|Day |Time Slot |Group |Group Name |Degree |#Group Members |Duration
 
-|12/6
-|9:30-10:30
-|Group g
-|DevJanitors
+.Exam schedule. The room for the exam is 2A18.
+[width="100%",cols="4%,4%,6%,30%,4%,9%",options="header",]
+|=======================================================================
+|Day |Time Slot |Group |Degree |#Group Members |Duration
+
+|11/6
+|9:30-10:45
+|Group k
 |BSc
-|4
-|1:00
+|5
+|1:15
 
 |
-|10:40-12:10
-|Group a
-|Academic Weapons
+|10:50-12:05
+|Group l
+|BSc
+|5
+|1:15
+
+|
+|12:45-14:30
+|Group e
 |MSc
 |6
-|1:30
+|1:45
 
 |
-|12:55-13:55
-|Group d
-|CI/CDont
+|14:35-15:50
+|Group o
 |MSc
-|4
-|1:00
+|5
+|1:15
 
 |
-|14:05-15:20
-|Group l
-|Bango
+|15:55-17:10
+|Group i
 |MSc
 |5
 |1:15
 
 
+|12/6
+|9:30-10:45
+|Group j
+|BSc
+|5
+|1:15
+
 |
-|15:30-17:00
-|Group o
-|group o
+|10:50-12:20
+|Group m
+|BSc
+|6
+|1:30
+
+|
+|13:00-14:15
+|Group g
+|MSc
+|5
+|1:15
+
+|
+|14:20-15:50
+|Group c
 |MSc
 |6
 |1:30
 
-
+|
+|15:55-17:10
+|Group f
+|MSc
+|5
+|1:15
 
 
 |13/6
-|9:30-10:30
-|Group k
-|Radiator
-|BSc
-|4
-|1:00
-
-|
-|10:40-11:40
-|Group b
-|DevUps: Delivering Buggy Software Late since 2023
-|MSc
-|4
-|1:00
-
-|
-|11:50-12:50
-|Group j
-|Niceness
-|BSc
-|4
-|1:00
-
-|
-|13:35-14:50
-|Group n
-|dudes
-|MSc
-|5
-|1:15
-
-|
-|15:00-16:15
-|Group s
-|Group S
-|MSc
-|5
-|1:15
-
-|
-|16:25-17:25
-|Group t
-|our group name
-|MSc
-|4
-|1:00
-
-
-|14/6
 |9:30-10:45
-|Group f
-|Container Maintainers
+|Group d
 |BSc
 |5
 |1:15
 
 |
-|10:55-12:10
-|Group m
-|Jason Derulo
+|10:50-12:05
+|Group n
 |BSc
 |5
 |1:15
 
 |
-|12:55-14:10
-|Group i
-|OpsDev
+|12:45-13:45
+|Group q
+|MSc
+|4
+|1:00
+
+|
+|13:50-15:05
+|Group p
 |MSc
 |5
 |1:15
 
 |
-|14:20-15:20
-|Group e
-|Souffle
-|BSc
-|4
-|1:00
-
-|
-|15:30-16:45
+|15:10-16:25
 |Group h
-|FiveGuys
-|BSc
+|MSc
 |5
 |1:15
 
 |=======================================================================
 
 More details about the exam structure can be found here: link:https://github.com/itu-devops/lecture_notes/blob/master/exam_details.md[exam_details.md]
-////
+
 
 
 ===== Attributions
