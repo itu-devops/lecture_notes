@@ -368,18 +368,18 @@ Baglinjen",
 |1:15
 
 |
-|10:50-12:35
-|Group e
-|MSc
-|6
-|1:45
-
-|
-|13:15-14:30
+|10:50-12:05
 |Group l
 |BSc
 |5
 |1:15
+
+|
+|12:45-14:30
+|Group e
+|MSc
+|6
+|1:45
 
 |
 |14:35-15:50
@@ -471,6 +471,34 @@ Baglinjen",
 
 More details about the exam structure can be found here: link:https://github.com/itu-devops/lecture_notes/blob/master/exam_details.md[exam_details.md]
 
+== Re-exam Schedule
+
+.Re-exam schedule. The room for the re-exam is 3A52.
+[width="100%",cols="10%,20%,60%,10%",options="header",]
+|=======================================================================
+|Day |Time Slot |Student Number |Duration
+
+|16/8
+|13:00-13:20
+|22176
+|0:20
+
+|
+|13:25-13:45
+|22166
+|0:20
+
+|
+|13:50-14:10
+|20371
+|0:20
+
+|
+|14:15-14:35
+|20164
+|0:20
+
+|=======================================================================
 
 
 ===== Attributions
