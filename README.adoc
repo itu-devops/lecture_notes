@@ -9,15 +9,14 @@ image:images/banner.png[image]
 === Content
 
 
-This page contains information on the schedule, material, exam, etc. for the elective "DevOps, Software Evolution and Software Maintenance Content" at IT University of Copenhagen, spring 2024 (link:https://learnit.itu.dk/local/coursebase/view.php?ciid=1139[BSc course description on LearnIT] and link:https://learnit.itu.dk/local/coursebase/view.php?ciid=1391[MSc course description on LearnIT]).
+This page contains information on the schedule, material, exam, etc. for the elective "DevOps, Software Evolution and Software Maintenance Content" at IT University of Copenhagen, spring 2025 (link:https://learnit.itu.dk/local/coursebase/view.php?ciid=1618[BSc course description on LearnIT] and link:https://learnit.itu.dk/local/coursebase/view.php?ciid=1620[MSc course description on LearnIT]).
 
 
 === Schedule
 
-Sessions (lectures combined with exercises) are on Fridays from 10:00
-to 14:00 in room 4A14-16.
+Lectures are on Fridays from 10:00 to 12:00 in Auditorium 2 (0A35) and exercises are on Fridays from 12:00 to 14:00 in rooms 2A52, 2A54.
 
-*OBS*: We expect you to be present during the entire time, not only the first two hours.
+*OBS*: We expect you to be present during the entire time, not only the lecture hours.
 
 .Course schedule *Note*: While times are locked, the topics are subject to change.
 [width="100%",cols="4%,4%,4%,3%,4%,30%,17%,30%",options="header",]
@@ -25,7 +24,7 @@ to 14:00 in room 4A14-16.
 |# |Date |Time |Lecturer |Preparation |Topic |Exercises |Project Work
 // w5
 |1
-|2/2
+|31/1
 |10:00 - 14:00
 |Helge
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_01/README_PREP.md[Prep. material]
@@ -34,7 +33,7 @@ to 14:00 in room 4A14-16.
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_01/README_TASKS.md[Refactor _ITU-MiniTwit_ to work on modern system]
 // w6
 |2
-|9/2
+|7/2
 |10:00 - 14:00
 |Helge
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_02/README_PREP.md[Prep. material]
@@ -43,7 +42,7 @@ to 14:00 in room 4A14-16.
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_02/README_TASKS.md[Refactor _ITU-MiniTwit_ in another programming language and tech. stack]
 // w7
 |3
-|16/2
+|14/2
 |10:00 - 14:00
 |Helge
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_03/README_PREP.md[Prep. material]
@@ -52,30 +51,26 @@ to 14:00 in room 4A14-16.
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_03/README_TASKS.md[Continue refactoring, deployment of your _ITU-MiniTwit_ to a remote server.]
 // w8
 |4
-|23/2
+|21/2
 |10:00 - 14:00
 |Helge
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/README_PREP.md[Prep. material]
-|link:https://ituniversity.sharepoint.com/:b:/r/sites/2024DevOpsSoftwareEvolutionandSoftwareMaintenance9/Shared%20Documents/General/Guest%20Lectures/DevOps%20Culture%20and%20Agile%20Mindset-%20ITU.pdf?csf=1&web=1&e=QbXdrP[*Guest Lecture: What is DevOps? (Eficode)*];
+|*Guest Lecture: What is DevOps? (Eficode)*;
 link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/Slides.md[Continuous Integration (CI), Continuous Delivery (CD), and Continuous Deployment]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/README_EXERCISE.md[Using GitHub Actions CI] (*Simulator test*)
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/README_TASKS.md[Continue refactoring, Setup CI & CD for reproducible builds, tests, delivery, and deployment]
 // w9
 |5
-|1/3
+|28/2
 |10:00 - 14:00
 |Helge
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_05/README_PREP.md[Prep. material]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_05/Slides.md[What is DevOps and configuration management]
-// , and techniques for division of subsystems
-|
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_05/README_TASKS.md[Cleaning and polishing of your _ITU-MiniTwit_, introduction of DB abstraction layer, and entering maintenance (*Simulator starts*)]
-// refactoring for clean subsystem interfaces
-// Simulator starts for sure
-
+|(*Simulator starts*)
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_05/README_TASKS.md[Cleaning and polishing of your _ITU-MiniTwit_, introduction of DB abstraction layer, and entering maintenance]
 // w10
 |6
-|8/3
+|7/3
 |10:00 - 14:00
 |Helge
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_06/README_PREP.md[Prep. material]
@@ -83,82 +78,81 @@ link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_06/README_EXERCISE.md[Using Prometheus and Grafana]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_06/README_TASKS.md[Add monitoring to your _ITU-MiniTwit_ and peer-review]
 // w11
-// Note for 2025, flip sessions 7 and 8 back again, changed them only for Helge's unavailability in 2024
 |7
-|15/3
-|10:00 - 14:00
-|Mircea
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_08/README_PREP.md[Prep. material]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_08/Slides.md[Logging, and Log Analysis]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_08/README_EXERCISE.md[A Basic EFK Stack]
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_08/README_TASKS.md[Add logging to your _ITU-MiniTwit_ and UI Testing Each Others Systems]
-// w12
-|8
-|22/3
+|14/3
 |10:00 - 14:00
 |Helge
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_07/README_PREP.md[Prep. material]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_07/Slides.md[Software Quality, Maintainability & Technical Debt]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_07/README_EXERCISE.md[Understand tests and SonarQube Quality Model.]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_07/README_TASKS.md[Enhancing CI/CD setup with test suite and static code analysis]
+// w12
+|8
+|21/3
+|10:00 - 14:00
+|Mircea
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_08/README_PREP.md[Prep. material]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_08/Slides.md[Logging, and Log Analysis]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_08/README_EXERCISE.md[A Basic EFK Stack]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_08/README_TASKS.md[Add logging to your _ITU-MiniTwit_ and UI Testing Each Others Systems]
 // w13
-|–
-|29/3
-|-
-|-
-|-
-|Easter Break
-|-
-| Operations & maintenance still reacting on issue reports and fixing of errors :)
-// w14
 |9
-|5/4
+|28/3
 |10:00 - 14:00
 |Mircea
 |-
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_09/Slides.md[Availability]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_09/README_EXERCISE.md[A Basic Swarm]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_09/README_TASKS.md[Isolate components into services/containers/VMs]
-// w15
+// w14
 |10
-|12/4
+|4/4
 |10:00 - 14:00
 |Mircea
 |-
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_10/Workshop.md[Workshop Notes]
 |
 |Continue isolation of components into services/containers/VMs and Fix reported problems
-// w16
+// w15
 |11
-|19/4
+|11/4
 |10:00 - 14:00
 |Mircea
 |
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_11/Slides.md[Security]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_11/README_EXERCISE.md[Pentesting]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_11/README_TASKS.md[Security Hardening]
+// w16
+|–
+|18/4
+|-
+|-
+|-
+|Easter Break
+|-
+| Operations & maintenance still reacting on issue reports and fixing of errors :)
 // w17
 |12
-|26/4
+|25/4
 |10:00 - 14:00
 |Mircea
 |
-|*Guest Lecture:* Albert, "MiniTwit on Kubernetes", link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_12/IaC.pdf[Infrastructure as Code]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_12/IaC.pdf[Infrastructure as Code]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_12/README_EXERCISE.md[MiniTwit Infrastructure as Code]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_12/README_TASKS.md[Encode your infrastructure setup]
 // w18
 |13
-|3/5
+|2/5
 |10:00 - 14:00
 |Mircea & Helge
 |
-|*Guest Lecture: DevOps@NetCompany by Tarik*, link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_13/Architectural_Documentation.pdf[Documentation of Systems and Projects]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_13/Architectural_Documentation.pdf[Documentation of Systems and Projects]
 |
 |*Simulator stops*. Write report.
 // w19
 |14
-|Online
-|Via Teams comments
+|9/5
+|10:00 - 14:00
 |Mircea & Helge
 |
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_14/Slides.md[Exam prep., Thesis topics, Evaluation, Cookies :)]
@@ -166,13 +160,9 @@ link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04
 |Write report.
 |=======================================================================
 
-* Exam submission: Latest Thursday *23/5/2024 14:00*
-* Exam period: 11/6/2024 to 14/6/2024
+* Exam submission: Latest Friday *30/5/2025 14:00*
+* Exam period: 25/6/2025 to 27/6/2025
 
-
-=== Peer-feedback, presentations, and discussions in exercise sessions
-
-TBA
 
 === TA Supervision
 
@@ -181,39 +171,12 @@ TBA
 === Dashboards
 
 ==== Activity Dashboard
-* link:http://138.68.98.175/status.html[Overview]
-* link:http://138.68.98.175/commit_activity_daily.svg[Daily commit activity per group]
-* link:http://138.68.98.175/commit_activity_weekly.svg[Weekly commit activity per group]
-* link:http://138.68.98.175/release_activity_weekly.svg[Weekly release activity per group]
-////
-* link:http://104.248.134.203/check_tweets.svg[Number of last ten tweets from the API that appear also on the GUI]
-////
 
+TBA
 
 ==== Simulator Status Dashboard
 
-* link:http://206.81.24.116/status.html[Status and simulator API errors per group]
-
-////
-
-++++
-<object width="65%" height="65%" data="http://104.248.134.203/chart.svg"></object>
-<br/>
-<object width="65%" height="65%" data="http://104.248.134.203/error_chart.svg"></object>
-++++
-
-
-* link:http://104.248.134.203/check_tweets.svg[Number of last ten tweets from the API that appear also on the GUI]
-
-++++
-<object width="65%" height="65%" data="http://138.197.185.85/commit_activity_weekly.svg"></object>
-<br/>
-<object width="65%" height="65%" data="http://138.197.185.85/commit_activity_daily.svg"></object>
-<br/>
-<object width="65%" height="65%" data="http://138.197.185.85/release_activity_weekly.svg"></object>
-++++
-////
-
+TBA
 
 === Recordings
 
@@ -226,7 +189,7 @@ You will have access to all written lecture material through this repository tho
 
 All examples in class target link:https://pop.system76.com/[Pop!_OS 22.04].
 Essentially, this is an link:https://releases.ubuntu.com/22.04/[Ubuntu 22.04 (Jammy Jellyfish)] Linux distribution.
-There are many more such Ubuntu derivates, choose one of your liking: link:https://linuxmint.com/[Linux Mint], link:https://elementary.io/[Elementary OS], link:https://neon.kde.org/[KDE Neon], etc.
+There are many more such Ubuntu derivatives, choose one of your liking: link:https://linuxmint.com/[Linux Mint], link:https://elementary.io/[Elementary OS], link:https://neon.kde.org/[KDE Neon], etc.
 
 Since all sessions contain hands-on exercises, we recommend that you have such a Linux version installed on a computer.
 (In case you decide to run another operating system, we cannot provide too much support for these during class.) The recommended setup is to have such a Linux installed natively on your machine.
@@ -240,265 +203,28 @@ Consequently, likely many of the technologies that we demonstrate will have issu
 === Team
 
 * *Teachers*: Helge, Mircea
-* *TAs*: Leonora, Mikkel, Patrick
+* *TAs*: David, Patrick, Rasmus
 
 === Communication
 
-Outside teaching sessions you can communicate with each other, and with the teachers via the link:https://teams.microsoft.com/l/channel/19%3aojKqkX6dw2VRi7brykTj3ftJiMl48lU-DS94dG52CwQ1%40thread.tacv2/General?groupId=baae1b93-1908-47e0-be31-2880b8a50185&tenantId=bea229b6-7a08-4086-b44c-71f57f716bdb[the course's Teams channel].
+Outside teaching sessions you can communicate with each other, and with the teachers via the link:https://teams.microsoft.com/l/channel/19%3AFu7JwCZrkViMXmxr7K5vAiJV5bYYIoFPHPuV9RDiABo1%40thread.tacv2/?groupId=915e499e-87d0-4f62-851d-b966bcfbc491&tenantId=bea229b6-7a08-4086-b44c-71f57f716bdb[the course's Teams channel].
 
 
 === Groups
 
 TBA
 
-.Overview over all groups.
-[width="100%",cols="5%,10%,40%,35%,10%",options="header",]
-|=======================================================================
-| |Index |Name |Members |Technology
-
-|MSc
-|group c
-|GroupC
-|`tofm`, `soad`, `cefr`, `eleb`, `mglh`, `mlup`
-|C♯, ASP.NET
-
-|BSc
-|group d
-|mini-x
-|`dafe`, `mawn`, `midf`, `mariu`, `mgrp`
-|Rust, Actix
-
-|MSc
-|group e
-|Grl Pwr
-|`abso`, `anti`, `milo`, `sacc`, `myje`, `bino`
-|C♯, ASP.NET
-
-|MSc
-|group f
-|Group F
-|`nicje`, `mlsc`, `dmon`, `gelu`, `piro`
-|C♯, ASP.NET Razor
-
-|MSc
-|group g
-|GESMT
-|`tbab`, `harw`, `gusm`, `edtr`, `mihr`
-|Go, Gin
-
-|MSc
-|group h
-|Eagles
-|`trro`, `rozv`, `anam`, `rano`, `dangr`, `jlis`
-|Go Gorilla
-
-|MSc
-|group i
-|Ben11
-|`mathl`, `rokk`, `mcfa`, `anjp`
-|Go Gorilla
-
-|BSc
-|group j
-|Ben10
-|`madsd`, `olau`, `bekr`, `mbek`, `casho`
-|C♯, ASP.NET Razor
-
-|BSc
-|group k
-|GitGurus
-|`ssbo`, `frepe`, `mroa`, `aguh`, `atro`
-|Ruby, Sinatra
-
-|BSc
-|group l
-Baglinjen",
-|`anbc`, `vilg`, `maraa`, `lupa`, `mbrh`
-|Ruby, Sinatra
-
-|BSc
-|group m
-|Group M
-|`maxt`, `memr`, `jhou`, `hajj`, `fume`, `dard`
-|Go, Gin
-
-|BSc
-|group n
-|MacOnTop
-|`dmil`, `frlr`, `jacp`, `natp`, `raln`
-|C♯, ASP.NET
-
-|MSc
-|group o
-|Group O
-|`mkrh`, `mahf`, `jkau`, `lakj`, `ezpa`
-|JavaScript, Node.js/Express
-
-|MSc
-|group p
-|int* ptr
-|`rslu`, `bluz`, `cemn`, `mithi`, `aandr`
-|JavaScript, Node.js/Express
-
-|MSc
-|group q
-|Test1
-|`ches`, `carbr`, `nako`, `thhs`
-|Go, Gorilla
-
-|=======================================================================
-
-
-
 ==== Ungrouped yet
 
+TBA
 
 == Exam Schedule
 
-.Exam schedule. The room for the exam is 2A18.
-[width="100%",cols="4%,4%,6%,30%,4%,9%",options="header",]
-|=======================================================================
-|Day |Time Slot |Group |Degree |#Group Members |Duration
-
-|11/6
-|9:30-10:45
-|Group k
-|BSc
-|5
-|1:15
-
-|
-|10:50-12:05
-|Group l
-|BSc
-|5
-|1:15
-
-|
-|12:45-14:30
-|Group e
-|MSc
-|6
-|1:45
-
-|
-|14:35-15:50
-|Group o
-|MSc
-|5
-|1:15
-
-|
-|15:55-17:10
-|Group i
-|MSc
-|5
-|1:15
-
-
-|12/6
-|9:30-10:45
-|Group j
-|BSc
-|5
-|1:15
-
-|
-|10:50-12:20
-|Group m
-|BSc
-|6
-|1:30
-
-|
-|13:00-14:15
-|Group g
-|MSc
-|5
-|1:15
-
-|
-|14:20-15:50
-|Group c
-|MSc
-|6
-|1:30
-
-|
-|15:55-17:10
-|Group f
-|MSc
-|5
-|1:15
-
-
-|13/6
-|9:30-10:45
-|Group d
-|BSc
-|5
-|1:15
-
-|
-|10:50-12:05
-|Group n
-|BSc
-|5
-|1:15
-
-|
-|12:45-13:45
-|Group q
-|MSc
-|4
-|1:00
-
-|
-|13:50-15:05
-|Group p
-|MSc
-|5
-|1:15
-
-|
-|15:10-16:25
-|Group h
-|MSc
-|5
-|1:15
-
-|=======================================================================
-
-More details about the exam structure can be found here: link:https://github.com/itu-devops/lecture_notes/blob/master/exam_details.md[exam_details.md]
+TBA
 
 == Re-exam Schedule
 
-.Re-exam schedule. The room for the re-exam is 3A52.
-[width="100%",cols="10%,20%,60%,10%",options="header",]
-|=======================================================================
-|Day |Time Slot |Student Number |Duration
-
-|16/8
-|13:00-13:20
-|22176
-|0:20
-
-|
-|13:25-13:45
-|22166
-|0:20
-
-|
-|13:50-14:10
-|20371
-|0:20
-
-|
-|14:15-14:35
-|20164
-|0:20
-
-|=======================================================================
+TBA
 
 
 ===== Attributions
