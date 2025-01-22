@@ -13,92 +13,92 @@ REPORT_URLS = [
     ],
     [
         "group c",
-        "csharp-minitwit",
+        "<name>",
         # Report Release URL:
-        "https://github.com/DevopsGroupC/Minitwit/tree/main",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group d",
-        "mini-x",
+        "<name>",
         # Report Release URL:
-        "https://github.com/sumrdev/mini-x/releases/tag/report",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group e",
-        "Grl Pwr",
+        "<name>",
         # Report Release URL:
-        "https://github.com/devops2024-group-e/itu-minitwit/releases/tag/v1.0.0",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group f",
         "<name>",
         # Report Release URL:
-        "https://github.com/DevOps-GroupF/itu-minitwit-devops/releases/tag/final",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group g",
-        "GEMST",
+        "<name>",
         # Report Release URL:
-        "https://github.com/DevOps-Adventure/DevOps-Adventure/tree/main/report/build",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group h",
-        "Eagles",
+        "<name>",
         # Report Release URL:
-        "https://github.com/Eagles-DevOps/MiniTwit/releases/tag/final",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group i",
-        "Ben11",
+        "<name>",
         # Report Release URL:
-        "https://github.com/DevOps-Ben11/minitwit/archive/refs/tags/v7.0.0.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group j",
-        "Ben10",
+        "<name>",
         # Report Release URL:
-        "https://github.com/ITU-DevOps2024-Ben10/ITU-minitwit/archive/refs/tags/v2.1.33.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group k",
-        "GitGurus",
+        "<name>",
         # Report Release URL:
-        "https://github.com/git-gurus-itu-devops/itu-minitwit/releases/tag/v.1d1fd0a9971ce62cc0a4ed534d41bf2b18bab00b",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group l",
-        "Baglinjen",
+        "<name>",
         # Report Release URL:
-        "https://github.com/devops-group-l/chirp/archive/refs/tags/v3.0.0.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group m",
-        "Group M",
+        "<name>",
         # Report Release URL:
-        "https://github.com/DevOps2024-Organization/devops2024/archive/refs/tags/v1.3.33.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group n",
-        "MacOnTop",
+        "<name>",
         # Report Release URL:
-        "https://github.com/itu-devops-groupn/itu-minitwit/releases/tag/v4.0.5",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group o",
         "<name>",
         # Report Release URL:
-        "https://github.com/group-o-minitwit-2024/MiniTwit/archive/refs/tags/Final-Release.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group p",
-        "Int* ptr = nullptr;",
+        "<name>",
         # Report Release URL:
-        "https://github.com/DevOps-2024-group-p/maxitwit/blob/v1.4.11/report/report.pdf",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group q",
-        "Test1",
+        "<name>",
         # Report Release URL:
-        "https://github.com/TheisHS/test1-itu-minitwit/archive/refs/tags/v1.8.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
 ]
