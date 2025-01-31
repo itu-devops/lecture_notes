@@ -28,25 +28,54 @@ $ git config --global core.editor nano
 
 -------------------------------
 
-## Setup Docker
+## Setup Docker and Docker Compose 
+
 
 Install Docker and Docker Compose to your computer.
 
+The below is adapted from the official documentation for Ubuntu (updated for 2025): https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository
 
 ### Docker
 
-Install Docker as for example like this:
+Uninstall old versions
 
+```shell
+for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
+```
 
-```bash
+Install the docker repository for automatic updates
+```shell
+# Add Docker's official GPG key:
 sudo apt-get update
-sudo apt install -y docker.io
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+
+# Add the repository to Apt sources:
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}") stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
+```
+
+Install the following tools for docker
+
+```shell
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 
 Check if the Docker engine is up and running:
 
 ```bash
 sudo systemctl status docker
+```
+
+or
+
+```shell
+sudo docker run hello-world
 ```
 
 To be able to run docker commands as your current user, it has to be added to the respective group.
@@ -62,13 +91,3 @@ su - ${USER}
 id -nG
 exit
 ```
-
-The above is adapted from the official documentation: https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository
-
-
-### Docker Compose
-
-```bash
-sudo apt install -y docker-compose-v2
-```
-
