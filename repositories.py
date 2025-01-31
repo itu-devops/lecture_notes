@@ -1,8 +1,8 @@
 GROUP_REPOS = [
     [
         "group a",
-        "<name>",
-        ["https://github.com/<organization|user>/<repository_name>"],
+        "Nintendo Lawyers",
+        ["https://github.com/ITU-DevOps2025-GROUP-A/itu-minitwit.git"],
         "http(s)://<TBA>/<FrontEndURL>",
         "http(s)://<TBA>/<APIURL>",
     ],
