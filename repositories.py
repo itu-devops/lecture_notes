@@ -29,8 +29,8 @@ GROUP_REPOS = [
     ],
     [
         "group e",
-        "<name>",
-        ["https://github.com/<organization|user>/<repository_name>"],
+        "Docker Daze",
+        ["https://github.com/Docker-Daze/itu-minitwit.git"],
         "http(s)://<TBA>/<FrontEndURL>",
         "http(s)://<TBA>/<APIURL>",
     ],
