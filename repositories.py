@@ -1,15 +1,15 @@
 GROUP_REPOS = [
     [
         "group a",
-        "Five-Crowns",
-        ["https://github.com/Five-Crowns/Minitwit_Crown"],
+        "<name>",
+        ["https://github.com/<organization|user>/<repository_name>"],
         "http(s)://<TBA>/<FrontEndURL>",
         "http(s)://<TBA>/<APIURL>",
     ],
     [
         "group b",
-        "<name>",
-        ["https://github.com/<organization|user>/<repository_name>"],
+        "Five-Crowns",
+        ["https://github.com/Five-Crowns/Minitwit_Crown"],
         "http(s)://<TBA>/<FrontEndURL>",
         "http(s)://<TBA>/<APIURL>",
     ],
