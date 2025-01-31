@@ -64,8 +64,8 @@ GROUP_REPOS = [
     ],
     [
         "group j",
-        "<name>",
-        ["https://github.com/<organization|user>/<repository_name>"],
+        "The Pentuple",
+        ["https://github.com/Grumlebob/The-Pentuple-MiniTwit"],
         "http(s)://<TBA>/<FrontEndURL>",
         "http(s)://<TBA>/<APIURL>",
     ],
