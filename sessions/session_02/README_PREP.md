@@ -1,6 +1,5 @@
 # Preparation Material for Session 02
 
-
 ## Version Control with Git
 
 In case you did not configure your Git installation already, do so as described in [First-Time Git Setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
@@ -28,8 +27,7 @@ $ git config --global core.editor nano
 
 -------------------------------
 
-## Setup Docker and Docker Compose 
-
+## Setup Docker and Docker Compose
 
 Install Docker and Docker Compose to your computer.
 
