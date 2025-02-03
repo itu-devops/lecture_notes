@@ -113,8 +113,8 @@ GROUP_REPOS = [
     ],
     [
         "group q",
-        "<name>",
-        ["https://github.com/<organization|user>/<repository_name>"],
+        "whatever",
+        ["https://github.com/SirDancealot/devops"],
         "http(s)://<TBA>/<FrontEndURL>",
         "http(s)://<TBA>/<APIURL>",
     ],
