@@ -15,8 +15,8 @@ GROUP_REPOS = [
     ],
     [
         "group c",
-        "<name>",
-        ["https://github.com/<organization|user>/<repository_name>"],
+        "DuwuOps",
+        ["https://github.com/DuwuOps/minitwit"],
         "http(s)://<TBA>/<FrontEndURL>",
         "http(s)://<TBA>/<APIURL>",
     ],
