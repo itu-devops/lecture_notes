@@ -53,7 +53,7 @@ Lectures are on Fridays from 10:00 to 12:00 in Auditorium 2 (0A35) and exercises
 |4
 |21/2
 |10:00 - 14:00
-|Helge
+|Mircea
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/README_PREP.md[Prep. material]
 |*Guest Lecture: What is DevOps? (Eficode)*;
 link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04/Slides.md[Continuous Integration (CI), Continuous Delivery (CD), and Continuous Deployment]
@@ -63,7 +63,7 @@ link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04
 |5
 |28/2
 |10:00 - 14:00
-|Helge
+|Mircea
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_05/README_PREP.md[Prep. material]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_05/Slides.md[What is DevOps and configuration management]
 |(*Simulator starts*)
