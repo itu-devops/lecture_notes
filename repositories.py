@@ -85,8 +85,8 @@ GROUP_REPOS = [
     ],
     [
         "group m",
-        "<name>",
-        ["https://github.com/<organization|user>/<repository_name>"],
+        "DevOops",
+        ["https://github.com/912-burca-olivia/DevOops"],
         "http(s)://<TBA>/<FrontEndURL>",
         "http(s)://<TBA>/<APIURL>",
     ],
