@@ -23,7 +23,7 @@ GROUP_REPOS = [
     [
         "group d",
         "GAMING",
-        ["https://github.com/ItsLukV/MiniTwit"],
+        ["https://github.com/Dev-ops-Gaming/MiniTwit"],
         "http(s)://<TBA>/<FrontEndURL>",
         "http(s)://<TBA>/<APIURL>",
     ],
