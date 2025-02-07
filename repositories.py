@@ -92,8 +92,8 @@ GROUP_REPOS = [
     ],
     [
         "group n",
-        "<name>",
-        ["https://github.com/<organization|user>/<repository_name>"],
+        "Group",
+        ["https://github.com/I-vac/DevOps-2025"],
         "http(s)://<TBA>/<FrontEndURL>",
         "http(s)://<TBA>/<APIURL>",
     ],
