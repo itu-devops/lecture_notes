@@ -1,11 +1,8 @@
-= Preparation
-
-
 Remember to backup your data before starting the installation process and in particular resizing your partitions! Also double check values before repartitioning!
 
 The following links are exemplary guides, you might find others that are more suitable to your personal setup.
 
-== Installing Linux (Pop!_OS)
+=== Installing Linux (Pop!_OS)
 
 * Download the OS from https://pop.system76.com/
 * Follow the official installation instructions: https://support.system76.com/articles/install-pop
@@ -21,11 +18,10 @@ In case you install Pop!_OS or any similar Linux on you Laptop and you want to c
 * Open a terminal and run `python3 eduroam-linux-IUoC-All_users.py`
 * Use your full email address as userid when prompted
 
-The process above installs the necessary certificates on your computer.
+The process above installs the necessary certificates on you computer.
 
-'''
 
-== Installing Linux on Harddisk (Windows Dual Boot)
+=== Installing Linux on Harddisk (Windows Dual Boot)
 
 In case you want to install a Linux next to an existing Windows, the following links might provide helpful information
 
@@ -33,7 +29,7 @@ In case you want to install a Linux next to an existing Windows, the following l
 * https://www.tecmint.com/install-ubuntu-alongside-with-windows/
 * https://vitux.com/how-to-install-ubuntu-18-04-along-with-windows-10/
 
-== Installing Linux on Harddisk (MacOS Dual Boot)
+==== Installing Linux on Harddisk (MacOS Dual Boot)
 
 * For older Macs (without Touchbar):
 https://www.maketecheasier.com/install-dual-boot-ubuntu-mac/
@@ -49,19 +45,19 @@ https://github.com/Dunedan/mbp-2016-linux#wi-fi
 *** Use [UTM](https://mac.getutm.app/) and virtualize Ubuntu for ARM: https://docs.getutm.app/guides/ubuntu/ (recommended)
 **** You can also try to [install Pop!_OS on top of Ubuntu](https://docs.google.com/document/d/1U1B3uwutmaFCknzo-_c1jme5oOeJ-mdvxhoH5CKamZg/pub)
 *** Use [UTM](https://mac.getutm.app/) and emulate Pop!_OS (this can be slow).
-
-== Installing Linux on USB Key instead of Harddisk
+  
+==== Installing Linux on USB Key instead of Harddisk
 
 * http://ubuntuhandbook.org/index.php/2014/11/install-real-ubuntu-os-usb-drive/
 
-== Installing Linux as Virtual Machine
+==== Installing Linux as Virtual Machine
 
 In case non of the above options of installing Linux are an option for you, you might want to install Linux in a Virtual Machine (VM). Be aware however, that not all contents of the lecture (virtualization part in session 3) may work in a VM
 
-=== VirtualBox (for both macOS and Windows)
+===== VirtualBox (for both macOS and Windows)
   * https://support.system76.com/articles/install-in-vm/
 
-=== VMware Fusion (for macOS)
+===== VMware Fusion (for macOS)
 
 VMware Fusion is a great hypervisor for the macOS operating system, and is offered as a free service for all ITU students.
 

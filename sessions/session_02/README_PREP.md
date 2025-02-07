@@ -1,5 +1,6 @@
 # Preparation Material for Session 02
 
+
 ## Version Control with Git
 
 In case you did not configure your Git installation already, do so as described in [First-Time Git Setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
@@ -27,7 +28,8 @@ $ git config --global core.editor nano
 
 -------------------------------
 
-## Setup Docker and Docker Compose
+## Setup Docker and Docker Compose 
+
 
 Install Docker and Docker Compose to your computer.
 
@@ -76,16 +78,16 @@ or
 sudo docker run hello-world
 ```
 
-To be able to run docker commands as your current user, it has to be added to the respective group.
+To be able to run docker commands as your current user, it has to be added to the respective group. (_notice some versions of the guide writes ${USER}, try this if the following doesn't work._)
 
 ```bash
-sudo usermod -aG docker ${USER}
+sudo usermod -aG docker $USER
 ```
 
 With the following, double check that your user is in the `docker` group.
 
 ```bash
-su - ${USER}
+su - $USER
 id -nG
 exit
 ```
