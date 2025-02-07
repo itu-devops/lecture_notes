@@ -106,8 +106,8 @@ GROUP_REPOS = [
     ],
     [
         "group p",
-        "<name>",
-        ["https://github.com/<organization|user>/<repository_name>"],
+        "4x4",
+        ["https://github.com/4x4x4x4x4/minitwit"],
         "http(s)://<TBA>/<FrontEndURL>",
         "http(s)://<TBA>/<APIURL>",
     ],
