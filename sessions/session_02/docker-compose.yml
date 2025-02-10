@@ -1,12 +1,18 @@
 version: '3'
 services:
   webserver:
-    image: youruser/myserver
+    image: your_id/myserver
     ports:
       - "8080:8080"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
 
   clidownload:
     image: appropriate/curl
-    links:
-      - webserver
-    entrypoint: sh -c  "sleep 5 && curl -s http://webserver:8080"
+    depends_on:
+      webserver:
+        condition: service_healthy
+    entrypoint: sh -c "curl -s http://webserver:8080"

@@ -753,12 +753,18 @@ services:
     image: your_id/myserver
     ports:
       - "8080:8080"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
 
   clidownload:
     image: appropriate/curl
-    links:
-      - webserver
-    entrypoint: sh -c  "sleep 5 && curl -s http://webserver:8080"
+    depends_on:
+      webserver:
+        condition: service_healthy
+    entrypoint: sh -c "curl -s http://webserver:8080"
 ```
 
 (Note, replace `your_id` with your name ID before running docker compose.)
@@ -767,18 +773,20 @@ services:
 
 ```bash
 $ docker compose up
-[+] Running 2/0
- ✔ Container session_02-webserver-1    Created                                                                                                                                                                                                                              0.0s
- ✔ Container session_02-clidownload-1  Created                                                                                                                                                                                                                              0.0s
+[+] Running 3/0
+ ✔ Network session_02_default          Created                                                                                                                                           0.0s
+ ✔ Container session_02-webserver-1    Created                                                                                                                                           0.0s
+ ✔ Container session_02-clidownload-1  Created                                                                                                                                           0.0s
 Attaching to session_02-clidownload-1, session_02-webserver-1
-session_02-webserver-1    | 2024/02/08 10:01:37 Server starting on port 8080
+session_02-webserver-1    | 2025/02/10 09:16:56 Server starting on port 8080
 session_02-clidownload-1  | Hej verden!
 session_02-clidownload-1 exited with code 0
+
 ^CGracefully stopping... (press Ctrl+C again to force)
 Aborting on container exit...
 [+] Stopping 2/2
- ✔ Container session_02-clidownload-1  Stopped                                                                                                                                                                                                                              0.0s
- ✔ Container session_02-webserver-1    Stopped                                                                                                                                                                                                                             10.2s
+ ✔ Container session_02-clidownload-1  Stopped                                                                                                                                           0.0s
+ ✔ Container session_02-webserver-1    Stopped                                                                                                                                          10.2s
 canceled
 ```
 
