@@ -57,8 +57,8 @@ GROUP_REPOS = [
     ],
     [
         "group i",
-        "<name>",
-        ["https://github.com/<organization|user>/<repository_name>"],
+        "CloudMorphers",
+        ["https://github.com/CloudMorphers/minitwit"],
         "http(s)://<TBA>/<FrontEndURL>",
         "http(s)://<TBA>/<APIURL>",
     ],
