@@ -764,7 +764,7 @@ Remember:
   >
   > ...
   >
-  > Containers isolate software from its surroundings, for example differences between development and staging environments and help reduce conflicts between teams running different software on the same infrastructure. (https://www.docker.com/what-container)
+  > **Containers isolate software from its surroundings**, for example differences between development and staging environments and help reduce conflicts between teams running different software on the same infrastructure. (https://www.docker.com/what-container)
 
 <img src="https://www.docker.com/wp-content/uploads/2021/11/docker-containerized-appliction-blue-border_2-980x783.png.webp" width=50%>
 
@@ -780,7 +780,7 @@ Remember:
 
 ### Vagrant? What is it?
 
-  > Vagrant is a tool for building and managing virtual machine environments [...] Vagrant lowers development environment setup time, increases production parity, and makes the "works on my machine" excuse a relic of the past.
+  > Vagrant is a tool for building and managing virtual machine environments [...] Vagrant lowers development environment setup time, increases production parity, and **makes the "works on my machine" excuse a relic of the past**.
   >
   > Vagrant provides easy to configure, reproducible, and portable work environments built on top of industry-standard technology and controlled by a single consistent workflow [...]
   >
