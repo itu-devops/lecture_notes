@@ -16,7 +16,7 @@ Helge Pfeiffer (`ropf@itu.dk`)<br>
 
 class: center, middle
 
-# Feedback
+## Feedback
 
 ---
 
@@ -105,7 +105,7 @@ MSc students:
 
 ---
 
-## Not there yet? Do not despair!
+### Not there yet? Do not despair!
 
 
 <img src="https://i.gifer.com/FJ.gif" width="40%">
@@ -118,7 +118,7 @@ MSc students:
 
 ---
 
-### What did we do the last two times?
+## What did we do the last two times?
 
 We transfered the _ITU-MiniTwit_ application from the server to your computers via `scp`.
 
@@ -126,7 +126,7 @@ We transfered the _ITU-MiniTwit_ application from the server to your computers v
 
 ---
 
-### Topic of today: What about that server?
+## Topic of today: What about that server? 
 
 <img src="images/01_scp2.png" width=50%>
 
@@ -136,7 +136,7 @@ We transfered the _ITU-MiniTwit_ application from the server to your computers v
 
 ---
 
-### Topic of today: What about that server?
+# Topic of today: Where do servers come from? 
 
 We will look at various ways to *provision* machines locally and remotely (in the "cloud").
 
@@ -157,7 +157,7 @@ We will look at various ways to *provision* machines locally and remotely (in th
 
 ---
 
-### 1) Provision of physical servers
+## 1) Provision of physical servers
 
 We can provision physical machines, either from commodity hardware or dedicated servers and put them in a suitable place.
 
@@ -187,7 +187,7 @@ Each of these activities takes likely quite some time, and they are hard "to scr
 
 
 
-### Intermezzo: Virtual Machines and Hypervisors
+## Intermezzo: Virtual Machines and Hypervisors
 
   > A virtual machine (VM) runs a full-blown “guest” operating system with virtual access to host resources through a hypervisor. 
   >
@@ -216,7 +216,7 @@ Example of hosted: **VirtualBox**, VMWare,
 ---
 
 
-### 2) Manual provision of local virtual machines with VirtualBox
+## 2) Manual provision of local virtual machines with VirtualBox
 
 Many of you that did not install a Linux directly on your computer but in a virtual machine (VM) struggled through this, either with VirtualBox, VMWare, Parallels, UTM, etc.
 
@@ -247,7 +247,7 @@ Depending on how you did, you had to perform a lot of manual steps. These are of
 ---
 
 
-### 3) Automatic provision of local virtual machines with VirtualBox and Vagrant
+## 3) Automatic provision of local virtual machines with VirtualBox and Vagrant
 
 Since we are programmers and since DevOps relies heavily on automatization, we want to script the creation of virtual machines.
 
@@ -426,7 +426,7 @@ end
 
 ---
 
-### 4) Automatic provision of local clusters of virtual machines with VirtualBox and Vagrant
+## 4) Automatic provision of local clusters of virtual machines with VirtualBox and Vagrant
 
 In the preparation material we created a single VM per `Vagrantfile`.
 However, you can manage multiple VMs with a single `Vagrantfile`, a so-called multi-machine setup.
@@ -504,7 +504,7 @@ end
 
 ---
 
-### 5) Manual provision of remote virtual machines at DigitalOcean
+## 5) Manual provision of remote virtual machines at DigitalOcean
 
 Find an introduction of how to create a virtual machine on DigitalOcean: https://docs.digitalocean.com/products/droplets/how-to/create/
 
@@ -532,7 +532,7 @@ Normally, they are called **_virtual private servers_** (VPS).
 
 ---
 
-### 6) Automatic provision of remote virtual machines at DigitalOcean via a web-API
+## 6) Automatic provision of remote virtual machines at DigitalOcean via a web-API
 
 Since we are programmers and since DevOps relies heavily on automation, we want to script the creation of virtual machines.
 
@@ -587,7 +587,7 @@ droplet.destroy()
 
 ---
 
-### 7) Automatic provision of remote clusters of virtual machines at DigitalOcean via Vagrant
+## 7) Automatic provision of remote clusters of virtual machines at DigitalOcean via Vagrant
 
 #### Demo: **remote** deployment with Vagrant
 
