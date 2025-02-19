@@ -5,13 +5,21 @@ Install VirtualBox and Vagrant on your computer.
 
 ### Vagrant & VirtualBox
 
-In case you are running MacOS or Windows you might find helpful [installation instructions for your host operating system in the linked guide](https://www.itu.dk/people/ropf/blog/vagrant_install.html). Note, Vagrant cannot be run in a VirtualBox VM. This means that you should install Vagrant and related plugins in your host OS (Windows/MacOS) if you are running Linux in a virtual box already. This is because vagrant creates VMs, and creating VMs from a VM can cause problems.
+**Note :** In case you are running MacOS or Windows you might find helpful [installation instructions for your host operating system in the linked guide](https://www.itu.dk/people/ropf/blog/vagrant_install.html). If you're running running a Mac with an ARM processor (M1, M2, M3 as of 2025) then you can't install VirtualBox, but you'll have to install UTM instead of VirtualBox. The instructions below are alternating between how to work with VirtualBox or UTM. Read them attentively and apply what makes sense to your own situation. 
 
-Install Virtualbox:
 
+
+**Note:** Vagrant cannot be run in a VirtualBox VM. This means that you should install Vagrant and related plugins in your host OS (Windows/MacOS) if you are running Linux in a virtual box already. This is because vagrant creates VMs, and creating VMs from a VM can cause problems.
+
+#### Install the Hypervisor (VirtualBox, UTM)
+
+To install VirtualBox you can use sudo: 
 ```bash
 sudo apt install virtualbox virtualbox-ext-pack
 ```
+**Note:** If you are on a Mac with ARM processor you install UTM either via their UI: https://mac.getutm.app/ or with brew: `brew install --cask utm`
+
+#### Install Vagrant 
 
 Since the packaged Vagrant in the linked repositories is in a bit buggy version we install it directly from the package provided by the tool vendor:
 
@@ -21,16 +29,23 @@ echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://
 sudo apt update && sudo apt install vagrant
 ```
 
-After installing Vagrant, we need to install a Vagrant plugin that we will need later:
+After installing Vagrant, we need to install a VirtualBox plugin that we will need later:
+```bash
+vagrant plugin install vagrant-vbguest
+```
+For UTM you install the corresponding plugin 
+```
+vagrant plugin install vagrant_utm
+```
+We install a few other useful plugins: 
 
 ```bash
 vagrant plugin install vagrant-digitalocean
 vagrant plugin install vagrant-scp
-vagrant plugin install vagrant-vbguest
 vagrant plugin install vagrant-reload
 ```
 
-Save the following into a file called `Vagrantfile` in your current directory:
+If you're using VirtualBox save the following into a file called `Vagrantfile` in your current directory :
 
 ```ruby
 # -*- mode: ruby -*-
@@ -46,14 +61,23 @@ Vagrant.configure("2") do |config|
   end
 end
 ```
+If you're using UTM replace the above `config.fm.box` and `config.fm.provider` lines with a corresponding ones from UTM, i.e.
 
-Now, try to run from your current directory (the one in which you saved the `Vagrantfile`):
+```ruby
+config.vm.box = "utm/bookworm"
+
+#...
+config.vm.provider "UTM"
+```
+
+Now, run from your current directory (the one in which you saved the `Vagrantfile`):
 
 ```bash
 vagrant up
 ```
 
-The command downloads the OS image `bento/ubuntu-22.04` and brings up a virtual machine on your computer (with Virtualbox as backend).
+
+The command downloads the OS image specified in the configuration and brings up a virtual machine on your computer (with the specified hypervisor as backend).
 It will take some time since the corresponding OS image has to be downloaded first. That image will be cached on your disk, i.e., following VM instantiations of the same image will be faster.
 Observe that no error message is displayed. If so, and in case you cannot find a solution for it, we will look at it in class.
 
@@ -85,7 +109,17 @@ $ vagrant init bento/ubuntu-22.04
 $ vagrant up
 ```
 
-  > After running the above commands, you will have a fully functional VM in VirtualBox running Ubuntu 22.04 LTS 64-bit. You can SSH into this machine with `vagrant ssh`, and when you are done playing around, you can terminate the virtual machine with `vagrant destroy`.
+for UTM the equivalent init lines that would start an Ubuntu bookworm could be: 
+
+```
+vagrant init utm/bookworm
+vagrant up --provider=utm
+
+```
+
+  > After running the above commands, you will have a fully functional VM in VirtualBox running Ubuntu. You can SSH into this machine with `vagrant ssh`, and when you are done playing around, you can terminate the virtual machine with `vagrant destroy`.
+
+
 
 
 #### Accessing a VM
