@@ -115,7 +115,7 @@ GROUP_REPOS = [
         "group q",
         "whatever",
         ["https://github.com/SirDancealot/devops"],
-        "http(s)://<TBA>/<FrontEndURL>",
-        "http(s)://<TBA>/<APIURL>",
+        "http://209.38.114.192/",
+        "http://209.38.114.192/api/v1",
     ],
 ]
