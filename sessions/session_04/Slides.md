@@ -26,9 +26,12 @@ class: center, middle
 
 ### What is an API?
 
-- from a discussion in Teams: 
+From a discussion in Teams: 
 
-![](images/Pasted%20image%2020250221100857.png)
+![](images/architecture-question-from-teams-2025.png)
+
+API is the **interface** we create for our system => Simulator should be talking to the API
+
 ---
 
 ### SSH keys?
