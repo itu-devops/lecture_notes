@@ -2,12 +2,17 @@ class: center, middle
 
 <img src="https://www.saa-authors.eu/picture/739/ftw_768/saa-mtcwmza4nzq5mq.jpg" width=40%/>
 
-# DevOps, Software Evolution and Software Maintenance
+## DevOps, Software Evolution and Software Maintenance
 
-Helge Pfeiffer, Associate Professor,<br>
-[Research Center for Government IT](https://www.itu.dk/forskning/institutter/institut-for-datalogi/forskningscenter-for-offentlig-it),<br>
+# Continuous Integration (CI), Continuous Delivery (CD), and Continuous Deployment
+
+
+Helge Pfeiffer,
+Mircea Lungu
+
+<br>
 [IT University of Copenhagen, Denmark](https://www.itu.dk)<br>
-`ropf@itu.dk`
+`ropf@itu.dk`, `mlun@itu.dk`
 
 ---
 
@@ -19,7 +24,11 @@ class: center, middle
 
 ### How are you after starting refactoring?
 
+### What is an API?
 
+- from a discussion in Teams: 
+
+![](images/Pasted%20image%2020250221100857.png)
 ---
 
 ### SSH keys?
@@ -51,14 +60,6 @@ Add two URL links:
 
 ---
 
-### Your Turn!
-<img src="https://media.giphy.com/media/13GIgrGdslD9oQ/giphy.gif" width=50%/>
-
-  - How do you build your software currently?
-  - Which steps have to be performed after checking out your repository to create the 'executable' artifact?
-
----
-
 ### Motivation - Building and deploying software can be scary.
 
 
@@ -66,7 +67,7 @@ You can break things, tests will fail, colleagues might get angry, etc.
 
 An infrastructure that lets you deliver and deploy automatically and continuously may help to reduce those fears that many developers have.
 
-It allows you to deploy frequently without any manual intervention.
+It allows you to **deploy frequently** without any manual intervention.
 
 In particular, when things go wrong you just deploy a fix quickly and easily.
 
