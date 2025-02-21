@@ -94,8 +94,8 @@ GROUP_REPOS = [
         "group n",
         "Group",
         ["https://github.com/I-vac/DevOps-2025"],
-        "http(s)://<TBA>/<FrontEndURL>",
-        "http(s)://<TBA>/<APIURL>",
+        "http://161.35.71.145:5000/public",
+        "http://161.35.71.145:5001",
     ],
     [
         "group o",
