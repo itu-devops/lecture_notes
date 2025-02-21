@@ -73,8 +73,8 @@ GROUP_REPOS = [
         "group k",
         "Sad people",
         ["https://github.com/DevOps-Sad-people/itu-minitwit"],
-        "http(s)://<TBA>/<FrontEndURL>",
-        "http(s)://<TBA>/<APIURL>",
+        "http://209.38.114.92:4567/",
+        "http://209.38.114.92:4567/",
     ],
     [
         "group l",
