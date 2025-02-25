@@ -80,8 +80,8 @@ GROUP_REPOS = [
         "group l",
         "the happy group",
         ["https://github.com/DumbDane/DevOps-2025"],
-        "http(s)://<TBA>/<FrontEndURL>",
-        "http(s)://<TBA>/<APIURL>",
+        "http://159.89.212.51:4567",
+        "http://159.89.212.51:4567",
     ],
     [
         "group m",
