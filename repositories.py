@@ -3,8 +3,8 @@ GROUP_REPOS = [
         "group a",
         "Nintendo Lawyers",
         ["https://github.com/ITU-DevOps2025-GROUP-A/itu-minitwit.git"],
-        "http(s)://<TBA>/<FrontEndURL>",
-        "http(s)://<TBA>/<APIURL>",
+        "http://165.22.86.240:5000/public",
+        "http://165.22.86.240:5000/public",
     ],
     [
         "group b",
