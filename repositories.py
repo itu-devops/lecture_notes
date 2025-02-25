@@ -87,8 +87,8 @@ GROUP_REPOS = [
         "group m",
         "DevOops",
         ["https://github.com/912-burca-olivia/DevOops"],
-        "http(s)://<TBA>/<FrontEndURL>",
-        "http(s)://<TBA>/<APIURL>",
+        "http://142.93.109.120:8080/",
+        "http://142.93.109.120:9090/",
     ],
     [
         "group n",
