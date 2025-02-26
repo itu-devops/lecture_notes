@@ -73,8 +73,8 @@ GROUP_REPOS = [
         "group k",
         "Sad people",
         ["https://github.com/DevOps-Sad-people/itu-minitwit"],
-        "http://209.38.114.92:4567/",
-        "http://209.38.114.92:4567/",
+        "http://209.38.114.92:4567",
+        "http://209.38.114.92:4567",
     ],
     [
         "group l",
@@ -87,8 +87,8 @@ GROUP_REPOS = [
         "group m",
         "DevOops",
         ["https://github.com/912-burca-olivia/DevOops"],
-        "http://142.93.109.120:8080/",
-        "http://142.93.109.120:9090/",
+        "http://142.93.109.120:8080",
+        "http://142.93.109.120:9090",
     ],
     [
         "group n",
@@ -101,8 +101,8 @@ GROUP_REPOS = [
         "group o",
         "Niceness-2.0",
         ["https://github.com/Niceness-2-0/itu-minitwit"],
-        "http://167.99.244.89:5000/",
-        "http://164.92.169.40:5001/",
+        "http://167.99.244.89:5000",
+        "http://164.92.169.40:5001",
     ],
     [
         "group p",
