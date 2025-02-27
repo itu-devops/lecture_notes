@@ -19,7 +19,7 @@ You can find the (*implicit*) specification for the simulator API in
   - Provide **the same HTTP status codes** in response as specified.
 
 
-The [`API_Spec/minitwit_sim_api.py`](./API_Spec/minitwit_sim_api_test.py) depends on your refactored `minitwit.py` from last week's homework. 
+The [`API_Spec/minitwit_sim_api.py`](./API_Spec/minitwit_sim_api_test.py) depends on your refactored `minitwit.py` from last week's homework.
 
 A corresponding test ([`API_Spec/minitwit_sim_api_test.py`](./API_Spec/minitwit_sim_api_test.py)) illustrates how the simulator requests will be formed. You can inspect it and run it via `pytest minitwit_sim_api_test.py`.
 (`pytest` can be installed via `pip`)
@@ -56,7 +56,7 @@ Continue refactoring of your version of _ITU-MiniTwit_ with missing features and
 
   * Make your development environment and deployment environment "look alike". That is, you develop on an Ubuntu 22.04 based Linux (Pop!_OS), choose the same environment for your remote server(s).
 
-  * **Hint**: To make future operations more smooth, you might **consider to use a [floating IP](https://docs.digitalocean.com/products/networking/floating-ips/) 'infront' of your actual server**, see the [API spec.](https://docs.digitalocean.com/reference/api/api-reference/#tag/Floating-IPs) for receiving one.
+  * **Hint**: To make future operations more smooth, you might **consider to use a [floating IP](https://docs.digitalocean.com/products/networking/floating-ips/) 'infront' of your actual server**, see the [API spec.](https://docs.digitalocean.com/reference/api/digitalocean/#tag/Floating-IPs) for receiving one.
 
 
 **OBS MSc students**: Remember to log and provide good arguments for the choice of virtualization techniques and deployment targets.

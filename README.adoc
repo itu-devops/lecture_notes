@@ -171,8 +171,11 @@ TBA
 === Dashboards
 
 ==== Activity Dashboard
+* link:http://138.68.66.124/status.html[Overview]
+* link:http://138.68.66.124/commit_activity_daily.svg[Daily commit activity per group]
+* link:http://138.68.66.124/commit_activity_weekly.svg[Weekly commit activity per group]
+* link:http://138.68.66.124/release_activity_weekly.svg[Weekly release activity per group]
 
-TBA
 
 ==== Simulator Status Dashboard
 
