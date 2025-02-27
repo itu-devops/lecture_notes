@@ -10,8 +10,8 @@ GROUP_REPOS = [
         "group b",
         "Five-Crowns",
         ["https://github.com/Five-Crowns/Minitwit_Crown"],
-        "http(s)://<TBA>/<FrontEndURL>",
-        "http(s)://<TBA>/<APIURL>",
+        "http://134.209.242.251:5000",
+        "http://134.209.242.251:5000/api",
     ],
     [
         "group c",
