@@ -101,8 +101,8 @@ GROUP_REPOS = [
         "group o",
         "Niceness-2.0",
         ["https://github.com/Niceness-2-0/itu-minitwit"],
-        "http://167.99.244.89:5000",
-        "http://164.92.169.40:5001",
+        "http://209.38.115.34:5000",
+        "http://209.38.115.34:5001",
     ],
     [
         "group p",
