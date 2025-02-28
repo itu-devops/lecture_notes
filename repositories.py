@@ -4,7 +4,7 @@ GROUP_REPOS = [
         "Nintendo Lawyers",
         ["https://github.com/ITU-DevOps2025-GROUP-A/itu-minitwit.git"],
         "http://138.197.178.108:5000/public",
-        "http://138.197.178.108:5000/public",
+        "http://138.197.178.108:5000",
     ],
     [
         "group b",
