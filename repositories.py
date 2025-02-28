@@ -10,7 +10,7 @@ GROUP_REPOS = [
         "group b",
         "Five-Crowns",
         ["https://github.com/Five-Crowns/Minitwit_Crown"],
-        "http://146.190.176.126:5000/",
+        "http://146.190.176.126:5000",
         "http://146.190.176.126:5000/api",
     ],
     [
