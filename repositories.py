@@ -31,8 +31,8 @@ GROUP_REPOS = [
         "group e",
         "Docker Daze",
         ["https://github.com/Docker-Daze/itu-minitwit.git"],
-        "http(s)://<TBA>/<FrontEndURL>",
-        "http(s)://<TBA>/<APIURL>",
+        "http://142.93.110.64:5000",
+        "http://142.93.110.64:5000/api",
     ],
     [
         "group f",
