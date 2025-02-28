@@ -17,8 +17,8 @@ GROUP_REPOS = [
         "group c",
         "DuwuOps",
         ["https://github.com/DuwuOps/minitwit"],
-        "http://159.223.8.210/",
-        "http://159.223.8.210/",
+        "http://159.223.8.210",
+        "http://159.223.8.210",
     ],
     [
         "group d",
@@ -115,7 +115,7 @@ GROUP_REPOS = [
         "group q",
         "whatever",
         ["https://github.com/devops-q/devops"],
-        "http://209.38.114.192/",
+        "http://209.38.114.192",
         "http://209.38.114.192/api/v1",
     ],
 ]
