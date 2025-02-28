@@ -24,8 +24,8 @@ GROUP_REPOS = [
         "group d",
         "GAMING",
         ["https://github.com/Dev-ops-Gaming/MiniTwit"],
-        "http(s)://<TBA>/<FrontEndURL>",
-        "http(s)://<TBA>/<APIURL>",
+        "http://209.38.176.56:8080/",
+        "http://209.38.176.56:8081/",
     ],
     [
         "group e",
