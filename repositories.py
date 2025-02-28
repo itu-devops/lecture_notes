@@ -49,13 +49,6 @@ GROUP_REPOS = [
         "http(s)://<TBA>/<APIURL>",
     ],
     [
-        "group h",
-        "<name>",
-        ["https://github.com/<organization|user>/<repository_name>"],
-        "http(s)://<TBA>/<FrontEndURL>",
-        "http(s)://<TBA>/<APIURL>",
-    ],
-    [
         "group i",
         "CloudMorphers",
         ["https://github.com/CloudMorphers/minitwit"],
