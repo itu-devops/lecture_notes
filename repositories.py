@@ -38,8 +38,8 @@ GROUP_REPOS = [
         "group f",
         "Joel",
         ["https://github.com/TheRealJahomie/minitwit-DEVOPS"],
-        "http://209.38.115.126:3000",
-        "http://209.38.115.126:8080/api/sim",
+        "http://67.207.72.167:3000",
+        "http://67.207.72.167:8080/api/sim",
     ],
     [
         "group g",
