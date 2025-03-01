@@ -52,8 +52,8 @@ GROUP_REPOS = [
         "group i",
         "CloudMorphers",
         ["https://github.com/CloudMorphers/minitwit"],
-        "http(s)://<TBA>/<FrontEndURL>",
-        "http(s)://<TBA>/<APIURL>",
+        "http://67.207.72.20:8080",
+        "http://67.207.72.20:8080/api",
     ],
     [
         "group j",
