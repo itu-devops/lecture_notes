@@ -72,7 +72,7 @@ GROUP_REPOS = [
     [
         "group l",
         "the happy group",
-        ["https://github.com/DumbDane/DevOps-2025"],
+        ["https://github.com/Only-Smiles/DevOps-2025"],
         "http://139.59.204.182:4567",
         "http://139.59.204.182:4567/api",
     ],
