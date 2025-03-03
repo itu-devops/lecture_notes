@@ -179,8 +179,7 @@ TBA
 
 ==== Simulator Status Dashboard
 
-* link:http://206.81.24.116/status.html[Status and simulator API errors per group]
-
+* link:http://206.81.20.113/status.html[Status and simulator API errors per group]
 
 === Recordings
 
