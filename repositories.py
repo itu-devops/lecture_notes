@@ -2,7 +2,7 @@ GROUP_REPOS = [
     [
         "group a",
         "Nintendo Lawyers",
-        ["https://github.com/ITU-DevOps2025-GROUP-A/itu-minitwit.git"],
+        ["https://github.com/ITU-DevOps2025-GROUP-A/itu-minitwit"],
         "http://138.197.178.108:5000/public",
         "http://138.197.178.108:5000",
     ],
@@ -30,7 +30,7 @@ GROUP_REPOS = [
     [
         "group e",
         "Docker Daze",
-        ["https://github.com/Docker-Daze/itu-minitwit.git"],
+        ["https://github.com/Docker-Daze/itu-minitwit"],
         "http://164.90.240.84:5000",
         "http://164.90.240.84:5000/api",
     ],
