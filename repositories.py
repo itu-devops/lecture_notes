@@ -101,8 +101,8 @@ GROUP_REPOS = [
         "group p",
         "4x4",
         ["https://github.com/4x4x4x4x4/minitwit"],
-        "http(s)://<TBA>/<FrontEndURL>",
-        "http(s)://<TBA>/<APIURL>",
+        "http://165.227.108.218:5001",
+        "http://165.227.108.218:5001/api",
     ],
     [
         "group q",
