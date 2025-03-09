@@ -73,11 +73,11 @@ GROUP_URLS = [
     ],
     [
         "group j",
-        "<name>",
+        "The Pentuple",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://157.245.26.8:5341/#/dashboards?range=1d&dashboardId=dashboard-14",
         # Logging URL:
-        "<logging_url>",
+        "http://157.245.26.8:5341/",
     ],
     [
         "group k",
