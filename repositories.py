@@ -46,7 +46,7 @@ GROUP_REPOS = [
         "FS",
         ["https://github.com/Lukski175/MiniTwit-FS"],
         "http(s)://<TBA>/<FrontEndURL>",
-        "http(s)://<TBA>/<APIURL>",
+        "https://minitwit-api-5ezat.ondigitalocean.app",
     ],
     [
         "group i",
