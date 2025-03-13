@@ -81,7 +81,7 @@ GROUP_URLS = [
     ],
     [
         "group k",
-        "<name>",
+        "Sad People",
         # Monitoring URL:
         "http://209.38.114.92:3000/d/minitwit_dashboard",
         # Logging URL:
