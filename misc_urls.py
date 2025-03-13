@@ -121,9 +121,9 @@ GROUP_URLS = [
     ],
     [
         "group o",
-        "<name>",
+        "Niceness-2.0",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://209.38.43.0:3000/",
         # Logging URL:
         "<logging_url>",
     ],
