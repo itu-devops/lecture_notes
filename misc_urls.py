@@ -33,9 +33,9 @@ GROUP_URLS = [
     ],
     [
         "group e",
-        "<name>",
+        "Docker Daze",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://164.90.240.84:3000",
         # Logging URL:
         "<logging_url>",
     ],
