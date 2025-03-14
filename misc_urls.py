@@ -88,10 +88,10 @@ GROUP_URLS = [
         "<logging_url>",
     ],
     [
-        "group a",
-        "<name>",
+        "group q",
+        "whatever",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://209.38.114.192:3000/public-dashboards/5054021fdea84984926526f1e9ca0d4e",
         # Logging URL:
         "<logging_url>",
     ],
