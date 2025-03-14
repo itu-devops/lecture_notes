@@ -25,7 +25,7 @@ GROUP_URLS = [
     ],
     [
         "group d",
-        "Gamming",
+        "GAMING",
         # Monitoring URL:
         "http://209.38.176.56:3000",
         # Logging URL:
