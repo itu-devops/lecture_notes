@@ -44,8 +44,21 @@ Please find which group's user interface you are checking in the list below. Fin
 
 #### BSc
 
-TODO
+Group a - Group b
+
+Group p - Group f
+
+Group d - Group e
 
 #### MSc
 
-TODO
+Group g - Group m
+
+Group o - Group q
+
+Group l - Group n
+
+Group i - Group c
+
+Group k - Group j
+
