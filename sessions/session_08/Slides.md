@@ -31,7 +31,7 @@ Lecture notes for: DevOps, Software Evolution and Software Maintenance
 
 Monitoring does not explain *WHY* there was a problem
 
-For the WHY there are other tools
+For the **WHY** there are other tools
 
 - **Logging** (*main topic of today*) = understanding general kinds of problems 
 
@@ -221,9 +221,9 @@ Why? Because you **avoid ...**
 1. **duplicated information**
 	* e.g., you don't need log the web server accesses; they're already logged by your web server
 
-2. information overload on the reader of the logs
+	1. information overload on the reader of the logs
 
-3. wasted disk space
+	2. wasted disk space
 
 
 
@@ -326,7 +326,7 @@ Having all the information in one place ...
 Protocol
 
 * Developed in 80s
-* Standardizes **formatting** and **transmission** of logs in a network ([RFC 3164 (2001)](https://tools.ietf.org/html/rfc3164) [RFC 5424 (2009)](https://tools.ietf.org/html/rfc5424))
+* Standardizes **formatting** and **transmission** of logs in a **network** ([RFC 3164 (2001)](https://tools.ietf.org/html/rfc3164) [RFC 5424 (2009)](https://tools.ietf.org/html/rfc5424))
 * Popular in Linux
 * General - for any system exchanging logs 
 
@@ -402,7 +402,7 @@ Acronym for
 Distributed database which
 
 * Provides *almost* real time full text search
-* Implemented as a swarm of Apache Lucene processes
+* Implemented as a swarm of ElasticSearch processes where each ES process is indexing documents based on Apache Lucene
 * Supports **dedicated log indexes**
 
 *Story*: That time in 2022, when we evaluated the performance of [MySQL 8.0 Full Text Search](https://dev.mysql.com/doc/refman/8.0/en/fulltext-search.html) vs. ElasticSearch. It was not even funny.
@@ -440,7 +440,7 @@ An example configuration for logstash when trying to run it on my mac os looks l
     		host => "elasticsearch:9200"
     		user => "elastic"
     		password => "changeme"
-    	    index => "zeeguu_web"
+    	    index => "zeeguu_web_logs"
     	}
     }
 
@@ -548,7 +548,7 @@ Note: More logs => more privacy concerns
 ### Logging every event 
 
 - With  *sufficiently high-resolution* logging you can have a practical backup of the state of the database...
-- *Binary logging* inMySql 
+- *Binary logging* in MySQL
 	- Stream of events that modify the DB
 	- Can be shipped across machines
 - Bitcoin = a big distributed log of all transactions?
@@ -580,14 +580,11 @@ Note: More logs => more privacy concerns
 
 ## Docker and logging
 
-- When you are running containers if you don't collect and ship the logs, they'll disappear when you restart (or destroy) the container
-
 - Docker - all logs on a machine can be found in `/var/lib/docker/containers/<container_id>`
 
 - When using Docker containers - log files are lost when recreating containers
 
-
-- Alternative to `docker logs `  is  [`docker attach`](https://docs.docker.com/engine/reference/commandline/attach/) 
+- Alternative to `docker logs`  is  [`docker attach`](https://docs.docker.com/engine/reference/commandline/attach/) 
 
 
 ## Logging vs. Crash Reporting
