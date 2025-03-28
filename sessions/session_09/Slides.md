@@ -37,7 +37,7 @@ How do we technically describe what happened? The availability of the system was
 
 e.g. 99.999% uptime, we call it "number of nines"
 
-Relevant especially in the context of 
+**Relevant** especially in the context of 
 - online services and apps
 - banks
 - healthcare
@@ -86,10 +86,11 @@ What's the problem in this situation?
 
 = **reduced quality of service that occurs when a network node or link is attempting to handle more data than it can**
 
-Possible Reasons for congestion, 
+Possible Reasons for congestion 
 - Seasonal spikes in demand
 	- Highly anticipated launches (healthcare.gov)
 	- Traffic surges (e.g. [The Slashdot effect](https://en.wikipedia.org/wiki/Slashdot_effect), etc.)
+- Lack of monitoring
 
 
 
@@ -156,9 +157,9 @@ There are two main approaches to scaling:
 
 ## Example 1. Vertical Scaling with the VirtualBox  GUI
 
-1. Power Off VM 
+1. **Power Off VM** 
 2. Modify RAM and storage (either via GUI or CLI)
-3. Power On VM
+3. **Power On VM**
 4. From within the VM update the OS wrt your new disk size (takes a while!)
 
 ![400](images/vertical-scaling-ui.png)
@@ -283,9 +284,9 @@ Discussion: why REST is particularly nice for IaC
 
 # Horizontal Scaling
 
-= Addressing congestion by **increasing the computing power**. 
+= Addressing congestion by **increasing the number of computing nodes**. 
 
-Two approaches:
+Two components:
 1. **adding more machines to a setup** and
 2. **making all the machines share the responsibilities**
 
@@ -342,7 +343,7 @@ Where to read more about this setup
 ## Container Orchestration Platforms 
 
 Container orchestration tools...
-1. ... **manage computing nodes** and services
+1. ... **manage computing nodes** and **services**
 2. ... **schedule tasks** in a resource aware manner
 
 
@@ -375,11 +376,11 @@ The following [concepts are essential for understanding Docker Swarm mode](https
 
 1. **Swarm** / **Cluster** = a group of nodes that work together to create a distributed system
 2. **Node** = A (virtual) machine participating in a swarm
-	  - Managers
-	  - Workers
-3. Service = a replicated process
-4. Task = an instance of a process
-5. Routing Mesh = network overlay mechanism
+	  - **Managers**
+	  - **Workers**
+3. **Service** = a replicated process
+4. **Task** = an instance of a process
+5. **Routing Mesh** = network overlay mechanism
 
 They have equivalents in other orchestration environments.
 
@@ -401,7 +402,6 @@ Notes:
 #### 2. Worker Node
 
 A machine which from the POV of the swarm
-  * runs an instance of Docker Engine 
   * executes Docker containers
   * has at least one manager node
 
@@ -416,7 +416,7 @@ See more [https://docs.docker.com/engine/swarm/how-swarm-mode-works/nodes/](http
 - The primary abstraction of user interaction with the swarm 
 - Defined by: 
 	- docker image
-	- the port where the service is available outside of the swarm
+	- the **port** where the service is available outside of the swarm
 	- number of replicas to run in the swarm
 
 
@@ -481,7 +481,7 @@ There are two types of services
 	- Examples include databases and file storage services 
 	- Replicating stateful services introduces challenges related to data consistency, synchronization, and failover
 
-Note that most of the orchestration platforms are optimized for you to have stateless services because they can be replicated easily.
+Note that **most of the orchestration platforms** are **optimized** for you to have **stateless services** because they can be replicated easily.
 
 In your project you might have to handle this situation.
 
@@ -492,9 +492,8 @@ In your project you might have to handle this situation.
 
 **Because Google and Facebook need it**... 
 - ... that's why probably you don't 
-- ... some of these technologies can be quite complicated (e.g. k8s -- aims to be a generalized solution to distributed systems design that ... also works at Google! )
+- ... some of these technologies can be quite complicated (e.g. k8s -- aims to be a **generalized solution** to distributed systems design that ... also works at Google! )
 
-**Can not make up for bad architecture**: algorithms, data structures, database design, etc.
 
 
 ## You can go quite far and still not need orchestration
@@ -533,9 +532,9 @@ Conceptually:
 Step by step: 
   1. Currently deployed application (Green) is serving incoming traffic
   2. New version (Blue) is deployed and tested, but not yet receiving traffic
-  3. When Blue is ready, LB starts sending incoming traffic to it too
+  3. When Blue is ready, orchestration / load balancer starts sending incoming traffic to it too
   4. For a while: two versions of the application run in parallel
-  5. LB stops sending incoming traffic to the "Green"; "Blue" is handling all the incoming traffic
+  5. orchestration / load balancer stops sending incoming traffic to the "Green"; "Blue" is handling all the incoming traffic
   6. Green can now be safely removed
   7. Blue is marked as Green...
 
@@ -574,7 +573,7 @@ Two `update-order` options: (stop-first|start-first)
 
 ## How to migrate from docker-compose to docker swarm?
 
-Simplest way is to add the extra information needed in the docker-compose.yml unde the **deploy** key:
+Simplest way is to **add the extra information needed** in the docker-compose.yml unde the **deploy** key:
 - replicas
 - [placement constriants](https://docs.docker.com/engine/swarm/services/): labels, roles, other props of nodes
 - update strategies, restart strategies
@@ -598,6 +597,6 @@ Example:
 
 # What Next?
 
-Exercise: [**Swarm creation on DigitalOcean**](./README_PREP.md).
+Exercise: [**Swarm creation on DigitalOcean**](./README_EXERCISE.md).
 Practical: [**Scale your API**](README_TASKS.md) in preparation for the **future increase in user requests** ^^!!
 
