@@ -3,7 +3,7 @@ GROUP_URLS = [
         "group a",
         "<name>",
         # Monitoring URL:
-        "http://138.197.178.108:3000/d/KdDACDp4z/asp-net-core?orgId=1",
+        "http://157.245.22.166:3000/d/KdDACDp4z/asp-net-core?orgId=1",
         # Logging URL:
         "<logging_url>",
     ],
