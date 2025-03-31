@@ -91,9 +91,9 @@ GROUP_URLS = [
         "group q",
         "whatever",
         # Monitoring URL:
-        "http://209.38.114.192:3000/public-dashboards/5054021fdea84984926526f1e9ca0d4e",
+        "http://209.38.114.192:3000/public-dashboards/c20449a9d29f44e6b7f49f48a71a744e",
         # Logging URL:
-        "<logging_url>",
+        "http://209.38.114.192:3000/public-dashboards/38215379e34e4333a15b352ab15ecef6?orgId=1",
     ],
     [
         "group l",
