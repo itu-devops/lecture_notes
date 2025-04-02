@@ -75,9 +75,9 @@ GROUP_URLS = [
         "group j",
         "The Pentuple",
         # Monitoring URL:
-        "http://157.245.26.8:5341/#/dashboards?range=1d&dashboardId=dashboard-14",
+        "http://134.199.188.179:5341/#/dashboards?range=1d&dashboardId=dashboard-14",
         # Logging URL:
-        "http://157.245.26.8:5341/",
+        "http://134.199.188.179:5341/",
     ],
     [
         "group k",
