@@ -59,7 +59,7 @@ GROUP_REPOS = [
         "group j",
         "The Pentuple",
         ["https://github.com/Grumlebob/The-Pentuple-MiniTwit"],
-        "http://157.245.26.8:5001",
+        "http://143.244.206.14:5001",
         "http://157.245.26.8:5002",
     ],
     [
