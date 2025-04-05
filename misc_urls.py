@@ -11,7 +11,7 @@ GROUP_URLS = [
         "group b",
         "<name>",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://146.190.176.126:3000/d/c08d8004-f0b2-43fd-a83d-e1b9b5843a7f/essentials?orgId=1",
         # Logging URL:
         "<logging_url>",
     ],
