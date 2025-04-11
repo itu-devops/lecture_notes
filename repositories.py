@@ -66,8 +66,8 @@ GROUP_REPOS = [
         "group k",
         "Sad people",
         ["https://github.com/DevOps-Sad-people/itu-minitwit"],
-        "http://209.38.114.92:4567",
-        "http://209.38.114.92:4567",
+        "https://minitwit.grymse.dk",
+        "https://minitwit.grymse.dk",
     ],
     [
         "group l",
