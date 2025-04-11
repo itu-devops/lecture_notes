@@ -595,6 +595,9 @@ Example:
           - "node.label==frankfurt"
 ```
 
+**TODO**: add discussion about docker stack!
+* [The Difference Between Docker Compose And Docker Stack](https://vsupalov.com/difference-docker-compose-and-docker-stack/) - brief explanation on the differences between the way swarm and compose interpret a `docker-compose.yml` file
+
 # What Next?
 
 Exercise: [**Swarm creation on DigitalOcean**](./README_EXERCISE.md).
