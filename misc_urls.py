@@ -19,7 +19,7 @@ GROUP_URLS = [
         "group c",
         "<name>",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://159.223.8.210:3000/dashboards",
         # Logging URL:
         "<logging_url>",
     ],
