@@ -118,7 +118,7 @@ Why reverse proxy?
 
 ### Concept: Firewall
 
-A firewall is a system that limits access to servers and processes based on the source and destination of the accesses, where these are defined in terms of IP:PORT pairs. 
+A firewall is a system that limits access to servers and processes based on the **source** and **destination** of the accesses, where these are defined in terms of **IP_ADDRESS:PORT** pairs.  
 
 Firewalls can be either hardware or software. 
 
@@ -172,9 +172,14 @@ The answer is a combination of factors:
 
 
 Lessons learned:
-- You must know how the tools you work with work! (e.g. [configure Docker to not do this]([descriptive article](https://www.techrepublic.com/article/how-to-fix-the-docker-and-ufw-security-flaw/)) ) 
+- You must know how the tools you work with work! (e.g. [configure Docker to not do this](https://www.techrepublic.com/article/how-to-fix-the-docker-and-ufw-security-flaw/)) ) 
 - You must have a backup - luckily the ES database was backed up so I didn't have to pay
-- Do not rely on a single security mechanism (e.g. firewall) but use multiple (e.g. protect the ES db also with a password)
+- **Do not rely on a single security mechanism** (e.g. firewall) but use multiple (e.g. protect the ES db also with a password)
+
+
+Practical
+- Can you map the port for Grafana? Yes,.
+- See also: [configure Docker to not do this](https://www.techrepublic.com/article/how-to-fix-the-docker-and-ufw-security-flaw/)
 
 
 # State of the Security
@@ -183,8 +188,8 @@ So how likely was the scenario that I've presented before? Unfortunately quite l
 
 1. **The most common way to discover security failures** is when a security incident happens. 
 2. **Average time until people found out they were hacked** is quite long: 
-  - half a year
-  - By this time, it is often too late, and damage has been done. 
+	  - half a year
+	  - By this time, it is often too late, and damage has been done. 
 
 *Second hand anecdote*: Russian vs. Brazilian hackers.
 
@@ -365,6 +370,7 @@ Is hard. And it is usually a little bit too late. So better focus on preventing.
 ### Detection - Approach
 
 - Develop baseline for normal
+- Monitor 
 
 - Stop intruders from taking information out 
   - firewall
@@ -380,10 +386,11 @@ Is hard. And it is usually a little bit too late. So better focus on preventing.
 ## Evaluate, Scan & Update Dependencies
 
 
-  > **Principle**: "If its part of your app, it should be part of your security process"
+> **Principle**: *"If its part of your app, it should be part of your security process"*
 
 
 One of the most important attack vectors on your system are all the ***giants*** your application is *"**standing on the shoulders of**"*. 
+
 
 Best approach here is to:
 - **Always keep dependencies up to date**
@@ -519,9 +526,9 @@ Case Studies:
 
 ## Use More than One Security Mechanism
 
-- the example I gave you in the introduction: both firewall and application passwords
+- The example I gave you in the introduction: both firewall and application passwords
 
-- could based firewall but firewall also on every machine
+- Cloud based firewall but firewall also on every machine
 
 - 2FA
 
