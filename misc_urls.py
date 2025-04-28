@@ -21,7 +21,7 @@ GROUP_URLS = [
         # Monitoring URL:
         "http://159.223.8.210:3000/dashboards",
         # Logging URL:
-        "<logging_url>",
+        "159.223.8.210:3000/a/grafana-lokiexplore-app",
     ],
     [
         "group d",
