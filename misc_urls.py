@@ -85,7 +85,7 @@ GROUP_URLS = [
         # Monitoring URL:
         "http://209.38.114.92:3000/d/minitwit_dashboard",
         # Logging URL:
-        "<logging_url>",
+        "http://209.38.114.92:5601/app/r/s/2vDYj",
     ],
     [
         "group q",
