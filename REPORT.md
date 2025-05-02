@@ -66,7 +66,7 @@ In case you have used AI-assistants during your project briefly explain which sy
 
 
 
-### Lessons Learned Perspective
+### Reflection Perspective
 
 Describe the biggest issues, how you solved them, and which are major lessons learned with regards to:
 
