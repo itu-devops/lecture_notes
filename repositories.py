@@ -109,7 +109,7 @@ GROUP_REPOS = [
     [
         "group q",
         "whatever",
-        ["https://github.com/devops-q/devops"],
+        ["https://github.com/devops-q/devops", "https://github.com/devops-q/Group-q-report"],
         "http://209.38.114.192",
         "http://209.38.114.192/api/v1",
     ],
