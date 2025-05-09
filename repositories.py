@@ -26,6 +26,7 @@ GROUP_REPOS = [
         ["https://github.com/Dev-ops-Gaming/MiniTwit"],
         "http://209.38.176.56:8080",
         "http://209.38.176.56:8081",
+        "https://github.com/Dev-ops-Gaming/report"
     ],
     [
         "group e",
