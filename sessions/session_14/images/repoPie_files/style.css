@@ -1,0 +1,131 @@
+#container {
+    justify-content: center;
+    min-width: 750px;
+}
+
+text{
+    font-family:Arial, Helvetica, sans-serif
+}
+
+/* Title */
+.topTitleText{
+    font-size: 3vmin; 
+    text-anchor: left;
+    font-weight:bold
+    
+}
+
+.selectMenu{
+    width:20%;
+    position: absolute;
+    right: 1%;
+}
+
+#topDiv {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+/* clickTooltip */
+.clickTooltip{
+    visibility: hidden;
+}
+
+.clickTooltip rect {
+    fill-opacity: 1;
+    fill: white;
+    stroke: grey;
+    stroke-width: 1px;
+  }
+
+.tooltipTotal{
+    font-size: 2vmin;
+    text-anchor: end;
+}
+
+.labelLines{
+    fill: none;
+    stroke: dimgray;
+    stroke-width: 1px
+}
+
+.tooltip-donut .arc path {
+    stroke: white;
+    stroke-width: 1;
+}
+
+.tooltipTitle {
+    font-size: 2.5vmin;
+}
+
+.labelText {
+    font-size: 1.7vmin;
+    font-weight: bold;
+    stroke: none;
+}
+
+
+/* graph */
+.xAxisBackground {
+    opacity: 0.2;
+}
+
+.xAxisLabel, .yAxisLabel{
+    font-size: 2vmin;
+}
+
+.leftAxis, .bottomAxis {
+    font-size: 2vmin; 
+}
+
+.leftAxis .tick line {
+    stroke: lightgrey;
+}
+
+
+/* hoverTooltip */
+.hoverTooltip{
+    visibility: hidden;
+    opacity: 0;
+}
+
+.hoverTooltipText{
+    font-size: 2vmin;
+    font-weight: bold;
+}
+
+.hoverTooltipYAxis{
+    font-weight: 100;
+    text-anchor: start;
+}
+
+.hoverTooltipBox{
+    fill: #f5f1ff;
+    stroke: lightgray;
+    stroke-width: 1px;
+}
+
+/* legend */
+.legend-background{
+    fill: #DCD0FF;
+    fill-opacity: 0.2;
+}
+
+.legend-text {
+    font-size: 2.5vmin; 
+}
+
+/* pie */
+.singleDonut{
+    opacity: 1;
+}
+
+.pie-arc{
+    stroke: white;
+    stroke-width: 1;
+}
+
+
+

@@ -3,7 +3,7 @@ GROUP_URLS = [
         "group a",
         "<name>",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://157.245.22.166:3000/d/KdDACDp4z/asp-net-core?orgId=1",
         # Logging URL:
         "<logging_url>",
     ],
@@ -11,39 +11,39 @@ GROUP_URLS = [
         "group b",
         "<name>",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://146.190.176.126:3000/d/c08d8004-f0b2-43fd-a83d-e1b9b5843a7f/essentials?orgId=1",
         # Logging URL:
-        "<logging_url>",
+        "http://134.209.242.251:5601/login?next=%2Fapp%2Fdashboards#/view/128c751a-a37b-4f38-8481-041f2db85e60?",
     ],
     [
         "group c",
         "<name>",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://159.223.8.210:3000/dashboards",
         # Logging URL:
-        "<logging_url>",
+        "http://159.223.8.210:3000/a/grafana-lokiexplore-app",
     ],
     [
         "group d",
-        "<name>",
+        "GAMING",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://209.38.176.56:3000",
         # Logging URL:
         "<logging_url>",
     ],
     [
         "group e",
-        "<name>",
+        "Docker Daze",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://164.90.240.84:3000",
         # Logging URL:
-        "<logging_url>",
+        "http://209.38.112.21:8080",
     ],
     [
         "group f",
-        "<name>",
+        "Joel",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://67.207.72.167:3001/dashboards",
         # Logging URL:
         "<logging_url>",
     ],
@@ -73,33 +73,33 @@ GROUP_URLS = [
     ],
     [
         "group j",
-        "<name>",
+        "The Pentuple",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://134.199.188.179:5341/#/dashboards?range=1d&dashboardId=dashboard-14",
         # Logging URL:
-        "<logging_url>",
+        "http://134.199.188.179:5341/",
     ],
     [
         "group k",
-        "<name>",
+        "Sad People",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://209.38.114.92:3000/d/minitwit_dashboard",
         # Logging URL:
-        "<logging_url>",
+        "http://209.38.114.92:5601/app/r/s/2vDYj",
     ],
     [
-        "group a",
-        "<name>",
+        "group q",
+        "whatever",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://209.38.114.192:3000/public-dashboards/c20449a9d29f44e6b7f49f48a71a744e",
         # Logging URL:
-        "<logging_url>",
+        "http://209.38.114.192:3000/public-dashboards/38215379e34e4333a15b352ab15ecef6?orgId=1",
     ],
     [
         "group l",
         "<name>",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://139.59.204.182:3000/",
         # Logging URL:
         "<logging_url>",
     ],
@@ -107,9 +107,9 @@ GROUP_URLS = [
         "group m",
         "<name>",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://67.207.75.4:3000/",
         # Logging URL:
-        "<logging_url>",
+        "http://67.207.75.4:5601/",
     ],
     [
         "group n",
@@ -121,9 +121,9 @@ GROUP_URLS = [
     ],
     [
         "group o",
-        "<name>",
+        "Niceness-2.0",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://209.38.43.0:3000/",
         # Logging URL:
         "<logging_url>",
     ],

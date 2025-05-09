@@ -100,7 +100,7 @@ link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04
 |28/3
 |10:00 - 14:00
 |Mircea
-|-
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_09/README_PREP.md[Prep. material]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_09/Slides.md[Availability]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_09/README_EXERCISE.md[A Basic Swarm]
 |link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_09/README_TASKS.md[Isolate components into services/containers/VMs]
@@ -110,7 +110,7 @@ link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_04
 |10:00 - 14:00
 |Mircea
 |-
-|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_10/Workshop.md[Workshop Notes]
+|link:https://github.com/itu-devops/lecture_notes/blob/master/sessions/session_10/TLSTutorial.md[TLS Tutorial]
 |
 |Continue isolation of components into services/containers/VMs and Fix reported problems
 // w15
@@ -171,12 +171,15 @@ TBA
 === Dashboards
 
 ==== Activity Dashboard
+* link:http://138.68.66.124/status.html[Overview]
+* link:http://138.68.66.124/commit_activity_daily.svg[Daily commit activity per group]
+* link:http://138.68.66.124/commit_activity_weekly.svg[Weekly commit activity per group]
+* link:http://138.68.66.124/release_activity_weekly.svg[Weekly release activity per group]
 
-TBA
 
 ==== Simulator Status Dashboard
 
-TBA
+* link:http://206.81.20.113/status.html[Status and simulator API errors per group]
 
 === Recordings
 
