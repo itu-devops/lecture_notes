@@ -13,7 +13,7 @@ GROUP_URLS = [
         # Monitoring URL:
         "http://146.190.176.126:3000/d/c08d8004-f0b2-43fd-a83d-e1b9b5843a7f/essentials?orgId=1",
         # Logging URL:
-        "<logging_url>",
+        "http://134.209.242.251:5601/login?next=%2Fapp%2Fdashboards#/view/128c751a-a37b-4f38-8481-041f2db85e60?",
     ],
     [
         "group c",
