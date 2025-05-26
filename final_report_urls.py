@@ -97,8 +97,8 @@ REPORT_URLS = [
     ],
     [
         "group q",
-        "<name>",
+        "whatever",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/devops-q/Group-q-report/archive/refs/tags/20250526192131.zip",
     ],
 ]
