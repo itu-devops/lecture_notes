@@ -55,9 +55,9 @@ REPORT_URLS = [
     ],
     [
         "group j",
-        "<name>",
+        "The Pentuple",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/Grumlebob/The-Pentuple-MiniTwit/archive/refs/tags/v3.1.zip",
     ],
     [
         "group k",
