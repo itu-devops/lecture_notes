@@ -25,9 +25,9 @@ REPORT_URLS = [
     ],
     [
         "group e",
-        "<name>",
+        "Docker Daze",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/Docker-Daze/itu-minitwit/archive/refs/tags/1.0.8.zip",
     ],
     [
         "group f",
