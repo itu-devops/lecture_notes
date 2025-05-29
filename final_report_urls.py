@@ -85,9 +85,9 @@ REPORT_URLS = [
     ],
     [
         "group o",
-        "<name>",
+        "Niceness-2.0",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/Niceness-2-0/itu-minitwit/archive/refs/tags/v1.5.9.zip",
     ],
     [
         "group p",
