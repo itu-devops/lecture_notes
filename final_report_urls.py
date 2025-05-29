@@ -1,9 +1,9 @@
 REPORT_URLS = [
     [
         "group a",
-        "<name>",
+        "Nintendo Lawyers",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/ITU-DevOps2025-GROUP-A/itu-minitwit/archive/refs/tags/v2.7.3.zip",
     ],
     [
         "group b",
