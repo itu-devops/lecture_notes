@@ -97,7 +97,7 @@ GROUP_URLS = [
     ],
     [
         "group l",
-        "<name>",
+        "the happy group",
         # Monitoring URL:
         "http://139.59.204.182:3000/",
         # Logging URL:
