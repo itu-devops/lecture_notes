@@ -49,9 +49,9 @@ REPORT_URLS = [
     ],
     [
         "group i",
-        "<name>",
+        "CloudMorphers",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/CloudMorphers/minitwit/archive/refs/tags/v0.12.zip",
     ],
     [
         "group j",
