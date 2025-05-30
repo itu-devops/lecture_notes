@@ -91,9 +91,9 @@ REPORT_URLS = [
     ],
     [
         "group p",
-        "<name>",
+        "4x4",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/4x4x4x4x4/minitwit/blob/main/report/minitwit.zip",
     ],
     [
         "group q",
