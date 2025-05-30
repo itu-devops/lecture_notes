@@ -79,9 +79,9 @@ REPORT_URLS = [
     ],
     [
         "group n",
-        "<name>",
+        "Group, jnol & ivni",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/I-vac/DevOps-2025/archive/refs/tags/minitwit-java-2.0.0.zip",
     ],
     [
         "group o",

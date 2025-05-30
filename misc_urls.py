@@ -115,9 +115,9 @@ GROUP_URLS = [
         "group n",
         "<name>",
         # Monitoring URL:
-        "<monitoring_url>",
+        "http://68.183.210.76:3000/",
         # Logging URL:
-        "<logging_url>",
+        "http://68.183.210.76:5601/",
     ],
     [
         "group o",
