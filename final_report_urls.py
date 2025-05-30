@@ -73,9 +73,9 @@ REPORT_URLS = [
     ],
     [
         "group m",
-        "<name>",
+        "DevOops",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/912-burca-olivia/DevOops/archive/refs/tags/main.zip",
     ],
     [
         "group n",
