@@ -67,9 +67,9 @@ REPORT_URLS = [
     ],
     [
         "group l",
-        "<name>",
+        "the happy group",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/Only-Smiles/DevOps-2025/archive/refs/tags/v2025.05.29.01.zip"
     ],
     [
         "group m",
