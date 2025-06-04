@@ -7,9 +7,9 @@ REPORT_URLS = [
     ],
     [
         "group b",
-        "<name>",
+        "Minitwit-Crown",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/Five-Crowns/Minitwit_Crown/archive/refs/tags/Report-Handin.zip",
     ],
     [
         "group c",
