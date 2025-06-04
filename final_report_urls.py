@@ -13,9 +13,9 @@ REPORT_URLS = [
     ],
     [
         "group c",
-        "<name>",
+        "DuwuOps",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/DuwuOps/minitwit/releases/download/v3.46.0/report.zip",
     ],
     [
         "group d",
