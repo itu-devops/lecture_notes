@@ -89,7 +89,7 @@ GROUP_REPOS = [
         "group n",
         "Group",
         ["https://github.com/I-vac/DevOps-2025"],
-        "http://161.35.71.145:5000/public",
+        "https://minitwitdevops.live/public",
         "http://161.35.71.145:5001",
     ],
     [
