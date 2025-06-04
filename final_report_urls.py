@@ -61,9 +61,9 @@ REPORT_URLS = [
     ],
     [
         "group k",
-        "<name>",
+        "Sad people",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/DevOps-Sad-people/itu-minitwit/archive/refs/tags/v2.14.0.zip",
     ],
     [
         "group l",
