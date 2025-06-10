@@ -222,8 +222,145 @@ TBA
 TBA
 
 == Exam Schedule
+.Exam schedule. The room for the exam is 2F12.
+[width="100%",cols="4%,4%,6%,30%,4%,9%,5%",options="header",]
+|=======================================================================
+|Day |Time Slot |Group |Group Name |Degree |#Group Members |Duration
 
-TBA
+|25/6
+|9:30-10:45
+|Group k
+|Sad people
+|MSc
+|5
+|1:15
+
+|
+|10:50-12:05
+|Group a
+|Nintendo Lawyers
+|BSc
+|5
+|1:15
+
+|
+|12:45-14:00
+|Group b
+|Five-Crowns
+|BSc
+|5
+|1:15
+
+|
+|14:05-14:50
+|Group g
+|FS
+|MSc
+|3
+|0:45
+
+|
+|14:55-16:40
+|Group d
+|GAMING
+|BSc
+|6
+|1:45
+
+|26/6
+|9:30-10:45
+|Group e
+|Docker Daze
+|BSc
+|5
+|1:15
+
+|
+|10:50-12:05
+|Group o
+|Niceness-2.0
+|MSc
+|5
+|1:15
+
+|
+|12:45-13:45
+|Group i
+|CloudMorphers
+|MSc
+|4
+|1:00
+
+|
+|13:50-14:50
+|Group q
+|whatever
+|MSc
+|4
+|1:00
+
+|
+|14:55-15:55
+|Group f
+|Joel
+|BSc
+|4
+|1:00
+
+|
+|16:00-17:15
+|Group m
+|DevOops
+|MSc
+|5
+|1:15
+
+
+|27/6
+|9:00-10:15
+|Group p
+|4x4
+|BSc
+|5
+|1:15
+
+|
+|10:20-11:35
+|Group j
+|The Pentuple
+|MSc
+|5
+|1:15
+
+|
+|11:40-12:10
+|Group n
+|Group
+|MSc
+|2
+|0:30
+
+|
+|12:50-14:20
+|Group c
+|DuwuOps
+|MSc
+|6
+|1:30
+
+|
+|14:25-15:55
+|Group l
+|the happy group
+|MSc
+|6
+|1:30
+
+
+
+|=======================================================================
+
+More details about the exam structure can be found here: link:https://github.com/itu-devops/lecture_notes/blob/master/exam_details.md[exam_details.md]
 
 == Re-exam Schedule
 

@@ -29,7 +29,7 @@ Make sure that you link all artifacts that you consider constitutional to your p
 Send a pull request to the final release of your _ITU-MiniTwit_, which includes your complete report in source form and built PDF too, to the file [`final_report_urls.py`](https://github.com/itu-devops/lecture_notes/blob/master/final_report_urls.py) in https://github.com/itu-devops/lecture_notes.
 
 **Additionally**, submit the PDF with your report via LearnIT _before_ Friday *30/5/2024 14:00*.
-The naming convention for the PDF file is (as regular expression): `[B|M]Sc_group_[a-z].pdf`.
+The naming convention for the PDF file is (as regular expression): `(B|M)Sc_group_[a-z]\.pdf`.
 That is, valid file names are, e.g., `MSc_group_a.pdf`, `BSc_group_e.pdf`, etc.
 
 ---------
