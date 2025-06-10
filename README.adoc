@@ -222,7 +222,7 @@ TBA
 TBA
 
 == Exam Schedule
-.Exam schedule. The room for the exam is 2F12.
+.Exam schedule. The room for the exam is 2A20.
 [width="100%",cols="4%,4%,6%,30%,4%,9%,5%",options="header",]
 |=======================================================================
 |Day |Time Slot |Group |Group Name |Degree |#Group Members |Duration
