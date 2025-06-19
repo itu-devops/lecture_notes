@@ -277,8 +277,8 @@ TBA
 
 |
 |10:50-12:05
-|Group o
-|Niceness-2.0
+|Group m
+|DevOops
 |MSc
 |5
 |1:15
@@ -309,8 +309,8 @@ TBA
 
 |
 |16:00-17:15
-|Group m
-|DevOops
+|Group o
+|Niceness-2.0
 |MSc
 |5
 |1:15
