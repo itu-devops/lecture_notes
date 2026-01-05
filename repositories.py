@@ -5,6 +5,8 @@ GROUP_REPOS = [
         ["https://github.com/ITU-DevOps2025-GROUP-A/itu-minitwit"],
         "http://157.245.22.166",
         "http://157.245.22.166:5000/api",
+        # External Repo
+        "https://github.com/RasmusLarsen02/GitScraper",
     ],
     [
         "group b",
