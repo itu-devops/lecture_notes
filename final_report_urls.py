@@ -1,45 +1,45 @@
 REPORT_URLS = [
     [
         "group a",
-        "Nintendo Lawyers",
+        "<name>",
         # Report Release URL:
-        "https://github.com/ITU-DevOps2025-GROUP-A/itu-minitwit/archive/refs/tags/v2.7.3.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group b",
-        "Minitwit-Crown",
+        "<name>",
         # Report Release URL:
-        "https://github.com/Five-Crowns/Minitwit_Crown/archive/refs/tags/Report-Handin.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group c",
-        "DuwuOps",
+        "<name>",
         # Report Release URL:
-        "https://github.com/DuwuOps/minitwit/releases/download/v3.46.0/report.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group d",
-        "GAMING",
+        "<name>",
         # Report Release URL:
-        "https://github.com/Dev-ops-Gaming/MiniTwit/releases/download/exam/minitwit.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group e",
-        "Docker Daze",
+        "<name>",
         # Report Release URL:
-        "https://github.com/Docker-Daze/itu-minitwit/archive/refs/tags/1.0.8.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group f",
         "<name>",
         # Report Release URL:
-        "https://github.com/minitwit-JOEL/minitwit-DEVOPS/archive/refs/tags/v.2.6.5.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group g",
-        "FS",
+        "<name>",
         # Report Release URL:
-        "https://github.com/Lukski175/MiniTwit-FS/archive/refs/tags/v0.1.4.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group h",
@@ -49,56 +49,56 @@ REPORT_URLS = [
     ],
     [
         "group i",
-        "CloudMorphers",
+        "<name>",
         # Report Release URL:
-        "https://github.com/CloudMorphers/minitwit/archive/refs/tags/v0.12.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group j",
-        "The Pentuple",
+        "<name>",
         # Report Release URL:
-        "https://github.com/Grumlebob/The-Pentuple-MiniTwit/archive/refs/tags/v3.1.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group k",
-        "Sad people",
+        "<name>",
         # Report Release URL:
-        "https://github.com/DevOps-Sad-people/itu-minitwit/archive/refs/tags/v2.14.0.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group l",
-        "the happy group",
+        "<name>",
         # Report Release URL:
-        "https://github.com/Only-Smiles/DevOps-2025/archive/refs/tags/v2025.05.29.01.zip"
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group m",
-        "DevOops",
+        "<name>",
         # Report Release URL:
-        "https://github.com/912-burca-olivia/DevOops/archive/refs/tags/main.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group n",
-        "Group, jnol & ivni",
+        "<name>",
         # Report Release URL:
-        "https://github.com/I-vac/DevOps-2025/archive/refs/tags/minitwit-java-2.0.0.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group o",
-        "Niceness-2.0",
+        "<name>",
         # Report Release URL:
-        "https://github.com/Niceness-2-0/itu-minitwit/archive/refs/tags/v1.5.9.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group p",
-        "4x4",
+        "<name>",
         # Report Release URL:
-        "https://github.com/4x4x4x4x4/minitwit/blob/main/report/minitwit.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
     [
         "group q",
-        "whatever",
+        "<name>",
         # Report Release URL:
-        "https://github.com/devops-q/Group-q-report/archive/refs/tags/20250526192131.zip",
+        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
 ]
