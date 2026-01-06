@@ -100,7 +100,6 @@ link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/sessio
 |31/4
 |-
 |-
-|-
 |Easter Break
 |-
 | Operations & maintenance still reacting on issue reports and fixing of errors :)
