@@ -69,18 +69,10 @@ UTM is a frontend for qemu, which also allows to emulate an x86 computer.
 * Install [UTM](https://mac.getutm.app/)
 * Install a virtual machine with Ubuntu for ARM: https://docs.getutm.app/guides/ubuntu/
 
-### VMware Fusion (for macOS)
+### VMware Fusion (for macOS "Apple Silicon")
 
-VMware Fusion is a hypervisor for the macOS operating system, and is offered as a free service for all ITU students.
+VMware Fusion is a hypervisor for the macOS operating system, and is [offered as a free service](https://blogs.vmware.com/cloud-foundation/2024/11/11/vmware-fusion-and-workstation-are-now-free-for-all-users/).
 
-  * Download the VMware Fusion 12.x client and get your license from link:https://itudk.onthehub.com/WebStore/OfferingDetails.aspx?o=6597520e-2ffc-ea11-812f-000d3af41938[InstallIT]. You will have to use your ITU credentials to log in.
-  * Follow the installation instructions as mentioned in [this article](https://www.askdavetaylor.com/install-ubuntu-linux-vmware-fusion-mac/). Restart your machine after completion.
-    * NOTE: It is important that you grant the VMware Fusion application the access that it needs when prompted during the installation.
-  * Enabling virtualization in the Settings menu as described [here](http://techgenix.com/vmware-fusion-5-enable-vt-xept-inside-a-virtual-machine-288/).
-
-Troubleshooting:
-  * If you get this following this error message (`cannot open /dev/vmmon`) when booting on your newly created Linux image, then follow these steps:
-    * Close the VMware Fusion application.
-    * Go To **System Preferences** -> **Security & Privacy** -> Check if you're allowed to run apps from identified developers and there is no mentioning of a block application.
-
-
+  * Download the VMware Fusion 13.x https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion
+  * You have to create an account on the Broadcom homepage.
+  * If in doubt, follow this video: https://www.youtube.com/watch?v=V8M6zgVBtbo

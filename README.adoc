@@ -84,7 +84,7 @@ link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/sessio
 |17/3
 |8:00 - 12:00
 |link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/session_08/README_PREP.md[Prep. material]
-|link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/session_08/Slides.md[Logging, and Log Analysis]
+|link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/session_08/Slides.md[Logging and Log Analysis]
 |link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/session_08/README_EXERCISE.md[A Basic EFK Stack]
 |link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/session_08/README_TASKS.md[Add logging to your _ITU-MiniTwit_ and UI Testing Each Others Systems]
 // w13
@@ -108,31 +108,31 @@ link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/sessio
 |7/4
 |8:00 - 12:00
 |-
-|link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/session_10/TLSTutorial.md[TLS Tutorial]
-|
-|Continue isolation of components into services/containers/VMs and Fix reported problems
+|link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/session_10/Slides.md[Security, Firewall, and TLS]
+|link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/session_10/README_EXERCISE.md[Pentesting]
+|link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/session_10/README_TASKS.md[Security Hardening]
 // w16
 |11
 |14/4
 |8:00 - 12:00
 |
-|link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/session_11/Slides.md[Security]
-|link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/session_11/README_EXERCISE.md[Pentesting]
-|link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/session_11/README_TASKS.md[Security Hardening]
+|link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/session_11/IaC.pdf[Infrastructure as Code]
+|link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/session_11/README_EXERCISE.md[MiniTwit Infrastructure as Code]
+|link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/session_11/README_TASKS.md[Encode your infrastructure setup]
 // w17
 |12
 |21/4
 |8:00 - 12:00
 |
-|link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/session_12/IaC.pdf[Infrastructure as Code]
-|link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/session_12/README_EXERCISE.md[MiniTwit Infrastructure as Code]
-|link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/session_12/README_TASKS.md[Encode your infrastructure setup]
+|*Guest Lecture: DevOps@NetCompany by Tarik*, link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/session_12/Slides.md[Documentation of Systems and Projects]
+|
+|
 // w18
 |13
 |28/4
 |8:00 - 12:00
 |
-|*Guest Lecture: DevOps@NetCompany by Tarik*, link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/session_13/Architectural_Documentation.pdf[Documentation of Systems and Projects]
+|link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/session_13/Slides.md[Exam prep., Thesis topics, Evaluation, Cookies :)]
 |
 |*Simulator stops*. Write report.
 // w19
@@ -140,7 +140,7 @@ link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/sessio
 |5/5
 |8:00 - 12:00
 |
-|link:https://github.com/itu-devops/BSc_lecture_notes/blob/master/sessions/session_14/Slides.md[Exam prep., Thesis topics, Evaluation, Cookies :)]
+|
 |
 |Write report.
 |=======================================================================
