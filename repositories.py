@@ -1,8 +1,8 @@
 GROUP_REPOS = [
     [
         "group a",
-        "<name>",
-        ["https://github.com/<organization|user>/<repository_name>"],
+        "Ducks",
+        ["https://github.com/Alexitu01/DevOps_Ducks.git>"],
         "http(s)://<TBA>/<FrontEndURL>",
         "http(s)://<TBA>/<APIURL>",
     ],
