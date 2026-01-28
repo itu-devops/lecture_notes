@@ -22,8 +22,8 @@ GROUP_REPOS = [
     ],
     [
         "group d",
-        "<name>",
-        ["https://github.com/<organization|user>/<repository_name>"],
+        "Mixed",
+        ["https://github.com/KaramTNC/itu-minitwit/tree/main"],
         "http(s)://<TBA>/<FrontEndURL>",
         "http(s)://<TBA>/<APIURL>",
     ],
