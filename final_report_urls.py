@@ -1,9 +1,9 @@
 REPORT_URLS = [
     [
         "group a",
-        "<name>",
+        "Zero Downtime",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/ZeroDownTime-ITU/minitwit_project/archive/refs/tags/v6.0.1.zip",
     ],
     [
         "group b",
