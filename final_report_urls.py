@@ -97,8 +97,8 @@ REPORT_URLS = [
     ],
     [
         "group q",
-        "<name>",
+        "DevTroopers",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/DevTroopers-ITU/itu-minitwit/archive/refs/tags/2.0.zip",
     ],
 ]
