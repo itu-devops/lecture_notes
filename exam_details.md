@@ -1,7 +1,7 @@
 # Exam Details
 
 As described on [LearnIT](https://learnit.itu.dk/local/coursebase/view.php?ciid=1894), the exam for this course is a _C1G-type_ exam, i.e., submission of written work for groups.
-The exam has an internal censor and the grade is Pass/Fail.
+The exam grade is Pass/Fail.
 
 
 ## Requirements
@@ -140,7 +140,7 @@ That is, this video should start from checking out your code repository and appl
 
 #### 2.3.) Update the main readme file
 
-Make sure that the main readme file in the root of your repositories are up-to-date and correct.
+Make sure that the main readme files in the root of your repositories are up-to-date and correct.
 Likely, these are called `README.md`.
 All information in there has to be correct.
 They should contain a short description of the project, how to work with it, how to spin up a production system, how to contribute changes into a production, the animated GIFs from above, etc.
