@@ -73,9 +73,9 @@ REPORT_URLS = [
     ],
     [
         "group m",
-        "<name>",
+        "Jackhammers",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/RonoITU/itu-devops2026-jackhammers/archive/refs/tags/v2.7.8.zip",
     ],
     [
         "group n",
