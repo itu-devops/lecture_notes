@@ -61,9 +61,9 @@ REPORT_URLS = [
     ],
     [
         "group k",
-        "<name>",
+        "DevBobs",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/DevBobs-devops/Devbobs_MiniTwit/releases/tag/0.0.264",
     ],
     [
         "group l",
