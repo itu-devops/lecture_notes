@@ -25,9 +25,9 @@ REPORT_URLS = [
     ],
     [
         "group e",
-        "<name>",
+        "Disaster",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/Itu-DevOps-2026/ITU-MiniTwit/archive/refs/tags/v.final.zip",
     ],
     [
         "group f",
