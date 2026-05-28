@@ -67,9 +67,9 @@ REPORT_URLS = [
     ],
     [
         "group l",
-        "<name>",
+        "Deploy and pray",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/ITU-DEVOPS2026-GROUP-l/ITU-MiniTwit/archive/refs/tags/Report.zip",
     ],
     [
         "group m",
