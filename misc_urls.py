@@ -3,9 +3,9 @@ GROUP_URLS = [
         "group a",
         "<name>",
         # Monitoring URL:
-        "http://46.101.127.217:3000/d/ad26cqj/4181afc?orgId=1&from=2026-04-14T10:09:50.118Z&to=2026-04-14T12:09:50.118Z&timezone=browser&refresh=5m",
+        "http://devopsducks.studio:3000/login",
         # Logging URL:
-        "<logging_url>",
+        "http://devopsducks.studio:3000/login",
     ],
     [
         "group b",

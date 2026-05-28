@@ -1,9 +1,9 @@
 REPORT_URLS = [
     [
         "group a",
-        "<name>",
+        "DevOps Ducks",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/Alexitu01/DevOps_Ducks/releases/tag/v.1.2.4",
     ],
     [
         "group b",
