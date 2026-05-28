@@ -55,9 +55,9 @@ REPORT_URLS = [
     ],
     [
         "group j",
-        "<name>",
+        "Chirp Vee2",
         # Report Release URL:
-        "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
+        "https://github.com/ITU-DevOps-2026-J/Chirp-Vee2/archive/refs/tags/6.0.0.zip",
     ],
     [
         "group k",
