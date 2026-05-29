@@ -95,10 +95,4 @@ REPORT_URLS = [
         # Report Release URL:
         "https://github.com/<gh_id>/<proj_id>/archive/refs/tags/<version_tag>.zip",
     ],
-    [
-        "group q",
-        "DevTroopers",
-        # Report Release URL:
-        "https://github.com/DevTroopers-ITU/itu-minitwit/archive/refs/tags/2.0.zip",
-    ],
 ]
